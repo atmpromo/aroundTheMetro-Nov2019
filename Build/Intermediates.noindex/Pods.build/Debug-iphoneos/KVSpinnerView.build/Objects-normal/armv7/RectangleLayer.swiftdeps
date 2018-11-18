@@ -1,0 +1,646 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RectangleLayer"
+provides-nominal:
+- "13KVSpinnerView14RectangleLayerC"
+provides-member:
+- ["13KVSpinnerView14RectangleLayerC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "+"
+- !private "-"
+- !private "/"
+- !private ">"
+- !private "AssignmentPrecedence"
+- "CAShapeLayer"
+- !private "CGFloat"
+- !private "CGPoint"
+- !private "CGRect"
+- !private "CastingPrecedence"
+- !private "Dictionary"
+- "KVSpinnerView"
+- !private "NSAttributedStringKey"
+- "NSCoder"
+- !private "NSString"
+- "RectangleLayer"
+- !private "StatusTitleLayer"
+- "String"
+- !private "StringLiteralType"
+- !private "TernaryPrecedence"
+- "UIBezierPath"
+- !private "UIFont"
+- !private "fatalError"
+depends-member:
+- ["13KVSpinnerView24AnimationManagerDelegateP", "settings"]
+- !private ["Sa", "removeAll"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "removeAll"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So7CALayerC", "CGFloat"]
+- !private ["So7CALayerC", "CGPoint"]
+- !private ["So7CALayerC", "CGRect"]
+- ["So7CALayerC", "KVSpinnerView"]
+- !private ["So7CALayerC", "NSAttributedStringKey"]
+- ["So7CALayerC", "NSCoder"]
+- !private ["So7CALayerC", "NSString"]
+- !private ["So7CALayerC", "StatusTitleLayer"]
+- ["So7CALayerC", "String"]
+- ["So7CALayerC", "UIBezierPath"]
+- !private ["So7CALayerC", "UIFont"]
+- !private ["So7CALayerC", "addSublayer"]
+- ["So7CALayerC", "bezierPath"]
+- ["So7CALayerC", "bezierPathWithStatus"]
+- !private ["So7CALayerC", "bounds"]
+- !private ["So7CALayerC", "fatalError"]
+- !private ["So7CALayerC", "fillColor"]
+- ["So7CALayerC", "init"]
+- !private ["So7CALayerC", "path"]
+- !private ["So7CALayerC", "position"]
+- ["So7CALayerC", "rectSide"]
+- ["So7CALayerC", "setup"]
+- ["So7CALayerC", "statusMessage"]
+- !private ["So7CALayerC", "sublayers"]
+- ["So7CALayerC", "updateLayers"]
+- ["So15CALayerDelegateP", "settings"]
+- !private ["So13CAMediaTimingP", "CGPoint"]
+- !private ["So13CAMediaTimingP", "CGRect"]
+- ["So13CAMediaTimingP", "KVSpinnerView"]
+- !private ["So13CAMediaTimingP", "NSAttributedStringKey"]
+- !private ["So13CAMediaTimingP", "StatusTitleLayer"]
+- !private ["So13CAMediaTimingP", "UIBezierPath"]
+- !private ["So13CAMediaTimingP", "UIFont"]
+- !private ["So13CAMediaTimingP", "addSublayer"]
+- !private ["So13CAMediaTimingP", "bezierPath"]
+- !private ["So13CAMediaTimingP", "bezierPathWithStatus"]
+- !private ["So13CAMediaTimingP", "bounds"]
+- !private ["So13CAMediaTimingP", "fatalError"]
+- !private ["So13CAMediaTimingP", "fillColor"]
+- !private ["So13CAMediaTimingP", "init"]
+- !private ["So13CAMediaTimingP", "path"]
+- !private ["So13CAMediaTimingP", "position"]
+- !private ["So13CAMediaTimingP", "rectSide"]
+- !private ["So13CAMediaTimingP", "setup"]
+- !private ["So13CAMediaTimingP", "statusMessage"]
+- !private ["So13CAMediaTimingP", "sublayers"]
+- !private ["So13CAMediaTimingP", "updateLayers"]
+- ["So13CAMediaTimingP", ""]
+- !private ["So12CAShapeLayerC", "CGFloat"]
+- !private ["So12CAShapeLayerC", "CGPoint"]
+- !private ["So12CAShapeLayerC", "CGRect"]
+- ["So12CAShapeLayerC", "KVSpinnerView"]
+- !private ["So12CAShapeLayerC", "NSAttributedStringKey"]
+- ["So12CAShapeLayerC", "NSCoder"]
+- !private ["So12CAShapeLayerC", "NSString"]
+- !private ["So12CAShapeLayerC", "StatusTitleLayer"]
+- ["So12CAShapeLayerC", "String"]
+- ["So12CAShapeLayerC", "UIBezierPath"]
+- !private ["So12CAShapeLayerC", "UIFont"]
+- !private ["So12CAShapeLayerC", "addSublayer"]
+- ["So12CAShapeLayerC", "bezierPath"]
+- ["So12CAShapeLayerC", "bezierPathWithStatus"]
+- !private ["So12CAShapeLayerC", "bounds"]
+- !private ["So12CAShapeLayerC", "fatalError"]
+- !private ["So12CAShapeLayerC", "fillColor"]
+- ["So12CAShapeLayerC", "init"]
+- !private ["So12CAShapeLayerC", "path"]
+- ["So12CAShapeLayerC", "rectSide"]
+- ["So12CAShapeLayerC", "setup"]
+- ["So12CAShapeLayerC", "statusMessage"]
+- !private ["So12CAShapeLayerC", "sublayers"]
+- ["So12CAShapeLayerC", "updateLayers"]
+- ["So12CAShapeLayerC", ""]
+- !private ["So11CATextLayerC", "position"]
+- !private ["SC7CGPointV", "init"]
+- !private ["SC6CGRectV", "init"]
+- !private ["SC6CGRectV", "midX"]
+- !private ["SC6CGSizeV", "width"]
+- !private ["s7CVarArgP", "CGPoint"]
+- !private ["s7CVarArgP", "CGRect"]
+- ["s7CVarArgP", "KVSpinnerView"]
+- !private ["s7CVarArgP", "NSAttributedStringKey"]
+- !private ["s7CVarArgP", "StatusTitleLayer"]
+- !private ["s7CVarArgP", "UIBezierPath"]
+- !private ["s7CVarArgP", "UIFont"]
+- !private ["s7CVarArgP", "addSublayer"]
+- !private ["s7CVarArgP", "bezierPath"]
+- !private ["s7CVarArgP", "bezierPathWithStatus"]
+- !private ["s7CVarArgP", "bounds"]
+- !private ["s7CVarArgP", "cgColor"]
+- !private ["s7CVarArgP", "cgPath"]
+- !private ["s7CVarArgP", "fatalError"]
+- !private ["s7CVarArgP", "fillColor"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "path"]
+- !private ["s7CVarArgP", "position"]
+- !private ["s7CVarArgP", "rectSide"]
+- !private ["s7CVarArgP", "removeAll"]
+- ["s7CVarArgP", "settings"]
+- !private ["s7CVarArgP", "setup"]
+- !private ["s7CVarArgP", "size"]
+- !private ["s7CVarArgP", "statusMessage"]
+- !private ["s7CVarArgP", "sublayers"]
+- !private ["s7CVarArgP", "systemFont"]
+- !private ["s7CVarArgP", "updateLayers"]
+- ["s7CVarArgP", ""]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "removeAll"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "CGPoint"]
+- !private ["s28CustomDebugStringConvertibleP", "CGRect"]
+- ["s28CustomDebugStringConvertibleP", "KVSpinnerView"]
+- !private ["s28CustomDebugStringConvertibleP", "NSAttributedStringKey"]
+- !private ["s28CustomDebugStringConvertibleP", "StatusTitleLayer"]
+- !private ["s28CustomDebugStringConvertibleP", "UIBezierPath"]
+- !private ["s28CustomDebugStringConvertibleP", "UIFont"]
+- !private ["s28CustomDebugStringConvertibleP", "addSublayer"]
+- !private ["s28CustomDebugStringConvertibleP", "bezierPath"]
+- !private ["s28CustomDebugStringConvertibleP", "bezierPathWithStatus"]
+- !private ["s28CustomDebugStringConvertibleP", "bounds"]
+- !private ["s28CustomDebugStringConvertibleP", "cgColor"]
+- !private ["s28CustomDebugStringConvertibleP", "cgPath"]
+- !private ["s28CustomDebugStringConvertibleP", "fatalError"]
+- !private ["s28CustomDebugStringConvertibleP", "fillColor"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "midX"]
+- !private ["s28CustomDebugStringConvertibleP", "path"]
+- !private ["s28CustomDebugStringConvertibleP", "position"]
+- !private ["s28CustomDebugStringConvertibleP", "rectSide"]
+- !private ["s28CustomDebugStringConvertibleP", "removeAll"]
+- ["s28CustomDebugStringConvertibleP", "settings"]
+- !private ["s28CustomDebugStringConvertibleP", "setup"]
+- !private ["s28CustomDebugStringConvertibleP", "size"]
+- !private ["s28CustomDebugStringConvertibleP", "statusMessage"]
+- !private ["s28CustomDebugStringConvertibleP", "sublayers"]
+- !private ["s28CustomDebugStringConvertibleP", "systemFont"]
+- !private ["s28CustomDebugStringConvertibleP", "updateLayers"]
+- !private ["s28CustomDebugStringConvertibleP", "width"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "midX"]
+- !private ["s29CustomPlaygroundQuickLookableP", "size"]
+- !private ["s29CustomPlaygroundQuickLookableP", "width"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "midX"]
+- !private ["s17CustomReflectableP", "removeAll"]
+- !private ["s17CustomReflectableP", "width"]
+- !private ["s23CustomStringConvertibleP", "CGPoint"]
+- !private ["s23CustomStringConvertibleP", "CGRect"]
+- ["s23CustomStringConvertibleP", "KVSpinnerView"]
+- !private ["s23CustomStringConvertibleP", "NSAttributedStringKey"]
+- !private ["s23CustomStringConvertibleP", "StatusTitleLayer"]
+- !private ["s23CustomStringConvertibleP", "UIBezierPath"]
+- !private ["s23CustomStringConvertibleP", "UIFont"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "addSublayer"]
+- !private ["s23CustomStringConvertibleP", "bezierPath"]
+- !private ["s23CustomStringConvertibleP", "bezierPathWithStatus"]
+- !private ["s23CustomStringConvertibleP", "bounds"]
+- !private ["s23CustomStringConvertibleP", "cgColor"]
+- !private ["s23CustomStringConvertibleP", "cgPath"]
+- !private ["s23CustomStringConvertibleP", "fatalError"]
+- !private ["s23CustomStringConvertibleP", "fillColor"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "path"]
+- !private ["s23CustomStringConvertibleP", "position"]
+- !private ["s23CustomStringConvertibleP", "rectSide"]
+- !private ["s23CustomStringConvertibleP", "removeAll"]
+- ["s23CustomStringConvertibleP", "settings"]
+- !private ["s23CustomStringConvertibleP", "setup"]
+- !private ["s23CustomStringConvertibleP", "size"]
+- !private ["s23CustomStringConvertibleP", "statusMessage"]
+- !private ["s23CustomStringConvertibleP", "sublayers"]
+- !private ["s23CustomStringConvertibleP", "systemFont"]
+- !private ["s23CustomStringConvertibleP", "updateLayers"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "midX"]
+- !private ["s9DecodableP", "removeAll"]
+- !private ["s9DecodableP", "width"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "midX"]
+- !private ["s9EncodableP", "removeAll"]
+- !private ["s9EncodableP", "width"]
+- !private ["s9EquatableP", "CGPoint"]
+- !private ["s9EquatableP", "CGRect"]
+- ["s9EquatableP", "KVSpinnerView"]
+- !private ["s9EquatableP", "NSAttributedStringKey"]
+- !private ["s9EquatableP", "StatusTitleLayer"]
+- !private ["s9EquatableP", "UIBezierPath"]
+- !private ["s9EquatableP", "UIFont"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "addSublayer"]
+- !private ["s9EquatableP", "bezierPath"]
+- !private ["s9EquatableP", "bezierPathWithStatus"]
+- !private ["s9EquatableP", "bounds"]
+- !private ["s9EquatableP", "cgColor"]
+- !private ["s9EquatableP", "cgPath"]
+- !private ["s9EquatableP", "fatalError"]
+- !private ["s9EquatableP", "fillColor"]
+- !private ["s9EquatableP", "font"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "midX"]
+- !private ["s9EquatableP", "path"]
+- !private ["s9EquatableP", "position"]
+- !private ["s9EquatableP", "rectSide"]
+- ["s9EquatableP", "settings"]
+- !private ["s9EquatableP", "setup"]
+- !private ["s9EquatableP", "size"]
+- !private ["s9EquatableP", "statusMessage"]
+- !private ["s9EquatableP", "sublayers"]
+- !private ["s9EquatableP", "systemFont"]
+- !private ["s9EquatableP", "updateLayers"]
+- !private ["s9EquatableP", "width"]
+- ["s9EquatableP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "removeAll"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "size"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "size"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "size"]
+- !private ["s8HashableP", "CGPoint"]
+- !private ["s8HashableP", "CGRect"]
+- ["s8HashableP", "KVSpinnerView"]
+- !private ["s8HashableP", "NSAttributedStringKey"]
+- !private ["s8HashableP", "StatusTitleLayer"]
+- !private ["s8HashableP", "UIBezierPath"]
+- !private ["s8HashableP", "UIFont"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "addSublayer"]
+- !private ["s8HashableP", "bezierPath"]
+- !private ["s8HashableP", "bezierPathWithStatus"]
+- !private ["s8HashableP", "bounds"]
+- !private ["s8HashableP", "cgColor"]
+- !private ["s8HashableP", "cgPath"]
+- !private ["s8HashableP", "fatalError"]
+- !private ["s8HashableP", "fillColor"]
+- !private ["s8HashableP", "font"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "path"]
+- !private ["s8HashableP", "position"]
+- !private ["s8HashableP", "rectSide"]
+- ["s8HashableP", "settings"]
+- !private ["s8HashableP", "setup"]
+- !private ["s8HashableP", "size"]
+- !private ["s8HashableP", "statusMessage"]
+- !private ["s8HashableP", "sublayers"]
+- !private ["s8HashableP", "systemFont"]
+- !private ["s8HashableP", "updateLayers"]
+- ["s8HashableP", ""]
+- ["13KVSpinnerViewAAC", "settings"]
+- !private ["13KVSpinnerView0aB8SettingsV", "backgroundRectColor"]
+- ["13KVSpinnerView0aB8SettingsV", "spinnerRadius"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "removeAll"]
+- !private ["SC21NSAttributedStringKeyV", "font"]
+- !private ["So8NSCodingP", "CGPoint"]
+- !private ["So8NSCodingP", "CGRect"]
+- ["So8NSCodingP", "KVSpinnerView"]
+- !private ["So8NSCodingP", "NSAttributedStringKey"]
+- !private ["So8NSCodingP", "StatusTitleLayer"]
+- !private ["So8NSCodingP", "UIBezierPath"]
+- !private ["So8NSCodingP", "UIFont"]
+- !private ["So8NSCodingP", "addSublayer"]
+- !private ["So8NSCodingP", "bezierPath"]
+- !private ["So8NSCodingP", "bezierPathWithStatus"]
+- !private ["So8NSCodingP", "bounds"]
+- !private ["So8NSCodingP", "cgColor"]
+- !private ["So8NSCodingP", "cgPath"]
+- !private ["So8NSCodingP", "fatalError"]
+- !private ["So8NSCodingP", "fillColor"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "path"]
+- !private ["So8NSCodingP", "position"]
+- !private ["So8NSCodingP", "rectSide"]
+- ["So8NSCodingP", "settings"]
+- !private ["So8NSCodingP", "setup"]
+- !private ["So8NSCodingP", "size"]
+- !private ["So8NSCodingP", "statusMessage"]
+- !private ["So8NSCodingP", "sublayers"]
+- !private ["So8NSCodingP", "updateLayers"]
+- ["So8NSCodingP", ""]
+- !private ["So9NSCopyingP", "cgColor"]
+- !private ["So9NSCopyingP", "cgPath"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "size"]
+- !private ["So9NSCopyingP", "systemFont"]
+- !private ["So21NSItemProviderReadingP", "cgColor"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderReadingP", "size"]
+- !private ["So21NSItemProviderWritingP", "cgColor"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So21NSItemProviderWritingP", "size"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So16NSMutableCopyingP", "size"]
+- !private ["So8NSObjectC", "CGFloat"]
+- !private ["So8NSObjectC", "CGPoint"]
+- !private ["So8NSObjectC", "CGRect"]
+- ["So8NSObjectC", "KVSpinnerView"]
+- !private ["So8NSObjectC", "NSAttributedStringKey"]
+- ["So8NSObjectC", "NSCoder"]
+- !private ["So8NSObjectC", "NSString"]
+- !private ["So8NSObjectC", "StatusTitleLayer"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "UIBezierPath"]
+- !private ["So8NSObjectC", "UIFont"]
+- !private ["So8NSObjectC", "addSublayer"]
+- ["So8NSObjectC", "bezierPath"]
+- ["So8NSObjectC", "bezierPathWithStatus"]
+- !private ["So8NSObjectC", "bounds"]
+- !private ["So8NSObjectC", "cgColor"]
+- !private ["So8NSObjectC", "cgPath"]
+- !private ["So8NSObjectC", "fatalError"]
+- !private ["So8NSObjectC", "fillColor"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "path"]
+- !private ["So8NSObjectC", "position"]
+- ["So8NSObjectC", "rectSide"]
+- ["So8NSObjectC", "settings"]
+- ["So8NSObjectC", "setup"]
+- !private ["So8NSObjectC", "size"]
+- ["So8NSObjectC", "statusMessage"]
+- !private ["So8NSObjectC", "sublayers"]
+- !private ["So8NSObjectC", "systemFont"]
+- ["So8NSObjectC", "updateLayers"]
+- !private ["So16NSObjectProtocolP", "CGPoint"]
+- !private ["So16NSObjectProtocolP", "CGRect"]
+- ["So16NSObjectProtocolP", "KVSpinnerView"]
+- !private ["So16NSObjectProtocolP", "NSAttributedStringKey"]
+- !private ["So16NSObjectProtocolP", "StatusTitleLayer"]
+- !private ["So16NSObjectProtocolP", "UIBezierPath"]
+- !private ["So16NSObjectProtocolP", "UIFont"]
+- !private ["So16NSObjectProtocolP", "addSublayer"]
+- !private ["So16NSObjectProtocolP", "bezierPath"]
+- !private ["So16NSObjectProtocolP", "bezierPathWithStatus"]
+- !private ["So16NSObjectProtocolP", "bounds"]
+- !private ["So16NSObjectProtocolP", "cgColor"]
+- !private ["So16NSObjectProtocolP", "cgPath"]
+- !private ["So16NSObjectProtocolP", "fatalError"]
+- !private ["So16NSObjectProtocolP", "fillColor"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "path"]
+- !private ["So16NSObjectProtocolP", "position"]
+- !private ["So16NSObjectProtocolP", "rectSide"]
+- ["So16NSObjectProtocolP", "settings"]
+- !private ["So16NSObjectProtocolP", "setup"]
+- !private ["So16NSObjectProtocolP", "size"]
+- !private ["So16NSObjectProtocolP", "statusMessage"]
+- !private ["So16NSObjectProtocolP", "sublayers"]
+- !private ["So16NSObjectProtocolP", "systemFont"]
+- !private ["So16NSObjectProtocolP", "updateLayers"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "CGPoint"]
+- !private ["So14NSSecureCodingP", "CGRect"]
+- ["So14NSSecureCodingP", "KVSpinnerView"]
+- !private ["So14NSSecureCodingP", "NSAttributedStringKey"]
+- !private ["So14NSSecureCodingP", "StatusTitleLayer"]
+- !private ["So14NSSecureCodingP", "UIBezierPath"]
+- !private ["So14NSSecureCodingP", "UIFont"]
+- !private ["So14NSSecureCodingP", "addSublayer"]
+- !private ["So14NSSecureCodingP", "bezierPath"]
+- !private ["So14NSSecureCodingP", "bezierPathWithStatus"]
+- !private ["So14NSSecureCodingP", "bounds"]
+- !private ["So14NSSecureCodingP", "cgColor"]
+- !private ["So14NSSecureCodingP", "cgPath"]
+- !private ["So14NSSecureCodingP", "fatalError"]
+- !private ["So14NSSecureCodingP", "fillColor"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "path"]
+- !private ["So14NSSecureCodingP", "position"]
+- !private ["So14NSSecureCodingP", "rectSide"]
+- !private ["So14NSSecureCodingP", "setup"]
+- !private ["So14NSSecureCodingP", "size"]
+- !private ["So14NSSecureCodingP", "statusMessage"]
+- !private ["So14NSSecureCodingP", "sublayers"]
+- !private ["So14NSSecureCodingP", "updateLayers"]
+- ["So14NSSecureCodingP", ""]
+- !private ["So8NSStringC", "init"]
+- !private ["So8NSStringC", "size"]
+- !private ["s22RandomAccessCollectionP", "removeAll"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "removeAll"]
+- !private ["s16RawRepresentableP", "font"]
+- !private ["13KVSpinnerView14RectangleLayerC", "CGFloat"]
+- !private ["13KVSpinnerView14RectangleLayerC", "CGPoint"]
+- !private ["13KVSpinnerView14RectangleLayerC", "CGRect"]
+- ["13KVSpinnerView14RectangleLayerC", "KVSpinnerView"]
+- !private ["13KVSpinnerView14RectangleLayerC", "NSAttributedStringKey"]
+- ["13KVSpinnerView14RectangleLayerC", "NSCoder"]
+- !private ["13KVSpinnerView14RectangleLayerC", "NSString"]
+- !private ["13KVSpinnerView14RectangleLayerC", "StatusTitleLayer"]
+- ["13KVSpinnerView14RectangleLayerC", "String"]
+- ["13KVSpinnerView14RectangleLayerC", "UIBezierPath"]
+- !private ["13KVSpinnerView14RectangleLayerC", "UIFont"]
+- !private ["13KVSpinnerView14RectangleLayerC", "addSublayer"]
+- !private ["13KVSpinnerView14RectangleLayerC", "bezierPath"]
+- !private ["13KVSpinnerView14RectangleLayerC", "bezierPathWithStatus"]
+- !private ["13KVSpinnerView14RectangleLayerC", "bounds"]
+- ["13KVSpinnerView14RectangleLayerC", "deinit"]
+- !private ["13KVSpinnerView14RectangleLayerC", "fatalError"]
+- !private ["13KVSpinnerView14RectangleLayerC", "fillColor"]
+- ["13KVSpinnerView14RectangleLayerC", "init"]
+- !private ["13KVSpinnerView14RectangleLayerC", "path"]
+- !private ["13KVSpinnerView14RectangleLayerC", "rectSide"]
+- !private ["13KVSpinnerView14RectangleLayerC", "setup"]
+- ["13KVSpinnerView14RectangleLayerC", "statusMessage"]
+- !private ["13KVSpinnerView14RectangleLayerC", "sublayers"]
+- !private ["13KVSpinnerView14RectangleLayerC", "updateLayers"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "removeAll"]
+- !private ["s12StaticStringV", "init"]
+- !private ["13KVSpinnerView16StatusTitleLayerC", "deinit"]
+- !private ["13KVSpinnerView16StatusTitleLayerC", "init"]
+- !private ["13KVSpinnerView16StatusTitleLayerC", "position"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- ["So29UIAccessibilityIdentificationP", "settings"]
+- ["So12UIAppearanceP", "settings"]
+- ["So21UIAppearanceContainerP", "settings"]
+- !private ["So12UIBezierPathC", "cgPath"]
+- !private ["So12UIBezierPathC", "init"]
+- !private ["So7UIColorC", "cgColor"]
+- ["So17UICoordinateSpaceP", "settings"]
+- ["So13UIDynamicItemP", "settings"]
+- ["So18UIFocusEnvironmentP", "settings"]
+- ["So11UIFocusItemP", "settings"]
+- !private ["So6UIFontC", "systemFont"]
+- ["So30UIPasteConfigurationSupportingP", "settings"]
+- ["So11UIResponderC", "settings"]
+- ["So30UIResponderStandardEditActionsP", "settings"]
+- ["So18UITraitEnvironmentP", "settings"]
+- ["So6UIViewC", "settings"]
+- !private ["s14_ArrayProtocolP", "removeAll"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s23_BidirectionalIndexableP", "removeAll"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", "settings"]
+- !private ["s24_DestructorSafeContainerP", "removeAll"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s26_ExpressibleByColorLiteralP", "cgColor"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "size"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s10_IndexableP", "removeAll"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["s14_IndexableBaseP", "removeAll"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGPoint"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGRect"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "KVSpinnerView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSAttributedStringKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "StatusTitleLayer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIBezierPath"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIFont"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addSublayer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bezierPath"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bezierPathWithStatus"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bounds"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cgColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cgPath"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fatalError"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fillColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "path"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "position"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rectSide"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "settings"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setup"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "size"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "statusMessage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sublayers"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "systemFont"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "updateLayers"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s17_MutableIndexableP", "removeAll"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "font"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "midX"]
+- !private ["s21_ObjectiveCBridgeableP", "removeAll"]
+- !private ["s21_ObjectiveCBridgeableP", "width"]
+- !private ["s22_RandomAccessIndexableP", "removeAll"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "removeAll"]
+- !private ["s20_SwiftNewtypeWrapperP", "font"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "13KVSpinnerView24AnimationManagerDelegateP"
+- !private "Sa"
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- "So7CALayerC"
+- "So15CALayerDelegateP"
+- "So13CAMediaTimingP"
+- "So12CAShapeLayerC"
+- !private "So11CATextLayerC"
+- !private "SC7CGPointV"
+- !private "SC6CGRectV"
+- !private "SC6CGSizeV"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- "13KVSpinnerViewAAC"
+- "13KVSpinnerView0aB8SettingsV"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- !private "SC21NSAttributedStringKeyV"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- "13KVSpinnerView14RectangleLayerC"
+- !private "s8SequenceP"
+- !private "s12StaticStringV"
+- !private "13KVSpinnerView16StatusTitleLayerC"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So12UIBezierPathC"
+- !private "So7UIColorC"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- !private "So6UIFontC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So18UITraitEnvironmentP"
+- "So6UIViewC"
+- !private "s14_ArrayProtocolP"
+- !private "s23_BidirectionalIndexableP"
+- "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByColorLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s17_MutableIndexableP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s22_RandomAccessIndexableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s20_SwiftNewtypeWrapperP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Target Support Files/KVSpinnerView/KVSpinnerView-umbrella.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/KVSpinnerView.build/unextended-module.modulemap"
+interface-hash: "cbb2320d23835385d4e5d2c1d127fbc8"

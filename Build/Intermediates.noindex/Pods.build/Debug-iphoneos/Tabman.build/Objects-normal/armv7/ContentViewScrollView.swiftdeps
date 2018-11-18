@@ -1,0 +1,400 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ContentViewScrollView"
+provides-nominal:
+- "6Tabman017ContentViewScrollC0C"
+- "6Tabman017ContentViewScrollC0C9DimensionO"
+provides-member:
+- ["6Tabman017ContentViewScrollC0C", ""]
+- ["6Tabman017ContentViewScrollC0C9DimensionO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- !private "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "CGRect"
+- "ContentViewScrollView"
+- "NSCoder"
+- "UIScrollView"
+- "UIView"
+depends-member:
+- !private ["SC11ALDimensionO", "height"]
+- !private ["SC11ALDimensionO", "width"]
+- !private ["SC6ALEdgeO", "bottom"]
+- !private ["SC6ALEdgeO", "leading"]
+- !private ["SC6ALEdgeO", "top"]
+- !private ["SC6ALEdgeO", "trailing"]
+- !private ["s13BinaryIntegerP", "hashValue"]
+- !private ["So15CALayerDelegateP", "UIView"]
+- !private ["So15CALayerDelegateP", "addSubview"]
+- !private ["So15CALayerDelegateP", "autoMatch"]
+- !private ["So15CALayerDelegateP", "autoPinEdge"]
+- !private ["So15CALayerDelegateP", "contentView"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "initContentView"]
+- !private ["So15CALayerDelegateP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So15CALayerDelegateP", ""]
+- !private ["SC6CGRectV", "zero"]
+- !private ["s7CVarArgP", "UIView"]
+- !private ["s7CVarArgP", "addSubview"]
+- !private ["s7CVarArgP", "autoMatch"]
+- !private ["s7CVarArgP", "autoPinEdge"]
+- !private ["s7CVarArgP", "contentView"]
+- !private ["s7CVarArgP", "hashValue"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "initContentView"]
+- !private ["s7CVarArgP", "translatesAutoresizingMaskIntoConstraints"]
+- ["s7CVarArgP", ""]
+- !private ["s10ComparableP", "hashValue"]
+- ["6Tabman017ContentViewScrollC0C", "CGRect"]
+- ["6Tabman017ContentViewScrollC0C", "Dimension"]
+- ["6Tabman017ContentViewScrollC0C", "NSCoder"]
+- ["6Tabman017ContentViewScrollC0C", "UIView"]
+- !private ["6Tabman017ContentViewScrollC0C", "addSubview"]
+- ["6Tabman017ContentViewScrollC0C", "contentView"]
+- ["6Tabman017ContentViewScrollC0C", "deinit"]
+- ["6Tabman017ContentViewScrollC0C", "init"]
+- !private ["6Tabman017ContentViewScrollC0C", "initContentView"]
+- ["6Tabman017ContentViewScrollC0C", "match"]
+- !private ["6Tabman017ContentViewScrollC0C", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s28CustomDebugStringConvertibleP", "UIView"]
+- !private ["s28CustomDebugStringConvertibleP", "addSubview"]
+- !private ["s28CustomDebugStringConvertibleP", "autoMatch"]
+- !private ["s28CustomDebugStringConvertibleP", "autoPinEdge"]
+- !private ["s28CustomDebugStringConvertibleP", "contentView"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "initContentView"]
+- !private ["s28CustomDebugStringConvertibleP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s28CustomDebugStringConvertibleP", "zero"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "hashValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "zero"]
+- !private ["s17CustomReflectableP", "hashValue"]
+- !private ["s17CustomReflectableP", "zero"]
+- !private ["s23CustomStringConvertibleP", "UIView"]
+- !private ["s23CustomStringConvertibleP", "addSubview"]
+- !private ["s23CustomStringConvertibleP", "autoMatch"]
+- !private ["s23CustomStringConvertibleP", "autoPinEdge"]
+- !private ["s23CustomStringConvertibleP", "contentView"]
+- !private ["s23CustomStringConvertibleP", "hashValue"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "initContentView"]
+- !private ["s23CustomStringConvertibleP", "translatesAutoresizingMaskIntoConstraints"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "hashValue"]
+- !private ["s9DecodableP", "zero"]
+- ["6Tabman017ContentViewScrollC0C9DimensionO", "__derived_enum_equals"]
+- ["6Tabman017ContentViewScrollC0C9DimensionO", "deinit"]
+- ["6Tabman017ContentViewScrollC0C9DimensionO", "hashValue"]
+- ["6Tabman017ContentViewScrollC0C9DimensionO", "height"]
+- ["6Tabman017ContentViewScrollC0C9DimensionO", "width"]
+- !private ["s9EncodableP", "hashValue"]
+- !private ["s9EncodableP", "zero"]
+- !private ["s9EquatableP", "UIView"]
+- !private ["s9EquatableP", "addSubview"]
+- !private ["s9EquatableP", "autoMatch"]
+- !private ["s9EquatableP", "autoPinEdge"]
+- !private ["s9EquatableP", "bottom"]
+- !private ["s9EquatableP", "contentView"]
+- ["s9EquatableP", "hashValue"]
+- ["s9EquatableP", "height"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "initContentView"]
+- !private ["s9EquatableP", "leading"]
+- !private ["s9EquatableP", "top"]
+- !private ["s9EquatableP", "trailing"]
+- !private ["s9EquatableP", "translatesAutoresizingMaskIntoConstraints"]
+- ["s9EquatableP", "width"]
+- !private ["s9EquatableP", "zero"]
+- ["s9EquatableP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "hashValue"]
+- !private ["s17FixedWidthIntegerP", "hashValue"]
+- !private ["s8HashableP", "UIView"]
+- !private ["s8HashableP", "addSubview"]
+- !private ["s8HashableP", "autoMatch"]
+- !private ["s8HashableP", "autoPinEdge"]
+- !private ["s8HashableP", "bottom"]
+- !private ["s8HashableP", "contentView"]
+- ["s8HashableP", "hashValue"]
+- ["s8HashableP", "height"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "initContentView"]
+- !private ["s8HashableP", "leading"]
+- !private ["s8HashableP", "top"]
+- !private ["s8HashableP", "trailing"]
+- !private ["s8HashableP", "translatesAutoresizingMaskIntoConstraints"]
+- ["s8HashableP", "width"]
+- ["s8HashableP", ""]
+- !private ["Si", "hashValue"]
+- !private ["s25LosslessStringConvertibleP", "hashValue"]
+- !private ["s10MirrorPathP", "hashValue"]
+- !private ["So8NSCodingP", "UIView"]
+- !private ["So8NSCodingP", "addSubview"]
+- !private ["So8NSCodingP", "autoMatch"]
+- !private ["So8NSCodingP", "autoPinEdge"]
+- !private ["So8NSCodingP", "contentView"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "initContentView"]
+- !private ["So8NSCodingP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So8NSCodingP", ""]
+- ["So8NSObjectC", "CGRect"]
+- ["So8NSObjectC", "Dimension"]
+- ["So8NSObjectC", "NSCoder"]
+- ["So8NSObjectC", "UIView"]
+- !private ["So8NSObjectC", "addSubview"]
+- !private ["So8NSObjectC", "autoMatch"]
+- !private ["So8NSObjectC", "autoPinEdge"]
+- ["So8NSObjectC", "contentView"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "initContentView"]
+- ["So8NSObjectC", "match"]
+- !private ["So8NSObjectC", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So16NSObjectProtocolP", "UIView"]
+- !private ["So16NSObjectProtocolP", "addSubview"]
+- !private ["So16NSObjectProtocolP", "autoMatch"]
+- !private ["So16NSObjectProtocolP", "autoPinEdge"]
+- !private ["So16NSObjectProtocolP", "contentView"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "initContentView"]
+- !private ["So16NSObjectProtocolP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["s7NumericP", "hashValue"]
+- !private ["s16RawRepresentableP", "bottom"]
+- !private ["s16RawRepresentableP", "height"]
+- !private ["s16RawRepresentableP", "leading"]
+- !private ["s16RawRepresentableP", "top"]
+- !private ["s16RawRepresentableP", "trailing"]
+- !private ["s16RawRepresentableP", "width"]
+- !private ["s13SignedIntegerP", "hashValue"]
+- !private ["s13SignedNumericP", "hashValue"]
+- !private ["s10StrideableP", "hashValue"]
+- !private ["So29UIAccessibilityIdentificationP", "UIView"]
+- !private ["So29UIAccessibilityIdentificationP", "addSubview"]
+- !private ["So29UIAccessibilityIdentificationP", "autoMatch"]
+- !private ["So29UIAccessibilityIdentificationP", "autoPinEdge"]
+- !private ["So29UIAccessibilityIdentificationP", "contentView"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "initContentView"]
+- !private ["So29UIAccessibilityIdentificationP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So12UIAppearanceP", "UIView"]
+- !private ["So12UIAppearanceP", "addSubview"]
+- !private ["So12UIAppearanceP", "autoMatch"]
+- !private ["So12UIAppearanceP", "autoPinEdge"]
+- !private ["So12UIAppearanceP", "contentView"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "initContentView"]
+- !private ["So12UIAppearanceP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So12UIAppearanceP", ""]
+- !private ["So21UIAppearanceContainerP", "UIView"]
+- !private ["So21UIAppearanceContainerP", "addSubview"]
+- !private ["So21UIAppearanceContainerP", "autoMatch"]
+- !private ["So21UIAppearanceContainerP", "autoPinEdge"]
+- !private ["So21UIAppearanceContainerP", "contentView"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "initContentView"]
+- !private ["So21UIAppearanceContainerP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So17UICoordinateSpaceP", "UIView"]
+- !private ["So17UICoordinateSpaceP", "addSubview"]
+- !private ["So17UICoordinateSpaceP", "autoMatch"]
+- !private ["So17UICoordinateSpaceP", "autoPinEdge"]
+- !private ["So17UICoordinateSpaceP", "contentView"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "initContentView"]
+- !private ["So17UICoordinateSpaceP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So17UICoordinateSpaceP", ""]
+- !private ["So13UIDynamicItemP", "UIView"]
+- !private ["So13UIDynamicItemP", "addSubview"]
+- !private ["So13UIDynamicItemP", "autoMatch"]
+- !private ["So13UIDynamicItemP", "autoPinEdge"]
+- !private ["So13UIDynamicItemP", "contentView"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "initContentView"]
+- !private ["So13UIDynamicItemP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So13UIDynamicItemP", ""]
+- !private ["So18UIFocusEnvironmentP", "UIView"]
+- !private ["So18UIFocusEnvironmentP", "addSubview"]
+- !private ["So18UIFocusEnvironmentP", "autoMatch"]
+- !private ["So18UIFocusEnvironmentP", "autoPinEdge"]
+- !private ["So18UIFocusEnvironmentP", "contentView"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "initContentView"]
+- !private ["So18UIFocusEnvironmentP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So11UIFocusItemP", "UIView"]
+- !private ["So11UIFocusItemP", "addSubview"]
+- !private ["So11UIFocusItemP", "autoMatch"]
+- !private ["So11UIFocusItemP", "autoPinEdge"]
+- !private ["So11UIFocusItemP", "contentView"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "initContentView"]
+- !private ["So11UIFocusItemP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So11UIFocusItemP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "UIView"]
+- !private ["So30UIPasteConfigurationSupportingP", "addSubview"]
+- !private ["So30UIPasteConfigurationSupportingP", "autoMatch"]
+- !private ["So30UIPasteConfigurationSupportingP", "autoPinEdge"]
+- !private ["So30UIPasteConfigurationSupportingP", "contentView"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "initContentView"]
+- !private ["So30UIPasteConfigurationSupportingP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So11UIResponderC", "CGRect"]
+- ["So11UIResponderC", "Dimension"]
+- ["So11UIResponderC", "NSCoder"]
+- ["So11UIResponderC", "UIView"]
+- !private ["So11UIResponderC", "addSubview"]
+- !private ["So11UIResponderC", "autoMatch"]
+- !private ["So11UIResponderC", "autoPinEdge"]
+- ["So11UIResponderC", "contentView"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "initContentView"]
+- ["So11UIResponderC", "match"]
+- !private ["So11UIResponderC", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So30UIResponderStandardEditActionsP", "UIView"]
+- !private ["So30UIResponderStandardEditActionsP", "addSubview"]
+- !private ["So30UIResponderStandardEditActionsP", "autoMatch"]
+- !private ["So30UIResponderStandardEditActionsP", "autoPinEdge"]
+- !private ["So30UIResponderStandardEditActionsP", "contentView"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "initContentView"]
+- !private ["So30UIResponderStandardEditActionsP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- ["So12UIScrollViewC", "CGRect"]
+- ["So12UIScrollViewC", "Dimension"]
+- ["So12UIScrollViewC", "NSCoder"]
+- ["So12UIScrollViewC", "UIView"]
+- !private ["So12UIScrollViewC", "addSubview"]
+- ["So12UIScrollViewC", "contentView"]
+- ["So12UIScrollViewC", "init"]
+- ["So12UIScrollViewC", "initContentView"]
+- ["So12UIScrollViewC", "match"]
+- !private ["So12UIScrollViewC", "translatesAutoresizingMaskIntoConstraints"]
+- ["So12UIScrollViewC", ""]
+- !private ["So18UITraitEnvironmentP", "UIView"]
+- !private ["So18UITraitEnvironmentP", "addSubview"]
+- !private ["So18UITraitEnvironmentP", "autoMatch"]
+- !private ["So18UITraitEnvironmentP", "autoPinEdge"]
+- !private ["So18UITraitEnvironmentP", "contentView"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "initContentView"]
+- !private ["So18UITraitEnvironmentP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So18UITraitEnvironmentP", ""]
+- ["So6UIViewC", "CGRect"]
+- ["So6UIViewC", "Dimension"]
+- ["So6UIViewC", "NSCoder"]
+- ["So6UIViewC", "UIView"]
+- !private ["So6UIViewC", "addSubview"]
+- !private ["So6UIViewC", "autoMatch"]
+- !private ["So6UIViewC", "autoPinEdge"]
+- ["So6UIViewC", "contentView"]
+- ["So6UIViewC", "init"]
+- ["So6UIViewC", "initContentView"]
+- ["So6UIViewC", "match"]
+- !private ["So6UIViewC", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s18_BitwiseOperationsP", "hashValue"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "UIView"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addSubview"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "autoMatch"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "autoPinEdge"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "contentView"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "initContentView"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "translatesAutoresizingMaskIntoConstraints"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "hashValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addSubview"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "autoMatch"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "autoPinEdge"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "contentView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "initContentView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "translatesAutoresizingMaskIntoConstraints"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "hashValue"]
+- !private ["s21_ObjectiveCBridgeableP", "zero"]
+- !private ["s11_StrideableP", "hashValue"]
+depends-nominal:
+- !private "SC11ALDimensionO"
+- !private "SC6ALEdgeO"
+- !private "s13BinaryIntegerP"
+- "So15CALayerDelegateP"
+- !private "SC6CGRectV"
+- "s7CVarArgP"
+- !private "s10ComparableP"
+- "6Tabman017ContentViewScrollC0C"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- "6Tabman017ContentViewScrollC0C9DimensionO"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "s8HashableP"
+- !private "Si"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "s7NumericP"
+- !private "s16RawRepresentableP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "s10StrideableP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So12UIScrollViewC"
+- "So18UITraitEnvironmentP"
+- "So6UIViewC"
+- !private "s18_BitwiseOperationsP"
+- "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s11_StrideableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Metal.swiftmodule"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphoneos/Pageboy/Pageboy.framework/Modules/Pageboy.swiftmodule/arm.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Target Support Files/Tabman/Tabman-umbrella.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Target Support Files/PureLayout/PureLayout-umbrella.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Target Support Files/Pageboy/Pageboy-umbrella.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/PureLayout/PureLayout/PureLayout/PureLayout+Internal.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Tabman/Sources/Tabman/Tabman.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/PureLayout/PureLayout/PureLayout/PureLayoutDefines.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphoneos/Pageboy/Pageboy.framework/Headers/Pageboy-Swift.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/PureLayout/PureLayout/PureLayout/NSLayoutConstraint+PureLayout.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/PureLayout/PureLayout/PureLayout/ALView+PureLayout.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/PureLayout/PureLayout/PureLayout/NSArray+PureLayout.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/PureLayout/PureLayout/PureLayout/PureLayout.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Pageboy/Sources/Pageboy/Pageboy.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Tabman.build/unextended-module.modulemap"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/PureLayout.build/module.modulemap"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Pageboy.build/module.modulemap"
+interface-hash: "4c31ef061f3a009afde96396ef4c6239"

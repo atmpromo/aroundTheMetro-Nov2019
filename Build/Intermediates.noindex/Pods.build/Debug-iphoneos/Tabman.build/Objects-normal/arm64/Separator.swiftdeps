@@ -1,0 +1,300 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Separator"
+provides-nominal:
+- "6Tabman9SeparatorC"
+provides-member:
+- ["6Tabman9SeparatorC", ""]
+provides-dynamic-lookup:
+- "intrinsicContentSize"
+- "tintColor"
+depends-top-level:
+- "AssignmentPrecedence"
+- "CGRect"
+- "CGSize"
+- "NSCoder"
+- "Separator"
+- "UIColor"
+- "UIView"
+depends-member:
+- !private ["So15CALayerDelegateP", "CGSize"]
+- !private ["So15CALayerDelegateP", "backgroundColor"]
+- !private ["So15CALayerDelegateP", "color"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "initSeparator"]
+- !private ["So15CALayerDelegateP", "tintColor"]
+- ["So15CALayerDelegateP", ""]
+- !private ["SC6CGRectV", "zero"]
+- !private ["SC6CGSizeV", "init"]
+- !private ["s7CVarArgP", "CGSize"]
+- !private ["s7CVarArgP", "backgroundColor"]
+- ["s7CVarArgP", "clear"]
+- !private ["s7CVarArgP", "color"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "initSeparator"]
+- !private ["s7CVarArgP", "tintColor"]
+- ["s7CVarArgP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "CGSize"]
+- !private ["s28CustomDebugStringConvertibleP", "backgroundColor"]
+- ["s28CustomDebugStringConvertibleP", "clear"]
+- !private ["s28CustomDebugStringConvertibleP", "color"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "initSeparator"]
+- !private ["s28CustomDebugStringConvertibleP", "tintColor"]
+- !private ["s28CustomDebugStringConvertibleP", "zero"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "zero"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "zero"]
+- !private ["s23CustomStringConvertibleP", "CGSize"]
+- !private ["s23CustomStringConvertibleP", "backgroundColor"]
+- ["s23CustomStringConvertibleP", "clear"]
+- !private ["s23CustomStringConvertibleP", "color"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "initSeparator"]
+- !private ["s23CustomStringConvertibleP", "tintColor"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "zero"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "zero"]
+- !private ["s9EquatableP", "CGSize"]
+- !private ["s9EquatableP", "backgroundColor"]
+- ["s9EquatableP", "clear"]
+- !private ["s9EquatableP", "color"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "initSeparator"]
+- !private ["s9EquatableP", "tintColor"]
+- !private ["s9EquatableP", "zero"]
+- ["s9EquatableP", ""]
+- !private ["s8HashableP", "CGSize"]
+- !private ["s8HashableP", "backgroundColor"]
+- ["s8HashableP", "clear"]
+- !private ["s8HashableP", "color"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "initSeparator"]
+- !private ["s8HashableP", "tintColor"]
+- ["s8HashableP", ""]
+- !private ["So8NSCodingP", "CGSize"]
+- !private ["So8NSCodingP", "backgroundColor"]
+- ["So8NSCodingP", "clear"]
+- !private ["So8NSCodingP", "color"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "initSeparator"]
+- !private ["So8NSCodingP", "tintColor"]
+- ["So8NSCodingP", ""]
+- ["So9NSCopyingP", "clear"]
+- ["So21NSItemProviderReadingP", "clear"]
+- ["So21NSItemProviderWritingP", "clear"]
+- ["So8NSObjectC", "CGRect"]
+- ["So8NSObjectC", "CGSize"]
+- ["So8NSObjectC", "NSCoder"]
+- ["So8NSObjectC", "UIColor"]
+- !private ["So8NSObjectC", "backgroundColor"]
+- ["So8NSObjectC", "clear"]
+- ["So8NSObjectC", "color"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "initSeparator"]
+- ["So8NSObjectC", "intrinsicContentSize"]
+- ["So8NSObjectC", "tintColor"]
+- !private ["So16NSObjectProtocolP", "CGSize"]
+- !private ["So16NSObjectProtocolP", "backgroundColor"]
+- ["So16NSObjectProtocolP", "clear"]
+- !private ["So16NSObjectProtocolP", "color"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "initSeparator"]
+- !private ["So16NSObjectProtocolP", "tintColor"]
+- ["So16NSObjectProtocolP", ""]
+- ["So14NSSecureCodingP", "clear"]
+- ["6Tabman9SeparatorC", "CGRect"]
+- ["6Tabman9SeparatorC", "CGSize"]
+- ["6Tabman9SeparatorC", "NSCoder"]
+- ["6Tabman9SeparatorC", "UIColor"]
+- !private ["6Tabman9SeparatorC", "backgroundColor"]
+- ["6Tabman9SeparatorC", "color"]
+- ["6Tabman9SeparatorC", "deinit"]
+- ["6Tabman9SeparatorC", "init"]
+- !private ["6Tabman9SeparatorC", "initSeparator"]
+- ["6Tabman9SeparatorC", "intrinsicContentSize"]
+- ["6Tabman9SeparatorC", "tintColor"]
+- !private ["So29UIAccessibilityIdentificationP", "CGSize"]
+- !private ["So29UIAccessibilityIdentificationP", "backgroundColor"]
+- !private ["So29UIAccessibilityIdentificationP", "color"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "initSeparator"]
+- !private ["So29UIAccessibilityIdentificationP", "tintColor"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So12UIAppearanceP", "CGSize"]
+- !private ["So12UIAppearanceP", "backgroundColor"]
+- !private ["So12UIAppearanceP", "color"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "initSeparator"]
+- !private ["So12UIAppearanceP", "tintColor"]
+- ["So12UIAppearanceP", ""]
+- !private ["So21UIAppearanceContainerP", "CGSize"]
+- !private ["So21UIAppearanceContainerP", "backgroundColor"]
+- !private ["So21UIAppearanceContainerP", "color"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "initSeparator"]
+- !private ["So21UIAppearanceContainerP", "tintColor"]
+- ["So21UIAppearanceContainerP", ""]
+- ["So7UIColorC", "clear"]
+- !private ["So17UICoordinateSpaceP", "CGSize"]
+- !private ["So17UICoordinateSpaceP", "backgroundColor"]
+- !private ["So17UICoordinateSpaceP", "color"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "initSeparator"]
+- !private ["So17UICoordinateSpaceP", "tintColor"]
+- ["So17UICoordinateSpaceP", ""]
+- !private ["So13UIDynamicItemP", "CGSize"]
+- !private ["So13UIDynamicItemP", "backgroundColor"]
+- !private ["So13UIDynamicItemP", "color"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "initSeparator"]
+- !private ["So13UIDynamicItemP", "tintColor"]
+- ["So13UIDynamicItemP", ""]
+- !private ["So18UIFocusEnvironmentP", "CGSize"]
+- !private ["So18UIFocusEnvironmentP", "backgroundColor"]
+- !private ["So18UIFocusEnvironmentP", "color"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "initSeparator"]
+- !private ["So18UIFocusEnvironmentP", "tintColor"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So11UIFocusItemP", "CGSize"]
+- !private ["So11UIFocusItemP", "backgroundColor"]
+- !private ["So11UIFocusItemP", "color"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "initSeparator"]
+- !private ["So11UIFocusItemP", "tintColor"]
+- ["So11UIFocusItemP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "CGSize"]
+- !private ["So30UIPasteConfigurationSupportingP", "backgroundColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "color"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "initSeparator"]
+- !private ["So30UIPasteConfigurationSupportingP", "tintColor"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So11UIResponderC", "CGRect"]
+- ["So11UIResponderC", "CGSize"]
+- ["So11UIResponderC", "NSCoder"]
+- ["So11UIResponderC", "UIColor"]
+- !private ["So11UIResponderC", "backgroundColor"]
+- ["So11UIResponderC", "color"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "initSeparator"]
+- ["So11UIResponderC", "intrinsicContentSize"]
+- ["So11UIResponderC", "tintColor"]
+- !private ["So30UIResponderStandardEditActionsP", "CGSize"]
+- !private ["So30UIResponderStandardEditActionsP", "backgroundColor"]
+- !private ["So30UIResponderStandardEditActionsP", "color"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "initSeparator"]
+- !private ["So30UIResponderStandardEditActionsP", "tintColor"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So18UITraitEnvironmentP", "CGSize"]
+- !private ["So18UITraitEnvironmentP", "backgroundColor"]
+- !private ["So18UITraitEnvironmentP", "color"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "initSeparator"]
+- !private ["So18UITraitEnvironmentP", "tintColor"]
+- ["So18UITraitEnvironmentP", ""]
+- ["So6UIViewC", "CGRect"]
+- ["So6UIViewC", "CGSize"]
+- ["So6UIViewC", "NSCoder"]
+- ["So6UIViewC", "UIColor"]
+- !private ["So6UIViewC", "backgroundColor"]
+- ["So6UIViewC", "color"]
+- ["So6UIViewC", "init"]
+- ["So6UIViewC", "initSeparator"]
+- ["So6UIViewC", "intrinsicContentSize"]
+- ["So6UIViewC", "tintColor"]
+- ["So6UIViewC", ""]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "CGSize"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "backgroundColor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "color"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "initSeparator"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "tintColor"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
+- ["s26_ExpressibleByColorLiteralP", "clear"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGSize"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "backgroundColor"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "clear"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "color"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "initSeparator"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tintColor"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "zero"]
+depends-nominal:
+- "So15CALayerDelegateP"
+- !private "SC6CGRectV"
+- !private "SC6CGSizeV"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- "s8HashableP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So14NSSecureCodingP"
+- "6Tabman9SeparatorC"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So7UIColorC"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So18UITraitEnvironmentP"
+- "So6UIViewC"
+- "s37_DefaultCustomPlaygroundQuickLookableP"
+- "s26_ExpressibleByColorLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphoneos/Pageboy/Pageboy.framework/Modules/Pageboy.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Target Support Files/Tabman/Tabman-umbrella.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Target Support Files/PureLayout/PureLayout-umbrella.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Target Support Files/Pageboy/Pageboy-umbrella.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/PureLayout/PureLayout/PureLayout/PureLayout+Internal.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Tabman/Sources/Tabman/Tabman.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/PureLayout/PureLayout/PureLayout/PureLayoutDefines.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphoneos/Pageboy/Pageboy.framework/Headers/Pageboy-Swift.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/PureLayout/PureLayout/PureLayout/NSLayoutConstraint+PureLayout.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/PureLayout/PureLayout/PureLayout/ALView+PureLayout.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/PureLayout/PureLayout/PureLayout/NSArray+PureLayout.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/PureLayout/PureLayout/PureLayout/PureLayout.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Pageboy/Sources/Pageboy/Pageboy.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Tabman.build/unextended-module.modulemap"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/PureLayout.build/module.modulemap"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Pageboy.build/module.modulemap"
+interface-hash: "d9b3980e5b92ef41bb051693fe211149"

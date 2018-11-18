@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/HDAugmentedReality/HDAugmentedReality.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/HDAugmentedReality.build/unextended-module.modulemap',
+    }]
+  }]
+}

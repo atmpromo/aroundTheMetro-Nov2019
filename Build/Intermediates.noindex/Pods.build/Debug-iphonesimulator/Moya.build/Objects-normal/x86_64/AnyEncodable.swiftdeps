@@ -1,0 +1,52 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AnyEncodable"
+provides-nominal:
+- "4Moya12AnyEncodableV"
+provides-member:
+- ["4Moya12AnyEncodableV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AnyEncodable"
+- "AssignmentPrecedence"
+- "Encodable"
+- "Encoder"
+depends-member:
+- ["4Moya12AnyEncodableV", "Encodable"]
+- ["4Moya12AnyEncodableV", "Encoder"]
+- ["4Moya12AnyEncodableV", "deinit"]
+- !private ["4Moya12AnyEncodableV", "encodable"]
+- ["4Moya12AnyEncodableV", "encode"]
+- ["4Moya12AnyEncodableV", "init"]
+- !private ["s9EncodableP", "encodable"]
+- ["s9EncodableP", "encode"]
+- ["s9EncodableP", ""]
+depends-nominal:
+- "4Moya12AnyEncodableV"
+- "s9EncodableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Result/Result.framework/Modules/Result.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Target Support Files/Moya/Moya-umbrella.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Target Support Files/Result/Result-umbrella.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Result/Result.framework/Headers/Result-Swift.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Moya.build/unextended-module.modulemap"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/module.modulemap"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Result.build/module.modulemap"
+interface-hash: "7d215f05390b3b025c71a0e5434fa7eb"

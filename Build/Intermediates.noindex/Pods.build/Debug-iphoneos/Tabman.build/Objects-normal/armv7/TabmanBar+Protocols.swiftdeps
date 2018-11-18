@@ -1,0 +1,183 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TabmanBarDataSource"
+- "TabmanBarResponder"
+- "TabmanBarLifecycle"
+provides-nominal:
+- "6Tabman0A13BarDataSourceP"
+- "6Tabman0A12BarResponderP"
+- "6Tabman0A12BarLifecycleP"
+provides-member:
+- ["6Tabman0A13BarDataSourceP", ""]
+- ["6Tabman0A12BarResponderP", ""]
+- ["6Tabman0A12BarLifecycleP", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AnyObject"
+- "Bool"
+- "CGFloat"
+- "CGRect"
+- "Int"
+- "PageboyViewController"
+- "Range"
+- "TabmanAppearanceUpdateable"
+- "TabmanBar"
+- "TabmanBarDataSource"
+- "TabmanBarLifecycle"
+- "TabmanBarResponder"
+- "TabmanIndicator"
+- "UIView"
+depends-member:
+- ["So15CALayerDelegateP", "Item"]
+- ["s7CVarArgP", "Item"]
+- ["s7CVarArgP", "NavigationDirection"]
+- ["s28CustomDebugStringConvertibleP", "Item"]
+- ["s28CustomDebugStringConvertibleP", "NavigationDirection"]
+- ["s23CustomStringConvertibleP", "Item"]
+- ["s23CustomStringConvertibleP", "NavigationDirection"]
+- ["s9EquatableP", "Item"]
+- ["s9EquatableP", "NavigationDirection"]
+- ["s8HashableP", "Item"]
+- ["s8HashableP", "NavigationDirection"]
+- ["So8NSCodingP", "Item"]
+- ["So8NSCodingP", "NavigationDirection"]
+- ["So26NSExtensionRequestHandlingP", "NavigationDirection"]
+- ["So8NSObjectC", "Item"]
+- ["So8NSObjectC", "NavigationDirection"]
+- ["So16NSObjectProtocolP", "Item"]
+- ["So16NSObjectProtocolP", "NavigationDirection"]
+- ["7Pageboy0A19AutoScrollerHandlerP", "NavigationDirection"]
+- ["7Pageboy0A14ViewControllerC", "NavigationDirection"]
+- ["6Tabman0A20AppearanceUpdateableP", "CGFloat"]
+- ["6Tabman0A20AppearanceUpdateableP", "CGRect"]
+- ["6Tabman0A20AppearanceUpdateableP", "Int"]
+- ["6Tabman0A20AppearanceUpdateableP", "Item"]
+- ["6Tabman0A20AppearanceUpdateableP", "PageboyViewController"]
+- ["6Tabman0A20AppearanceUpdateableP", "Range"]
+- ["6Tabman0A20AppearanceUpdateableP", "TabmanBar"]
+- ["6Tabman0A20AppearanceUpdateableP", "TabmanIndicator"]
+- ["6Tabman0A20AppearanceUpdateableP", "UIView"]
+- ["6Tabman0A20AppearanceUpdateableP", "add"]
+- ["6Tabman0A20AppearanceUpdateableP", "construct"]
+- ["6Tabman0A20AppearanceUpdateableP", "update"]
+- ["6Tabman0A20AppearanceUpdateableP", ""]
+- ["6Tabman0A3BarC", "Item"]
+- ["6Tabman0A13BarDataSourceP", "TabmanBar"]
+- ["6Tabman0A13BarDataSourceP", "items"]
+- ["6Tabman0A12BarLifecycleP", "CGFloat"]
+- ["6Tabman0A12BarLifecycleP", "CGRect"]
+- ["6Tabman0A12BarLifecycleP", "Int"]
+- ["6Tabman0A12BarLifecycleP", "Item"]
+- ["6Tabman0A12BarLifecycleP", "PageboyViewController"]
+- ["6Tabman0A12BarLifecycleP", "Range"]
+- ["6Tabman0A12BarLifecycleP", "TabmanBar"]
+- ["6Tabman0A12BarLifecycleP", "TabmanIndicator"]
+- ["6Tabman0A12BarLifecycleP", "UIView"]
+- ["6Tabman0A12BarLifecycleP", "add"]
+- ["6Tabman0A12BarLifecycleP", "construct"]
+- ["6Tabman0A12BarLifecycleP", "update"]
+- ["6Tabman0A12BarResponderP", "Bool"]
+- ["6Tabman0A12BarResponderP", "Int"]
+- ["6Tabman0A12BarResponderP", "TabmanBar"]
+- ["6Tabman0A12BarResponderP", "bar"]
+- ["6Tabman0A17IndicatorDelegateP", "Item"]
+- ["7Pageboy27TransitionOperationDelegateP", "NavigationDirection"]
+- ["So29UIAccessibilityIdentificationP", "Item"]
+- ["So12UIAppearanceP", "Item"]
+- ["So21UIAppearanceContainerP", "Item"]
+- ["So21UIAppearanceContainerP", "NavigationDirection"]
+- ["So18UIContentContainerP", "NavigationDirection"]
+- ["So17UICoordinateSpaceP", "Item"]
+- ["So13UIDynamicItemP", "Item"]
+- ["So18UIFocusEnvironmentP", "Item"]
+- ["So18UIFocusEnvironmentP", "NavigationDirection"]
+- ["So11UIFocusItemP", "Item"]
+- ["So30UIPageViewControllerDataSourceP", "NavigationDirection"]
+- ["So28UIPageViewControllerDelegateP", "NavigationDirection"]
+- ["So30UIPasteConfigurationSupportingP", "Item"]
+- ["So30UIPasteConfigurationSupportingP", "NavigationDirection"]
+- ["So11UIResponderC", "Item"]
+- ["So11UIResponderC", "NavigationDirection"]
+- ["So30UIResponderStandardEditActionsP", "Item"]
+- ["So30UIResponderStandardEditActionsP", "NavigationDirection"]
+- ["So20UIScrollViewDelegateP", "NavigationDirection"]
+- ["So16UIStateRestoringP", "NavigationDirection"]
+- ["So18UITraitEnvironmentP", "Item"]
+- ["So18UITraitEnvironmentP", "NavigationDirection"]
+- ["So6UIViewC", "Item"]
+- ["So16UIViewControllerC", "NavigationDirection"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", "Item"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Item"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "NavigationDirection"]
+depends-nominal:
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "s9EquatableP"
+- "s8HashableP"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "7Pageboy0A19AutoScrollerHandlerP"
+- "7Pageboy0A14ViewControllerC"
+- "6Tabman0A20AppearanceUpdateableP"
+- "6Tabman0A3BarC"
+- "6Tabman0A13BarDataSourceP"
+- "6Tabman0A12BarLifecycleP"
+- "6Tabman0A12BarResponderP"
+- "6Tabman0A17IndicatorDelegateP"
+- "7Pageboy27TransitionOperationDelegateP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So30UIPageViewControllerDataSourceP"
+- "So28UIPageViewControllerDelegateP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So20UIScrollViewDelegateP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- "So6UIViewC"
+- "So16UIViewControllerC"
+- "s37_DefaultCustomPlaygroundQuickLookableP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Metal.swiftmodule"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphoneos/Pageboy/Pageboy.framework/Modules/Pageboy.swiftmodule/arm.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Target Support Files/Tabman/Tabman-umbrella.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Target Support Files/PureLayout/PureLayout-umbrella.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Target Support Files/Pageboy/Pageboy-umbrella.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/PureLayout/PureLayout/PureLayout/PureLayout+Internal.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Tabman/Sources/Tabman/Tabman.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/PureLayout/PureLayout/PureLayout/PureLayoutDefines.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphoneos/Pageboy/Pageboy.framework/Headers/Pageboy-Swift.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/PureLayout/PureLayout/PureLayout/NSLayoutConstraint+PureLayout.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/PureLayout/PureLayout/PureLayout/ALView+PureLayout.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/PureLayout/PureLayout/PureLayout/NSArray+PureLayout.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/PureLayout/PureLayout/PureLayout/PureLayout.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Pageboy/Sources/Pageboy/Pageboy.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Tabman.build/unextended-module.modulemap"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/PureLayout.build/module.modulemap"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Pageboy.build/module.modulemap"
+interface-hash: "2e3428bf1c858c06587e8342631983e4"

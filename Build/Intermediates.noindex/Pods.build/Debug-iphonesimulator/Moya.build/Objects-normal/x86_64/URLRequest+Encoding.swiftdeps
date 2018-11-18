@@ -1,0 +1,115 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["10Foundation10URLRequestV", ""]
+- ["10Foundation10URLRequestV", "encoded"]
+- ["10Foundation10URLRequestV", "encoded"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "AnyEncodable"
+- "AssignmentPrecedence"
+- "Encodable"
+- !private "JSONEncoder"
+- !private "MoyaError"
+- "ParameterEncoding"
+- "String"
+- "URLRequest"
+depends-member:
+- !private ["4Moya12AnyEncodableV", "deinit"]
+- !private ["4Moya12AnyEncodableV", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "AnyEncodable"]
+- !private ["s28CustomDebugStringConvertibleP", "JSONEncoder"]
+- !private ["s28CustomDebugStringConvertibleP", "MoyaError"]
+- !private ["s28CustomDebugStringConvertibleP", "httpBody"]
+- !private ["s17CustomReflectableP", "AnyEncodable"]
+- !private ["s17CustomReflectableP", "JSONEncoder"]
+- !private ["s17CustomReflectableP", "MoyaError"]
+- !private ["s17CustomReflectableP", "httpBody"]
+- !private ["s23CustomStringConvertibleP", "AnyEncodable"]
+- !private ["s23CustomStringConvertibleP", "JSONEncoder"]
+- !private ["s23CustomStringConvertibleP", "MoyaError"]
+- !private ["s23CustomStringConvertibleP", "httpBody"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "AnyEncodable"]
+- !private ["s9EquatableP", "JSONEncoder"]
+- !private ["s9EquatableP", "MoyaError"]
+- !private ["s9EquatableP", "httpBody"]
+- !private ["s5ErrorP", "encodableMapping"]
+- !private ["s5ErrorP", "parameterEncoding"]
+- !private ["s8HashableP", "AnyEncodable"]
+- !private ["s8HashableP", "JSONEncoder"]
+- !private ["s8HashableP", "MoyaError"]
+- !private ["s8HashableP", "httpBody"]
+- !private ["10Foundation11JSONEncoderC", "encode"]
+- !private ["10Foundation11JSONEncoderC", "init"]
+- !private ["10Foundation14LocalizedErrorP", "encodableMapping"]
+- !private ["10Foundation14LocalizedErrorP", "parameterEncoding"]
+- !private ["4Moya0A5ErrorO", "deinit"]
+- !private ["4Moya0A5ErrorO", "encodableMapping"]
+- !private ["4Moya0A5ErrorO", "parameterEncoding"]
+- !private ["9Alamofire17ParameterEncodingP", "encode"]
+- !private ["10Foundation20ReferenceConvertibleP", "AnyEncodable"]
+- !private ["10Foundation20ReferenceConvertibleP", "JSONEncoder"]
+- !private ["10Foundation20ReferenceConvertibleP", "MoyaError"]
+- !private ["10Foundation20ReferenceConvertibleP", "httpBody"]
+- !private ["10Foundation10URLRequestV", "AnyEncodable"]
+- ["10Foundation10URLRequestV", "Encodable"]
+- !private ["10Foundation10URLRequestV", "JSONEncoder"]
+- !private ["10Foundation10URLRequestV", "MoyaError"]
+- ["10Foundation10URLRequestV", "ParameterEncoding"]
+- ["10Foundation10URLRequestV", "String"]
+- ["10Foundation10URLRequestV", "URLRequest"]
+- ["10Foundation10URLRequestV", "encoded"]
+- !private ["10Foundation10URLRequestV", "httpBody"]
+- !private ["9Alamofire21URLRequestConvertibleP", "AnyEncodable"]
+- !private ["9Alamofire21URLRequestConvertibleP", "JSONEncoder"]
+- !private ["9Alamofire21URLRequestConvertibleP", "MoyaError"]
+- !private ["9Alamofire21URLRequestConvertibleP", "httpBody"]
+- !private ["s21_ObjectiveCBridgeableP", "AnyEncodable"]
+- !private ["s21_ObjectiveCBridgeableP", "JSONEncoder"]
+- !private ["s21_ObjectiveCBridgeableP", "MoyaError"]
+- !private ["s21_ObjectiveCBridgeableP", "httpBody"]
+depends-nominal:
+- !private "4Moya12AnyEncodableV"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- !private "s5ErrorP"
+- !private "s8HashableP"
+- !private "10Foundation11JSONEncoderC"
+- !private "10Foundation14LocalizedErrorP"
+- !private "4Moya0A5ErrorO"
+- !private "9Alamofire17ParameterEncodingP"
+- !private "10Foundation20ReferenceConvertibleP"
+- "10Foundation10URLRequestV"
+- !private "9Alamofire21URLRequestConvertibleP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Result/Result.framework/Modules/Result.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Target Support Files/Moya/Moya-umbrella.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Target Support Files/Result/Result-umbrella.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Result/Result.framework/Headers/Result-Swift.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Moya.build/unextended-module.modulemap"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/module.modulemap"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Result.build/module.modulemap"
+interface-hash: "d10efb41bcb4e047605d8e4ed515d893"

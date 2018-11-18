@@ -1,0 +1,622 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TabmanAppearanceUpdateable"
+provides-nominal:
+- "6Tabman0A3BarC10AppearanceC"
+- "6Tabman0A3BarC10AppearanceC9IndicatorV"
+- "6Tabman0A3BarC10AppearanceC11InteractionV"
+- "6Tabman0A3BarC10AppearanceC6LayoutV"
+- "6Tabman0A3BarC10AppearanceC6LayoutV16ItemDistributionO"
+- "6Tabman0A3BarC10AppearanceC5StateV"
+- "6Tabman0A3BarC10AppearanceC5StyleV"
+- "6Tabman0A3BarC10AppearanceC4TextV"
+- "6Tabman0A20AppearanceUpdateableP"
+provides-member:
+- ["6Tabman0A3BarC", ""]
+- ["6Tabman0A3BarC10AppearanceC", ""]
+- ["6Tabman0A3BarC10AppearanceC9IndicatorV", ""]
+- ["6Tabman0A3BarC10AppearanceC11InteractionV", ""]
+- ["6Tabman0A3BarC10AppearanceC6LayoutV", ""]
+- ["6Tabman0A3BarC10AppearanceC6LayoutV16ItemDistributionO", ""]
+- ["6Tabman0A3BarC10AppearanceC5StateV", ""]
+- ["6Tabman0A3BarC10AppearanceC5StyleV", ""]
+- ["6Tabman0A3BarC10AppearanceC4TextV", ""]
+- ["6Tabman0A20AppearanceUpdateableP", ""]
+- ["6Tabman0A3BarC", "Appearance"]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- !private "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CGFloat"
+- "TabmanAppearanceUpdateable"
+- "TabmanBar"
+- "TabmanIndicator"
+- "UIColor"
+- "UIFont"
+- "UIImageRenderingMode"
+- !private "UIView"
+depends-member:
+- ["6Tabman0A3BarC10AppearanceC", "Appearance"]
+- ["6Tabman0A3BarC10AppearanceC", "Bool"]
+- ["6Tabman0A3BarC10AppearanceC", "CGFloat"]
+- ["6Tabman0A3BarC10AppearanceC", "Indicator"]
+- ["6Tabman0A3BarC10AppearanceC", "Interaction"]
+- ["6Tabman0A3BarC10AppearanceC", "Layout"]
+- ["6Tabman0A3BarC10AppearanceC", "State"]
+- ["6Tabman0A3BarC10AppearanceC", "Style"]
+- ["6Tabman0A3BarC10AppearanceC", "TabmanBar"]
+- ["6Tabman0A3BarC10AppearanceC", "TabmanIndicator"]
+- ["6Tabman0A3BarC10AppearanceC", "Text"]
+- ["6Tabman0A3BarC10AppearanceC", "UIColor"]
+- ["6Tabman0A3BarC10AppearanceC", "UIFont"]
+- ["6Tabman0A3BarC10AppearanceC", "UIImageRenderingMode"]
+- !private ["6Tabman0A3BarC10AppearanceC", "UIView"]
+- ["6Tabman0A3BarC10AppearanceC", "defaultAppearance"]
+- ["6Tabman0A3BarC10AppearanceC", "deinit"]
+- ["6Tabman0A3BarC10AppearanceC", "indicator"]
+- ["6Tabman0A3BarC10AppearanceC", "init"]
+- ["6Tabman0A3BarC10AppearanceC", "interaction"]
+- ["6Tabman0A3BarC10AppearanceC", "layout"]
+- !private ["6Tabman0A3BarC10AppearanceC", "setDefaultValues"]
+- ["6Tabman0A3BarC10AppearanceC", "state"]
+- ["6Tabman0A3BarC10AppearanceC", "style"]
+- ["6Tabman0A3BarC10AppearanceC", "text"]
+- ["6Tabman0A3BarC14BackgroundViewC", "Style"]
+- !private ["s13BinaryIntegerP", "hashValue"]
+- ["So15CALayerDelegateP", "Appearance"]
+- ["So15CALayerDelegateP", "BackgroundView"]
+- ["So15CALayerDelegateP", "Height"]
+- ["So15CALayerDelegateP", "LineWeight"]
+- ["So15CALayerDelegateP", "Style"]
+- !private ["So15CALayerDelegateP", "UIColor"]
+- !private ["So15CALayerDelegateP", "UIFont"]
+- !private ["So15CALayerDelegateP", "UIView"]
+- !private ["So15CALayerDelegateP", "defaultTintColor"]
+- ["s7CVarArgP", "Appearance"]
+- ["s7CVarArgP", "BackgroundView"]
+- ["s7CVarArgP", "Height"]
+- ["s7CVarArgP", "LineWeight"]
+- ["s7CVarArgP", "Style"]
+- !private ["s7CVarArgP", "UIColor"]
+- !private ["s7CVarArgP", "UIFont"]
+- !private ["s7CVarArgP", "UIView"]
+- !private ["s7CVarArgP", "black"]
+- !private ["s7CVarArgP", "clear"]
+- !private ["s7CVarArgP", "defaultTintColor"]
+- !private ["s7CVarArgP", "hashValue"]
+- !private ["s7CVarArgP", "systemFont"]
+- !private ["s7CVarArgP", "withAlphaComponent"]
+- !private ["s10ComparableP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "Appearance"]
+- ["s28CustomDebugStringConvertibleP", "BackgroundView"]
+- ["s28CustomDebugStringConvertibleP", "Height"]
+- ["s28CustomDebugStringConvertibleP", "LineWeight"]
+- ["s28CustomDebugStringConvertibleP", "Style"]
+- !private ["s28CustomDebugStringConvertibleP", "UIColor"]
+- !private ["s28CustomDebugStringConvertibleP", "UIFont"]
+- !private ["s28CustomDebugStringConvertibleP", "UIView"]
+- !private ["s28CustomDebugStringConvertibleP", "alwaysTemplate"]
+- !private ["s28CustomDebugStringConvertibleP", "auto"]
+- !private ["s28CustomDebugStringConvertibleP", "black"]
+- !private ["s28CustomDebugStringConvertibleP", "blur"]
+- !private ["s28CustomDebugStringConvertibleP", "clear"]
+- !private ["s28CustomDebugStringConvertibleP", "defaultTintColor"]
+- !private ["s28CustomDebugStringConvertibleP", "leftAligned"]
+- !private ["s28CustomDebugStringConvertibleP", "normal"]
+- !private ["s28CustomDebugStringConvertibleP", "systemFont"]
+- !private ["s28CustomDebugStringConvertibleP", "withAlphaComponent"]
+- !private ["s29CustomPlaygroundQuickLookableP", "hashValue"]
+- !private ["s17CustomReflectableP", "alwaysTemplate"]
+- !private ["s17CustomReflectableP", "auto"]
+- !private ["s17CustomReflectableP", "black"]
+- !private ["s17CustomReflectableP", "blur"]
+- !private ["s17CustomReflectableP", "clear"]
+- !private ["s17CustomReflectableP", "hashValue"]
+- !private ["s17CustomReflectableP", "leftAligned"]
+- !private ["s17CustomReflectableP", "normal"]
+- ["s23CustomStringConvertibleP", "Appearance"]
+- ["s23CustomStringConvertibleP", "BackgroundView"]
+- ["s23CustomStringConvertibleP", "Height"]
+- ["s23CustomStringConvertibleP", "LineWeight"]
+- ["s23CustomStringConvertibleP", "Style"]
+- !private ["s23CustomStringConvertibleP", "UIColor"]
+- !private ["s23CustomStringConvertibleP", "UIFont"]
+- !private ["s23CustomStringConvertibleP", "UIView"]
+- !private ["s23CustomStringConvertibleP", "black"]
+- !private ["s23CustomStringConvertibleP", "blur"]
+- !private ["s23CustomStringConvertibleP", "clear"]
+- !private ["s23CustomStringConvertibleP", "defaultTintColor"]
+- !private ["s23CustomStringConvertibleP", "hashValue"]
+- !private ["s23CustomStringConvertibleP", "systemFont"]
+- !private ["s23CustomStringConvertibleP", "withAlphaComponent"]
+- !private ["s9DecodableP", "alwaysTemplate"]
+- !private ["s9DecodableP", "auto"]
+- !private ["s9DecodableP", "black"]
+- !private ["s9DecodableP", "blur"]
+- !private ["s9DecodableP", "clear"]
+- !private ["s9DecodableP", "hashValue"]
+- !private ["s9DecodableP", "leftAligned"]
+- !private ["s9DecodableP", "normal"]
+- !private ["s9EncodableP", "alwaysTemplate"]
+- !private ["s9EncodableP", "auto"]
+- !private ["s9EncodableP", "black"]
+- !private ["s9EncodableP", "blur"]
+- !private ["s9EncodableP", "clear"]
+- !private ["s9EncodableP", "hashValue"]
+- !private ["s9EncodableP", "leftAligned"]
+- !private ["s9EncodableP", "normal"]
+- ["s9EquatableP", "Appearance"]
+- ["s9EquatableP", "BackgroundView"]
+- ["s9EquatableP", "Height"]
+- ["s9EquatableP", "LineWeight"]
+- ["s9EquatableP", "Style"]
+- !private ["s9EquatableP", "UIColor"]
+- !private ["s9EquatableP", "UIFont"]
+- !private ["s9EquatableP", "UIView"]
+- !private ["s9EquatableP", "alwaysTemplate"]
+- !private ["s9EquatableP", "black"]
+- !private ["s9EquatableP", "blur"]
+- !private ["s9EquatableP", "clear"]
+- !private ["s9EquatableP", "defaultTintColor"]
+- !private ["s9EquatableP", "extraLight"]
+- ["s9EquatableP", "hashValue"]
+- !private ["s9EquatableP", "leftAligned"]
+- !private ["s9EquatableP", "normal"]
+- !private ["s9EquatableP", "systemFont"]
+- !private ["s9EquatableP", "withAlphaComponent"]
+- ["s9EquatableP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "hashValue"]
+- !private ["s23ExpressibleByNilLiteralP", "alwaysTemplate"]
+- !private ["s23ExpressibleByNilLiteralP", "auto"]
+- !private ["s23ExpressibleByNilLiteralP", "black"]
+- !private ["s23ExpressibleByNilLiteralP", "blur"]
+- !private ["s23ExpressibleByNilLiteralP", "clear"]
+- !private ["s23ExpressibleByNilLiteralP", "leftAligned"]
+- !private ["s23ExpressibleByNilLiteralP", "normal"]
+- !private ["s17FixedWidthIntegerP", "hashValue"]
+- ["s8HashableP", "Appearance"]
+- ["s8HashableP", "BackgroundView"]
+- ["s8HashableP", "Height"]
+- ["s8HashableP", "LineWeight"]
+- ["s8HashableP", "Style"]
+- !private ["s8HashableP", "UIColor"]
+- !private ["s8HashableP", "UIFont"]
+- !private ["s8HashableP", "UIView"]
+- !private ["s8HashableP", "alwaysTemplate"]
+- !private ["s8HashableP", "black"]
+- !private ["s8HashableP", "clear"]
+- !private ["s8HashableP", "defaultTintColor"]
+- !private ["s8HashableP", "extraLight"]
+- ["s8HashableP", "hashValue"]
+- !private ["s8HashableP", "leftAligned"]
+- !private ["s8HashableP", "normal"]
+- !private ["s8HashableP", "systemFont"]
+- !private ["s8HashableP", "withAlphaComponent"]
+- ["s8HashableP", ""]
+- !private ["6Tabman0A3BarC6HeightO", "auto"]
+- ["6Tabman0A3BarC10AppearanceC9IndicatorV", "Bool"]
+- ["6Tabman0A3BarC10AppearanceC9IndicatorV", "TabmanIndicator"]
+- ["6Tabman0A3BarC10AppearanceC9IndicatorV", "UIColor"]
+- ["6Tabman0A3BarC10AppearanceC9IndicatorV", "bounces"]
+- ["6Tabman0A3BarC10AppearanceC9IndicatorV", "color"]
+- ["6Tabman0A3BarC10AppearanceC9IndicatorV", "compresses"]
+- ["6Tabman0A3BarC10AppearanceC9IndicatorV", "init"]
+- ["6Tabman0A3BarC10AppearanceC9IndicatorV", "isProgressive"]
+- ["6Tabman0A3BarC10AppearanceC9IndicatorV", "lineWeight"]
+- ["6Tabman0A3BarC10AppearanceC9IndicatorV", "preferredStyle"]
+- ["6Tabman0A3BarC10AppearanceC9IndicatorV", "useRoundedCorners"]
+- !private ["Si", "hashValue"]
+- ["6Tabman0A3BarC10AppearanceC11InteractionV", "Bool"]
+- ["6Tabman0A3BarC10AppearanceC11InteractionV", "init"]
+- ["6Tabman0A3BarC10AppearanceC11InteractionV", "isScrollEnabled"]
+- ["6Tabman0A3BarC10AppearanceC6LayoutV16ItemDistributionO", "__derived_enum_equals"]
+- ["6Tabman0A3BarC10AppearanceC6LayoutV16ItemDistributionO", "centered"]
+- ["6Tabman0A3BarC10AppearanceC6LayoutV16ItemDistributionO", "deinit"]
+- ["6Tabman0A3BarC10AppearanceC6LayoutV16ItemDistributionO", "hashValue"]
+- ["6Tabman0A3BarC10AppearanceC6LayoutV16ItemDistributionO", "leftAligned"]
+- ["6Tabman0A3BarC10AppearanceC6LayoutV", "Bool"]
+- ["6Tabman0A3BarC10AppearanceC6LayoutV", "CGFloat"]
+- ["6Tabman0A3BarC10AppearanceC6LayoutV", "ItemDistribution"]
+- ["6Tabman0A3BarC10AppearanceC6LayoutV", "TabmanBar"]
+- ["6Tabman0A3BarC10AppearanceC6LayoutV", "edgeInset"]
+- ["6Tabman0A3BarC10AppearanceC6LayoutV", "extendBackgroundEdgeInsets"]
+- ["6Tabman0A3BarC10AppearanceC6LayoutV", "height"]
+- ["6Tabman0A3BarC10AppearanceC6LayoutV", "init"]
+- ["6Tabman0A3BarC10AppearanceC6LayoutV", "interItemSpacing"]
+- ["6Tabman0A3BarC10AppearanceC6LayoutV", "itemDistribution"]
+- ["6Tabman0A3BarC10AppearanceC6LayoutV", "itemVerticalPadding"]
+- ["6Tabman0A3BarC10AppearanceC6LayoutV", "minimumItemWidth"]
+- !private ["6Tabman0A9IndicatorC10LineWeightO", "normal"]
+- !private ["s25LosslessStringConvertibleP", "hashValue"]
+- !private ["s10MirrorPathP", "hashValue"]
+- ["So8NSCodingP", "Appearance"]
+- ["So8NSCodingP", "BackgroundView"]
+- ["So8NSCodingP", "Height"]
+- ["So8NSCodingP", "LineWeight"]
+- ["So8NSCodingP", "Style"]
+- !private ["So8NSCodingP", "UIColor"]
+- !private ["So8NSCodingP", "UIFont"]
+- !private ["So8NSCodingP", "UIView"]
+- !private ["So8NSCodingP", "black"]
+- !private ["So8NSCodingP", "clear"]
+- !private ["So8NSCodingP", "defaultTintColor"]
+- !private ["So8NSCodingP", "withAlphaComponent"]
+- !private ["So9NSCopyingP", "black"]
+- !private ["So9NSCopyingP", "clear"]
+- !private ["So9NSCopyingP", "systemFont"]
+- !private ["So9NSCopyingP", "withAlphaComponent"]
+- !private ["So21NSItemProviderReadingP", "black"]
+- !private ["So21NSItemProviderReadingP", "clear"]
+- !private ["So21NSItemProviderReadingP", "withAlphaComponent"]
+- !private ["So21NSItemProviderWritingP", "black"]
+- !private ["So21NSItemProviderWritingP", "clear"]
+- !private ["So21NSItemProviderWritingP", "withAlphaComponent"]
+- ["So8NSObjectC", "Appearance"]
+- ["So8NSObjectC", "BackgroundView"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "CGFloat"]
+- ["So8NSObjectC", "Height"]
+- ["So8NSObjectC", "LineWeight"]
+- ["So8NSObjectC", "Style"]
+- ["So8NSObjectC", "TabmanBar"]
+- ["So8NSObjectC", "TabmanIndicator"]
+- ["So8NSObjectC", "UIColor"]
+- ["So8NSObjectC", "UIFont"]
+- ["So8NSObjectC", "UIImageRenderingMode"]
+- !private ["So8NSObjectC", "UIView"]
+- !private ["So8NSObjectC", "black"]
+- !private ["So8NSObjectC", "clear"]
+- !private ["So8NSObjectC", "defaultTintColor"]
+- !private ["So8NSObjectC", "systemFont"]
+- !private ["So8NSObjectC", "withAlphaComponent"]
+- ["So16NSObjectProtocolP", "Appearance"]
+- ["So16NSObjectProtocolP", "BackgroundView"]
+- ["So16NSObjectProtocolP", "Height"]
+- ["So16NSObjectProtocolP", "LineWeight"]
+- ["So16NSObjectProtocolP", "Style"]
+- !private ["So16NSObjectProtocolP", "UIColor"]
+- !private ["So16NSObjectProtocolP", "UIFont"]
+- !private ["So16NSObjectProtocolP", "UIView"]
+- !private ["So16NSObjectProtocolP", "black"]
+- !private ["So16NSObjectProtocolP", "clear"]
+- !private ["So16NSObjectProtocolP", "defaultTintColor"]
+- !private ["So16NSObjectProtocolP", "systemFont"]
+- !private ["So16NSObjectProtocolP", "withAlphaComponent"]
+- !private ["So14NSSecureCodingP", "black"]
+- !private ["So14NSSecureCodingP", "clear"]
+- !private ["So14NSSecureCodingP", "withAlphaComponent"]
+- !private ["s7NumericP", "hashValue"]
+- !private ["Sq", "alwaysTemplate"]
+- !private ["Sq", "auto"]
+- !private ["Sq", "black"]
+- !private ["Sq", "blur"]
+- !private ["Sq", "clear"]
+- !private ["Sq", "leftAligned"]
+- !private ["Sq", "normal"]
+- !private ["s16RawRepresentableP", "alwaysTemplate"]
+- !private ["s16RawRepresentableP", "extraLight"]
+- !private ["s16RawRepresentableP", "normal"]
+- !private ["s13SignedIntegerP", "hashValue"]
+- !private ["s13SignedNumericP", "hashValue"]
+- ["6Tabman0A3BarC10AppearanceC5StateV", "Bool"]
+- ["6Tabman0A3BarC10AppearanceC5StateV", "UIColor"]
+- ["6Tabman0A3BarC10AppearanceC5StateV", "color"]
+- ["6Tabman0A3BarC10AppearanceC5StateV", "init"]
+- ["6Tabman0A3BarC10AppearanceC5StateV", "selectedColor"]
+- ["6Tabman0A3BarC10AppearanceC5StateV", "shouldHideWhenSingleItem"]
+- !private ["s10StrideableP", "hashValue"]
+- ["6Tabman0A3BarC10AppearanceC5StyleV", "Bool"]
+- ["6Tabman0A3BarC10AppearanceC5StyleV", "TabmanBar"]
+- ["6Tabman0A3BarC10AppearanceC5StyleV", "UIColor"]
+- ["6Tabman0A3BarC10AppearanceC5StyleV", "UIImageRenderingMode"]
+- ["6Tabman0A3BarC10AppearanceC5StyleV", "background"]
+- ["6Tabman0A3BarC10AppearanceC5StyleV", "bottomSeparatorColor"]
+- ["6Tabman0A3BarC10AppearanceC5StyleV", "imageRenderingMode"]
+- ["6Tabman0A3BarC10AppearanceC5StyleV", "init"]
+- ["6Tabman0A3BarC10AppearanceC5StyleV", "showEdgeFade"]
+- !private ["6Tabman0A3BarC14BackgroundViewC5StyleO", "blur"]
+- ["6Tabman0A20AppearanceUpdateableP", "Appearance"]
+- ["6Tabman0A20AppearanceUpdateableP", "BackgroundView"]
+- ["6Tabman0A20AppearanceUpdateableP", "Height"]
+- ["6Tabman0A20AppearanceUpdateableP", "TabmanBar"]
+- !private ["6Tabman0A20AppearanceUpdateableP", "UIColor"]
+- !private ["6Tabman0A20AppearanceUpdateableP", "UIFont"]
+- !private ["6Tabman0A20AppearanceUpdateableP", "UIView"]
+- ["6Tabman0A20AppearanceUpdateableP", "update"]
+- ["6Tabman0A3BarC", "Appearance"]
+- ["6Tabman0A3BarC", "BackgroundView"]
+- ["6Tabman0A3BarC", "Bool"]
+- ["6Tabman0A3BarC", "CGFloat"]
+- ["6Tabman0A3BarC", "Height"]
+- ["6Tabman0A3BarC", "TabmanBar"]
+- ["6Tabman0A3BarC", "TabmanIndicator"]
+- ["6Tabman0A3BarC", "UIColor"]
+- ["6Tabman0A3BarC", "UIFont"]
+- ["6Tabman0A3BarC", "UIImageRenderingMode"]
+- !private ["6Tabman0A3BarC", "UIView"]
+- ["6Tabman0A12BarLifecycleP", "Appearance"]
+- ["6Tabman0A12BarLifecycleP", "BackgroundView"]
+- ["6Tabman0A12BarLifecycleP", "Height"]
+- !private ["6Tabman0A12BarLifecycleP", "UIColor"]
+- !private ["6Tabman0A12BarLifecycleP", "UIFont"]
+- !private ["6Tabman0A12BarLifecycleP", "UIView"]
+- ["6Tabman0A9IndicatorC", "LineWeight"]
+- ["6Tabman0A9IndicatorC", "Style"]
+- ["6Tabman0A17IndicatorDelegateP", "Appearance"]
+- ["6Tabman0A17IndicatorDelegateP", "BackgroundView"]
+- ["6Tabman0A17IndicatorDelegateP", "Height"]
+- !private ["6Tabman0A17IndicatorDelegateP", "UIColor"]
+- !private ["6Tabman0A17IndicatorDelegateP", "UIFont"]
+- !private ["6Tabman0A17IndicatorDelegateP", "UIView"]
+- ["6Tabman0A18IndicatorLifecycleP", "LineWeight"]
+- ["6Tabman0A18IndicatorLifecycleP", "Style"]
+- ["6Tabman0A3BarC10AppearanceC4TextV", "UIFont"]
+- ["6Tabman0A3BarC10AppearanceC4TextV", "font"]
+- ["6Tabman0A3BarC10AppearanceC4TextV", "init"]
+- ["So29UIAccessibilityIdentificationP", "Appearance"]
+- ["So29UIAccessibilityIdentificationP", "BackgroundView"]
+- ["So29UIAccessibilityIdentificationP", "Height"]
+- ["So29UIAccessibilityIdentificationP", "LineWeight"]
+- ["So29UIAccessibilityIdentificationP", "Style"]
+- !private ["So29UIAccessibilityIdentificationP", "UIColor"]
+- !private ["So29UIAccessibilityIdentificationP", "UIFont"]
+- !private ["So29UIAccessibilityIdentificationP", "UIView"]
+- !private ["So29UIAccessibilityIdentificationP", "defaultTintColor"]
+- ["So12UIAppearanceP", "Appearance"]
+- ["So12UIAppearanceP", "BackgroundView"]
+- ["So12UIAppearanceP", "Height"]
+- ["So12UIAppearanceP", "LineWeight"]
+- ["So12UIAppearanceP", "Style"]
+- !private ["So12UIAppearanceP", "UIColor"]
+- !private ["So12UIAppearanceP", "UIFont"]
+- !private ["So12UIAppearanceP", "UIView"]
+- !private ["So12UIAppearanceP", "defaultTintColor"]
+- ["So21UIAppearanceContainerP", "Appearance"]
+- ["So21UIAppearanceContainerP", "BackgroundView"]
+- ["So21UIAppearanceContainerP", "Height"]
+- ["So21UIAppearanceContainerP", "LineWeight"]
+- ["So21UIAppearanceContainerP", "Style"]
+- !private ["So21UIAppearanceContainerP", "UIColor"]
+- !private ["So21UIAppearanceContainerP", "UIFont"]
+- !private ["So21UIAppearanceContainerP", "UIView"]
+- !private ["So21UIAppearanceContainerP", "defaultTintColor"]
+- !private ["SC17UIBlurEffectStyleO", "extraLight"]
+- !private ["So7UIColorC", "black"]
+- !private ["So7UIColorC", "clear"]
+- !private ["So7UIColorC", "withAlphaComponent"]
+- ["So17UICoordinateSpaceP", "Appearance"]
+- ["So17UICoordinateSpaceP", "BackgroundView"]
+- ["So17UICoordinateSpaceP", "Height"]
+- ["So17UICoordinateSpaceP", "LineWeight"]
+- ["So17UICoordinateSpaceP", "Style"]
+- !private ["So17UICoordinateSpaceP", "UIColor"]
+- !private ["So17UICoordinateSpaceP", "UIFont"]
+- !private ["So17UICoordinateSpaceP", "UIView"]
+- !private ["So17UICoordinateSpaceP", "defaultTintColor"]
+- ["So13UIDynamicItemP", "Appearance"]
+- ["So13UIDynamicItemP", "BackgroundView"]
+- ["So13UIDynamicItemP", "Height"]
+- ["So13UIDynamicItemP", "LineWeight"]
+- ["So13UIDynamicItemP", "Style"]
+- !private ["So13UIDynamicItemP", "UIColor"]
+- !private ["So13UIDynamicItemP", "UIFont"]
+- !private ["So13UIDynamicItemP", "UIView"]
+- !private ["So13UIDynamicItemP", "defaultTintColor"]
+- ["So18UIFocusEnvironmentP", "Appearance"]
+- ["So18UIFocusEnvironmentP", "BackgroundView"]
+- ["So18UIFocusEnvironmentP", "Height"]
+- ["So18UIFocusEnvironmentP", "LineWeight"]
+- ["So18UIFocusEnvironmentP", "Style"]
+- !private ["So18UIFocusEnvironmentP", "UIColor"]
+- !private ["So18UIFocusEnvironmentP", "UIFont"]
+- !private ["So18UIFocusEnvironmentP", "UIView"]
+- !private ["So18UIFocusEnvironmentP", "defaultTintColor"]
+- ["So11UIFocusItemP", "Appearance"]
+- ["So11UIFocusItemP", "BackgroundView"]
+- ["So11UIFocusItemP", "Height"]
+- ["So11UIFocusItemP", "LineWeight"]
+- ["So11UIFocusItemP", "Style"]
+- !private ["So11UIFocusItemP", "UIColor"]
+- !private ["So11UIFocusItemP", "UIFont"]
+- !private ["So11UIFocusItemP", "UIView"]
+- !private ["So11UIFocusItemP", "defaultTintColor"]
+- !private ["So6UIFontC", "systemFont"]
+- !private ["SC20UIImageRenderingModeO", "alwaysTemplate"]
+- ["So30UIPasteConfigurationSupportingP", "Appearance"]
+- ["So30UIPasteConfigurationSupportingP", "BackgroundView"]
+- ["So30UIPasteConfigurationSupportingP", "Height"]
+- ["So30UIPasteConfigurationSupportingP", "LineWeight"]
+- ["So30UIPasteConfigurationSupportingP", "Style"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIFont"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIView"]
+- !private ["So30UIPasteConfigurationSupportingP", "defaultTintColor"]
+- ["So11UIResponderC", "Appearance"]
+- ["So11UIResponderC", "BackgroundView"]
+- ["So11UIResponderC", "Bool"]
+- ["So11UIResponderC", "CGFloat"]
+- ["So11UIResponderC", "Height"]
+- ["So11UIResponderC", "LineWeight"]
+- ["So11UIResponderC", "Style"]
+- ["So11UIResponderC", "TabmanBar"]
+- ["So11UIResponderC", "TabmanIndicator"]
+- ["So11UIResponderC", "UIColor"]
+- ["So11UIResponderC", "UIFont"]
+- ["So11UIResponderC", "UIImageRenderingMode"]
+- !private ["So11UIResponderC", "UIView"]
+- !private ["So11UIResponderC", "defaultTintColor"]
+- ["So30UIResponderStandardEditActionsP", "Appearance"]
+- ["So30UIResponderStandardEditActionsP", "BackgroundView"]
+- ["So30UIResponderStandardEditActionsP", "Height"]
+- ["So30UIResponderStandardEditActionsP", "LineWeight"]
+- ["So30UIResponderStandardEditActionsP", "Style"]
+- !private ["So30UIResponderStandardEditActionsP", "UIColor"]
+- !private ["So30UIResponderStandardEditActionsP", "UIFont"]
+- !private ["So30UIResponderStandardEditActionsP", "UIView"]
+- !private ["So30UIResponderStandardEditActionsP", "defaultTintColor"]
+- ["So18UITraitEnvironmentP", "Appearance"]
+- ["So18UITraitEnvironmentP", "BackgroundView"]
+- ["So18UITraitEnvironmentP", "Height"]
+- ["So18UITraitEnvironmentP", "LineWeight"]
+- ["So18UITraitEnvironmentP", "Style"]
+- !private ["So18UITraitEnvironmentP", "UIColor"]
+- !private ["So18UITraitEnvironmentP", "UIFont"]
+- !private ["So18UITraitEnvironmentP", "UIView"]
+- !private ["So18UITraitEnvironmentP", "defaultTintColor"]
+- ["So6UIViewC", "Appearance"]
+- ["So6UIViewC", "BackgroundView"]
+- ["So6UIViewC", "Bool"]
+- ["So6UIViewC", "CGFloat"]
+- ["So6UIViewC", "Height"]
+- ["So6UIViewC", "LineWeight"]
+- ["So6UIViewC", "Style"]
+- ["So6UIViewC", "TabmanBar"]
+- ["So6UIViewC", "TabmanIndicator"]
+- ["So6UIViewC", "UIColor"]
+- ["So6UIViewC", "UIFont"]
+- ["So6UIViewC", "UIImageRenderingMode"]
+- !private ["So6UIViewC", "UIView"]
+- !private ["So6UIViewC", "defaultTintColor"]
+- !private ["s18_BitwiseOperationsP", "hashValue"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", "Appearance"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", "BackgroundView"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", "Height"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", "LineWeight"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", "Style"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "UIColor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "UIFont"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "UIView"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "defaultTintColor"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "hashValue"]
+- !private ["s26_ExpressibleByColorLiteralP", "black"]
+- !private ["s26_ExpressibleByColorLiteralP", "clear"]
+- !private ["s26_ExpressibleByColorLiteralP", "withAlphaComponent"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Appearance"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "BackgroundView"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Height"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "LineWeight"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Style"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIFont"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "black"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "clear"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "defaultTintColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "systemFont"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "withAlphaComponent"]
+- !private ["s21_ObjectiveCBridgeableP", "alwaysTemplate"]
+- !private ["s21_ObjectiveCBridgeableP", "auto"]
+- !private ["s21_ObjectiveCBridgeableP", "black"]
+- !private ["s21_ObjectiveCBridgeableP", "blur"]
+- !private ["s21_ObjectiveCBridgeableP", "clear"]
+- !private ["s21_ObjectiveCBridgeableP", "hashValue"]
+- !private ["s21_ObjectiveCBridgeableP", "leftAligned"]
+- !private ["s21_ObjectiveCBridgeableP", "normal"]
+- !private ["s11_StrideableP", "hashValue"]
+depends-nominal:
+- "6Tabman0A3BarC10AppearanceC"
+- "6Tabman0A3BarC14BackgroundViewC"
+- !private "s13BinaryIntegerP"
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "s8HashableP"
+- !private "6Tabman0A3BarC6HeightO"
+- "6Tabman0A3BarC10AppearanceC9IndicatorV"
+- !private "Si"
+- "6Tabman0A3BarC10AppearanceC11InteractionV"
+- "6Tabman0A3BarC10AppearanceC6LayoutV16ItemDistributionO"
+- "6Tabman0A3BarC10AppearanceC6LayoutV"
+- !private "6Tabman0A9IndicatorC10LineWeightO"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "s7NumericP"
+- !private "Sq"
+- !private "s16RawRepresentableP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- "6Tabman0A3BarC10AppearanceC5StateV"
+- !private "s10StrideableP"
+- "6Tabman0A3BarC10AppearanceC5StyleV"
+- !private "6Tabman0A3BarC14BackgroundViewC5StyleO"
+- "6Tabman0A20AppearanceUpdateableP"
+- "6Tabman0A3BarC"
+- "6Tabman0A12BarLifecycleP"
+- "6Tabman0A9IndicatorC"
+- "6Tabman0A17IndicatorDelegateP"
+- "6Tabman0A18IndicatorLifecycleP"
+- "6Tabman0A3BarC10AppearanceC4TextV"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "SC17UIBlurEffectStyleO"
+- !private "So7UIColorC"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- !private "So6UIFontC"
+- !private "SC20UIImageRenderingModeO"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So18UITraitEnvironmentP"
+- "So6UIViewC"
+- !private "s18_BitwiseOperationsP"
+- "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s26_ExpressibleByColorLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s11_StrideableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Metal.swiftmodule"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphoneos/Pageboy/Pageboy.framework/Modules/Pageboy.swiftmodule/arm.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Target Support Files/Tabman/Tabman-umbrella.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Target Support Files/PureLayout/PureLayout-umbrella.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Target Support Files/Pageboy/Pageboy-umbrella.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/PureLayout/PureLayout/PureLayout/PureLayout+Internal.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Tabman/Sources/Tabman/Tabman.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/PureLayout/PureLayout/PureLayout/PureLayoutDefines.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphoneos/Pageboy/Pageboy.framework/Headers/Pageboy-Swift.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/PureLayout/PureLayout/PureLayout/NSLayoutConstraint+PureLayout.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/PureLayout/PureLayout/PureLayout/ALView+PureLayout.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/PureLayout/PureLayout/PureLayout/NSArray+PureLayout.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/PureLayout/PureLayout/PureLayout/PureLayout.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Pageboy/Sources/Pageboy/Pageboy.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Tabman.build/unextended-module.modulemap"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/PureLayout.build/module.modulemap"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Pageboy.build/module.modulemap"
+interface-hash: "427a6e76a2fee58424999c3ba49a6022"

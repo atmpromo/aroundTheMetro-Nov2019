@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "bafb2157ef942307cc9a3f05dfe9512a"
+build_time: [1517366416, 302782000]
+inputs:
+  "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Result/Result/Result.swift": [1514741997, 0]
+  "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Result/Result/ResultProtocol.swift": [1514741997, 0]

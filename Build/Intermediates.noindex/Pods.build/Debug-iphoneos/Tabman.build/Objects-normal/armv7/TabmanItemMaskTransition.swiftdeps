@@ -1,0 +1,299 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TabmanItemMaskTransition"
+provides-nominal:
+- "6Tabman0A18ItemMaskTransitionC"
+provides-member:
+- ["6Tabman0A18ItemMaskTransitionC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "??"
+- "AssignmentPrecedence"
+- "CGFloat"
+- "CGRect"
+- "Int"
+- "PageboyViewController"
+- "Range"
+- "TabmanItemMaskTransition"
+- "TabmanItemTransition"
+depends-member:
+- !private ["So15CALayerDelegateP", "contentView"]
+- !private ["So15CALayerDelegateP", "frame"]
+- !private ["So15CALayerDelegateP", "indicator"]
+- !private ["So15CALayerDelegateP", "indicatorMaskView"]
+- !private ["So15CALayerDelegateP", "layoutIfNeeded"]
+- !private ["SC6CGRectV", "zero"]
+- ["s7CVarArgP", "NavigationDirection"]
+- !private ["s7CVarArgP", "contentView"]
+- !private ["s7CVarArgP", "frame"]
+- !private ["s7CVarArgP", "indicator"]
+- !private ["s7CVarArgP", "indicatorMaskView"]
+- !private ["s7CVarArgP", "layoutIfNeeded"]
+- ["s28CustomDebugStringConvertibleP", "NavigationDirection"]
+- !private ["s28CustomDebugStringConvertibleP", "contentView"]
+- !private ["s28CustomDebugStringConvertibleP", "frame"]
+- !private ["s28CustomDebugStringConvertibleP", "indicator"]
+- !private ["s28CustomDebugStringConvertibleP", "indicatorMaskView"]
+- !private ["s28CustomDebugStringConvertibleP", "layoutIfNeeded"]
+- !private ["s28CustomDebugStringConvertibleP", "zero"]
+- !private ["s29CustomPlaygroundQuickLookableP", "zero"]
+- !private ["s17CustomReflectableP", "zero"]
+- ["s23CustomStringConvertibleP", "NavigationDirection"]
+- !private ["s23CustomStringConvertibleP", "contentView"]
+- !private ["s23CustomStringConvertibleP", "frame"]
+- !private ["s23CustomStringConvertibleP", "indicator"]
+- !private ["s23CustomStringConvertibleP", "indicatorMaskView"]
+- !private ["s23CustomStringConvertibleP", "layoutIfNeeded"]
+- !private ["s9DecodableP", "zero"]
+- !private ["s9EncodableP", "zero"]
+- ["s9EquatableP", "NavigationDirection"]
+- !private ["s9EquatableP", "contentView"]
+- !private ["s9EquatableP", "frame"]
+- !private ["s9EquatableP", "indicator"]
+- !private ["s9EquatableP", "indicatorMaskView"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "layoutIfNeeded"]
+- !private ["s9EquatableP", "tabmanBar"]
+- !private ["s9EquatableP", "zero"]
+- ["s9EquatableP", ""]
+- ["s8HashableP", "NavigationDirection"]
+- !private ["s8HashableP", "contentView"]
+- !private ["s8HashableP", "frame"]
+- !private ["s8HashableP", "indicator"]
+- !private ["s8HashableP", "indicatorMaskView"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "layoutIfNeeded"]
+- !private ["s8HashableP", "tabmanBar"]
+- ["s8HashableP", ""]
+- ["So8NSCodingP", "NavigationDirection"]
+- !private ["So8NSCodingP", "contentView"]
+- !private ["So8NSCodingP", "frame"]
+- !private ["So8NSCodingP", "indicator"]
+- !private ["So8NSCodingP", "indicatorMaskView"]
+- !private ["So8NSCodingP", "layoutIfNeeded"]
+- ["So26NSExtensionRequestHandlingP", "NavigationDirection"]
+- ["So8NSObjectC", "NavigationDirection"]
+- !private ["So8NSObjectC", "contentView"]
+- !private ["So8NSObjectC", "frame"]
+- !private ["So8NSObjectC", "indicator"]
+- !private ["So8NSObjectC", "indicatorMaskView"]
+- !private ["So8NSObjectC", "layoutIfNeeded"]
+- ["So16NSObjectProtocolP", "NavigationDirection"]
+- !private ["So16NSObjectProtocolP", "contentView"]
+- !private ["So16NSObjectProtocolP", "frame"]
+- !private ["So16NSObjectProtocolP", "indicator"]
+- !private ["So16NSObjectProtocolP", "indicatorMaskView"]
+- !private ["So16NSObjectProtocolP", "layoutIfNeeded"]
+- ["7Pageboy0A19AutoScrollerHandlerP", "NavigationDirection"]
+- ["7Pageboy0A14ViewControllerC", "NavigationDirection"]
+- !private ["6Tabman0A20AppearanceUpdateableP", "contentView"]
+- !private ["6Tabman0A20AppearanceUpdateableP", "indicator"]
+- !private ["6Tabman0A20AppearanceUpdateableP", "indicatorMaskView"]
+- !private ["6Tabman0A3BarC", "contentView"]
+- !private ["6Tabman0A3BarC", "deinit"]
+- !private ["6Tabman0A3BarC", "indicator"]
+- !private ["6Tabman0A3BarC", "indicatorMaskView"]
+- !private ["6Tabman0A12BarLifecycleP", "contentView"]
+- !private ["6Tabman0A12BarLifecycleP", "indicator"]
+- !private ["6Tabman0A12BarLifecycleP", "indicatorMaskView"]
+- !private ["6Tabman0A9IndicatorC", "frame"]
+- !private ["6Tabman0A17IndicatorDelegateP", "contentView"]
+- !private ["6Tabman0A17IndicatorDelegateP", "indicator"]
+- !private ["6Tabman0A17IndicatorDelegateP", "indicatorMaskView"]
+- !private ["6Tabman0A18IndicatorLifecycleP", "frame"]
+- ["6Tabman0A18ItemMaskTransitionC", "CGFloat"]
+- ["6Tabman0A18ItemMaskTransitionC", "CGRect"]
+- ["6Tabman0A18ItemMaskTransitionC", "Int"]
+- ["6Tabman0A18ItemMaskTransitionC", "PageboyViewController"]
+- ["6Tabman0A18ItemMaskTransitionC", "Range"]
+- ["6Tabman0A18ItemMaskTransitionC", "deinit"]
+- ["6Tabman0A18ItemMaskTransitionC", "init"]
+- !private ["6Tabman0A18ItemMaskTransitionC", "tabmanBar"]
+- ["6Tabman0A18ItemMaskTransitionC", "transition"]
+- ["6Tabman0A14ItemTransitionC", "CGFloat"]
+- ["6Tabman0A14ItemTransitionC", "CGRect"]
+- ["6Tabman0A14ItemTransitionC", "Int"]
+- ["6Tabman0A14ItemTransitionC", "PageboyViewController"]
+- ["6Tabman0A14ItemTransitionC", "Range"]
+- ["6Tabman0A14ItemTransitionC", "init"]
+- !private ["6Tabman0A14ItemTransitionC", "tabmanBar"]
+- ["6Tabman0A14ItemTransitionC", "transition"]
+- ["6Tabman0A14ItemTransitionC", ""]
+- ["6Tabman0A10TransitionC", "CGFloat"]
+- ["6Tabman0A10TransitionC", "CGRect"]
+- ["6Tabman0A10TransitionC", "Int"]
+- ["6Tabman0A10TransitionC", "PageboyViewController"]
+- ["6Tabman0A10TransitionC", "Range"]
+- ["6Tabman0A10TransitionC", "init"]
+- !private ["6Tabman0A10TransitionC", "tabmanBar"]
+- ["6Tabman0A10TransitionC", "transition"]
+- !private ["6Tabman0A19TransitionLifecycleP", "init"]
+- !private ["6Tabman0A19TransitionLifecycleP", "tabmanBar"]
+- ["6Tabman0A19TransitionLifecycleP", ""]
+- ["7Pageboy27TransitionOperationDelegateP", "NavigationDirection"]
+- !private ["So29UIAccessibilityIdentificationP", "contentView"]
+- !private ["So29UIAccessibilityIdentificationP", "frame"]
+- !private ["So29UIAccessibilityIdentificationP", "indicator"]
+- !private ["So29UIAccessibilityIdentificationP", "indicatorMaskView"]
+- !private ["So29UIAccessibilityIdentificationP", "layoutIfNeeded"]
+- !private ["So12UIAppearanceP", "contentView"]
+- !private ["So12UIAppearanceP", "frame"]
+- !private ["So12UIAppearanceP", "indicator"]
+- !private ["So12UIAppearanceP", "indicatorMaskView"]
+- !private ["So12UIAppearanceP", "layoutIfNeeded"]
+- ["So21UIAppearanceContainerP", "NavigationDirection"]
+- !private ["So21UIAppearanceContainerP", "contentView"]
+- !private ["So21UIAppearanceContainerP", "frame"]
+- !private ["So21UIAppearanceContainerP", "indicator"]
+- !private ["So21UIAppearanceContainerP", "indicatorMaskView"]
+- !private ["So21UIAppearanceContainerP", "layoutIfNeeded"]
+- ["So18UIContentContainerP", "NavigationDirection"]
+- !private ["So17UICoordinateSpaceP", "contentView"]
+- !private ["So17UICoordinateSpaceP", "frame"]
+- !private ["So17UICoordinateSpaceP", "indicator"]
+- !private ["So17UICoordinateSpaceP", "indicatorMaskView"]
+- !private ["So17UICoordinateSpaceP", "layoutIfNeeded"]
+- !private ["So13UIDynamicItemP", "contentView"]
+- !private ["So13UIDynamicItemP", "frame"]
+- !private ["So13UIDynamicItemP", "indicator"]
+- !private ["So13UIDynamicItemP", "indicatorMaskView"]
+- !private ["So13UIDynamicItemP", "layoutIfNeeded"]
+- ["So18UIFocusEnvironmentP", "NavigationDirection"]
+- !private ["So18UIFocusEnvironmentP", "contentView"]
+- !private ["So18UIFocusEnvironmentP", "frame"]
+- !private ["So18UIFocusEnvironmentP", "indicator"]
+- !private ["So18UIFocusEnvironmentP", "indicatorMaskView"]
+- !private ["So18UIFocusEnvironmentP", "layoutIfNeeded"]
+- !private ["So11UIFocusItemP", "contentView"]
+- !private ["So11UIFocusItemP", "frame"]
+- !private ["So11UIFocusItemP", "indicator"]
+- !private ["So11UIFocusItemP", "indicatorMaskView"]
+- !private ["So11UIFocusItemP", "layoutIfNeeded"]
+- ["So30UIPageViewControllerDataSourceP", "NavigationDirection"]
+- ["So28UIPageViewControllerDelegateP", "NavigationDirection"]
+- ["So30UIPasteConfigurationSupportingP", "NavigationDirection"]
+- !private ["So30UIPasteConfigurationSupportingP", "contentView"]
+- !private ["So30UIPasteConfigurationSupportingP", "frame"]
+- !private ["So30UIPasteConfigurationSupportingP", "indicator"]
+- !private ["So30UIPasteConfigurationSupportingP", "indicatorMaskView"]
+- !private ["So30UIPasteConfigurationSupportingP", "layoutIfNeeded"]
+- ["So11UIResponderC", "NavigationDirection"]
+- !private ["So11UIResponderC", "contentView"]
+- !private ["So11UIResponderC", "frame"]
+- !private ["So11UIResponderC", "indicator"]
+- !private ["So11UIResponderC", "indicatorMaskView"]
+- !private ["So11UIResponderC", "layoutIfNeeded"]
+- ["So30UIResponderStandardEditActionsP", "NavigationDirection"]
+- !private ["So30UIResponderStandardEditActionsP", "contentView"]
+- !private ["So30UIResponderStandardEditActionsP", "frame"]
+- !private ["So30UIResponderStandardEditActionsP", "indicator"]
+- !private ["So30UIResponderStandardEditActionsP", "indicatorMaskView"]
+- !private ["So30UIResponderStandardEditActionsP", "layoutIfNeeded"]
+- ["So20UIScrollViewDelegateP", "NavigationDirection"]
+- ["So16UIStateRestoringP", "NavigationDirection"]
+- ["So18UITraitEnvironmentP", "NavigationDirection"]
+- !private ["So18UITraitEnvironmentP", "contentView"]
+- !private ["So18UITraitEnvironmentP", "frame"]
+- !private ["So18UITraitEnvironmentP", "indicator"]
+- !private ["So18UITraitEnvironmentP", "indicatorMaskView"]
+- !private ["So18UITraitEnvironmentP", "layoutIfNeeded"]
+- !private ["So6UIViewC", "contentView"]
+- !private ["So6UIViewC", "frame"]
+- !private ["So6UIViewC", "indicator"]
+- !private ["So6UIViewC", "indicatorMaskView"]
+- !private ["So6UIViewC", "layoutIfNeeded"]
+- ["So16UIViewControllerC", "NavigationDirection"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "contentView"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "frame"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "indicator"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "indicatorMaskView"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "layoutIfNeeded"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "NavigationDirection"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "contentView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "frame"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "indicator"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "indicatorMaskView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "layoutIfNeeded"]
+- !private ["s21_ObjectiveCBridgeableP", "zero"]
+depends-nominal:
+- !private "So15CALayerDelegateP"
+- !private "SC6CGRectV"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- "s8HashableP"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "7Pageboy0A19AutoScrollerHandlerP"
+- "7Pageboy0A14ViewControllerC"
+- !private "6Tabman0A20AppearanceUpdateableP"
+- !private "6Tabman0A3BarC"
+- !private "6Tabman0A12BarLifecycleP"
+- !private "6Tabman0A9IndicatorC"
+- !private "6Tabman0A17IndicatorDelegateP"
+- !private "6Tabman0A18IndicatorLifecycleP"
+- "6Tabman0A18ItemMaskTransitionC"
+- "6Tabman0A14ItemTransitionC"
+- "6Tabman0A10TransitionC"
+- "6Tabman0A19TransitionLifecycleP"
+- "7Pageboy27TransitionOperationDelegateP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- "So30UIPageViewControllerDataSourceP"
+- "So28UIPageViewControllerDelegateP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So20UIScrollViewDelegateP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Metal.swiftmodule"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphoneos/Pageboy/Pageboy.framework/Modules/Pageboy.swiftmodule/arm.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Target Support Files/Tabman/Tabman-umbrella.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Target Support Files/PureLayout/PureLayout-umbrella.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Target Support Files/Pageboy/Pageboy-umbrella.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/PureLayout/PureLayout/PureLayout/PureLayout+Internal.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Tabman/Sources/Tabman/Tabman.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/PureLayout/PureLayout/PureLayout/PureLayoutDefines.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphoneos/Pageboy/Pageboy.framework/Headers/Pageboy-Swift.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/PureLayout/PureLayout/PureLayout/NSLayoutConstraint+PureLayout.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/PureLayout/PureLayout/PureLayout/ALView+PureLayout.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/PureLayout/PureLayout/PureLayout/NSArray+PureLayout.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/PureLayout/PureLayout/PureLayout/PureLayout.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Pageboy/Sources/Pageboy/Pageboy.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Tabman.build/unextended-module.modulemap"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/PureLayout.build/module.modulemap"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Pageboy.build/module.modulemap"
+interface-hash: "9127f9028906d0c9f76f13a2a075c655"

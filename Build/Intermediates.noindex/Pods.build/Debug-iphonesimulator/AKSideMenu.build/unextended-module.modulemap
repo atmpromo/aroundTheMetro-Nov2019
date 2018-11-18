@@ -1,0 +1,10 @@
+framework module AKSideMenu {
+  umbrella header "AKSideMenu-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module AKSideMenu.__Swift {
+    exclude header "AKSideMenu-Swift.h"
+}

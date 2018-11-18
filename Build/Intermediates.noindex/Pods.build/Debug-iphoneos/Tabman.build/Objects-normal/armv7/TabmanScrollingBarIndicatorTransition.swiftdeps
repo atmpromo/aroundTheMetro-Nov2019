@@ -1,0 +1,872 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TabmanScrollingBarIndicatorTransition"
+provides-nominal:
+- "6Tabman0A31ScrollingBarIndicatorTransitionC"
+provides-member:
+- ["6Tabman0A31ScrollingBarIndicatorTransitionC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "&&"
+- !private "*"
+- !private "+"
+- !private "-"
+- !private "/"
+- !private "<"
+- !private "==="
+- !private ">"
+- !private "??"
+- !private "AssignmentPrecedence"
+- "CGFloat"
+- !private "CGPoint"
+- "CGRect"
+- "CastingPrecedence"
+- !private "Float"
+- "Int"
+- "PageboyViewController"
+- "Range"
+- "TabmanIndicatorTransition"
+- !private "TabmanPositionalUtil"
+- "TabmanScrollingBarIndicatorTransition"
+- !private "TabmanScrollingButtonBar"
+- !private "TernaryPrecedence"
+- !private "UIButton"
+- !private "ceil"
+- !private "fabs"
+- !private "max"
+- !private "min"
+- !private "modff"
+- !private "||"
+depends-member:
+- !private ["Sa", "count"]
+- !private ["Sa", "subscript"]
+- !private ["s10ArraySliceV", "frame"]
+- !private ["s23BidirectionalCollectionP", "count"]
+- !private ["s23BidirectionalCollectionP", "frame"]
+- !private ["s23BidirectionalCollectionP", "subscript"]
+- !private ["s19BinaryFloatingPointP", "init"]
+- !private ["s13BinaryIntegerP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "bounds"]
+- !private ["So15CALayerDelegateP", "buttons"]
+- !private ["So15CALayerDelegateP", "contentInset"]
+- !private ["So15CALayerDelegateP", "contentOffset"]
+- !private ["So15CALayerDelegateP", "contentSize"]
+- !private ["So15CALayerDelegateP", "currentPosition"]
+- !private ["So15CALayerDelegateP", "frame"]
+- !private ["So15CALayerDelegateP", "indicatorBounces"]
+- !private ["So15CALayerDelegateP", "indicatorCompresses"]
+- !private ["So15CALayerDelegateP", "indicatorIsProgressive"]
+- !private ["So15CALayerDelegateP", "indicatorLeftMargin"]
+- !private ["So15CALayerDelegateP", "indicatorWidth"]
+- !private ["So15CALayerDelegateP", "layoutIsRightToLeft"]
+- !private ["So15CALayerDelegateP", "scrollView"]
+- !private ["12CoreGraphics7CGFloatV", "init"]
+- !private ["SC7CGPointV", "init"]
+- !private ["SC7CGPointV", "x"]
+- !private ["SC6CGRectV", "origin"]
+- !private ["SC6CGRectV", "size"]
+- !private ["SC6CGSizeV", "width"]
+- ["s7CVarArgP", "NavigationDirection"]
+- !private ["s7CVarArgP", "bounds"]
+- !private ["s7CVarArgP", "buttons"]
+- !private ["s7CVarArgP", "constant"]
+- !private ["s7CVarArgP", "contentInset"]
+- !private ["s7CVarArgP", "contentOffset"]
+- !private ["s7CVarArgP", "contentSize"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "currentPosition"]
+- !private ["s7CVarArgP", "frame"]
+- !private ["s7CVarArgP", "indicatorBounces"]
+- !private ["s7CVarArgP", "indicatorCompresses"]
+- !private ["s7CVarArgP", "indicatorIsProgressive"]
+- !private ["s7CVarArgP", "indicatorLeftMargin"]
+- !private ["s7CVarArgP", "indicatorWidth"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "layoutIsRightToLeft"]
+- !private ["s7CVarArgP", "scrollView"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s10CollectionP", "count"]
+- !private ["s10CollectionP", "frame"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10ComparableP", "init"]
+- !private ["6Tabman017ContentViewScrollC0C", "contentInset"]
+- !private ["6Tabman017ContentViewScrollC0C", "contentOffset"]
+- !private ["6Tabman017ContentViewScrollC0C", "contentSize"]
+- ["s28CustomDebugStringConvertibleP", "NavigationDirection"]
+- !private ["s28CustomDebugStringConvertibleP", "bounds"]
+- !private ["s28CustomDebugStringConvertibleP", "buttons"]
+- !private ["s28CustomDebugStringConvertibleP", "constant"]
+- !private ["s28CustomDebugStringConvertibleP", "contentInset"]
+- !private ["s28CustomDebugStringConvertibleP", "contentOffset"]
+- !private ["s28CustomDebugStringConvertibleP", "contentSize"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "currentPosition"]
+- !private ["s28CustomDebugStringConvertibleP", "frame"]
+- !private ["s28CustomDebugStringConvertibleP", "indicatorBounces"]
+- !private ["s28CustomDebugStringConvertibleP", "indicatorCompresses"]
+- !private ["s28CustomDebugStringConvertibleP", "indicatorIsProgressive"]
+- !private ["s28CustomDebugStringConvertibleP", "indicatorLeftMargin"]
+- !private ["s28CustomDebugStringConvertibleP", "indicatorWidth"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "layoutIsRightToLeft"]
+- !private ["s28CustomDebugStringConvertibleP", "lowerBound"]
+- !private ["s28CustomDebugStringConvertibleP", "origin"]
+- !private ["s28CustomDebugStringConvertibleP", "scrollView"]
+- !private ["s28CustomDebugStringConvertibleP", "size"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "upperBound"]
+- !private ["s28CustomDebugStringConvertibleP", "width"]
+- !private ["s28CustomDebugStringConvertibleP", "x"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "origin"]
+- !private ["s29CustomPlaygroundQuickLookableP", "size"]
+- !private ["s29CustomPlaygroundQuickLookableP", "width"]
+- !private ["s29CustomPlaygroundQuickLookableP", "x"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "frame"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "lowerBound"]
+- !private ["s17CustomReflectableP", "origin"]
+- !private ["s17CustomReflectableP", "size"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "upperBound"]
+- !private ["s17CustomReflectableP", "width"]
+- !private ["s17CustomReflectableP", "x"]
+- ["s23CustomStringConvertibleP", "NavigationDirection"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "bounds"]
+- !private ["s23CustomStringConvertibleP", "buttons"]
+- !private ["s23CustomStringConvertibleP", "constant"]
+- !private ["s23CustomStringConvertibleP", "contentInset"]
+- !private ["s23CustomStringConvertibleP", "contentOffset"]
+- !private ["s23CustomStringConvertibleP", "contentSize"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "currentPosition"]
+- !private ["s23CustomStringConvertibleP", "frame"]
+- !private ["s23CustomStringConvertibleP", "indicatorBounces"]
+- !private ["s23CustomStringConvertibleP", "indicatorCompresses"]
+- !private ["s23CustomStringConvertibleP", "indicatorIsProgressive"]
+- !private ["s23CustomStringConvertibleP", "indicatorLeftMargin"]
+- !private ["s23CustomStringConvertibleP", "indicatorWidth"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "layoutIsRightToLeft"]
+- !private ["s23CustomStringConvertibleP", "lowerBound"]
+- !private ["s23CustomStringConvertibleP", "scrollView"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "upperBound"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "count"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "origin"]
+- !private ["s9DecodableP", "size"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s9DecodableP", "width"]
+- !private ["s9DecodableP", "x"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "count"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "origin"]
+- !private ["s9EncodableP", "size"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EncodableP", "width"]
+- !private ["s9EncodableP", "x"]
+- !private ["s9EquatableP", "CGFloat"]
+- !private ["s9EquatableP", "CGPoint"]
+- !private ["s9EquatableP", "Float"]
+- !private ["s9EquatableP", "Int"]
+- ["s9EquatableP", "NavigationDirection"]
+- !private ["s9EquatableP", "TabmanPositionalUtil"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "bounds"]
+- !private ["s9EquatableP", "buttons"]
+- !private ["s9EquatableP", "ceil"]
+- !private ["s9EquatableP", "constant"]
+- !private ["s9EquatableP", "contentInset"]
+- !private ["s9EquatableP", "contentOffset"]
+- !private ["s9EquatableP", "contentSize"]
+- !private ["s9EquatableP", "currentPosition"]
+- !private ["s9EquatableP", "fabs"]
+- !private ["s9EquatableP", "frame"]
+- !private ["s9EquatableP", "indicatorBounces"]
+- !private ["s9EquatableP", "indicatorCompresses"]
+- !private ["s9EquatableP", "indicatorIsProgressive"]
+- !private ["s9EquatableP", "indicatorLeftMargin"]
+- !private ["s9EquatableP", "indicatorWidth"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "layoutIsRightToLeft"]
+- !private ["s9EquatableP", "left"]
+- !private ["s9EquatableP", "lowerBound"]
+- !private ["s9EquatableP", "max"]
+- !private ["s9EquatableP", "min"]
+- !private ["s9EquatableP", "modff"]
+- !private ["s9EquatableP", "origin"]
+- !private ["s9EquatableP", "right"]
+- !private ["s9EquatableP", "scrollIndicatorPositionToVisible"]
+- !private ["s9EquatableP", "scrollView"]
+- !private ["s9EquatableP", "size"]
+- !private ["s9EquatableP", "tabmanBar"]
+- !private ["s9EquatableP", "updateIndicator"]
+- !private ["s9EquatableP", "upperBound"]
+- !private ["s9EquatableP", "width"]
+- !private ["s9EquatableP", "x"]
+- ["s9EquatableP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "frame"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["Sf", "init"]
+- !private ["s13FloatingPointP", "init"]
+- !private ["s8HashableP", "CGFloat"]
+- !private ["s8HashableP", "CGPoint"]
+- !private ["s8HashableP", "Float"]
+- !private ["s8HashableP", "Int"]
+- ["s8HashableP", "NavigationDirection"]
+- !private ["s8HashableP", "TabmanPositionalUtil"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "bounds"]
+- !private ["s8HashableP", "buttons"]
+- !private ["s8HashableP", "ceil"]
+- !private ["s8HashableP", "constant"]
+- !private ["s8HashableP", "contentInset"]
+- !private ["s8HashableP", "contentOffset"]
+- !private ["s8HashableP", "contentSize"]
+- !private ["s8HashableP", "currentPosition"]
+- !private ["s8HashableP", "fabs"]
+- !private ["s8HashableP", "frame"]
+- !private ["s8HashableP", "indicatorBounces"]
+- !private ["s8HashableP", "indicatorCompresses"]
+- !private ["s8HashableP", "indicatorIsProgressive"]
+- !private ["s8HashableP", "indicatorLeftMargin"]
+- !private ["s8HashableP", "indicatorWidth"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "layoutIsRightToLeft"]
+- !private ["s8HashableP", "max"]
+- !private ["s8HashableP", "min"]
+- !private ["s8HashableP", "modff"]
+- !private ["s8HashableP", "scrollIndicatorPositionToVisible"]
+- !private ["s8HashableP", "scrollView"]
+- !private ["s8HashableP", "tabmanBar"]
+- !private ["s8HashableP", "updateIndicator"]
+- ["s8HashableP", ""]
+- !private ["Si", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "count"]
+- !private ["s17MutableCollectionP", "frame"]
+- !private ["s17MutableCollectionP", "subscript"]
+- ["So8NSCodingP", "NavigationDirection"]
+- !private ["So8NSCodingP", "bounds"]
+- !private ["So8NSCodingP", "buttons"]
+- !private ["So8NSCodingP", "contentInset"]
+- !private ["So8NSCodingP", "contentOffset"]
+- !private ["So8NSCodingP", "contentSize"]
+- !private ["So8NSCodingP", "currentPosition"]
+- !private ["So8NSCodingP", "frame"]
+- !private ["So8NSCodingP", "indicatorBounces"]
+- !private ["So8NSCodingP", "indicatorCompresses"]
+- !private ["So8NSCodingP", "indicatorIsProgressive"]
+- !private ["So8NSCodingP", "indicatorLeftMargin"]
+- !private ["So8NSCodingP", "indicatorWidth"]
+- !private ["So8NSCodingP", "layoutIsRightToLeft"]
+- !private ["So8NSCodingP", "scrollView"]
+- ["So26NSExtensionRequestHandlingP", "NavigationDirection"]
+- !private ["So18NSLayoutConstraintC", "constant"]
+- ["So8NSObjectC", "NavigationDirection"]
+- !private ["So8NSObjectC", "bounds"]
+- !private ["So8NSObjectC", "buttons"]
+- !private ["So8NSObjectC", "constant"]
+- !private ["So8NSObjectC", "contentInset"]
+- !private ["So8NSObjectC", "contentOffset"]
+- !private ["So8NSObjectC", "contentSize"]
+- !private ["So8NSObjectC", "currentPosition"]
+- !private ["So8NSObjectC", "frame"]
+- !private ["So8NSObjectC", "indicatorBounces"]
+- !private ["So8NSObjectC", "indicatorCompresses"]
+- !private ["So8NSObjectC", "indicatorIsProgressive"]
+- !private ["So8NSObjectC", "indicatorLeftMargin"]
+- !private ["So8NSObjectC", "indicatorWidth"]
+- !private ["So8NSObjectC", "layoutIsRightToLeft"]
+- !private ["So8NSObjectC", "scrollView"]
+- ["So16NSObjectProtocolP", "NavigationDirection"]
+- !private ["So16NSObjectProtocolP", "bounds"]
+- !private ["So16NSObjectProtocolP", "buttons"]
+- !private ["So16NSObjectProtocolP", "constant"]
+- !private ["So16NSObjectProtocolP", "contentInset"]
+- !private ["So16NSObjectProtocolP", "contentOffset"]
+- !private ["So16NSObjectProtocolP", "contentSize"]
+- !private ["So16NSObjectProtocolP", "currentPosition"]
+- !private ["So16NSObjectProtocolP", "frame"]
+- !private ["So16NSObjectProtocolP", "indicatorBounces"]
+- !private ["So16NSObjectProtocolP", "indicatorCompresses"]
+- !private ["So16NSObjectProtocolP", "indicatorIsProgressive"]
+- !private ["So16NSObjectProtocolP", "indicatorLeftMargin"]
+- !private ["So16NSObjectProtocolP", "indicatorWidth"]
+- !private ["So16NSObjectProtocolP", "layoutIsRightToLeft"]
+- !private ["So16NSObjectProtocolP", "scrollView"]
+- !private ["s7NumericP", "init"]
+- ["7Pageboy0A19AutoScrollerHandlerP", "NavigationDirection"]
+- ["7Pageboy0A14ViewControllerC", "NavigationDirection"]
+- !private ["s22RandomAccessCollectionP", "count"]
+- !private ["s22RandomAccessCollectionP", "frame"]
+- !private ["s22RandomAccessCollectionP", "subscript"]
+- !private ["s5RangeV", "lowerBound"]
+- !private ["s5RangeV", "upperBound"]
+- !private ["s15RangeExpressionP", "lowerBound"]
+- !private ["s15RangeExpressionP", "upperBound"]
+- !private ["s26RangeReplaceableCollectionP", "count"]
+- !private ["s26RangeReplaceableCollectionP", "frame"]
+- !private ["s26RangeReplaceableCollectionP", "subscript"]
+- !private ["s8SequenceP", "count"]
+- !private ["s8SequenceP", "frame"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["s13SignedIntegerP", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s10StrideableP", "init"]
+- !private ["6Tabman0A20AppearanceUpdateableP", "bounds"]
+- !private ["6Tabman0A20AppearanceUpdateableP", "buttons"]
+- !private ["6Tabman0A20AppearanceUpdateableP", "currentPosition"]
+- !private ["6Tabman0A20AppearanceUpdateableP", "indicatorBounces"]
+- !private ["6Tabman0A20AppearanceUpdateableP", "indicatorCompresses"]
+- !private ["6Tabman0A20AppearanceUpdateableP", "indicatorIsProgressive"]
+- !private ["6Tabman0A20AppearanceUpdateableP", "indicatorLeftMargin"]
+- !private ["6Tabman0A20AppearanceUpdateableP", "indicatorWidth"]
+- !private ["6Tabman0A20AppearanceUpdateableP", "layoutIsRightToLeft"]
+- !private ["6Tabman0A20AppearanceUpdateableP", "scrollView"]
+- !private ["6Tabman0A3BarC", "bounds"]
+- !private ["6Tabman0A3BarC", "buttons"]
+- !private ["6Tabman0A3BarC", "currentPosition"]
+- !private ["6Tabman0A3BarC", "indicatorBounces"]
+- !private ["6Tabman0A3BarC", "indicatorCompresses"]
+- !private ["6Tabman0A3BarC", "indicatorIsProgressive"]
+- !private ["6Tabman0A3BarC", "indicatorLeftMargin"]
+- !private ["6Tabman0A3BarC", "indicatorWidth"]
+- !private ["6Tabman0A3BarC", "layoutIsRightToLeft"]
+- !private ["6Tabman0A3BarC", "scrollView"]
+- !private ["6Tabman0A12BarLifecycleP", "bounds"]
+- !private ["6Tabman0A12BarLifecycleP", "buttons"]
+- !private ["6Tabman0A12BarLifecycleP", "currentPosition"]
+- !private ["6Tabman0A12BarLifecycleP", "indicatorBounces"]
+- !private ["6Tabman0A12BarLifecycleP", "indicatorCompresses"]
+- !private ["6Tabman0A12BarLifecycleP", "indicatorIsProgressive"]
+- !private ["6Tabman0A12BarLifecycleP", "indicatorLeftMargin"]
+- !private ["6Tabman0A12BarLifecycleP", "indicatorWidth"]
+- !private ["6Tabman0A12BarLifecycleP", "layoutIsRightToLeft"]
+- !private ["6Tabman0A12BarLifecycleP", "scrollView"]
+- !private ["6Tabman0A9ButtonBarC", "bounds"]
+- !private ["6Tabman0A9ButtonBarC", "buttons"]
+- !private ["6Tabman0A9ButtonBarC", "currentPosition"]
+- !private ["6Tabman0A9ButtonBarC", "indicatorBounces"]
+- !private ["6Tabman0A9ButtonBarC", "indicatorCompresses"]
+- !private ["6Tabman0A9ButtonBarC", "indicatorIsProgressive"]
+- !private ["6Tabman0A9ButtonBarC", "indicatorLeftMargin"]
+- !private ["6Tabman0A9ButtonBarC", "indicatorWidth"]
+- !private ["6Tabman0A9ButtonBarC", "layoutIsRightToLeft"]
+- !private ["6Tabman0A9ButtonBarC", "scrollView"]
+- !private ["6Tabman0A17IndicatorDelegateP", "bounds"]
+- !private ["6Tabman0A17IndicatorDelegateP", "buttons"]
+- !private ["6Tabman0A17IndicatorDelegateP", "currentPosition"]
+- !private ["6Tabman0A17IndicatorDelegateP", "indicatorBounces"]
+- !private ["6Tabman0A17IndicatorDelegateP", "indicatorCompresses"]
+- !private ["6Tabman0A17IndicatorDelegateP", "indicatorIsProgressive"]
+- !private ["6Tabman0A17IndicatorDelegateP", "indicatorLeftMargin"]
+- !private ["6Tabman0A17IndicatorDelegateP", "indicatorWidth"]
+- !private ["6Tabman0A17IndicatorDelegateP", "layoutIsRightToLeft"]
+- !private ["6Tabman0A17IndicatorDelegateP", "scrollView"]
+- ["6Tabman0A19IndicatorTransitionC", "CGFloat"]
+- !private ["6Tabman0A19IndicatorTransitionC", "CGPoint"]
+- ["6Tabman0A19IndicatorTransitionC", "CGRect"]
+- !private ["6Tabman0A19IndicatorTransitionC", "Float"]
+- ["6Tabman0A19IndicatorTransitionC", "Int"]
+- ["6Tabman0A19IndicatorTransitionC", "PageboyViewController"]
+- ["6Tabman0A19IndicatorTransitionC", "Range"]
+- !private ["6Tabman0A19IndicatorTransitionC", "TabmanPositionalUtil"]
+- !private ["6Tabman0A19IndicatorTransitionC", "TabmanScrollingButtonBar"]
+- !private ["6Tabman0A19IndicatorTransitionC", "UIButton"]
+- !private ["6Tabman0A19IndicatorTransitionC", "ceil"]
+- !private ["6Tabman0A19IndicatorTransitionC", "fabs"]
+- ["6Tabman0A19IndicatorTransitionC", "init"]
+- !private ["6Tabman0A19IndicatorTransitionC", "max"]
+- !private ["6Tabman0A19IndicatorTransitionC", "min"]
+- !private ["6Tabman0A19IndicatorTransitionC", "modff"]
+- ["6Tabman0A19IndicatorTransitionC", "scrollIndicatorPositionToVisible"]
+- !private ["6Tabman0A19IndicatorTransitionC", "tabmanBar"]
+- ["6Tabman0A19IndicatorTransitionC", "transition"]
+- ["6Tabman0A19IndicatorTransitionC", "updateForCurrentPosition"]
+- ["6Tabman0A19IndicatorTransitionC", "updateIndicator"]
+- ["6Tabman0A19IndicatorTransitionC", ""]
+- !private ["6Tabman0A14PositionalUtilC", "lowerAndUpperIndex"]
+- ["6Tabman0A31ScrollingBarIndicatorTransitionC", "CGFloat"]
+- !private ["6Tabman0A31ScrollingBarIndicatorTransitionC", "CGPoint"]
+- ["6Tabman0A31ScrollingBarIndicatorTransitionC", "CGRect"]
+- !private ["6Tabman0A31ScrollingBarIndicatorTransitionC", "Float"]
+- ["6Tabman0A31ScrollingBarIndicatorTransitionC", "Int"]
+- ["6Tabman0A31ScrollingBarIndicatorTransitionC", "PageboyViewController"]
+- ["6Tabman0A31ScrollingBarIndicatorTransitionC", "Range"]
+- !private ["6Tabman0A31ScrollingBarIndicatorTransitionC", "TabmanPositionalUtil"]
+- !private ["6Tabman0A31ScrollingBarIndicatorTransitionC", "TabmanScrollingButtonBar"]
+- !private ["6Tabman0A31ScrollingBarIndicatorTransitionC", "UIButton"]
+- !private ["6Tabman0A31ScrollingBarIndicatorTransitionC", "ceil"]
+- ["6Tabman0A31ScrollingBarIndicatorTransitionC", "deinit"]
+- !private ["6Tabman0A31ScrollingBarIndicatorTransitionC", "fabs"]
+- ["6Tabman0A31ScrollingBarIndicatorTransitionC", "init"]
+- !private ["6Tabman0A31ScrollingBarIndicatorTransitionC", "max"]
+- !private ["6Tabman0A31ScrollingBarIndicatorTransitionC", "min"]
+- !private ["6Tabman0A31ScrollingBarIndicatorTransitionC", "modff"]
+- !private ["6Tabman0A31ScrollingBarIndicatorTransitionC", "scrollIndicatorPositionToVisible"]
+- !private ["6Tabman0A31ScrollingBarIndicatorTransitionC", "tabmanBar"]
+- ["6Tabman0A31ScrollingBarIndicatorTransitionC", "transition"]
+- ["6Tabman0A31ScrollingBarIndicatorTransitionC", "updateForCurrentPosition"]
+- !private ["6Tabman0A31ScrollingBarIndicatorTransitionC", "updateIndicator"]
+- !private ["6Tabman0A18ScrollingButtonBarC", "bounds"]
+- !private ["6Tabman0A18ScrollingButtonBarC", "buttons"]
+- !private ["6Tabman0A18ScrollingButtonBarC", "currentPosition"]
+- !private ["6Tabman0A18ScrollingButtonBarC", "deinit"]
+- !private ["6Tabman0A18ScrollingButtonBarC", "indicatorBounces"]
+- !private ["6Tabman0A18ScrollingButtonBarC", "indicatorCompresses"]
+- !private ["6Tabman0A18ScrollingButtonBarC", "indicatorIsProgressive"]
+- !private ["6Tabman0A18ScrollingButtonBarC", "indicatorLeftMargin"]
+- !private ["6Tabman0A18ScrollingButtonBarC", "indicatorWidth"]
+- !private ["6Tabman0A18ScrollingButtonBarC", "layoutIsRightToLeft"]
+- !private ["6Tabman0A18ScrollingButtonBarC", "scrollView"]
+- ["6Tabman0A10TransitionC", "CGFloat"]
+- !private ["6Tabman0A10TransitionC", "CGPoint"]
+- ["6Tabman0A10TransitionC", "CGRect"]
+- !private ["6Tabman0A10TransitionC", "Float"]
+- ["6Tabman0A10TransitionC", "Int"]
+- ["6Tabman0A10TransitionC", "PageboyViewController"]
+- ["6Tabman0A10TransitionC", "Range"]
+- !private ["6Tabman0A10TransitionC", "TabmanPositionalUtil"]
+- !private ["6Tabman0A10TransitionC", "TabmanScrollingButtonBar"]
+- !private ["6Tabman0A10TransitionC", "UIButton"]
+- !private ["6Tabman0A10TransitionC", "ceil"]
+- !private ["6Tabman0A10TransitionC", "fabs"]
+- ["6Tabman0A10TransitionC", "init"]
+- !private ["6Tabman0A10TransitionC", "max"]
+- !private ["6Tabman0A10TransitionC", "min"]
+- !private ["6Tabman0A10TransitionC", "modff"]
+- ["6Tabman0A10TransitionC", "scrollIndicatorPositionToVisible"]
+- !private ["6Tabman0A10TransitionC", "tabmanBar"]
+- ["6Tabman0A10TransitionC", "transition"]
+- ["6Tabman0A10TransitionC", "updateForCurrentPosition"]
+- ["6Tabman0A10TransitionC", "updateIndicator"]
+- !private ["6Tabman0A19TransitionLifecycleP", "CGFloat"]
+- !private ["6Tabman0A19TransitionLifecycleP", "CGPoint"]
+- !private ["6Tabman0A19TransitionLifecycleP", "Float"]
+- !private ["6Tabman0A19TransitionLifecycleP", "Int"]
+- !private ["6Tabman0A19TransitionLifecycleP", "TabmanPositionalUtil"]
+- !private ["6Tabman0A19TransitionLifecycleP", "ceil"]
+- !private ["6Tabman0A19TransitionLifecycleP", "fabs"]
+- !private ["6Tabman0A19TransitionLifecycleP", "init"]
+- !private ["6Tabman0A19TransitionLifecycleP", "max"]
+- !private ["6Tabman0A19TransitionLifecycleP", "min"]
+- !private ["6Tabman0A19TransitionLifecycleP", "modff"]
+- !private ["6Tabman0A19TransitionLifecycleP", "scrollIndicatorPositionToVisible"]
+- !private ["6Tabman0A19TransitionLifecycleP", "tabmanBar"]
+- !private ["6Tabman0A19TransitionLifecycleP", "updateIndicator"]
+- ["6Tabman0A19TransitionLifecycleP", ""]
+- ["7Pageboy27TransitionOperationDelegateP", "NavigationDirection"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "frame"]
+- !private ["So29UIAccessibilityIdentificationP", "bounds"]
+- !private ["So29UIAccessibilityIdentificationP", "buttons"]
+- !private ["So29UIAccessibilityIdentificationP", "contentInset"]
+- !private ["So29UIAccessibilityIdentificationP", "contentOffset"]
+- !private ["So29UIAccessibilityIdentificationP", "contentSize"]
+- !private ["So29UIAccessibilityIdentificationP", "currentPosition"]
+- !private ["So29UIAccessibilityIdentificationP", "frame"]
+- !private ["So29UIAccessibilityIdentificationP", "indicatorBounces"]
+- !private ["So29UIAccessibilityIdentificationP", "indicatorCompresses"]
+- !private ["So29UIAccessibilityIdentificationP", "indicatorIsProgressive"]
+- !private ["So29UIAccessibilityIdentificationP", "indicatorLeftMargin"]
+- !private ["So29UIAccessibilityIdentificationP", "indicatorWidth"]
+- !private ["So29UIAccessibilityIdentificationP", "layoutIsRightToLeft"]
+- !private ["So29UIAccessibilityIdentificationP", "scrollView"]
+- !private ["So12UIAppearanceP", "bounds"]
+- !private ["So12UIAppearanceP", "buttons"]
+- !private ["So12UIAppearanceP", "contentInset"]
+- !private ["So12UIAppearanceP", "contentOffset"]
+- !private ["So12UIAppearanceP", "contentSize"]
+- !private ["So12UIAppearanceP", "currentPosition"]
+- !private ["So12UIAppearanceP", "frame"]
+- !private ["So12UIAppearanceP", "indicatorBounces"]
+- !private ["So12UIAppearanceP", "indicatorCompresses"]
+- !private ["So12UIAppearanceP", "indicatorIsProgressive"]
+- !private ["So12UIAppearanceP", "indicatorLeftMargin"]
+- !private ["So12UIAppearanceP", "indicatorWidth"]
+- !private ["So12UIAppearanceP", "layoutIsRightToLeft"]
+- !private ["So12UIAppearanceP", "scrollView"]
+- ["So21UIAppearanceContainerP", "NavigationDirection"]
+- !private ["So21UIAppearanceContainerP", "bounds"]
+- !private ["So21UIAppearanceContainerP", "buttons"]
+- !private ["So21UIAppearanceContainerP", "contentInset"]
+- !private ["So21UIAppearanceContainerP", "contentOffset"]
+- !private ["So21UIAppearanceContainerP", "contentSize"]
+- !private ["So21UIAppearanceContainerP", "currentPosition"]
+- !private ["So21UIAppearanceContainerP", "frame"]
+- !private ["So21UIAppearanceContainerP", "indicatorBounces"]
+- !private ["So21UIAppearanceContainerP", "indicatorCompresses"]
+- !private ["So21UIAppearanceContainerP", "indicatorIsProgressive"]
+- !private ["So21UIAppearanceContainerP", "indicatorLeftMargin"]
+- !private ["So21UIAppearanceContainerP", "indicatorWidth"]
+- !private ["So21UIAppearanceContainerP", "layoutIsRightToLeft"]
+- !private ["So21UIAppearanceContainerP", "scrollView"]
+- !private ["So8UIButtonC", "frame"]
+- ["So18UIContentContainerP", "NavigationDirection"]
+- !private ["So9UIControlC", "frame"]
+- !private ["So17UICoordinateSpaceP", "bounds"]
+- !private ["So17UICoordinateSpaceP", "buttons"]
+- !private ["So17UICoordinateSpaceP", "contentInset"]
+- !private ["So17UICoordinateSpaceP", "contentOffset"]
+- !private ["So17UICoordinateSpaceP", "contentSize"]
+- !private ["So17UICoordinateSpaceP", "currentPosition"]
+- !private ["So17UICoordinateSpaceP", "frame"]
+- !private ["So17UICoordinateSpaceP", "indicatorBounces"]
+- !private ["So17UICoordinateSpaceP", "indicatorCompresses"]
+- !private ["So17UICoordinateSpaceP", "indicatorIsProgressive"]
+- !private ["So17UICoordinateSpaceP", "indicatorLeftMargin"]
+- !private ["So17UICoordinateSpaceP", "indicatorWidth"]
+- !private ["So17UICoordinateSpaceP", "layoutIsRightToLeft"]
+- !private ["So17UICoordinateSpaceP", "scrollView"]
+- !private ["So13UIDynamicItemP", "bounds"]
+- !private ["So13UIDynamicItemP", "buttons"]
+- !private ["So13UIDynamicItemP", "contentInset"]
+- !private ["So13UIDynamicItemP", "contentOffset"]
+- !private ["So13UIDynamicItemP", "contentSize"]
+- !private ["So13UIDynamicItemP", "currentPosition"]
+- !private ["So13UIDynamicItemP", "frame"]
+- !private ["So13UIDynamicItemP", "indicatorBounces"]
+- !private ["So13UIDynamicItemP", "indicatorCompresses"]
+- !private ["So13UIDynamicItemP", "indicatorIsProgressive"]
+- !private ["So13UIDynamicItemP", "indicatorLeftMargin"]
+- !private ["So13UIDynamicItemP", "indicatorWidth"]
+- !private ["So13UIDynamicItemP", "layoutIsRightToLeft"]
+- !private ["So13UIDynamicItemP", "scrollView"]
+- !private ["SC12UIEdgeInsetsV", "left"]
+- !private ["SC12UIEdgeInsetsV", "right"]
+- ["So18UIFocusEnvironmentP", "NavigationDirection"]
+- !private ["So18UIFocusEnvironmentP", "bounds"]
+- !private ["So18UIFocusEnvironmentP", "buttons"]
+- !private ["So18UIFocusEnvironmentP", "contentInset"]
+- !private ["So18UIFocusEnvironmentP", "contentOffset"]
+- !private ["So18UIFocusEnvironmentP", "contentSize"]
+- !private ["So18UIFocusEnvironmentP", "currentPosition"]
+- !private ["So18UIFocusEnvironmentP", "frame"]
+- !private ["So18UIFocusEnvironmentP", "indicatorBounces"]
+- !private ["So18UIFocusEnvironmentP", "indicatorCompresses"]
+- !private ["So18UIFocusEnvironmentP", "indicatorIsProgressive"]
+- !private ["So18UIFocusEnvironmentP", "indicatorLeftMargin"]
+- !private ["So18UIFocusEnvironmentP", "indicatorWidth"]
+- !private ["So18UIFocusEnvironmentP", "layoutIsRightToLeft"]
+- !private ["So18UIFocusEnvironmentP", "scrollView"]
+- !private ["So11UIFocusItemP", "bounds"]
+- !private ["So11UIFocusItemP", "buttons"]
+- !private ["So11UIFocusItemP", "contentInset"]
+- !private ["So11UIFocusItemP", "contentOffset"]
+- !private ["So11UIFocusItemP", "contentSize"]
+- !private ["So11UIFocusItemP", "currentPosition"]
+- !private ["So11UIFocusItemP", "frame"]
+- !private ["So11UIFocusItemP", "indicatorBounces"]
+- !private ["So11UIFocusItemP", "indicatorCompresses"]
+- !private ["So11UIFocusItemP", "indicatorIsProgressive"]
+- !private ["So11UIFocusItemP", "indicatorLeftMargin"]
+- !private ["So11UIFocusItemP", "indicatorWidth"]
+- !private ["So11UIFocusItemP", "layoutIsRightToLeft"]
+- !private ["So11UIFocusItemP", "scrollView"]
+- ["So30UIPageViewControllerDataSourceP", "NavigationDirection"]
+- ["So28UIPageViewControllerDelegateP", "NavigationDirection"]
+- ["So30UIPasteConfigurationSupportingP", "NavigationDirection"]
+- !private ["So30UIPasteConfigurationSupportingP", "bounds"]
+- !private ["So30UIPasteConfigurationSupportingP", "buttons"]
+- !private ["So30UIPasteConfigurationSupportingP", "contentInset"]
+- !private ["So30UIPasteConfigurationSupportingP", "contentOffset"]
+- !private ["So30UIPasteConfigurationSupportingP", "contentSize"]
+- !private ["So30UIPasteConfigurationSupportingP", "currentPosition"]
+- !private ["So30UIPasteConfigurationSupportingP", "frame"]
+- !private ["So30UIPasteConfigurationSupportingP", "indicatorBounces"]
+- !private ["So30UIPasteConfigurationSupportingP", "indicatorCompresses"]
+- !private ["So30UIPasteConfigurationSupportingP", "indicatorIsProgressive"]
+- !private ["So30UIPasteConfigurationSupportingP", "indicatorLeftMargin"]
+- !private ["So30UIPasteConfigurationSupportingP", "indicatorWidth"]
+- !private ["So30UIPasteConfigurationSupportingP", "layoutIsRightToLeft"]
+- !private ["So30UIPasteConfigurationSupportingP", "scrollView"]
+- ["So11UIResponderC", "NavigationDirection"]
+- !private ["So11UIResponderC", "bounds"]
+- !private ["So11UIResponderC", "buttons"]
+- !private ["So11UIResponderC", "contentInset"]
+- !private ["So11UIResponderC", "contentOffset"]
+- !private ["So11UIResponderC", "contentSize"]
+- !private ["So11UIResponderC", "currentPosition"]
+- !private ["So11UIResponderC", "frame"]
+- !private ["So11UIResponderC", "indicatorBounces"]
+- !private ["So11UIResponderC", "indicatorCompresses"]
+- !private ["So11UIResponderC", "indicatorIsProgressive"]
+- !private ["So11UIResponderC", "indicatorLeftMargin"]
+- !private ["So11UIResponderC", "indicatorWidth"]
+- !private ["So11UIResponderC", "layoutIsRightToLeft"]
+- !private ["So11UIResponderC", "scrollView"]
+- ["So30UIResponderStandardEditActionsP", "NavigationDirection"]
+- !private ["So30UIResponderStandardEditActionsP", "bounds"]
+- !private ["So30UIResponderStandardEditActionsP", "buttons"]
+- !private ["So30UIResponderStandardEditActionsP", "contentInset"]
+- !private ["So30UIResponderStandardEditActionsP", "contentOffset"]
+- !private ["So30UIResponderStandardEditActionsP", "contentSize"]
+- !private ["So30UIResponderStandardEditActionsP", "currentPosition"]
+- !private ["So30UIResponderStandardEditActionsP", "frame"]
+- !private ["So30UIResponderStandardEditActionsP", "indicatorBounces"]
+- !private ["So30UIResponderStandardEditActionsP", "indicatorCompresses"]
+- !private ["So30UIResponderStandardEditActionsP", "indicatorIsProgressive"]
+- !private ["So30UIResponderStandardEditActionsP", "indicatorLeftMargin"]
+- !private ["So30UIResponderStandardEditActionsP", "indicatorWidth"]
+- !private ["So30UIResponderStandardEditActionsP", "layoutIsRightToLeft"]
+- !private ["So30UIResponderStandardEditActionsP", "scrollView"]
+- !private ["So12UIScrollViewC", "contentInset"]
+- !private ["So12UIScrollViewC", "contentOffset"]
+- !private ["So12UIScrollViewC", "contentSize"]
+- ["So20UIScrollViewDelegateP", "NavigationDirection"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "frame"]
+- ["So16UIStateRestoringP", "NavigationDirection"]
+- ["So18UITraitEnvironmentP", "NavigationDirection"]
+- !private ["So18UITraitEnvironmentP", "bounds"]
+- !private ["So18UITraitEnvironmentP", "buttons"]
+- !private ["So18UITraitEnvironmentP", "contentInset"]
+- !private ["So18UITraitEnvironmentP", "contentOffset"]
+- !private ["So18UITraitEnvironmentP", "contentSize"]
+- !private ["So18UITraitEnvironmentP", "currentPosition"]
+- !private ["So18UITraitEnvironmentP", "frame"]
+- !private ["So18UITraitEnvironmentP", "indicatorBounces"]
+- !private ["So18UITraitEnvironmentP", "indicatorCompresses"]
+- !private ["So18UITraitEnvironmentP", "indicatorIsProgressive"]
+- !private ["So18UITraitEnvironmentP", "indicatorLeftMargin"]
+- !private ["So18UITraitEnvironmentP", "indicatorWidth"]
+- !private ["So18UITraitEnvironmentP", "layoutIsRightToLeft"]
+- !private ["So18UITraitEnvironmentP", "scrollView"]
+- !private ["So6UIViewC", "bounds"]
+- !private ["So6UIViewC", "buttons"]
+- !private ["So6UIViewC", "contentInset"]
+- !private ["So6UIViewC", "contentOffset"]
+- !private ["So6UIViewC", "contentSize"]
+- !private ["So6UIViewC", "currentPosition"]
+- !private ["So6UIViewC", "frame"]
+- !private ["So6UIViewC", "indicatorBounces"]
+- !private ["So6UIViewC", "indicatorCompresses"]
+- !private ["So6UIViewC", "indicatorIsProgressive"]
+- !private ["So6UIViewC", "indicatorLeftMargin"]
+- !private ["So6UIViewC", "indicatorWidth"]
+- !private ["So6UIViewC", "layoutIsRightToLeft"]
+- !private ["So6UIViewC", "scrollView"]
+- ["So16UIViewControllerC", "NavigationDirection"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "frame"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s23_BidirectionalIndexableP", "count"]
+- !private ["s23_BidirectionalIndexableP", "frame"]
+- !private ["s23_BidirectionalIndexableP", "subscript"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "bounds"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "buttons"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "contentInset"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "contentOffset"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "contentSize"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "currentPosition"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "frame"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "indicatorBounces"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "indicatorCompresses"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "indicatorIsProgressive"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "indicatorLeftMargin"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "indicatorWidth"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "layoutIsRightToLeft"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "scrollView"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "frame"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s10_IndexableP", "count"]
+- !private ["s10_IndexableP", "frame"]
+- !private ["s10_IndexableP", "subscript"]
+- !private ["s14_IndexableBaseP", "count"]
+- !private ["s14_IndexableBaseP", "frame"]
+- !private ["s14_IndexableBaseP", "subscript"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "NavigationDirection"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bounds"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "buttons"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "constant"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "contentInset"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "contentOffset"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "contentSize"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "currentPosition"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "frame"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "indicatorBounces"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "indicatorCompresses"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "indicatorIsProgressive"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "indicatorLeftMargin"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "indicatorWidth"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "layoutIsRightToLeft"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "scrollView"]
+- !private ["s17_MutableIndexableP", "count"]
+- !private ["s17_MutableIndexableP", "frame"]
+- !private ["s17_MutableIndexableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "left"]
+- !private ["s21_ObjectiveCBridgeableP", "origin"]
+- !private ["s21_ObjectiveCBridgeableP", "right"]
+- !private ["s21_ObjectiveCBridgeableP", "size"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "width"]
+- !private ["s21_ObjectiveCBridgeableP", "x"]
+- !private ["s22_RandomAccessIndexableP", "count"]
+- !private ["s22_RandomAccessIndexableP", "frame"]
+- !private ["s22_RandomAccessIndexableP", "subscript"]
+- !private ["s26_RangeReplaceableIndexableP", "count"]
+- !private ["s26_RangeReplaceableIndexableP", "frame"]
+- !private ["s26_RangeReplaceableIndexableP", "subscript"]
+- !private ["s11_StrideableP", "init"]
+depends-nominal:
+- !private "Sa"
+- !private "s10ArraySliceV"
+- !private "s23BidirectionalCollectionP"
+- !private "s19BinaryFloatingPointP"
+- !private "s13BinaryIntegerP"
+- !private "Sb"
+- !private "So15CALayerDelegateP"
+- !private "12CoreGraphics7CGFloatV"
+- !private "SC7CGPointV"
+- !private "SC6CGRectV"
+- !private "SC6CGSizeV"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "6Tabman017ContentViewScrollC0C"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "Sf"
+- !private "s13FloatingPointP"
+- "s8HashableP"
+- !private "Si"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- !private "So18NSLayoutConstraintC"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "s7NumericP"
+- "7Pageboy0A19AutoScrollerHandlerP"
+- "7Pageboy0A14ViewControllerC"
+- !private "s22RandomAccessCollectionP"
+- !private "s5RangeV"
+- !private "s15RangeExpressionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "s10StrideableP"
+- !private "6Tabman0A20AppearanceUpdateableP"
+- !private "6Tabman0A3BarC"
+- !private "6Tabman0A12BarLifecycleP"
+- !private "6Tabman0A9ButtonBarC"
+- !private "6Tabman0A17IndicatorDelegateP"
+- "6Tabman0A19IndicatorTransitionC"
+- !private "6Tabman0A14PositionalUtilC"
+- "6Tabman0A31ScrollingBarIndicatorTransitionC"
+- !private "6Tabman0A18ScrollingButtonBarC"
+- "6Tabman0A10TransitionC"
+- "6Tabman0A19TransitionLifecycleP"
+- "7Pageboy27TransitionOperationDelegateP"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So8UIButtonC"
+- "So18UIContentContainerP"
+- !private "So9UIControlC"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "SC12UIEdgeInsetsV"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- "So30UIPageViewControllerDataSourceP"
+- "So28UIPageViewControllerDelegateP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So12UIScrollViewC"
+- "So20UIScrollViewDelegateP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "s14_ArrayProtocolP"
+- !private "s23_BidirectionalIndexableP"
+- !private "s18_BitwiseOperationsP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s17_MutableIndexableP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s22_RandomAccessIndexableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s11_StrideableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Metal.swiftmodule"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphoneos/Pageboy/Pageboy.framework/Modules/Pageboy.swiftmodule/arm.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Target Support Files/Tabman/Tabman-umbrella.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Target Support Files/PureLayout/PureLayout-umbrella.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Target Support Files/Pageboy/Pageboy-umbrella.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/PureLayout/PureLayout/PureLayout/PureLayout+Internal.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Tabman/Sources/Tabman/Tabman.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/PureLayout/PureLayout/PureLayout/PureLayoutDefines.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphoneos/Pageboy/Pageboy.framework/Headers/Pageboy-Swift.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/PureLayout/PureLayout/PureLayout/NSLayoutConstraint+PureLayout.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/PureLayout/PureLayout/PureLayout/ALView+PureLayout.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/PureLayout/PureLayout/PureLayout/NSArray+PureLayout.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/PureLayout/PureLayout/PureLayout/PureLayout.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Pageboy/Sources/Pageboy/Pageboy.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Tabman.build/unextended-module.modulemap"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/PureLayout.build/module.modulemap"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Pageboy.build/module.modulemap"
+interface-hash: "218a010408685522e40253b29832d342"

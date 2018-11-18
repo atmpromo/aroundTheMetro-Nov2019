@@ -1,0 +1,18 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "c6370e43b4e24ae3e6889b0076d6a481"
+build_time: [1517366420, 272198000]
+inputs:
+  "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Pageboy/Sources/Pageboy/Utilities/DataStructures/IndexedMap.swift": [1514741997, 0]
+  "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Pageboy/Sources/Pageboy/Components/PageboyAutoScroller.swift": [1514741997, 0]
+  "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Pageboy/Sources/Pageboy/Extensions/PageboyViewController+Extras.swift": [1514741997, 0]
+  "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Pageboy/Sources/Pageboy/Extensions/PageboyViewController+Management.swift": [1514741997, 0]
+  "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Pageboy/Sources/Pageboy/Extensions/PageboyViewController+ScrollDetection.swift": [1514741997, 0]
+  "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Pageboy/Sources/Pageboy/Extensions/PageboyViewController+Transitioning.swift": [1514741997, 0]
+  "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Pageboy/Sources/Pageboy/PageboyViewController.swift": [1514741997, 0]
+  "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Pageboy/Sources/Pageboy/Utilities/Transitioning/TransitionOperation+Action.swift": [1514741997, 0]
+  "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Pageboy/Sources/Pageboy/Utilities/Transitioning/TransitionOperation.swift": [1514741997, 0]
+  "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Pageboy/Sources/Pageboy/Utilities/ViewUtilities/UIPageViewController+ScrollView.swift": [1514741997, 0]
+  "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Pageboy/Sources/Pageboy/Utilities/ViewUtilities/UIView+AutoLayout.swift": [1514741997, 0]
+  "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Pageboy/Sources/Pageboy/Utilities/ViewUtilities/UIView+Localization.swift": [1514741997, 0]
+  "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Pageboy/Sources/Pageboy/Extensions/UIViewController+PageboyExtras.swift": [1514741997, 0]
+  "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Pageboy/Sources/Pageboy/Utilities/DataStructures/WeakWrapper.swift": [1514741997, 0]

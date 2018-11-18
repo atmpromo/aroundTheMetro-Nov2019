@@ -1,0 +1,524 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TabmanStaticBarIndicatorTransition"
+provides-nominal:
+- "6Tabman0A28StaticBarIndicatorTransitionC"
+provides-member:
+- ["6Tabman0A28StaticBarIndicatorTransitionC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "&&"
+- !private "*"
+- !private "+"
+- !private "-"
+- !private "-="
+- !private "/"
+- !private "<"
+- !private ">"
+- !private "??"
+- "AssignmentPrecedence"
+- "CGFloat"
+- "CGRect"
+- "CastingPrecedence"
+- !private "Float"
+- "Int"
+- "PageboyViewController"
+- "Range"
+- !private "TabmanButtonBar"
+- "TabmanIndicatorTransition"
+- "TabmanStaticBarIndicatorTransition"
+- !private "fabs"
+- !private "max"
+- !private "min"
+- !private "modff"
+- !private "||"
+depends-member:
+- !private ["Sa", "count"]
+- !private ["s23BidirectionalCollectionP", "count"]
+- !private ["s19BinaryFloatingPointP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "edgeInset"]
+- !private ["So15CALayerDelegateP", "indicatorBounces"]
+- !private ["So15CALayerDelegateP", "indicatorCompresses"]
+- !private ["So15CALayerDelegateP", "indicatorIsProgressive"]
+- !private ["So15CALayerDelegateP", "indicatorLeftMargin"]
+- !private ["So15CALayerDelegateP", "indicatorWidth"]
+- !private ["So15CALayerDelegateP", "items"]
+- !private ["12CoreGraphics7CGFloatV", "init"]
+- !private ["SC6CGRectV", "size"]
+- !private ["SC6CGSizeV", "width"]
+- ["s7CVarArgP", "NavigationDirection"]
+- !private ["s7CVarArgP", "constant"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "edgeInset"]
+- !private ["s7CVarArgP", "indicatorBounces"]
+- !private ["s7CVarArgP", "indicatorCompresses"]
+- !private ["s7CVarArgP", "indicatorIsProgressive"]
+- !private ["s7CVarArgP", "indicatorLeftMargin"]
+- !private ["s7CVarArgP", "indicatorWidth"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "items"]
+- !private ["s10CollectionP", "count"]
+- !private ["s10ComparableP", "init"]
+- ["s28CustomDebugStringConvertibleP", "NavigationDirection"]
+- !private ["s28CustomDebugStringConvertibleP", "constant"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "edgeInset"]
+- !private ["s28CustomDebugStringConvertibleP", "indicatorBounces"]
+- !private ["s28CustomDebugStringConvertibleP", "indicatorCompresses"]
+- !private ["s28CustomDebugStringConvertibleP", "indicatorIsProgressive"]
+- !private ["s28CustomDebugStringConvertibleP", "indicatorLeftMargin"]
+- !private ["s28CustomDebugStringConvertibleP", "indicatorWidth"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "items"]
+- !private ["s28CustomDebugStringConvertibleP", "size"]
+- !private ["s28CustomDebugStringConvertibleP", "width"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "size"]
+- !private ["s29CustomPlaygroundQuickLookableP", "width"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "size"]
+- !private ["s17CustomReflectableP", "width"]
+- ["s23CustomStringConvertibleP", "NavigationDirection"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "constant"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "edgeInset"]
+- !private ["s23CustomStringConvertibleP", "indicatorBounces"]
+- !private ["s23CustomStringConvertibleP", "indicatorCompresses"]
+- !private ["s23CustomStringConvertibleP", "indicatorIsProgressive"]
+- !private ["s23CustomStringConvertibleP", "indicatorLeftMargin"]
+- !private ["s23CustomStringConvertibleP", "indicatorWidth"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "items"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "count"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "size"]
+- !private ["s9DecodableP", "width"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "count"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "size"]
+- !private ["s9EncodableP", "width"]
+- !private ["s9EquatableP", "CGFloat"]
+- !private ["s9EquatableP", "Float"]
+- ["s9EquatableP", "NavigationDirection"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "constant"]
+- !private ["s9EquatableP", "edgeInset"]
+- !private ["s9EquatableP", "fabs"]
+- !private ["s9EquatableP", "indicatorBounces"]
+- !private ["s9EquatableP", "indicatorCompresses"]
+- !private ["s9EquatableP", "indicatorIsProgressive"]
+- !private ["s9EquatableP", "indicatorLeftMargin"]
+- !private ["s9EquatableP", "indicatorWidth"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "items"]
+- !private ["s9EquatableP", "max"]
+- !private ["s9EquatableP", "min"]
+- !private ["s9EquatableP", "modff"]
+- !private ["s9EquatableP", "size"]
+- !private ["s9EquatableP", "tabmanBar"]
+- !private ["s9EquatableP", "width"]
+- ["s9EquatableP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["Sf", "init"]
+- !private ["s13FloatingPointP", "init"]
+- !private ["s8HashableP", "CGFloat"]
+- !private ["s8HashableP", "Float"]
+- ["s8HashableP", "NavigationDirection"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "constant"]
+- !private ["s8HashableP", "edgeInset"]
+- !private ["s8HashableP", "fabs"]
+- !private ["s8HashableP", "indicatorBounces"]
+- !private ["s8HashableP", "indicatorCompresses"]
+- !private ["s8HashableP", "indicatorIsProgressive"]
+- !private ["s8HashableP", "indicatorLeftMargin"]
+- !private ["s8HashableP", "indicatorWidth"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "items"]
+- !private ["s8HashableP", "max"]
+- !private ["s8HashableP", "min"]
+- !private ["s8HashableP", "modff"]
+- !private ["s8HashableP", "tabmanBar"]
+- ["s8HashableP", ""]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s17MutableCollectionP", "count"]
+- ["So8NSCodingP", "NavigationDirection"]
+- !private ["So8NSCodingP", "edgeInset"]
+- !private ["So8NSCodingP", "indicatorBounces"]
+- !private ["So8NSCodingP", "indicatorCompresses"]
+- !private ["So8NSCodingP", "indicatorIsProgressive"]
+- !private ["So8NSCodingP", "indicatorLeftMargin"]
+- !private ["So8NSCodingP", "indicatorWidth"]
+- !private ["So8NSCodingP", "items"]
+- ["So26NSExtensionRequestHandlingP", "NavigationDirection"]
+- !private ["So18NSLayoutConstraintC", "constant"]
+- ["So8NSObjectC", "NavigationDirection"]
+- !private ["So8NSObjectC", "constant"]
+- !private ["So8NSObjectC", "edgeInset"]
+- !private ["So8NSObjectC", "indicatorBounces"]
+- !private ["So8NSObjectC", "indicatorCompresses"]
+- !private ["So8NSObjectC", "indicatorIsProgressive"]
+- !private ["So8NSObjectC", "indicatorLeftMargin"]
+- !private ["So8NSObjectC", "indicatorWidth"]
+- !private ["So8NSObjectC", "items"]
+- ["So16NSObjectProtocolP", "NavigationDirection"]
+- !private ["So16NSObjectProtocolP", "constant"]
+- !private ["So16NSObjectProtocolP", "edgeInset"]
+- !private ["So16NSObjectProtocolP", "indicatorBounces"]
+- !private ["So16NSObjectProtocolP", "indicatorCompresses"]
+- !private ["So16NSObjectProtocolP", "indicatorIsProgressive"]
+- !private ["So16NSObjectProtocolP", "indicatorLeftMargin"]
+- !private ["So16NSObjectProtocolP", "indicatorWidth"]
+- !private ["So16NSObjectProtocolP", "items"]
+- !private ["s7NumericP", "init"]
+- ["7Pageboy0A19AutoScrollerHandlerP", "NavigationDirection"]
+- ["7Pageboy0A14ViewControllerC", "NavigationDirection"]
+- !private ["s22RandomAccessCollectionP", "count"]
+- !private ["s26RangeReplaceableCollectionP", "count"]
+- !private ["s8SequenceP", "count"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s10StrideableP", "init"]
+- !private ["6Tabman0A20AppearanceUpdateableP", "edgeInset"]
+- !private ["6Tabman0A20AppearanceUpdateableP", "indicatorBounces"]
+- !private ["6Tabman0A20AppearanceUpdateableP", "indicatorCompresses"]
+- !private ["6Tabman0A20AppearanceUpdateableP", "indicatorIsProgressive"]
+- !private ["6Tabman0A20AppearanceUpdateableP", "indicatorLeftMargin"]
+- !private ["6Tabman0A20AppearanceUpdateableP", "indicatorWidth"]
+- !private ["6Tabman0A20AppearanceUpdateableP", "items"]
+- !private ["6Tabman0A3BarC", "edgeInset"]
+- !private ["6Tabman0A3BarC", "indicatorBounces"]
+- !private ["6Tabman0A3BarC", "indicatorCompresses"]
+- !private ["6Tabman0A3BarC", "indicatorIsProgressive"]
+- !private ["6Tabman0A3BarC", "indicatorLeftMargin"]
+- !private ["6Tabman0A3BarC", "indicatorWidth"]
+- !private ["6Tabman0A3BarC", "items"]
+- !private ["6Tabman0A12BarLifecycleP", "edgeInset"]
+- !private ["6Tabman0A12BarLifecycleP", "indicatorBounces"]
+- !private ["6Tabman0A12BarLifecycleP", "indicatorCompresses"]
+- !private ["6Tabman0A12BarLifecycleP", "indicatorIsProgressive"]
+- !private ["6Tabman0A12BarLifecycleP", "indicatorLeftMargin"]
+- !private ["6Tabman0A12BarLifecycleP", "indicatorWidth"]
+- !private ["6Tabman0A12BarLifecycleP", "items"]
+- !private ["6Tabman0A9ButtonBarC", "edgeInset"]
+- !private ["6Tabman0A17IndicatorDelegateP", "edgeInset"]
+- !private ["6Tabman0A17IndicatorDelegateP", "indicatorBounces"]
+- !private ["6Tabman0A17IndicatorDelegateP", "indicatorCompresses"]
+- !private ["6Tabman0A17IndicatorDelegateP", "indicatorIsProgressive"]
+- !private ["6Tabman0A17IndicatorDelegateP", "indicatorLeftMargin"]
+- !private ["6Tabman0A17IndicatorDelegateP", "indicatorWidth"]
+- !private ["6Tabman0A17IndicatorDelegateP", "items"]
+- ["6Tabman0A19IndicatorTransitionC", "CGFloat"]
+- ["6Tabman0A19IndicatorTransitionC", "CGRect"]
+- !private ["6Tabman0A19IndicatorTransitionC", "Float"]
+- ["6Tabman0A19IndicatorTransitionC", "Int"]
+- ["6Tabman0A19IndicatorTransitionC", "PageboyViewController"]
+- ["6Tabman0A19IndicatorTransitionC", "Range"]
+- !private ["6Tabman0A19IndicatorTransitionC", "TabmanButtonBar"]
+- !private ["6Tabman0A19IndicatorTransitionC", "fabs"]
+- ["6Tabman0A19IndicatorTransitionC", "init"]
+- !private ["6Tabman0A19IndicatorTransitionC", "max"]
+- !private ["6Tabman0A19IndicatorTransitionC", "min"]
+- !private ["6Tabman0A19IndicatorTransitionC", "modff"]
+- !private ["6Tabman0A19IndicatorTransitionC", "tabmanBar"]
+- ["6Tabman0A19IndicatorTransitionC", "transition"]
+- ["6Tabman0A19IndicatorTransitionC", ""]
+- ["6Tabman0A28StaticBarIndicatorTransitionC", "CGFloat"]
+- ["6Tabman0A28StaticBarIndicatorTransitionC", "CGRect"]
+- !private ["6Tabman0A28StaticBarIndicatorTransitionC", "Float"]
+- ["6Tabman0A28StaticBarIndicatorTransitionC", "Int"]
+- ["6Tabman0A28StaticBarIndicatorTransitionC", "PageboyViewController"]
+- ["6Tabman0A28StaticBarIndicatorTransitionC", "Range"]
+- !private ["6Tabman0A28StaticBarIndicatorTransitionC", "TabmanButtonBar"]
+- ["6Tabman0A28StaticBarIndicatorTransitionC", "deinit"]
+- !private ["6Tabman0A28StaticBarIndicatorTransitionC", "fabs"]
+- ["6Tabman0A28StaticBarIndicatorTransitionC", "init"]
+- !private ["6Tabman0A28StaticBarIndicatorTransitionC", "max"]
+- !private ["6Tabman0A28StaticBarIndicatorTransitionC", "min"]
+- !private ["6Tabman0A28StaticBarIndicatorTransitionC", "modff"]
+- !private ["6Tabman0A28StaticBarIndicatorTransitionC", "tabmanBar"]
+- ["6Tabman0A28StaticBarIndicatorTransitionC", "transition"]
+- ["6Tabman0A10TransitionC", "CGFloat"]
+- ["6Tabman0A10TransitionC", "CGRect"]
+- !private ["6Tabman0A10TransitionC", "Float"]
+- ["6Tabman0A10TransitionC", "Int"]
+- ["6Tabman0A10TransitionC", "PageboyViewController"]
+- ["6Tabman0A10TransitionC", "Range"]
+- !private ["6Tabman0A10TransitionC", "TabmanButtonBar"]
+- !private ["6Tabman0A10TransitionC", "fabs"]
+- ["6Tabman0A10TransitionC", "init"]
+- !private ["6Tabman0A10TransitionC", "max"]
+- !private ["6Tabman0A10TransitionC", "min"]
+- !private ["6Tabman0A10TransitionC", "modff"]
+- !private ["6Tabman0A10TransitionC", "tabmanBar"]
+- ["6Tabman0A10TransitionC", "transition"]
+- !private ["6Tabman0A19TransitionLifecycleP", "CGFloat"]
+- !private ["6Tabman0A19TransitionLifecycleP", "Float"]
+- !private ["6Tabman0A19TransitionLifecycleP", "fabs"]
+- !private ["6Tabman0A19TransitionLifecycleP", "init"]
+- !private ["6Tabman0A19TransitionLifecycleP", "max"]
+- !private ["6Tabman0A19TransitionLifecycleP", "min"]
+- !private ["6Tabman0A19TransitionLifecycleP", "modff"]
+- !private ["6Tabman0A19TransitionLifecycleP", "tabmanBar"]
+- ["6Tabman0A19TransitionLifecycleP", ""]
+- ["7Pageboy27TransitionOperationDelegateP", "NavigationDirection"]
+- !private ["So29UIAccessibilityIdentificationP", "edgeInset"]
+- !private ["So29UIAccessibilityIdentificationP", "indicatorBounces"]
+- !private ["So29UIAccessibilityIdentificationP", "indicatorCompresses"]
+- !private ["So29UIAccessibilityIdentificationP", "indicatorIsProgressive"]
+- !private ["So29UIAccessibilityIdentificationP", "indicatorLeftMargin"]
+- !private ["So29UIAccessibilityIdentificationP", "indicatorWidth"]
+- !private ["So29UIAccessibilityIdentificationP", "items"]
+- !private ["So12UIAppearanceP", "edgeInset"]
+- !private ["So12UIAppearanceP", "indicatorBounces"]
+- !private ["So12UIAppearanceP", "indicatorCompresses"]
+- !private ["So12UIAppearanceP", "indicatorIsProgressive"]
+- !private ["So12UIAppearanceP", "indicatorLeftMargin"]
+- !private ["So12UIAppearanceP", "indicatorWidth"]
+- !private ["So12UIAppearanceP", "items"]
+- ["So21UIAppearanceContainerP", "NavigationDirection"]
+- !private ["So21UIAppearanceContainerP", "edgeInset"]
+- !private ["So21UIAppearanceContainerP", "indicatorBounces"]
+- !private ["So21UIAppearanceContainerP", "indicatorCompresses"]
+- !private ["So21UIAppearanceContainerP", "indicatorIsProgressive"]
+- !private ["So21UIAppearanceContainerP", "indicatorLeftMargin"]
+- !private ["So21UIAppearanceContainerP", "indicatorWidth"]
+- !private ["So21UIAppearanceContainerP", "items"]
+- ["So18UIContentContainerP", "NavigationDirection"]
+- !private ["So17UICoordinateSpaceP", "edgeInset"]
+- !private ["So17UICoordinateSpaceP", "indicatorBounces"]
+- !private ["So17UICoordinateSpaceP", "indicatorCompresses"]
+- !private ["So17UICoordinateSpaceP", "indicatorIsProgressive"]
+- !private ["So17UICoordinateSpaceP", "indicatorLeftMargin"]
+- !private ["So17UICoordinateSpaceP", "indicatorWidth"]
+- !private ["So17UICoordinateSpaceP", "items"]
+- !private ["So13UIDynamicItemP", "edgeInset"]
+- !private ["So13UIDynamicItemP", "indicatorBounces"]
+- !private ["So13UIDynamicItemP", "indicatorCompresses"]
+- !private ["So13UIDynamicItemP", "indicatorIsProgressive"]
+- !private ["So13UIDynamicItemP", "indicatorLeftMargin"]
+- !private ["So13UIDynamicItemP", "indicatorWidth"]
+- !private ["So13UIDynamicItemP", "items"]
+- ["So18UIFocusEnvironmentP", "NavigationDirection"]
+- !private ["So18UIFocusEnvironmentP", "edgeInset"]
+- !private ["So18UIFocusEnvironmentP", "indicatorBounces"]
+- !private ["So18UIFocusEnvironmentP", "indicatorCompresses"]
+- !private ["So18UIFocusEnvironmentP", "indicatorIsProgressive"]
+- !private ["So18UIFocusEnvironmentP", "indicatorLeftMargin"]
+- !private ["So18UIFocusEnvironmentP", "indicatorWidth"]
+- !private ["So18UIFocusEnvironmentP", "items"]
+- !private ["So11UIFocusItemP", "edgeInset"]
+- !private ["So11UIFocusItemP", "indicatorBounces"]
+- !private ["So11UIFocusItemP", "indicatorCompresses"]
+- !private ["So11UIFocusItemP", "indicatorIsProgressive"]
+- !private ["So11UIFocusItemP", "indicatorLeftMargin"]
+- !private ["So11UIFocusItemP", "indicatorWidth"]
+- !private ["So11UIFocusItemP", "items"]
+- ["So30UIPageViewControllerDataSourceP", "NavigationDirection"]
+- ["So28UIPageViewControllerDelegateP", "NavigationDirection"]
+- ["So30UIPasteConfigurationSupportingP", "NavigationDirection"]
+- !private ["So30UIPasteConfigurationSupportingP", "edgeInset"]
+- !private ["So30UIPasteConfigurationSupportingP", "indicatorBounces"]
+- !private ["So30UIPasteConfigurationSupportingP", "indicatorCompresses"]
+- !private ["So30UIPasteConfigurationSupportingP", "indicatorIsProgressive"]
+- !private ["So30UIPasteConfigurationSupportingP", "indicatorLeftMargin"]
+- !private ["So30UIPasteConfigurationSupportingP", "indicatorWidth"]
+- !private ["So30UIPasteConfigurationSupportingP", "items"]
+- ["So11UIResponderC", "NavigationDirection"]
+- !private ["So11UIResponderC", "edgeInset"]
+- !private ["So11UIResponderC", "indicatorBounces"]
+- !private ["So11UIResponderC", "indicatorCompresses"]
+- !private ["So11UIResponderC", "indicatorIsProgressive"]
+- !private ["So11UIResponderC", "indicatorLeftMargin"]
+- !private ["So11UIResponderC", "indicatorWidth"]
+- !private ["So11UIResponderC", "items"]
+- ["So30UIResponderStandardEditActionsP", "NavigationDirection"]
+- !private ["So30UIResponderStandardEditActionsP", "edgeInset"]
+- !private ["So30UIResponderStandardEditActionsP", "indicatorBounces"]
+- !private ["So30UIResponderStandardEditActionsP", "indicatorCompresses"]
+- !private ["So30UIResponderStandardEditActionsP", "indicatorIsProgressive"]
+- !private ["So30UIResponderStandardEditActionsP", "indicatorLeftMargin"]
+- !private ["So30UIResponderStandardEditActionsP", "indicatorWidth"]
+- !private ["So30UIResponderStandardEditActionsP", "items"]
+- ["So20UIScrollViewDelegateP", "NavigationDirection"]
+- ["So16UIStateRestoringP", "NavigationDirection"]
+- ["So18UITraitEnvironmentP", "NavigationDirection"]
+- !private ["So18UITraitEnvironmentP", "edgeInset"]
+- !private ["So18UITraitEnvironmentP", "indicatorBounces"]
+- !private ["So18UITraitEnvironmentP", "indicatorCompresses"]
+- !private ["So18UITraitEnvironmentP", "indicatorIsProgressive"]
+- !private ["So18UITraitEnvironmentP", "indicatorLeftMargin"]
+- !private ["So18UITraitEnvironmentP", "indicatorWidth"]
+- !private ["So18UITraitEnvironmentP", "items"]
+- !private ["So6UIViewC", "edgeInset"]
+- !private ["So6UIViewC", "indicatorBounces"]
+- !private ["So6UIViewC", "indicatorCompresses"]
+- !private ["So6UIViewC", "indicatorIsProgressive"]
+- !private ["So6UIViewC", "indicatorLeftMargin"]
+- !private ["So6UIViewC", "indicatorWidth"]
+- !private ["So6UIViewC", "items"]
+- ["So16UIViewControllerC", "NavigationDirection"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s23_BidirectionalIndexableP", "count"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "edgeInset"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "indicatorBounces"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "indicatorCompresses"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "indicatorIsProgressive"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "indicatorLeftMargin"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "indicatorWidth"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "items"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s10_IndexableP", "count"]
+- !private ["s14_IndexableBaseP", "count"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "NavigationDirection"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "constant"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "edgeInset"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "indicatorBounces"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "indicatorCompresses"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "indicatorIsProgressive"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "indicatorLeftMargin"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "indicatorWidth"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "items"]
+- !private ["s17_MutableIndexableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "size"]
+- !private ["s21_ObjectiveCBridgeableP", "width"]
+- !private ["s22_RandomAccessIndexableP", "count"]
+- !private ["s26_RangeReplaceableIndexableP", "count"]
+- !private ["s11_StrideableP", "init"]
+depends-nominal:
+- !private "Sa"
+- !private "s23BidirectionalCollectionP"
+- !private "s19BinaryFloatingPointP"
+- !private "Sb"
+- !private "So15CALayerDelegateP"
+- !private "12CoreGraphics7CGFloatV"
+- !private "SC6CGRectV"
+- !private "SC6CGSizeV"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "Sf"
+- !private "s13FloatingPointP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s17MutableCollectionP"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- !private "So18NSLayoutConstraintC"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "s7NumericP"
+- "7Pageboy0A19AutoScrollerHandlerP"
+- "7Pageboy0A14ViewControllerC"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- !private "s13SignedNumericP"
+- !private "s10StrideableP"
+- !private "6Tabman0A20AppearanceUpdateableP"
+- !private "6Tabman0A3BarC"
+- !private "6Tabman0A12BarLifecycleP"
+- !private "6Tabman0A9ButtonBarC"
+- !private "6Tabman0A17IndicatorDelegateP"
+- "6Tabman0A19IndicatorTransitionC"
+- "6Tabman0A28StaticBarIndicatorTransitionC"
+- "6Tabman0A10TransitionC"
+- "6Tabman0A19TransitionLifecycleP"
+- "7Pageboy27TransitionOperationDelegateP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- "So30UIPageViewControllerDataSourceP"
+- "So28UIPageViewControllerDelegateP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So20UIScrollViewDelegateP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "s14_ArrayProtocolP"
+- !private "s23_BidirectionalIndexableP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s17_MutableIndexableP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s22_RandomAccessIndexableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s11_StrideableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphoneos/Pageboy/Pageboy.framework/Modules/Pageboy.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Target Support Files/Tabman/Tabman-umbrella.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Target Support Files/PureLayout/PureLayout-umbrella.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Target Support Files/Pageboy/Pageboy-umbrella.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/PureLayout/PureLayout/PureLayout/PureLayout+Internal.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Tabman/Sources/Tabman/Tabman.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/PureLayout/PureLayout/PureLayout/PureLayoutDefines.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphoneos/Pageboy/Pageboy.framework/Headers/Pageboy-Swift.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/PureLayout/PureLayout/PureLayout/NSLayoutConstraint+PureLayout.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/PureLayout/PureLayout/PureLayout/ALView+PureLayout.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/PureLayout/PureLayout/PureLayout/NSArray+PureLayout.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/PureLayout/PureLayout/PureLayout/PureLayout.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Pageboy/Sources/Pageboy/Pageboy.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Tabman.build/unextended-module.modulemap"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/PureLayout.build/module.modulemap"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Pageboy.build/module.modulemap"
+interface-hash: "e06a116ca387faf3f4b53cef195286e5"

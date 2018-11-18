@@ -1,0 +1,11 @@
+framework module AKSideMenu {
+  umbrella header "AKSideMenu-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module AKSideMenu.Swift {
+    header "AKSideMenu-Swift.h"
+    requires objc
+}

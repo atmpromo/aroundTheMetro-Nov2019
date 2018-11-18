@@ -1,0 +1,190 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "6Tabman0A3BarC6InsetsV"
+provides-member:
+- ["6Tabman0A3BarC", ""]
+- ["6Tabman0A3BarC6InsetsV", ""]
+- ["6Tabman0A3BarC", "Insets"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "+"
+- "AssignmentPrecedence"
+- "CGFloat"
+- "TabmanBar"
+- "UIEdgeInsets"
+- !private "max"
+depends-member:
+- !private ["So15CALayerDelegateP", "Insets"]
+- !private ["So15CALayerDelegateP", "UIEdgeInsets"]
+- !private ["So15CALayerDelegateP", "max"]
+- !private ["s7CVarArgP", "Insets"]
+- !private ["s7CVarArgP", "UIEdgeInsets"]
+- !private ["s7CVarArgP", "max"]
+- !private ["s28CustomDebugStringConvertibleP", "Insets"]
+- !private ["s28CustomDebugStringConvertibleP", "UIEdgeInsets"]
+- !private ["s28CustomDebugStringConvertibleP", "max"]
+- !private ["s23CustomStringConvertibleP", "Insets"]
+- !private ["s23CustomStringConvertibleP", "UIEdgeInsets"]
+- !private ["s23CustomStringConvertibleP", "max"]
+- !private ["s9EquatableP", "Insets"]
+- !private ["s9EquatableP", "UIEdgeInsets"]
+- !private ["s9EquatableP", "bottom"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "max"]
+- !private ["s9EquatableP", "top"]
+- !private ["s9EquatableP", "zero"]
+- !private ["s8HashableP", "Insets"]
+- !private ["s8HashableP", "UIEdgeInsets"]
+- !private ["s8HashableP", "max"]
+- ["6Tabman0A3BarC6InsetsV", "CGFloat"]
+- ["6Tabman0A3BarC6InsetsV", "Insets"]
+- ["6Tabman0A3BarC6InsetsV", "UIEdgeInsets"]
+- ["6Tabman0A3BarC6InsetsV", "all"]
+- ["6Tabman0A3BarC6InsetsV", "bar"]
+- ["6Tabman0A3BarC6InsetsV", "barInsets"]
+- ["6Tabman0A3BarC6InsetsV", "bottomLayoutGuide"]
+- ["6Tabman0A3BarC6InsetsV", "init"]
+- !private ["6Tabman0A3BarC6InsetsV", "max"]
+- ["6Tabman0A3BarC6InsetsV", "safeArea"]
+- ["6Tabman0A3BarC6InsetsV", "safeAreaInsets"]
+- ["6Tabman0A3BarC6InsetsV", "topLayoutGuide"]
+- ["6Tabman0A3BarC6InsetsV", "zero"]
+- !private ["So8NSCodingP", "Insets"]
+- !private ["So8NSCodingP", "UIEdgeInsets"]
+- !private ["So8NSCodingP", "max"]
+- ["So8NSObjectC", "CGFloat"]
+- ["So8NSObjectC", "Insets"]
+- ["So8NSObjectC", "UIEdgeInsets"]
+- !private ["So8NSObjectC", "max"]
+- !private ["So16NSObjectProtocolP", "Insets"]
+- !private ["So16NSObjectProtocolP", "UIEdgeInsets"]
+- !private ["So16NSObjectProtocolP", "max"]
+- !private ["6Tabman0A20AppearanceUpdateableP", "Insets"]
+- !private ["6Tabman0A20AppearanceUpdateableP", "UIEdgeInsets"]
+- !private ["6Tabman0A20AppearanceUpdateableP", "max"]
+- ["6Tabman0A3BarC", "CGFloat"]
+- ["6Tabman0A3BarC", "Insets"]
+- ["6Tabman0A3BarC", "UIEdgeInsets"]
+- !private ["6Tabman0A3BarC", "max"]
+- !private ["6Tabman0A12BarLifecycleP", "Insets"]
+- !private ["6Tabman0A12BarLifecycleP", "UIEdgeInsets"]
+- !private ["6Tabman0A12BarLifecycleP", "max"]
+- !private ["6Tabman0A17IndicatorDelegateP", "Insets"]
+- !private ["6Tabman0A17IndicatorDelegateP", "UIEdgeInsets"]
+- !private ["6Tabman0A17IndicatorDelegateP", "max"]
+- !private ["So29UIAccessibilityIdentificationP", "Insets"]
+- !private ["So29UIAccessibilityIdentificationP", "UIEdgeInsets"]
+- !private ["So29UIAccessibilityIdentificationP", "max"]
+- !private ["So12UIAppearanceP", "Insets"]
+- !private ["So12UIAppearanceP", "UIEdgeInsets"]
+- !private ["So12UIAppearanceP", "max"]
+- !private ["So21UIAppearanceContainerP", "Insets"]
+- !private ["So21UIAppearanceContainerP", "UIEdgeInsets"]
+- !private ["So21UIAppearanceContainerP", "max"]
+- !private ["So17UICoordinateSpaceP", "Insets"]
+- !private ["So17UICoordinateSpaceP", "UIEdgeInsets"]
+- !private ["So17UICoordinateSpaceP", "max"]
+- !private ["So13UIDynamicItemP", "Insets"]
+- !private ["So13UIDynamicItemP", "UIEdgeInsets"]
+- !private ["So13UIDynamicItemP", "max"]
+- !private ["SC12UIEdgeInsetsV", "bottom"]
+- !private ["SC12UIEdgeInsetsV", "init"]
+- !private ["SC12UIEdgeInsetsV", "top"]
+- !private ["SC12UIEdgeInsetsV", "zero"]
+- !private ["So18UIFocusEnvironmentP", "Insets"]
+- !private ["So18UIFocusEnvironmentP", "UIEdgeInsets"]
+- !private ["So18UIFocusEnvironmentP", "max"]
+- !private ["So11UIFocusItemP", "Insets"]
+- !private ["So11UIFocusItemP", "UIEdgeInsets"]
+- !private ["So11UIFocusItemP", "max"]
+- !private ["So30UIPasteConfigurationSupportingP", "Insets"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIEdgeInsets"]
+- !private ["So30UIPasteConfigurationSupportingP", "max"]
+- ["So11UIResponderC", "CGFloat"]
+- ["So11UIResponderC", "Insets"]
+- ["So11UIResponderC", "UIEdgeInsets"]
+- !private ["So11UIResponderC", "max"]
+- !private ["So30UIResponderStandardEditActionsP", "Insets"]
+- !private ["So30UIResponderStandardEditActionsP", "UIEdgeInsets"]
+- !private ["So30UIResponderStandardEditActionsP", "max"]
+- !private ["So18UITraitEnvironmentP", "Insets"]
+- !private ["So18UITraitEnvironmentP", "UIEdgeInsets"]
+- !private ["So18UITraitEnvironmentP", "max"]
+- ["So6UIViewC", "CGFloat"]
+- ["So6UIViewC", "Insets"]
+- ["So6UIViewC", "UIEdgeInsets"]
+- !private ["So6UIViewC", "max"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "Insets"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "UIEdgeInsets"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "max"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Insets"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIEdgeInsets"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "max"]
+- !private ["s21_ObjectiveCBridgeableP", "bottom"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "top"]
+- !private ["s21_ObjectiveCBridgeableP", "zero"]
+depends-nominal:
+- !private "So15CALayerDelegateP"
+- !private "s7CVarArgP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9EquatableP"
+- !private "s8HashableP"
+- "6Tabman0A3BarC6InsetsV"
+- !private "So8NSCodingP"
+- "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "6Tabman0A20AppearanceUpdateableP"
+- "6Tabman0A3BarC"
+- !private "6Tabman0A12BarLifecycleP"
+- !private "6Tabman0A17IndicatorDelegateP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "SC12UIEdgeInsetsV"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So18UITraitEnvironmentP"
+- "So6UIViewC"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphoneos/Pageboy/Pageboy.framework/Modules/Pageboy.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Target Support Files/Tabman/Tabman-umbrella.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Target Support Files/PureLayout/PureLayout-umbrella.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Target Support Files/Pageboy/Pageboy-umbrella.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/PureLayout/PureLayout/PureLayout/PureLayout+Internal.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Tabman/Sources/Tabman/Tabman.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/PureLayout/PureLayout/PureLayout/PureLayoutDefines.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphoneos/Pageboy/Pageboy.framework/Headers/Pageboy-Swift.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/PureLayout/PureLayout/PureLayout/NSLayoutConstraint+PureLayout.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/PureLayout/PureLayout/PureLayout/ALView+PureLayout.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/PureLayout/PureLayout/PureLayout/NSArray+PureLayout.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/PureLayout/PureLayout/PureLayout/PureLayout.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Pageboy/Sources/Pageboy/Pageboy.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Tabman.build/unextended-module.modulemap"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/PureLayout.build/module.modulemap"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Pageboy.build/module.modulemap"
+interface-hash: "fc0a11889eef8ffef1ba6c8ef2731902"

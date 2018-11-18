@@ -1,0 +1,664 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "=="
+provides-nominal:
+- "6Tabman0A3BarC14BackgroundViewC"
+- "6Tabman0A3BarC14BackgroundViewC5StyleO"
+provides-member:
+- ["6Tabman0A3BarC", ""]
+- ["6Tabman0A3BarC14BackgroundViewC", ""]
+- ["6Tabman0A3BarC14BackgroundViewC5StyleO", ""]
+- ["6Tabman0A3BarC", "BackgroundView"]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "??"
+- "AssignmentPrecedence"
+- "Bool"
+- "CGRect"
+- "CustomStringConvertible"
+- "Equatable"
+- "NSCoder"
+- "String"
+- !private "StringLiteralType"
+- "TabmanBar"
+- !private "UIBlurEffect"
+- "UIBlurEffectStyle"
+- "UIColor"
+- "UIView"
+- !private "UIVisualEffectView"
+depends-member:
+- ["6Tabman0A3BarC10AppearanceC", "defaultAppearance"]
+- ["6Tabman0A3BarC10AppearanceC", "style"]
+- ["6Tabman0A3BarC14BackgroundViewC", "CGRect"]
+- ["6Tabman0A3BarC14BackgroundViewC", "NSCoder"]
+- ["6Tabman0A3BarC14BackgroundViewC", "Style"]
+- ["6Tabman0A3BarC14BackgroundViewC", "TabmanBar"]
+- !private ["6Tabman0A3BarC14BackgroundViewC", "UIBlurEffect"]
+- ["6Tabman0A3BarC14BackgroundViewC", "UIBlurEffectStyle"]
+- ["6Tabman0A3BarC14BackgroundViewC", "UIColor"]
+- ["6Tabman0A3BarC14BackgroundViewC", "UIView"]
+- !private ["6Tabman0A3BarC14BackgroundViewC", "UIVisualEffectView"]
+- !private ["6Tabman0A3BarC14BackgroundViewC", "addSubview"]
+- !private ["6Tabman0A3BarC14BackgroundViewC", "backgroundContainer"]
+- !private ["6Tabman0A3BarC14BackgroundViewC", "configure"]
+- ["6Tabman0A3BarC14BackgroundViewC", "deinit"]
+- ["6Tabman0A3BarC14BackgroundViewC", "init"]
+- ["6Tabman0A3BarC14BackgroundViewC", "style"]
+- ["6Tabman0A3BarC14BackgroundViewC", "updateBackground"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- ["So15CALayerDelegateP", "Appearance"]
+- ["So15CALayerDelegateP", "BackgroundView"]
+- ["So15CALayerDelegateP", "Style"]
+- ["So15CALayerDelegateP", "TabmanBar"]
+- !private ["So15CALayerDelegateP", "UIBlurEffect"]
+- ["So15CALayerDelegateP", "UIView"]
+- !private ["So15CALayerDelegateP", "UIVisualEffectView"]
+- !private ["So15CALayerDelegateP", "addSubview"]
+- !private ["So15CALayerDelegateP", "autoPinEdgesToSuperviewEdges"]
+- !private ["So15CALayerDelegateP", "backgroundColor"]
+- !private ["So15CALayerDelegateP", "backgroundContainer"]
+- !private ["So15CALayerDelegateP", "configure"]
+- ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "removeAllSubviews"]
+- !private ["So15CALayerDelegateP", "style"]
+- !private ["So15CALayerDelegateP", "updateBackground"]
+- ["So15CALayerDelegateP", ""]
+- ["s7CVarArgP", "Appearance"]
+- ["s7CVarArgP", "BackgroundView"]
+- ["s7CVarArgP", "Style"]
+- ["s7CVarArgP", "TabmanBar"]
+- !private ["s7CVarArgP", "UIBlurEffect"]
+- ["s7CVarArgP", "UIView"]
+- !private ["s7CVarArgP", "UIVisualEffectView"]
+- !private ["s7CVarArgP", "addSubview"]
+- !private ["s7CVarArgP", "autoPinEdgesToSuperviewEdges"]
+- !private ["s7CVarArgP", "backgroundColor"]
+- !private ["s7CVarArgP", "backgroundContainer"]
+- !private ["s7CVarArgP", "configure"]
+- !private ["s7CVarArgP", "hashValue"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "removeAllSubviews"]
+- !private ["s7CVarArgP", "style"]
+- !private ["s7CVarArgP", "updateBackground"]
+- ["s7CVarArgP", ""]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- ["s28CustomDebugStringConvertibleP", "Appearance"]
+- ["s28CustomDebugStringConvertibleP", "BackgroundView"]
+- ["s28CustomDebugStringConvertibleP", "Style"]
+- ["s28CustomDebugStringConvertibleP", "TabmanBar"]
+- !private ["s28CustomDebugStringConvertibleP", "UIBlurEffect"]
+- ["s28CustomDebugStringConvertibleP", "UIView"]
+- !private ["s28CustomDebugStringConvertibleP", "UIVisualEffectView"]
+- !private ["s28CustomDebugStringConvertibleP", "addSubview"]
+- !private ["s28CustomDebugStringConvertibleP", "autoPinEdgesToSuperviewEdges"]
+- !private ["s28CustomDebugStringConvertibleP", "backgroundColor"]
+- !private ["s28CustomDebugStringConvertibleP", "backgroundContainer"]
+- !private ["s28CustomDebugStringConvertibleP", "configure"]
+- !private ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "removeAllSubviews"]
+- !private ["s28CustomDebugStringConvertibleP", "style"]
+- !private ["s28CustomDebugStringConvertibleP", "updateBackground"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", "Appearance"]
+- ["s23CustomStringConvertibleP", "BackgroundView"]
+- ["s23CustomStringConvertibleP", "Style"]
+- ["s23CustomStringConvertibleP", "TabmanBar"]
+- !private ["s23CustomStringConvertibleP", "UIBlurEffect"]
+- ["s23CustomStringConvertibleP", "UIView"]
+- !private ["s23CustomStringConvertibleP", "UIVisualEffectView"]
+- !private ["s23CustomStringConvertibleP", "addSubview"]
+- !private ["s23CustomStringConvertibleP", "autoPinEdgesToSuperviewEdges"]
+- !private ["s23CustomStringConvertibleP", "backgroundColor"]
+- !private ["s23CustomStringConvertibleP", "backgroundContainer"]
+- ["s23CustomStringConvertibleP", "blur"]
+- ["s23CustomStringConvertibleP", "clear"]
+- !private ["s23CustomStringConvertibleP", "configure"]
+- ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "removeAllSubviews"]
+- ["s23CustomStringConvertibleP", "solid"]
+- !private ["s23CustomStringConvertibleP", "style"]
+- !private ["s23CustomStringConvertibleP", "updateBackground"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "init"]
+- ["s9EquatableP", "Appearance"]
+- ["s9EquatableP", "BackgroundView"]
+- ["s9EquatableP", "Style"]
+- ["s9EquatableP", "TabmanBar"]
+- !private ["s9EquatableP", "UIBlurEffect"]
+- ["s9EquatableP", "UIView"]
+- !private ["s9EquatableP", "UIVisualEffectView"]
+- !private ["s9EquatableP", "addSubview"]
+- !private ["s9EquatableP", "autoPinEdgesToSuperviewEdges"]
+- !private ["s9EquatableP", "backgroundColor"]
+- !private ["s9EquatableP", "backgroundContainer"]
+- ["s9EquatableP", "blur"]
+- ["s9EquatableP", "clear"]
+- !private ["s9EquatableP", "configure"]
+- ["s9EquatableP", "description"]
+- !private ["s9EquatableP", "hashValue"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "rawValue"]
+- !private ["s9EquatableP", "removeAllSubviews"]
+- ["s9EquatableP", "solid"]
+- !private ["s9EquatableP", "style"]
+- !private ["s9EquatableP", "updateBackground"]
+- ["s9EquatableP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s8HashableP", "Appearance"]
+- ["s8HashableP", "BackgroundView"]
+- ["s8HashableP", "Style"]
+- ["s8HashableP", "TabmanBar"]
+- !private ["s8HashableP", "UIBlurEffect"]
+- ["s8HashableP", "UIView"]
+- !private ["s8HashableP", "UIVisualEffectView"]
+- !private ["s8HashableP", "addSubview"]
+- !private ["s8HashableP", "autoPinEdgesToSuperviewEdges"]
+- !private ["s8HashableP", "backgroundColor"]
+- !private ["s8HashableP", "backgroundContainer"]
+- !private ["s8HashableP", "configure"]
+- !private ["s8HashableP", "hashValue"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "rawValue"]
+- !private ["s8HashableP", "removeAllSubviews"]
+- !private ["s8HashableP", "style"]
+- !private ["s8HashableP", "updateBackground"]
+- ["s8HashableP", ""]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- ["So8NSCodingP", "Appearance"]
+- ["So8NSCodingP", "BackgroundView"]
+- ["So8NSCodingP", "Style"]
+- ["So8NSCodingP", "TabmanBar"]
+- !private ["So8NSCodingP", "UIBlurEffect"]
+- ["So8NSCodingP", "UIView"]
+- !private ["So8NSCodingP", "UIVisualEffectView"]
+- !private ["So8NSCodingP", "addSubview"]
+- !private ["So8NSCodingP", "autoPinEdgesToSuperviewEdges"]
+- !private ["So8NSCodingP", "backgroundColor"]
+- !private ["So8NSCodingP", "backgroundContainer"]
+- !private ["So8NSCodingP", "configure"]
+- !private ["So8NSCodingP", "hashValue"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "removeAllSubviews"]
+- !private ["So8NSCodingP", "style"]
+- !private ["So8NSCodingP", "updateBackground"]
+- ["So8NSCodingP", ""]
+- !private ["So9NSCopyingP", "hashValue"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So21NSItemProviderReadingP", "hashValue"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "hashValue"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- ["So8NSObjectC", "Appearance"]
+- ["So8NSObjectC", "BackgroundView"]
+- ["So8NSObjectC", "CGRect"]
+- ["So8NSObjectC", "NSCoder"]
+- ["So8NSObjectC", "Style"]
+- ["So8NSObjectC", "TabmanBar"]
+- !private ["So8NSObjectC", "UIBlurEffect"]
+- ["So8NSObjectC", "UIBlurEffectStyle"]
+- ["So8NSObjectC", "UIColor"]
+- ["So8NSObjectC", "UIView"]
+- !private ["So8NSObjectC", "UIVisualEffectView"]
+- !private ["So8NSObjectC", "addSubview"]
+- !private ["So8NSObjectC", "autoPinEdgesToSuperviewEdges"]
+- !private ["So8NSObjectC", "backgroundColor"]
+- ["So8NSObjectC", "backgroundContainer"]
+- ["So8NSObjectC", "configure"]
+- !private ["So8NSObjectC", "hashValue"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "removeAllSubviews"]
+- ["So8NSObjectC", "style"]
+- ["So8NSObjectC", "updateBackground"]
+- ["So16NSObjectProtocolP", "Appearance"]
+- ["So16NSObjectProtocolP", "BackgroundView"]
+- ["So16NSObjectProtocolP", "Style"]
+- ["So16NSObjectProtocolP", "TabmanBar"]
+- !private ["So16NSObjectProtocolP", "UIBlurEffect"]
+- ["So16NSObjectProtocolP", "UIView"]
+- !private ["So16NSObjectProtocolP", "UIVisualEffectView"]
+- !private ["So16NSObjectProtocolP", "addSubview"]
+- !private ["So16NSObjectProtocolP", "autoPinEdgesToSuperviewEdges"]
+- !private ["So16NSObjectProtocolP", "backgroundColor"]
+- !private ["So16NSObjectProtocolP", "backgroundContainer"]
+- !private ["So16NSObjectProtocolP", "configure"]
+- !private ["So16NSObjectProtocolP", "hashValue"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "removeAllSubviews"]
+- !private ["So16NSObjectProtocolP", "style"]
+- !private ["So16NSObjectProtocolP", "updateBackground"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "autoPinEdgesToSuperviewEdges"]
+- !private ["So14NSSecureCodingP", "hashValue"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "init"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s16RawRepresentableP", "rawValue"]
+- !private ["s8SequenceP", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- ["6Tabman0A3BarC10AppearanceC5StyleV", "background"]
+- ["6Tabman0A3BarC14BackgroundViewC5StyleO", "=="]
+- ["6Tabman0A3BarC14BackgroundViewC5StyleO", "Bool"]
+- ["6Tabman0A3BarC14BackgroundViewC5StyleO", "String"]
+- ["6Tabman0A3BarC14BackgroundViewC5StyleO", "TabmanBar"]
+- ["6Tabman0A3BarC14BackgroundViewC5StyleO", "UIBlurEffectStyle"]
+- ["6Tabman0A3BarC14BackgroundViewC5StyleO", "UIColor"]
+- ["6Tabman0A3BarC14BackgroundViewC5StyleO", "blur"]
+- ["6Tabman0A3BarC14BackgroundViewC5StyleO", "clear"]
+- ["6Tabman0A3BarC14BackgroundViewC5StyleO", "deinit"]
+- ["6Tabman0A3BarC14BackgroundViewC5StyleO", "description"]
+- ["6Tabman0A3BarC14BackgroundViewC5StyleO", "solid"]
+- ["6Tabman0A20AppearanceUpdateableP", "Appearance"]
+- ["6Tabman0A20AppearanceUpdateableP", "BackgroundView"]
+- ["6Tabman0A20AppearanceUpdateableP", "TabmanBar"]
+- !private ["6Tabman0A20AppearanceUpdateableP", "UIBlurEffect"]
+- ["6Tabman0A20AppearanceUpdateableP", "UIView"]
+- !private ["6Tabman0A20AppearanceUpdateableP", "UIVisualEffectView"]
+- ["6Tabman0A3BarC", "Appearance"]
+- ["6Tabman0A3BarC", "BackgroundView"]
+- ["6Tabman0A3BarC", "CGRect"]
+- ["6Tabman0A3BarC", "NSCoder"]
+- ["6Tabman0A3BarC", "TabmanBar"]
+- !private ["6Tabman0A3BarC", "UIBlurEffect"]
+- ["6Tabman0A3BarC", "UIBlurEffectStyle"]
+- ["6Tabman0A3BarC", "UIColor"]
+- ["6Tabman0A3BarC", "UIView"]
+- !private ["6Tabman0A3BarC", "UIVisualEffectView"]
+- ["6Tabman0A12BarLifecycleP", "Appearance"]
+- ["6Tabman0A12BarLifecycleP", "BackgroundView"]
+- ["6Tabman0A12BarLifecycleP", "TabmanBar"]
+- !private ["6Tabman0A12BarLifecycleP", "UIBlurEffect"]
+- ["6Tabman0A12BarLifecycleP", "UIView"]
+- !private ["6Tabman0A12BarLifecycleP", "UIVisualEffectView"]
+- ["6Tabman0A17IndicatorDelegateP", "Appearance"]
+- ["6Tabman0A17IndicatorDelegateP", "BackgroundView"]
+- ["6Tabman0A17IndicatorDelegateP", "TabmanBar"]
+- !private ["6Tabman0A17IndicatorDelegateP", "UIBlurEffect"]
+- ["6Tabman0A17IndicatorDelegateP", "UIView"]
+- !private ["6Tabman0A17IndicatorDelegateP", "UIVisualEffectView"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- ["So29UIAccessibilityIdentificationP", "Appearance"]
+- ["So29UIAccessibilityIdentificationP", "BackgroundView"]
+- ["So29UIAccessibilityIdentificationP", "Style"]
+- ["So29UIAccessibilityIdentificationP", "TabmanBar"]
+- !private ["So29UIAccessibilityIdentificationP", "UIBlurEffect"]
+- ["So29UIAccessibilityIdentificationP", "UIView"]
+- !private ["So29UIAccessibilityIdentificationP", "UIVisualEffectView"]
+- !private ["So29UIAccessibilityIdentificationP", "addSubview"]
+- !private ["So29UIAccessibilityIdentificationP", "autoPinEdgesToSuperviewEdges"]
+- !private ["So29UIAccessibilityIdentificationP", "backgroundColor"]
+- !private ["So29UIAccessibilityIdentificationP", "backgroundContainer"]
+- !private ["So29UIAccessibilityIdentificationP", "configure"]
+- ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "removeAllSubviews"]
+- !private ["So29UIAccessibilityIdentificationP", "style"]
+- !private ["So29UIAccessibilityIdentificationP", "updateBackground"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- ["So12UIAppearanceP", "Appearance"]
+- ["So12UIAppearanceP", "BackgroundView"]
+- ["So12UIAppearanceP", "Style"]
+- ["So12UIAppearanceP", "TabmanBar"]
+- !private ["So12UIAppearanceP", "UIBlurEffect"]
+- ["So12UIAppearanceP", "UIView"]
+- !private ["So12UIAppearanceP", "UIVisualEffectView"]
+- !private ["So12UIAppearanceP", "addSubview"]
+- !private ["So12UIAppearanceP", "autoPinEdgesToSuperviewEdges"]
+- !private ["So12UIAppearanceP", "backgroundColor"]
+- !private ["So12UIAppearanceP", "backgroundContainer"]
+- !private ["So12UIAppearanceP", "configure"]
+- ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "removeAllSubviews"]
+- !private ["So12UIAppearanceP", "style"]
+- !private ["So12UIAppearanceP", "updateBackground"]
+- ["So12UIAppearanceP", ""]
+- ["So21UIAppearanceContainerP", "Appearance"]
+- ["So21UIAppearanceContainerP", "BackgroundView"]
+- ["So21UIAppearanceContainerP", "Style"]
+- ["So21UIAppearanceContainerP", "TabmanBar"]
+- !private ["So21UIAppearanceContainerP", "UIBlurEffect"]
+- ["So21UIAppearanceContainerP", "UIView"]
+- !private ["So21UIAppearanceContainerP", "UIVisualEffectView"]
+- !private ["So21UIAppearanceContainerP", "addSubview"]
+- !private ["So21UIAppearanceContainerP", "autoPinEdgesToSuperviewEdges"]
+- !private ["So21UIAppearanceContainerP", "backgroundColor"]
+- !private ["So21UIAppearanceContainerP", "backgroundContainer"]
+- !private ["So21UIAppearanceContainerP", "configure"]
+- ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "removeAllSubviews"]
+- !private ["So21UIAppearanceContainerP", "style"]
+- !private ["So21UIAppearanceContainerP", "updateBackground"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So12UIBlurEffectC", "init"]
+- !private ["SC17UIBlurEffectStyleO", "rawValue"]
+- !private ["So7UIColorC", "hashValue"]
+- ["So17UICoordinateSpaceP", "Appearance"]
+- ["So17UICoordinateSpaceP", "BackgroundView"]
+- ["So17UICoordinateSpaceP", "Style"]
+- ["So17UICoordinateSpaceP", "TabmanBar"]
+- !private ["So17UICoordinateSpaceP", "UIBlurEffect"]
+- ["So17UICoordinateSpaceP", "UIView"]
+- !private ["So17UICoordinateSpaceP", "UIVisualEffectView"]
+- !private ["So17UICoordinateSpaceP", "addSubview"]
+- !private ["So17UICoordinateSpaceP", "autoPinEdgesToSuperviewEdges"]
+- !private ["So17UICoordinateSpaceP", "backgroundColor"]
+- !private ["So17UICoordinateSpaceP", "backgroundContainer"]
+- !private ["So17UICoordinateSpaceP", "configure"]
+- ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "removeAllSubviews"]
+- !private ["So17UICoordinateSpaceP", "style"]
+- !private ["So17UICoordinateSpaceP", "updateBackground"]
+- ["So17UICoordinateSpaceP", ""]
+- ["So13UIDynamicItemP", "Appearance"]
+- ["So13UIDynamicItemP", "BackgroundView"]
+- ["So13UIDynamicItemP", "Style"]
+- ["So13UIDynamicItemP", "TabmanBar"]
+- !private ["So13UIDynamicItemP", "UIBlurEffect"]
+- ["So13UIDynamicItemP", "UIView"]
+- !private ["So13UIDynamicItemP", "UIVisualEffectView"]
+- !private ["So13UIDynamicItemP", "addSubview"]
+- !private ["So13UIDynamicItemP", "autoPinEdgesToSuperviewEdges"]
+- !private ["So13UIDynamicItemP", "backgroundColor"]
+- !private ["So13UIDynamicItemP", "backgroundContainer"]
+- !private ["So13UIDynamicItemP", "configure"]
+- ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "removeAllSubviews"]
+- !private ["So13UIDynamicItemP", "style"]
+- !private ["So13UIDynamicItemP", "updateBackground"]
+- ["So13UIDynamicItemP", ""]
+- ["So18UIFocusEnvironmentP", "Appearance"]
+- ["So18UIFocusEnvironmentP", "BackgroundView"]
+- ["So18UIFocusEnvironmentP", "Style"]
+- ["So18UIFocusEnvironmentP", "TabmanBar"]
+- !private ["So18UIFocusEnvironmentP", "UIBlurEffect"]
+- ["So18UIFocusEnvironmentP", "UIView"]
+- !private ["So18UIFocusEnvironmentP", "UIVisualEffectView"]
+- !private ["So18UIFocusEnvironmentP", "addSubview"]
+- !private ["So18UIFocusEnvironmentP", "autoPinEdgesToSuperviewEdges"]
+- !private ["So18UIFocusEnvironmentP", "backgroundColor"]
+- !private ["So18UIFocusEnvironmentP", "backgroundContainer"]
+- !private ["So18UIFocusEnvironmentP", "configure"]
+- ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "removeAllSubviews"]
+- !private ["So18UIFocusEnvironmentP", "style"]
+- !private ["So18UIFocusEnvironmentP", "updateBackground"]
+- ["So18UIFocusEnvironmentP", ""]
+- ["So11UIFocusItemP", "Appearance"]
+- ["So11UIFocusItemP", "BackgroundView"]
+- ["So11UIFocusItemP", "Style"]
+- ["So11UIFocusItemP", "TabmanBar"]
+- !private ["So11UIFocusItemP", "UIBlurEffect"]
+- ["So11UIFocusItemP", "UIView"]
+- !private ["So11UIFocusItemP", "UIVisualEffectView"]
+- !private ["So11UIFocusItemP", "addSubview"]
+- !private ["So11UIFocusItemP", "autoPinEdgesToSuperviewEdges"]
+- !private ["So11UIFocusItemP", "backgroundColor"]
+- !private ["So11UIFocusItemP", "backgroundContainer"]
+- !private ["So11UIFocusItemP", "configure"]
+- ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "removeAllSubviews"]
+- !private ["So11UIFocusItemP", "style"]
+- !private ["So11UIFocusItemP", "updateBackground"]
+- ["So11UIFocusItemP", ""]
+- ["So30UIPasteConfigurationSupportingP", "Appearance"]
+- ["So30UIPasteConfigurationSupportingP", "BackgroundView"]
+- ["So30UIPasteConfigurationSupportingP", "Style"]
+- ["So30UIPasteConfigurationSupportingP", "TabmanBar"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIBlurEffect"]
+- ["So30UIPasteConfigurationSupportingP", "UIView"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIVisualEffectView"]
+- !private ["So30UIPasteConfigurationSupportingP", "addSubview"]
+- !private ["So30UIPasteConfigurationSupportingP", "autoPinEdgesToSuperviewEdges"]
+- !private ["So30UIPasteConfigurationSupportingP", "backgroundColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "backgroundContainer"]
+- !private ["So30UIPasteConfigurationSupportingP", "configure"]
+- ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "removeAllSubviews"]
+- !private ["So30UIPasteConfigurationSupportingP", "style"]
+- !private ["So30UIPasteConfigurationSupportingP", "updateBackground"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So11UIResponderC", "Appearance"]
+- ["So11UIResponderC", "BackgroundView"]
+- ["So11UIResponderC", "CGRect"]
+- ["So11UIResponderC", "NSCoder"]
+- ["So11UIResponderC", "Style"]
+- ["So11UIResponderC", "TabmanBar"]
+- !private ["So11UIResponderC", "UIBlurEffect"]
+- ["So11UIResponderC", "UIBlurEffectStyle"]
+- ["So11UIResponderC", "UIColor"]
+- ["So11UIResponderC", "UIView"]
+- !private ["So11UIResponderC", "UIVisualEffectView"]
+- !private ["So11UIResponderC", "addSubview"]
+- !private ["So11UIResponderC", "autoPinEdgesToSuperviewEdges"]
+- !private ["So11UIResponderC", "backgroundColor"]
+- ["So11UIResponderC", "backgroundContainer"]
+- ["So11UIResponderC", "configure"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "removeAllSubviews"]
+- ["So11UIResponderC", "style"]
+- ["So11UIResponderC", "updateBackground"]
+- ["So30UIResponderStandardEditActionsP", "Appearance"]
+- ["So30UIResponderStandardEditActionsP", "BackgroundView"]
+- ["So30UIResponderStandardEditActionsP", "Style"]
+- ["So30UIResponderStandardEditActionsP", "TabmanBar"]
+- !private ["So30UIResponderStandardEditActionsP", "UIBlurEffect"]
+- ["So30UIResponderStandardEditActionsP", "UIView"]
+- !private ["So30UIResponderStandardEditActionsP", "UIVisualEffectView"]
+- !private ["So30UIResponderStandardEditActionsP", "addSubview"]
+- !private ["So30UIResponderStandardEditActionsP", "autoPinEdgesToSuperviewEdges"]
+- !private ["So30UIResponderStandardEditActionsP", "backgroundColor"]
+- !private ["So30UIResponderStandardEditActionsP", "backgroundContainer"]
+- !private ["So30UIResponderStandardEditActionsP", "configure"]
+- ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "removeAllSubviews"]
+- !private ["So30UIResponderStandardEditActionsP", "style"]
+- !private ["So30UIResponderStandardEditActionsP", "updateBackground"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- ["So18UITraitEnvironmentP", "Appearance"]
+- ["So18UITraitEnvironmentP", "BackgroundView"]
+- ["So18UITraitEnvironmentP", "Style"]
+- ["So18UITraitEnvironmentP", "TabmanBar"]
+- !private ["So18UITraitEnvironmentP", "UIBlurEffect"]
+- ["So18UITraitEnvironmentP", "UIView"]
+- !private ["So18UITraitEnvironmentP", "UIVisualEffectView"]
+- !private ["So18UITraitEnvironmentP", "addSubview"]
+- !private ["So18UITraitEnvironmentP", "autoPinEdgesToSuperviewEdges"]
+- !private ["So18UITraitEnvironmentP", "backgroundColor"]
+- !private ["So18UITraitEnvironmentP", "backgroundContainer"]
+- !private ["So18UITraitEnvironmentP", "configure"]
+- ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "removeAllSubviews"]
+- !private ["So18UITraitEnvironmentP", "style"]
+- !private ["So18UITraitEnvironmentP", "updateBackground"]
+- ["So18UITraitEnvironmentP", ""]
+- ["So6UIViewC", "Appearance"]
+- ["So6UIViewC", "BackgroundView"]
+- ["So6UIViewC", "CGRect"]
+- ["So6UIViewC", "NSCoder"]
+- ["So6UIViewC", "Style"]
+- ["So6UIViewC", "TabmanBar"]
+- !private ["So6UIViewC", "UIBlurEffect"]
+- ["So6UIViewC", "UIBlurEffectStyle"]
+- ["So6UIViewC", "UIColor"]
+- ["So6UIViewC", "UIView"]
+- !private ["So6UIViewC", "UIVisualEffectView"]
+- !private ["So6UIViewC", "addSubview"]
+- !private ["So6UIViewC", "autoPinEdgesToSuperviewEdges"]
+- !private ["So6UIViewC", "backgroundColor"]
+- ["So6UIViewC", "backgroundContainer"]
+- ["So6UIViewC", "configure"]
+- ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "removeAllSubviews"]
+- ["So6UIViewC", "style"]
+- ["So6UIViewC", "updateBackground"]
+- ["So6UIViewC", ""]
+- !private ["So14UIVisualEffectC", "init"]
+- !private ["So18UIVisualEffectViewC", "autoPinEdgesToSuperviewEdges"]
+- !private ["So18UIVisualEffectViewC", "init"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", "Appearance"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", "BackgroundView"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", "Style"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", "TabmanBar"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "UIBlurEffect"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", "UIView"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "UIVisualEffectView"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addSubview"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "autoPinEdgesToSuperviewEdges"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "backgroundColor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "backgroundContainer"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "configure"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "removeAllSubviews"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "style"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "updateBackground"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s26_ExpressibleByColorLiteralP", "hashValue"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Appearance"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "BackgroundView"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Style"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "TabmanBar"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIBlurEffect"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "UIView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIVisualEffectView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addSubview"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "autoPinEdgesToSuperviewEdges"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "backgroundColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "backgroundContainer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "configure"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "hashValue"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeAllSubviews"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "style"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "updateBackground"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "6Tabman0A3BarC10AppearanceC"
+- "6Tabman0A3BarC14BackgroundViewC"
+- !private "s23BidirectionalCollectionP"
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "s8SequenceP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- "6Tabman0A3BarC10AppearanceC5StyleV"
+- "6Tabman0A3BarC14BackgroundViewC5StyleO"
+- "6Tabman0A20AppearanceUpdateableP"
+- "6Tabman0A3BarC"
+- "6Tabman0A12BarLifecycleP"
+- "6Tabman0A17IndicatorDelegateP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So12UIBlurEffectC"
+- !private "SC17UIBlurEffectStyleO"
+- !private "So7UIColorC"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So18UITraitEnvironmentP"
+- "So6UIViewC"
+- !private "So14UIVisualEffectC"
+- !private "So18UIVisualEffectViewC"
+- !private "s23_BidirectionalIndexableP"
+- "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByColorLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphoneos/Pageboy/Pageboy.framework/Modules/Pageboy.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Target Support Files/Tabman/Tabman-umbrella.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Target Support Files/PureLayout/PureLayout-umbrella.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Target Support Files/Pageboy/Pageboy-umbrella.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/PureLayout/PureLayout/PureLayout/PureLayout+Internal.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Tabman/Sources/Tabman/Tabman.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/PureLayout/PureLayout/PureLayout/PureLayoutDefines.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphoneos/Pageboy/Pageboy.framework/Headers/Pageboy-Swift.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/PureLayout/PureLayout/PureLayout/NSLayoutConstraint+PureLayout.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/PureLayout/PureLayout/PureLayout/ALView+PureLayout.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/PureLayout/PureLayout/PureLayout/NSArray+PureLayout.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/PureLayout/PureLayout/PureLayout/PureLayout.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Pageboy/Sources/Pageboy/Pageboy.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Tabman.build/unextended-module.modulemap"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/PureLayout.build/module.modulemap"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Pageboy.build/module.modulemap"
+interface-hash: "fda003f1a535d91817de610813543301"

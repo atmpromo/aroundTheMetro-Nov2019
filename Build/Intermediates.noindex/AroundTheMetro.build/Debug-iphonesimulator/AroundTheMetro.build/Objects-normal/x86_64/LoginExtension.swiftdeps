@@ -1,0 +1,1228 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "14AroundTheMetro19LoginViewControllerC"
+provides-member:
+- ["14AroundTheMetro19LoginViewControllerC", ""]
+provides-dynamic-lookup:
+- "sign"
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "=="
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "CastingPrecedence"
+- !private "Constants"
+- !private "Dictionary"
+- "Error"
+- !private "FBSDKAccessToken"
+- !private "FBSDKGraphRequest"
+- !private "FBSDKLoginManager"
+- "GIDGoogleUser"
+- "GIDSignIn"
+- "GIDSignInDelegate"
+- "GIDSignInUIDelegate"
+- !private "KVSpinnerView"
+- "LoginViewController"
+- !private "Mapper"
+- !private "NSDictionary"
+- !private "NSLocalizedString"
+- !private "NetworkAdapter"
+- "String"
+- !private "StringLiteralType"
+- !private "UIColor"
+- !private "UIStoryboard"
+- "UIViewController"
+- !private "User"
+- !private "Void"
+- !private "WorldScreenViewcontroller"
+depends-member:
+- !private ["13KVSpinnerView24AnimationManagerDelegateP", "dismiss"]
+- !private ["13KVSpinnerView24AnimationManagerDelegateP", "settings"]
+- !private ["13KVSpinnerView24AnimationManagerDelegateP", "show"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "dismiss"]
+- !private ["So15CALayerDelegateP", "isUserInteractionEnabled"]
+- !private ["So15CALayerDelegateP", "settings"]
+- !private ["So15CALayerDelegateP", "show"]
+- !private ["s7CVarArgP", "Constants"]
+- !private ["s7CVarArgP", "FBSDKAccessToken"]
+- !private ["s7CVarArgP", "FBSDKGraphRequest"]
+- !private ["s7CVarArgP", "FBSDKLoginManager"]
+- !private ["s7CVarArgP", "GIDSignIn"]
+- !private ["s7CVarArgP", "KVSpinnerView"]
+- !private ["s7CVarArgP", "Mapper"]
+- !private ["s7CVarArgP", "NSLocalizedString"]
+- !private ["s7CVarArgP", "NetworkAdapter"]
+- !private ["s7CVarArgP", "UIColor"]
+- !private ["s7CVarArgP", "UIStoryboard"]
+- !private ["s7CVarArgP", "accessToken"]
+- !private ["s7CVarArgP", "authentication"]
+- !private ["s7CVarArgP", "current"]
+- !private ["s7CVarArgP", "currentUser"]
+- !private ["s7CVarArgP", "darkGray"]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "dismiss"]
+- !private ["s7CVarArgP", "facebookGraphRequest"]
+- !private ["s7CVarArgP", "facebookLoginBtn"]
+- !private ["s7CVarArgP", "googleLoginBtn"]
+- !private ["s7CVarArgP", "hasAuthInKeychain"]
+- !private ["s7CVarArgP", "hasImage"]
+- !private ["s7CVarArgP", "imageURL"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "instantiateViewController"]
+- !private ["s7CVarArgP", "isCancelled"]
+- !private ["s7CVarArgP", "isUserInteractionEnabled"]
+- !private ["s7CVarArgP", "logIn"]
+- !private ["s7CVarArgP", "moveToWorldWideWithRegistration"]
+- !private ["s7CVarArgP", "name"]
+- !private ["s7CVarArgP", "present"]
+- !private ["s7CVarArgP", "profile"]
+- !private ["s7CVarArgP", "settings"]
+- !private ["s7CVarArgP", "sharedInstance"]
+- !private ["s7CVarArgP", "shouldFetchBasicProfile"]
+- !private ["s7CVarArgP", "show"]
+- !private ["s7CVarArgP", "showPrgressBar"]
+- ["s7CVarArgP", "sign"]
+- ["s7CVarArgP", "signIn"]
+- !private ["s7CVarArgP", "signInSilently"]
+- ["s7CVarArgP", "signInWillDispatch"]
+- !private ["s7CVarArgP", "start"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "tokenString"]
+- !private ["s7CVarArgP", "uiDelegate"]
+- !private ["s7CVarArgP", "userID"]
+- !private ["s7CVarArgP", "view"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["14AroundTheMetro9ConstantsV", "currentUser"]
+- !private ["s28CustomDebugStringConvertibleP", "Constants"]
+- !private ["s28CustomDebugStringConvertibleP", "FBSDKAccessToken"]
+- !private ["s28CustomDebugStringConvertibleP", "FBSDKGraphRequest"]
+- !private ["s28CustomDebugStringConvertibleP", "FBSDKLoginManager"]
+- !private ["s28CustomDebugStringConvertibleP", "GIDSignIn"]
+- !private ["s28CustomDebugStringConvertibleP", "KVSpinnerView"]
+- !private ["s28CustomDebugStringConvertibleP", "Mapper"]
+- !private ["s28CustomDebugStringConvertibleP", "NSLocalizedString"]
+- !private ["s28CustomDebugStringConvertibleP", "NetworkAdapter"]
+- !private ["s28CustomDebugStringConvertibleP", "UIColor"]
+- !private ["s28CustomDebugStringConvertibleP", "UIStoryboard"]
+- !private ["s28CustomDebugStringConvertibleP", "absoluteString"]
+- !private ["s28CustomDebugStringConvertibleP", "accessToken"]
+- !private ["s28CustomDebugStringConvertibleP", "authentication"]
+- !private ["s28CustomDebugStringConvertibleP", "current"]
+- !private ["s28CustomDebugStringConvertibleP", "currentUser"]
+- !private ["s28CustomDebugStringConvertibleP", "darkGray"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "dismiss"]
+- !private ["s28CustomDebugStringConvertibleP", "facebookGraphRequest"]
+- !private ["s28CustomDebugStringConvertibleP", "facebookLoginBtn"]
+- !private ["s28CustomDebugStringConvertibleP", "googleLoginBtn"]
+- !private ["s28CustomDebugStringConvertibleP", "hasAuthInKeychain"]
+- !private ["s28CustomDebugStringConvertibleP", "hasImage"]
+- !private ["s28CustomDebugStringConvertibleP", "imageURL"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "instantiateViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "isCancelled"]
+- !private ["s28CustomDebugStringConvertibleP", "isUserInteractionEnabled"]
+- !private ["s28CustomDebugStringConvertibleP", "logIn"]
+- !private ["s28CustomDebugStringConvertibleP", "moveToWorldWideWithRegistration"]
+- !private ["s28CustomDebugStringConvertibleP", "name"]
+- !private ["s28CustomDebugStringConvertibleP", "present"]
+- !private ["s28CustomDebugStringConvertibleP", "profile"]
+- !private ["s28CustomDebugStringConvertibleP", "settings"]
+- !private ["s28CustomDebugStringConvertibleP", "sharedInstance"]
+- !private ["s28CustomDebugStringConvertibleP", "shouldFetchBasicProfile"]
+- !private ["s28CustomDebugStringConvertibleP", "show"]
+- !private ["s28CustomDebugStringConvertibleP", "showPrgressBar"]
+- ["s28CustomDebugStringConvertibleP", "sign"]
+- ["s28CustomDebugStringConvertibleP", "signIn"]
+- !private ["s28CustomDebugStringConvertibleP", "signInSilently"]
+- ["s28CustomDebugStringConvertibleP", "signInWillDispatch"]
+- !private ["s28CustomDebugStringConvertibleP", "start"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "tokenString"]
+- !private ["s28CustomDebugStringConvertibleP", "uiDelegate"]
+- !private ["s28CustomDebugStringConvertibleP", "userID"]
+- !private ["s28CustomDebugStringConvertibleP", "view"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "absoluteString"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "Constants"]
+- !private ["s23CustomStringConvertibleP", "FBSDKAccessToken"]
+- !private ["s23CustomStringConvertibleP", "FBSDKGraphRequest"]
+- !private ["s23CustomStringConvertibleP", "FBSDKLoginManager"]
+- !private ["s23CustomStringConvertibleP", "GIDSignIn"]
+- !private ["s23CustomStringConvertibleP", "KVSpinnerView"]
+- !private ["s23CustomStringConvertibleP", "Mapper"]
+- !private ["s23CustomStringConvertibleP", "NSLocalizedString"]
+- !private ["s23CustomStringConvertibleP", "NetworkAdapter"]
+- !private ["s23CustomStringConvertibleP", "UIColor"]
+- !private ["s23CustomStringConvertibleP", "UIStoryboard"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "absoluteString"]
+- !private ["s23CustomStringConvertibleP", "accessToken"]
+- !private ["s23CustomStringConvertibleP", "authentication"]
+- !private ["s23CustomStringConvertibleP", "current"]
+- !private ["s23CustomStringConvertibleP", "currentUser"]
+- !private ["s23CustomStringConvertibleP", "darkGray"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "dismiss"]
+- !private ["s23CustomStringConvertibleP", "facebookGraphRequest"]
+- !private ["s23CustomStringConvertibleP", "facebookLoginBtn"]
+- !private ["s23CustomStringConvertibleP", "googleLoginBtn"]
+- !private ["s23CustomStringConvertibleP", "hasAuthInKeychain"]
+- !private ["s23CustomStringConvertibleP", "hasImage"]
+- !private ["s23CustomStringConvertibleP", "imageURL"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "instantiateViewController"]
+- !private ["s23CustomStringConvertibleP", "isCancelled"]
+- !private ["s23CustomStringConvertibleP", "isUserInteractionEnabled"]
+- !private ["s23CustomStringConvertibleP", "logIn"]
+- !private ["s23CustomStringConvertibleP", "moveToWorldWideWithRegistration"]
+- !private ["s23CustomStringConvertibleP", "name"]
+- !private ["s23CustomStringConvertibleP", "present"]
+- !private ["s23CustomStringConvertibleP", "profile"]
+- !private ["s23CustomStringConvertibleP", "settings"]
+- !private ["s23CustomStringConvertibleP", "sharedInstance"]
+- !private ["s23CustomStringConvertibleP", "shouldFetchBasicProfile"]
+- !private ["s23CustomStringConvertibleP", "show"]
+- !private ["s23CustomStringConvertibleP", "showPrgressBar"]
+- ["s23CustomStringConvertibleP", "sign"]
+- ["s23CustomStringConvertibleP", "signIn"]
+- !private ["s23CustomStringConvertibleP", "signInSilently"]
+- ["s23CustomStringConvertibleP", "signInWillDispatch"]
+- !private ["s23CustomStringConvertibleP", "start"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "tokenString"]
+- !private ["s23CustomStringConvertibleP", "uiDelegate"]
+- !private ["s23CustomStringConvertibleP", "userID"]
+- !private ["s23CustomStringConvertibleP", "view"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "absoluteString"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "absoluteString"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "Constants"]
+- !private ["s9EquatableP", "FBSDKAccessToken"]
+- !private ["s9EquatableP", "FBSDKGraphRequest"]
+- !private ["s9EquatableP", "FBSDKLoginManager"]
+- !private ["s9EquatableP", "GIDSignIn"]
+- !private ["s9EquatableP", "KVSpinnerView"]
+- !private ["s9EquatableP", "Mapper"]
+- !private ["s9EquatableP", "NSLocalizedString"]
+- !private ["s9EquatableP", "NetworkAdapter"]
+- !private ["s9EquatableP", "UIColor"]
+- !private ["s9EquatableP", "UIStoryboard"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "absoluteString"]
+- !private ["s9EquatableP", "accessToken"]
+- !private ["s9EquatableP", "authentication"]
+- !private ["s9EquatableP", "current"]
+- !private ["s9EquatableP", "currentUser"]
+- !private ["s9EquatableP", "darkGray"]
+- !private ["s9EquatableP", "delegate"]
+- !private ["s9EquatableP", "dismiss"]
+- !private ["s9EquatableP", "facebookGraphRequest"]
+- !private ["s9EquatableP", "facebookLoginBtn"]
+- !private ["s9EquatableP", "googleLoginBtn"]
+- !private ["s9EquatableP", "hasAuthInKeychain"]
+- !private ["s9EquatableP", "hasImage"]
+- !private ["s9EquatableP", "imageURL"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "instantiateViewController"]
+- !private ["s9EquatableP", "isCancelled"]
+- !private ["s9EquatableP", "isUserInteractionEnabled"]
+- !private ["s9EquatableP", "logIn"]
+- !private ["s9EquatableP", "moveToWorldWideWithRegistration"]
+- !private ["s9EquatableP", "name"]
+- !private ["s9EquatableP", "present"]
+- !private ["s9EquatableP", "profile"]
+- !private ["s9EquatableP", "settings"]
+- !private ["s9EquatableP", "sharedInstance"]
+- !private ["s9EquatableP", "shouldFetchBasicProfile"]
+- !private ["s9EquatableP", "show"]
+- !private ["s9EquatableP", "showPrgressBar"]
+- ["s9EquatableP", "sign"]
+- ["s9EquatableP", "signIn"]
+- !private ["s9EquatableP", "signInSilently"]
+- ["s9EquatableP", "signInWillDispatch"]
+- !private ["s9EquatableP", "start"]
+- !private ["s9EquatableP", "subscript"]
+- !private ["s9EquatableP", "tokenString"]
+- !private ["s9EquatableP", "uiDelegate"]
+- !private ["s9EquatableP", "userID"]
+- !private ["s9EquatableP", "view"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["So16FBSDKAccessTokenC", "current"]
+- !private ["So16FBSDKAccessTokenC", "tokenString"]
+- !private ["So12FBSDKCopyingP", "current"]
+- !private ["So12FBSDKCopyingP", "tokenString"]
+- !private ["So17FBSDKGraphRequestC", "init"]
+- !private ["So17FBSDKGraphRequestC", "start"]
+- !private ["So17FBSDKLoginManagerC", "init"]
+- !private ["So17FBSDKLoginManagerC", "logIn"]
+- !private ["So28FBSDKLoginManagerLoginResultC", "isCancelled"]
+- !private ["So17GIDAuthenticationC", "accessToken"]
+- !private ["So13GIDGoogleUserC", "authentication"]
+- !private ["So13GIDGoogleUserC", "profile"]
+- !private ["So13GIDGoogleUserC", "userID"]
+- !private ["So14GIDProfileDataC", "hasImage"]
+- !private ["So14GIDProfileDataC", "imageURL"]
+- !private ["So14GIDProfileDataC", "name"]
+- !private ["So9GIDSignInC", "currentUser"]
+- !private ["So9GIDSignInC", "delegate"]
+- !private ["So9GIDSignInC", "hasAuthInKeychain"]
+- !private ["So9GIDSignInC", "sharedInstance"]
+- !private ["So9GIDSignInC", "shouldFetchBasicProfile"]
+- !private ["So9GIDSignInC", "signInSilently"]
+- !private ["So9GIDSignInC", "uiDelegate"]
+- !private ["So17GIDSignInDelegateP", "Constants"]
+- !private ["So17GIDSignInDelegateP", "FBSDKAccessToken"]
+- !private ["So17GIDSignInDelegateP", "FBSDKGraphRequest"]
+- !private ["So17GIDSignInDelegateP", "FBSDKLoginManager"]
+- !private ["So17GIDSignInDelegateP", "GIDSignIn"]
+- !private ["So17GIDSignInDelegateP", "KVSpinnerView"]
+- !private ["So17GIDSignInDelegateP", "Mapper"]
+- !private ["So17GIDSignInDelegateP", "NSLocalizedString"]
+- !private ["So17GIDSignInDelegateP", "NetworkAdapter"]
+- !private ["So17GIDSignInDelegateP", "UIColor"]
+- !private ["So17GIDSignInDelegateP", "UIStoryboard"]
+- !private ["So17GIDSignInDelegateP", "dismiss"]
+- !private ["So17GIDSignInDelegateP", "facebookGraphRequest"]
+- !private ["So17GIDSignInDelegateP", "facebookLoginBtn"]
+- !private ["So17GIDSignInDelegateP", "googleLoginBtn"]
+- !private ["So17GIDSignInDelegateP", "moveToWorldWideWithRegistration"]
+- !private ["So17GIDSignInDelegateP", "present"]
+- !private ["So17GIDSignInDelegateP", "showPrgressBar"]
+- ["So17GIDSignInDelegateP", "sign"]
+- ["So17GIDSignInDelegateP", "signIn"]
+- ["So17GIDSignInDelegateP", "signInWillDispatch"]
+- !private ["So17GIDSignInDelegateP", "view"]
+- ["So17GIDSignInDelegateP", ""]
+- !private ["So19GIDSignInUIDelegateP", "Constants"]
+- !private ["So19GIDSignInUIDelegateP", "FBSDKAccessToken"]
+- !private ["So19GIDSignInUIDelegateP", "FBSDKGraphRequest"]
+- !private ["So19GIDSignInUIDelegateP", "FBSDKLoginManager"]
+- !private ["So19GIDSignInUIDelegateP", "GIDSignIn"]
+- !private ["So19GIDSignInUIDelegateP", "KVSpinnerView"]
+- !private ["So19GIDSignInUIDelegateP", "Mapper"]
+- !private ["So19GIDSignInUIDelegateP", "NSLocalizedString"]
+- !private ["So19GIDSignInUIDelegateP", "NetworkAdapter"]
+- !private ["So19GIDSignInUIDelegateP", "UIColor"]
+- !private ["So19GIDSignInUIDelegateP", "UIStoryboard"]
+- !private ["So19GIDSignInUIDelegateP", "dismiss"]
+- !private ["So19GIDSignInUIDelegateP", "facebookGraphRequest"]
+- !private ["So19GIDSignInUIDelegateP", "facebookLoginBtn"]
+- !private ["So19GIDSignInUIDelegateP", "googleLoginBtn"]
+- !private ["So19GIDSignInUIDelegateP", "moveToWorldWideWithRegistration"]
+- !private ["So19GIDSignInUIDelegateP", "present"]
+- !private ["So19GIDSignInUIDelegateP", "showPrgressBar"]
+- ["So19GIDSignInUIDelegateP", "sign"]
+- ["So19GIDSignInUIDelegateP", "signIn"]
+- ["So19GIDSignInUIDelegateP", "signInWillDispatch"]
+- !private ["So19GIDSignInUIDelegateP", "view"]
+- ["So19GIDSignInUIDelegateP", ""]
+- !private ["s8HashableP", "Constants"]
+- !private ["s8HashableP", "FBSDKAccessToken"]
+- !private ["s8HashableP", "FBSDKGraphRequest"]
+- !private ["s8HashableP", "FBSDKLoginManager"]
+- !private ["s8HashableP", "GIDSignIn"]
+- !private ["s8HashableP", "KVSpinnerView"]
+- !private ["s8HashableP", "Mapper"]
+- !private ["s8HashableP", "NSLocalizedString"]
+- !private ["s8HashableP", "NetworkAdapter"]
+- !private ["s8HashableP", "UIColor"]
+- !private ["s8HashableP", "UIStoryboard"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "absoluteString"]
+- !private ["s8HashableP", "accessToken"]
+- !private ["s8HashableP", "authentication"]
+- !private ["s8HashableP", "current"]
+- !private ["s8HashableP", "currentUser"]
+- !private ["s8HashableP", "darkGray"]
+- !private ["s8HashableP", "delegate"]
+- !private ["s8HashableP", "dismiss"]
+- !private ["s8HashableP", "facebookGraphRequest"]
+- !private ["s8HashableP", "facebookLoginBtn"]
+- !private ["s8HashableP", "googleLoginBtn"]
+- !private ["s8HashableP", "hasAuthInKeychain"]
+- !private ["s8HashableP", "hasImage"]
+- !private ["s8HashableP", "imageURL"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "instantiateViewController"]
+- !private ["s8HashableP", "isCancelled"]
+- !private ["s8HashableP", "isUserInteractionEnabled"]
+- !private ["s8HashableP", "logIn"]
+- !private ["s8HashableP", "moveToWorldWideWithRegistration"]
+- !private ["s8HashableP", "name"]
+- !private ["s8HashableP", "present"]
+- !private ["s8HashableP", "profile"]
+- !private ["s8HashableP", "settings"]
+- !private ["s8HashableP", "sharedInstance"]
+- !private ["s8HashableP", "shouldFetchBasicProfile"]
+- !private ["s8HashableP", "show"]
+- !private ["s8HashableP", "showPrgressBar"]
+- ["s8HashableP", "sign"]
+- ["s8HashableP", "signIn"]
+- !private ["s8HashableP", "signInSilently"]
+- ["s8HashableP", "signInWillDispatch"]
+- !private ["s8HashableP", "start"]
+- !private ["s8HashableP", "subscript"]
+- !private ["s8HashableP", "tokenString"]
+- !private ["s8HashableP", "uiDelegate"]
+- !private ["s8HashableP", "userID"]
+- !private ["s8HashableP", "view"]
+- !private ["13KVSpinnerViewAAC", "dismiss"]
+- !private ["13KVSpinnerViewAAC", "settings"]
+- !private ["13KVSpinnerViewAAC", "show"]
+- !private ["13KVSpinnerView0aB8SettingsV", "backgroundRectColor"]
+- !private ["10Kingfisher0A10CompatibleP", "init"]
+- !private ["10Kingfisher0A10CompatibleP", "isUserInteractionEnabled"]
+- ["14AroundTheMetro19LoginViewControllerC", "Bool"]
+- !private ["14AroundTheMetro19LoginViewControllerC", "Constants"]
+- ["14AroundTheMetro19LoginViewControllerC", "Error"]
+- !private ["14AroundTheMetro19LoginViewControllerC", "FBSDKAccessToken"]
+- !private ["14AroundTheMetro19LoginViewControllerC", "FBSDKGraphRequest"]
+- !private ["14AroundTheMetro19LoginViewControllerC", "FBSDKLoginManager"]
+- ["14AroundTheMetro19LoginViewControllerC", "GIDGoogleUser"]
+- ["14AroundTheMetro19LoginViewControllerC", "GIDSignIn"]
+- !private ["14AroundTheMetro19LoginViewControllerC", "KVSpinnerView"]
+- !private ["14AroundTheMetro19LoginViewControllerC", "Mapper"]
+- !private ["14AroundTheMetro19LoginViewControllerC", "NSDictionary"]
+- !private ["14AroundTheMetro19LoginViewControllerC", "NSLocalizedString"]
+- !private ["14AroundTheMetro19LoginViewControllerC", "NetworkAdapter"]
+- ["14AroundTheMetro19LoginViewControllerC", "String"]
+- !private ["14AroundTheMetro19LoginViewControllerC", "UIColor"]
+- !private ["14AroundTheMetro19LoginViewControllerC", "UIStoryboard"]
+- ["14AroundTheMetro19LoginViewControllerC", "UIViewController"]
+- !private ["14AroundTheMetro19LoginViewControllerC", "User"]
+- !private ["14AroundTheMetro19LoginViewControllerC", "Void"]
+- !private ["14AroundTheMetro19LoginViewControllerC", "WorldScreenViewcontroller"]
+- ["14AroundTheMetro19LoginViewControllerC", "checkUserSignedIn"]
+- ["14AroundTheMetro19LoginViewControllerC", "deinit"]
+- !private ["14AroundTheMetro19LoginViewControllerC", "dismiss"]
+- ["14AroundTheMetro19LoginViewControllerC", "facebookGraphRequest"]
+- ["14AroundTheMetro19LoginViewControllerC", "facebookLogin"]
+- !private ["14AroundTheMetro19LoginViewControllerC", "facebookLoginBtn"]
+- !private ["14AroundTheMetro19LoginViewControllerC", "googleLoginBtn"]
+- ["14AroundTheMetro19LoginViewControllerC", "moveToWorldWideWithRegistration"]
+- !private ["14AroundTheMetro19LoginViewControllerC", "present"]
+- ["14AroundTheMetro19LoginViewControllerC", "showPrgressBar"]
+- ["14AroundTheMetro19LoginViewControllerC", "sign"]
+- ["14AroundTheMetro19LoginViewControllerC", "signIn"]
+- ["14AroundTheMetro19LoginViewControllerC", "signInWillDispatch"]
+- !private ["14AroundTheMetro19LoginViewControllerC", "view"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["12ObjectMapper0B0C", "init"]
+- !private ["12ObjectMapper0B0C", "map"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "Constants"]
+- !private ["So8NSCodingP", "FBSDKAccessToken"]
+- !private ["So8NSCodingP", "FBSDKGraphRequest"]
+- !private ["So8NSCodingP", "FBSDKLoginManager"]
+- !private ["So8NSCodingP", "GIDSignIn"]
+- !private ["So8NSCodingP", "KVSpinnerView"]
+- !private ["So8NSCodingP", "Mapper"]
+- !private ["So8NSCodingP", "NSLocalizedString"]
+- !private ["So8NSCodingP", "NetworkAdapter"]
+- !private ["So8NSCodingP", "UIColor"]
+- !private ["So8NSCodingP", "UIStoryboard"]
+- !private ["So8NSCodingP", "accessToken"]
+- !private ["So8NSCodingP", "authentication"]
+- !private ["So8NSCodingP", "current"]
+- !private ["So8NSCodingP", "darkGray"]
+- !private ["So8NSCodingP", "dismiss"]
+- !private ["So8NSCodingP", "facebookGraphRequest"]
+- !private ["So8NSCodingP", "facebookLoginBtn"]
+- !private ["So8NSCodingP", "googleLoginBtn"]
+- !private ["So8NSCodingP", "hasImage"]
+- !private ["So8NSCodingP", "imageURL"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "isUserInteractionEnabled"]
+- !private ["So8NSCodingP", "moveToWorldWideWithRegistration"]
+- !private ["So8NSCodingP", "name"]
+- !private ["So8NSCodingP", "present"]
+- !private ["So8NSCodingP", "profile"]
+- !private ["So8NSCodingP", "settings"]
+- !private ["So8NSCodingP", "show"]
+- !private ["So8NSCodingP", "showPrgressBar"]
+- ["So8NSCodingP", "sign"]
+- ["So8NSCodingP", "signIn"]
+- ["So8NSCodingP", "signInWillDispatch"]
+- !private ["So8NSCodingP", "subscript"]
+- !private ["So8NSCodingP", "tokenString"]
+- !private ["So8NSCodingP", "userID"]
+- !private ["So8NSCodingP", "view"]
+- !private ["So9NSCopyingP", "current"]
+- !private ["So9NSCopyingP", "darkGray"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "subscript"]
+- !private ["So9NSCopyingP", "tokenString"]
+- !private ["So12NSDictionaryC", "subscript"]
+- !private ["So26NSExtensionRequestHandlingP", "Constants"]
+- !private ["So26NSExtensionRequestHandlingP", "FBSDKAccessToken"]
+- !private ["So26NSExtensionRequestHandlingP", "FBSDKGraphRequest"]
+- !private ["So26NSExtensionRequestHandlingP", "FBSDKLoginManager"]
+- !private ["So26NSExtensionRequestHandlingP", "GIDSignIn"]
+- !private ["So26NSExtensionRequestHandlingP", "KVSpinnerView"]
+- !private ["So26NSExtensionRequestHandlingP", "Mapper"]
+- !private ["So26NSExtensionRequestHandlingP", "NSLocalizedString"]
+- !private ["So26NSExtensionRequestHandlingP", "NetworkAdapter"]
+- !private ["So26NSExtensionRequestHandlingP", "UIColor"]
+- !private ["So26NSExtensionRequestHandlingP", "UIStoryboard"]
+- !private ["So26NSExtensionRequestHandlingP", "dismiss"]
+- !private ["So26NSExtensionRequestHandlingP", "facebookGraphRequest"]
+- !private ["So26NSExtensionRequestHandlingP", "facebookLoginBtn"]
+- !private ["So26NSExtensionRequestHandlingP", "googleLoginBtn"]
+- !private ["So26NSExtensionRequestHandlingP", "moveToWorldWideWithRegistration"]
+- !private ["So26NSExtensionRequestHandlingP", "present"]
+- !private ["So26NSExtensionRequestHandlingP", "showPrgressBar"]
+- ["So26NSExtensionRequestHandlingP", "sign"]
+- ["So26NSExtensionRequestHandlingP", "signIn"]
+- ["So26NSExtensionRequestHandlingP", "signInWillDispatch"]
+- !private ["So26NSExtensionRequestHandlingP", "view"]
+- !private ["So17NSFastEnumerationP", "subscript"]
+- !private ["So21NSItemProviderReadingP", "darkGray"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "darkGray"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So16NSMutableCopyingP", "subscript"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "Constants"]
+- ["So8NSObjectC", "Error"]
+- !private ["So8NSObjectC", "FBSDKAccessToken"]
+- !private ["So8NSObjectC", "FBSDKGraphRequest"]
+- !private ["So8NSObjectC", "FBSDKLoginManager"]
+- ["So8NSObjectC", "GIDGoogleUser"]
+- ["So8NSObjectC", "GIDSignIn"]
+- !private ["So8NSObjectC", "KVSpinnerView"]
+- !private ["So8NSObjectC", "Mapper"]
+- !private ["So8NSObjectC", "NSDictionary"]
+- !private ["So8NSObjectC", "NSLocalizedString"]
+- !private ["So8NSObjectC", "NetworkAdapter"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "UIColor"]
+- !private ["So8NSObjectC", "UIStoryboard"]
+- ["So8NSObjectC", "UIViewController"]
+- !private ["So8NSObjectC", "User"]
+- !private ["So8NSObjectC", "Void"]
+- !private ["So8NSObjectC", "WorldScreenViewcontroller"]
+- !private ["So8NSObjectC", "accessToken"]
+- !private ["So8NSObjectC", "authentication"]
+- ["So8NSObjectC", "checkUserSignedIn"]
+- !private ["So8NSObjectC", "current"]
+- !private ["So8NSObjectC", "currentUser"]
+- !private ["So8NSObjectC", "darkGray"]
+- !private ["So8NSObjectC", "delegate"]
+- !private ["So8NSObjectC", "dismiss"]
+- ["So8NSObjectC", "facebookGraphRequest"]
+- ["So8NSObjectC", "facebookLogin"]
+- !private ["So8NSObjectC", "facebookLoginBtn"]
+- !private ["So8NSObjectC", "googleLoginBtn"]
+- !private ["So8NSObjectC", "hasAuthInKeychain"]
+- !private ["So8NSObjectC", "hasImage"]
+- !private ["So8NSObjectC", "imageURL"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "instantiateViewController"]
+- !private ["So8NSObjectC", "isCancelled"]
+- !private ["So8NSObjectC", "isUserInteractionEnabled"]
+- !private ["So8NSObjectC", "logIn"]
+- ["So8NSObjectC", "moveToWorldWideWithRegistration"]
+- !private ["So8NSObjectC", "name"]
+- !private ["So8NSObjectC", "present"]
+- !private ["So8NSObjectC", "profile"]
+- !private ["So8NSObjectC", "settings"]
+- !private ["So8NSObjectC", "sharedInstance"]
+- !private ["So8NSObjectC", "shouldFetchBasicProfile"]
+- !private ["So8NSObjectC", "show"]
+- ["So8NSObjectC", "showPrgressBar"]
+- ["So8NSObjectC", "sign"]
+- ["So8NSObjectC", "signIn"]
+- !private ["So8NSObjectC", "signInSilently"]
+- ["So8NSObjectC", "signInWillDispatch"]
+- !private ["So8NSObjectC", "start"]
+- !private ["So8NSObjectC", "subscript"]
+- !private ["So8NSObjectC", "tokenString"]
+- !private ["So8NSObjectC", "uiDelegate"]
+- !private ["So8NSObjectC", "userID"]
+- !private ["So8NSObjectC", "view"]
+- !private ["So16NSObjectProtocolP", "Constants"]
+- !private ["So16NSObjectProtocolP", "FBSDKAccessToken"]
+- !private ["So16NSObjectProtocolP", "FBSDKGraphRequest"]
+- !private ["So16NSObjectProtocolP", "FBSDKLoginManager"]
+- !private ["So16NSObjectProtocolP", "GIDSignIn"]
+- !private ["So16NSObjectProtocolP", "KVSpinnerView"]
+- !private ["So16NSObjectProtocolP", "Mapper"]
+- !private ["So16NSObjectProtocolP", "NSLocalizedString"]
+- !private ["So16NSObjectProtocolP", "NetworkAdapter"]
+- !private ["So16NSObjectProtocolP", "UIColor"]
+- !private ["So16NSObjectProtocolP", "UIStoryboard"]
+- !private ["So16NSObjectProtocolP", "accessToken"]
+- !private ["So16NSObjectProtocolP", "authentication"]
+- !private ["So16NSObjectProtocolP", "current"]
+- !private ["So16NSObjectProtocolP", "currentUser"]
+- !private ["So16NSObjectProtocolP", "darkGray"]
+- !private ["So16NSObjectProtocolP", "delegate"]
+- !private ["So16NSObjectProtocolP", "dismiss"]
+- !private ["So16NSObjectProtocolP", "facebookGraphRequest"]
+- !private ["So16NSObjectProtocolP", "facebookLoginBtn"]
+- !private ["So16NSObjectProtocolP", "googleLoginBtn"]
+- !private ["So16NSObjectProtocolP", "hasAuthInKeychain"]
+- !private ["So16NSObjectProtocolP", "hasImage"]
+- !private ["So16NSObjectProtocolP", "imageURL"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "instantiateViewController"]
+- !private ["So16NSObjectProtocolP", "isCancelled"]
+- !private ["So16NSObjectProtocolP", "isUserInteractionEnabled"]
+- !private ["So16NSObjectProtocolP", "logIn"]
+- !private ["So16NSObjectProtocolP", "moveToWorldWideWithRegistration"]
+- !private ["So16NSObjectProtocolP", "name"]
+- !private ["So16NSObjectProtocolP", "present"]
+- !private ["So16NSObjectProtocolP", "profile"]
+- !private ["So16NSObjectProtocolP", "settings"]
+- !private ["So16NSObjectProtocolP", "sharedInstance"]
+- !private ["So16NSObjectProtocolP", "shouldFetchBasicProfile"]
+- !private ["So16NSObjectProtocolP", "show"]
+- !private ["So16NSObjectProtocolP", "showPrgressBar"]
+- ["So16NSObjectProtocolP", "sign"]
+- ["So16NSObjectProtocolP", "signIn"]
+- !private ["So16NSObjectProtocolP", "signInSilently"]
+- ["So16NSObjectProtocolP", "signInWillDispatch"]
+- !private ["So16NSObjectProtocolP", "start"]
+- !private ["So16NSObjectProtocolP", "subscript"]
+- !private ["So16NSObjectProtocolP", "tokenString"]
+- !private ["So16NSObjectProtocolP", "uiDelegate"]
+- !private ["So16NSObjectProtocolP", "userID"]
+- !private ["So16NSObjectProtocolP", "view"]
+- !private ["So14NSSecureCodingP", "current"]
+- !private ["So14NSSecureCodingP", "darkGray"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "subscript"]
+- !private ["So14NSSecureCodingP", "tokenString"]
+- !private ["So8NSStringC", "init"]
+- !private ["14AroundTheMetro14NetworkAdapterV", "request"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "absoluteString"]
+- !private ["10Kingfisher8ResourceP", "absoluteString"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["4Moya10TargetTypeP", "authenticateUser"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "isUserInteractionEnabled"]
+- !private ["So29UIAccessibilityIdentificationP", "dismiss"]
+- !private ["So29UIAccessibilityIdentificationP", "isUserInteractionEnabled"]
+- !private ["So29UIAccessibilityIdentificationP", "settings"]
+- !private ["So29UIAccessibilityIdentificationP", "show"]
+- !private ["So12UIAppearanceP", "dismiss"]
+- !private ["So12UIAppearanceP", "isUserInteractionEnabled"]
+- !private ["So12UIAppearanceP", "settings"]
+- !private ["So12UIAppearanceP", "show"]
+- !private ["So21UIAppearanceContainerP", "Constants"]
+- !private ["So21UIAppearanceContainerP", "FBSDKAccessToken"]
+- !private ["So21UIAppearanceContainerP", "FBSDKGraphRequest"]
+- !private ["So21UIAppearanceContainerP", "FBSDKLoginManager"]
+- !private ["So21UIAppearanceContainerP", "GIDSignIn"]
+- !private ["So21UIAppearanceContainerP", "KVSpinnerView"]
+- !private ["So21UIAppearanceContainerP", "Mapper"]
+- !private ["So21UIAppearanceContainerP", "NSLocalizedString"]
+- !private ["So21UIAppearanceContainerP", "NetworkAdapter"]
+- !private ["So21UIAppearanceContainerP", "UIColor"]
+- !private ["So21UIAppearanceContainerP", "UIStoryboard"]
+- !private ["So21UIAppearanceContainerP", "dismiss"]
+- !private ["So21UIAppearanceContainerP", "facebookGraphRequest"]
+- !private ["So21UIAppearanceContainerP", "facebookLoginBtn"]
+- !private ["So21UIAppearanceContainerP", "googleLoginBtn"]
+- !private ["So21UIAppearanceContainerP", "isUserInteractionEnabled"]
+- !private ["So21UIAppearanceContainerP", "moveToWorldWideWithRegistration"]
+- !private ["So21UIAppearanceContainerP", "present"]
+- !private ["So21UIAppearanceContainerP", "settings"]
+- !private ["So21UIAppearanceContainerP", "show"]
+- !private ["So21UIAppearanceContainerP", "showPrgressBar"]
+- ["So21UIAppearanceContainerP", "sign"]
+- ["So21UIAppearanceContainerP", "signIn"]
+- ["So21UIAppearanceContainerP", "signInWillDispatch"]
+- !private ["So21UIAppearanceContainerP", "view"]
+- !private ["So8UIButtonC", "isUserInteractionEnabled"]
+- !private ["So7UIColorC", "darkGray"]
+- !private ["So18UIContentContainerP", "Constants"]
+- !private ["So18UIContentContainerP", "FBSDKAccessToken"]
+- !private ["So18UIContentContainerP", "FBSDKGraphRequest"]
+- !private ["So18UIContentContainerP", "FBSDKLoginManager"]
+- !private ["So18UIContentContainerP", "GIDSignIn"]
+- !private ["So18UIContentContainerP", "KVSpinnerView"]
+- !private ["So18UIContentContainerP", "Mapper"]
+- !private ["So18UIContentContainerP", "NSLocalizedString"]
+- !private ["So18UIContentContainerP", "NetworkAdapter"]
+- !private ["So18UIContentContainerP", "UIColor"]
+- !private ["So18UIContentContainerP", "UIStoryboard"]
+- !private ["So18UIContentContainerP", "dismiss"]
+- !private ["So18UIContentContainerP", "facebookGraphRequest"]
+- !private ["So18UIContentContainerP", "facebookLoginBtn"]
+- !private ["So18UIContentContainerP", "googleLoginBtn"]
+- !private ["So18UIContentContainerP", "moveToWorldWideWithRegistration"]
+- !private ["So18UIContentContainerP", "present"]
+- !private ["So18UIContentContainerP", "showPrgressBar"]
+- ["So18UIContentContainerP", "sign"]
+- ["So18UIContentContainerP", "signIn"]
+- ["So18UIContentContainerP", "signInWillDispatch"]
+- !private ["So18UIContentContainerP", "view"]
+- !private ["So9UIControlC", "isUserInteractionEnabled"]
+- !private ["So17UICoordinateSpaceP", "dismiss"]
+- !private ["So17UICoordinateSpaceP", "isUserInteractionEnabled"]
+- !private ["So17UICoordinateSpaceP", "settings"]
+- !private ["So17UICoordinateSpaceP", "show"]
+- !private ["So13UIDynamicItemP", "dismiss"]
+- !private ["So13UIDynamicItemP", "isUserInteractionEnabled"]
+- !private ["So13UIDynamicItemP", "settings"]
+- !private ["So13UIDynamicItemP", "show"]
+- !private ["So18UIFocusEnvironmentP", "Constants"]
+- !private ["So18UIFocusEnvironmentP", "FBSDKAccessToken"]
+- !private ["So18UIFocusEnvironmentP", "FBSDKGraphRequest"]
+- !private ["So18UIFocusEnvironmentP", "FBSDKLoginManager"]
+- !private ["So18UIFocusEnvironmentP", "GIDSignIn"]
+- !private ["So18UIFocusEnvironmentP", "KVSpinnerView"]
+- !private ["So18UIFocusEnvironmentP", "Mapper"]
+- !private ["So18UIFocusEnvironmentP", "NSLocalizedString"]
+- !private ["So18UIFocusEnvironmentP", "NetworkAdapter"]
+- !private ["So18UIFocusEnvironmentP", "UIColor"]
+- !private ["So18UIFocusEnvironmentP", "UIStoryboard"]
+- !private ["So18UIFocusEnvironmentP", "dismiss"]
+- !private ["So18UIFocusEnvironmentP", "facebookGraphRequest"]
+- !private ["So18UIFocusEnvironmentP", "facebookLoginBtn"]
+- !private ["So18UIFocusEnvironmentP", "googleLoginBtn"]
+- !private ["So18UIFocusEnvironmentP", "isUserInteractionEnabled"]
+- !private ["So18UIFocusEnvironmentP", "moveToWorldWideWithRegistration"]
+- !private ["So18UIFocusEnvironmentP", "present"]
+- !private ["So18UIFocusEnvironmentP", "settings"]
+- !private ["So18UIFocusEnvironmentP", "show"]
+- !private ["So18UIFocusEnvironmentP", "showPrgressBar"]
+- ["So18UIFocusEnvironmentP", "sign"]
+- ["So18UIFocusEnvironmentP", "signIn"]
+- ["So18UIFocusEnvironmentP", "signInWillDispatch"]
+- !private ["So18UIFocusEnvironmentP", "view"]
+- !private ["So11UIFocusItemP", "dismiss"]
+- !private ["So11UIFocusItemP", "isUserInteractionEnabled"]
+- !private ["So11UIFocusItemP", "settings"]
+- !private ["So11UIFocusItemP", "show"]
+- !private ["So30UIPasteConfigurationSupportingP", "Constants"]
+- !private ["So30UIPasteConfigurationSupportingP", "FBSDKAccessToken"]
+- !private ["So30UIPasteConfigurationSupportingP", "FBSDKGraphRequest"]
+- !private ["So30UIPasteConfigurationSupportingP", "FBSDKLoginManager"]
+- !private ["So30UIPasteConfigurationSupportingP", "GIDSignIn"]
+- !private ["So30UIPasteConfigurationSupportingP", "KVSpinnerView"]
+- !private ["So30UIPasteConfigurationSupportingP", "Mapper"]
+- !private ["So30UIPasteConfigurationSupportingP", "NSLocalizedString"]
+- !private ["So30UIPasteConfigurationSupportingP", "NetworkAdapter"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIStoryboard"]
+- !private ["So30UIPasteConfigurationSupportingP", "dismiss"]
+- !private ["So30UIPasteConfigurationSupportingP", "facebookGraphRequest"]
+- !private ["So30UIPasteConfigurationSupportingP", "facebookLoginBtn"]
+- !private ["So30UIPasteConfigurationSupportingP", "googleLoginBtn"]
+- !private ["So30UIPasteConfigurationSupportingP", "isUserInteractionEnabled"]
+- !private ["So30UIPasteConfigurationSupportingP", "moveToWorldWideWithRegistration"]
+- !private ["So30UIPasteConfigurationSupportingP", "present"]
+- !private ["So30UIPasteConfigurationSupportingP", "settings"]
+- !private ["So30UIPasteConfigurationSupportingP", "show"]
+- !private ["So30UIPasteConfigurationSupportingP", "showPrgressBar"]
+- ["So30UIPasteConfigurationSupportingP", "sign"]
+- ["So30UIPasteConfigurationSupportingP", "signIn"]
+- ["So30UIPasteConfigurationSupportingP", "signInWillDispatch"]
+- !private ["So30UIPasteConfigurationSupportingP", "view"]
+- ["So11UIResponderC", "Bool"]
+- !private ["So11UIResponderC", "Constants"]
+- ["So11UIResponderC", "Error"]
+- !private ["So11UIResponderC", "FBSDKAccessToken"]
+- !private ["So11UIResponderC", "FBSDKGraphRequest"]
+- !private ["So11UIResponderC", "FBSDKLoginManager"]
+- ["So11UIResponderC", "GIDGoogleUser"]
+- ["So11UIResponderC", "GIDSignIn"]
+- !private ["So11UIResponderC", "KVSpinnerView"]
+- !private ["So11UIResponderC", "Mapper"]
+- !private ["So11UIResponderC", "NSDictionary"]
+- !private ["So11UIResponderC", "NSLocalizedString"]
+- !private ["So11UIResponderC", "NetworkAdapter"]
+- ["So11UIResponderC", "String"]
+- !private ["So11UIResponderC", "UIColor"]
+- !private ["So11UIResponderC", "UIStoryboard"]
+- ["So11UIResponderC", "UIViewController"]
+- !private ["So11UIResponderC", "User"]
+- !private ["So11UIResponderC", "Void"]
+- !private ["So11UIResponderC", "WorldScreenViewcontroller"]
+- ["So11UIResponderC", "checkUserSignedIn"]
+- !private ["So11UIResponderC", "dismiss"]
+- ["So11UIResponderC", "facebookGraphRequest"]
+- ["So11UIResponderC", "facebookLogin"]
+- !private ["So11UIResponderC", "facebookLoginBtn"]
+- !private ["So11UIResponderC", "googleLoginBtn"]
+- !private ["So11UIResponderC", "isUserInteractionEnabled"]
+- ["So11UIResponderC", "moveToWorldWideWithRegistration"]
+- !private ["So11UIResponderC", "present"]
+- !private ["So11UIResponderC", "settings"]
+- !private ["So11UIResponderC", "show"]
+- ["So11UIResponderC", "showPrgressBar"]
+- ["So11UIResponderC", "sign"]
+- ["So11UIResponderC", "signIn"]
+- ["So11UIResponderC", "signInWillDispatch"]
+- !private ["So11UIResponderC", "view"]
+- !private ["So30UIResponderStandardEditActionsP", "Constants"]
+- !private ["So30UIResponderStandardEditActionsP", "FBSDKAccessToken"]
+- !private ["So30UIResponderStandardEditActionsP", "FBSDKGraphRequest"]
+- !private ["So30UIResponderStandardEditActionsP", "FBSDKLoginManager"]
+- !private ["So30UIResponderStandardEditActionsP", "GIDSignIn"]
+- !private ["So30UIResponderStandardEditActionsP", "KVSpinnerView"]
+- !private ["So30UIResponderStandardEditActionsP", "Mapper"]
+- !private ["So30UIResponderStandardEditActionsP", "NSLocalizedString"]
+- !private ["So30UIResponderStandardEditActionsP", "NetworkAdapter"]
+- !private ["So30UIResponderStandardEditActionsP", "UIColor"]
+- !private ["So30UIResponderStandardEditActionsP", "UIStoryboard"]
+- !private ["So30UIResponderStandardEditActionsP", "dismiss"]
+- !private ["So30UIResponderStandardEditActionsP", "facebookGraphRequest"]
+- !private ["So30UIResponderStandardEditActionsP", "facebookLoginBtn"]
+- !private ["So30UIResponderStandardEditActionsP", "googleLoginBtn"]
+- !private ["So30UIResponderStandardEditActionsP", "isUserInteractionEnabled"]
+- !private ["So30UIResponderStandardEditActionsP", "moveToWorldWideWithRegistration"]
+- !private ["So30UIResponderStandardEditActionsP", "present"]
+- !private ["So30UIResponderStandardEditActionsP", "settings"]
+- !private ["So30UIResponderStandardEditActionsP", "show"]
+- !private ["So30UIResponderStandardEditActionsP", "showPrgressBar"]
+- ["So30UIResponderStandardEditActionsP", "sign"]
+- ["So30UIResponderStandardEditActionsP", "signIn"]
+- ["So30UIResponderStandardEditActionsP", "signInWillDispatch"]
+- !private ["So30UIResponderStandardEditActionsP", "view"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "isUserInteractionEnabled"]
+- !private ["So16UIStateRestoringP", "Constants"]
+- !private ["So16UIStateRestoringP", "FBSDKAccessToken"]
+- !private ["So16UIStateRestoringP", "FBSDKGraphRequest"]
+- !private ["So16UIStateRestoringP", "FBSDKLoginManager"]
+- !private ["So16UIStateRestoringP", "GIDSignIn"]
+- !private ["So16UIStateRestoringP", "KVSpinnerView"]
+- !private ["So16UIStateRestoringP", "Mapper"]
+- !private ["So16UIStateRestoringP", "NSLocalizedString"]
+- !private ["So16UIStateRestoringP", "NetworkAdapter"]
+- !private ["So16UIStateRestoringP", "UIColor"]
+- !private ["So16UIStateRestoringP", "UIStoryboard"]
+- !private ["So16UIStateRestoringP", "dismiss"]
+- !private ["So16UIStateRestoringP", "facebookGraphRequest"]
+- !private ["So16UIStateRestoringP", "facebookLoginBtn"]
+- !private ["So16UIStateRestoringP", "googleLoginBtn"]
+- !private ["So16UIStateRestoringP", "moveToWorldWideWithRegistration"]
+- !private ["So16UIStateRestoringP", "present"]
+- !private ["So16UIStateRestoringP", "showPrgressBar"]
+- ["So16UIStateRestoringP", "sign"]
+- ["So16UIStateRestoringP", "signIn"]
+- ["So16UIStateRestoringP", "signInWillDispatch"]
+- !private ["So16UIStateRestoringP", "view"]
+- !private ["So12UIStoryboardC", "init"]
+- !private ["So12UIStoryboardC", "instantiateViewController"]
+- !private ["So18UITraitEnvironmentP", "Constants"]
+- !private ["So18UITraitEnvironmentP", "FBSDKAccessToken"]
+- !private ["So18UITraitEnvironmentP", "FBSDKGraphRequest"]
+- !private ["So18UITraitEnvironmentP", "FBSDKLoginManager"]
+- !private ["So18UITraitEnvironmentP", "GIDSignIn"]
+- !private ["So18UITraitEnvironmentP", "KVSpinnerView"]
+- !private ["So18UITraitEnvironmentP", "Mapper"]
+- !private ["So18UITraitEnvironmentP", "NSLocalizedString"]
+- !private ["So18UITraitEnvironmentP", "NetworkAdapter"]
+- !private ["So18UITraitEnvironmentP", "UIColor"]
+- !private ["So18UITraitEnvironmentP", "UIStoryboard"]
+- !private ["So18UITraitEnvironmentP", "dismiss"]
+- !private ["So18UITraitEnvironmentP", "facebookGraphRequest"]
+- !private ["So18UITraitEnvironmentP", "facebookLoginBtn"]
+- !private ["So18UITraitEnvironmentP", "googleLoginBtn"]
+- !private ["So18UITraitEnvironmentP", "isUserInteractionEnabled"]
+- !private ["So18UITraitEnvironmentP", "moveToWorldWideWithRegistration"]
+- !private ["So18UITraitEnvironmentP", "present"]
+- !private ["So18UITraitEnvironmentP", "settings"]
+- !private ["So18UITraitEnvironmentP", "show"]
+- !private ["So18UITraitEnvironmentP", "showPrgressBar"]
+- ["So18UITraitEnvironmentP", "sign"]
+- ["So18UITraitEnvironmentP", "signIn"]
+- ["So18UITraitEnvironmentP", "signInWillDispatch"]
+- !private ["So18UITraitEnvironmentP", "view"]
+- !private ["So6UIViewC", "dismiss"]
+- !private ["So6UIViewC", "isUserInteractionEnabled"]
+- !private ["So6UIViewC", "settings"]
+- !private ["So6UIViewC", "show"]
+- ["So16UIViewControllerC", "Bool"]
+- !private ["So16UIViewControllerC", "Constants"]
+- ["So16UIViewControllerC", "Error"]
+- !private ["So16UIViewControllerC", "FBSDKAccessToken"]
+- !private ["So16UIViewControllerC", "FBSDKGraphRequest"]
+- !private ["So16UIViewControllerC", "FBSDKLoginManager"]
+- ["So16UIViewControllerC", "GIDGoogleUser"]
+- ["So16UIViewControllerC", "GIDSignIn"]
+- !private ["So16UIViewControllerC", "KVSpinnerView"]
+- !private ["So16UIViewControllerC", "Mapper"]
+- !private ["So16UIViewControllerC", "NSDictionary"]
+- !private ["So16UIViewControllerC", "NSLocalizedString"]
+- !private ["So16UIViewControllerC", "NetworkAdapter"]
+- ["So16UIViewControllerC", "String"]
+- !private ["So16UIViewControllerC", "UIColor"]
+- !private ["So16UIViewControllerC", "UIStoryboard"]
+- ["So16UIViewControllerC", "UIViewController"]
+- !private ["So16UIViewControllerC", "User"]
+- !private ["So16UIViewControllerC", "Void"]
+- !private ["So16UIViewControllerC", "WorldScreenViewcontroller"]
+- ["So16UIViewControllerC", "checkUserSignedIn"]
+- !private ["So16UIViewControllerC", "dismiss"]
+- ["So16UIViewControllerC", "facebookGraphRequest"]
+- ["So16UIViewControllerC", "facebookLogin"]
+- !private ["So16UIViewControllerC", "facebookLoginBtn"]
+- !private ["So16UIViewControllerC", "googleLoginBtn"]
+- ["So16UIViewControllerC", "moveToWorldWideWithRegistration"]
+- !private ["So16UIViewControllerC", "present"]
+- ["So16UIViewControllerC", "showPrgressBar"]
+- ["So16UIViewControllerC", "sign"]
+- ["So16UIViewControllerC", "signIn"]
+- ["So16UIViewControllerC", "signInWillDispatch"]
+- !private ["So16UIViewControllerC", "view"]
+- !private ["10Foundation3URLV", "absoluteString"]
+- !private ["9Alamofire14URLConvertibleP", "absoluteString"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["14AroundTheMetro17UndergroungTargetO", "authenticateUser"]
+- !private ["14AroundTheMetro4UserC", "deinit"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "dismiss"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "isUserInteractionEnabled"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "settings"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "show"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s26_ExpressibleByColorLiteralP", "darkGray"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "absoluteString"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Constants"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "FBSDKAccessToken"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "FBSDKGraphRequest"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "FBSDKLoginManager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "GIDSignIn"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "KVSpinnerView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Mapper"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSLocalizedString"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NetworkAdapter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIStoryboard"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "accessToken"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "authentication"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "current"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "currentUser"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "darkGray"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dismiss"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "facebookGraphRequest"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "facebookLoginBtn"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "googleLoginBtn"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "hasAuthInKeychain"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "hasImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "imageURL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "instantiateViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isCancelled"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isUserInteractionEnabled"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "logIn"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "moveToWorldWideWithRegistration"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "name"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "present"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "profile"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "settings"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sharedInstance"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shouldFetchBasicProfile"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "show"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "showPrgressBar"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "sign"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "signIn"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "signInSilently"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "signInWillDispatch"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "start"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tokenString"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "uiDelegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "userID"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "view"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "absoluteString"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "13KVSpinnerView24AnimationManagerDelegateP"
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "14AroundTheMetro9ConstantsV"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "So16FBSDKAccessTokenC"
+- !private "So12FBSDKCopyingP"
+- !private "So17FBSDKGraphRequestC"
+- !private "So17FBSDKLoginManagerC"
+- !private "So28FBSDKLoginManagerLoginResultC"
+- !private "So17GIDAuthenticationC"
+- !private "So13GIDGoogleUserC"
+- !private "So14GIDProfileDataC"
+- !private "So9GIDSignInC"
+- "So17GIDSignInDelegateP"
+- "So19GIDSignInUIDelegateP"
+- "s8HashableP"
+- !private "13KVSpinnerViewAAC"
+- !private "13KVSpinnerView0aB8SettingsV"
+- !private "10Kingfisher0A10CompatibleP"
+- "14AroundTheMetro19LoginViewControllerC"
+- !private "s25LosslessStringConvertibleP"
+- !private "12ObjectMapper0B0C"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So12NSDictionaryC"
+- "So26NSExtensionRequestHandlingP"
+- !private "So17NSFastEnumerationP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "14AroundTheMetro14NetworkAdapterV"
+- !private "s26RangeReplaceableCollectionP"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "10Kingfisher8ResourceP"
+- !private "s8SequenceP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "4Moya10TargetTypeP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So8UIButtonC"
+- !private "So7UIColorC"
+- "So18UIContentContainerP"
+- !private "So9UIControlC"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- "So16UIStateRestoringP"
+- !private "So12UIStoryboardC"
+- "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "10Foundation3URLV"
+- !private "9Alamofire14URLConvertibleP"
+- !private "14AroundTheMetro17UndergroungTargetO"
+- !private "14AroundTheMetro4UserC"
+- !private "s23_BidirectionalIndexableP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByColorLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Accelerate.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/os.apinotesc"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Moya/Moya.framework/Modules/Moya.swiftmodule/x86_64.swiftmodule"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/PopupDialog/PopupDialog.framework/Modules/PopupDialog.swiftmodule/x86_64.swiftmodule"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Modules/Kingfisher.swiftmodule/x86_64.swiftmodule"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Result/Result.framework/Modules/Result.swiftmodule/x86_64.swiftmodule"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/AKSideMenu/AKSideMenu.framework/Modules/AKSideMenu.swiftmodule/x86_64.swiftmodule"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/KVSpinnerView/KVSpinnerView.framework/Modules/KVSpinnerView.swiftmodule/x86_64.swiftmodule"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/HDAugmentedReality/HDAugmentedReality.framework/Modules/HDAugmentedReality.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ModelIO.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Accelerate.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/os.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/GLKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFURL.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD-umbrella.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Moya/Moya.framework/Headers/Moya-umbrella.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/PopupDialog/PopupDialog.framework/Headers/PopupDialog-umbrella.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher-umbrella.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-umbrella.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts-umbrella.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit-umbrella.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-umbrella.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Result/Result.framework/Headers/Result-umbrella.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/AKSideMenu/AKSideMenu.framework/Headers/AKSideMenu-umbrella.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/KVSpinnerView/KVSpinnerView.framework/Headers/KVSpinnerView-umbrella.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/HDAugmentedReality/HDAugmentedReality.framework/Headers/HDAugmentedReality-umbrella.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDProfileData.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Fabric/iOS/Fabric.framework/Headers/Fabric.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Google/Frameworks/GGLCore.framework/Headers/GGLErrorCode.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Google/Headers/ModuleHeaders/Core-Module.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Google/Headers/ModuleHeaders/SignIn-Module.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Google/Headers/ModuleHeaders/Analytics-Module.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Crashlytics/iOS/Crashlytics.framework/Headers/CLSStackFrame.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Google/Frameworks/GGLCore.framework/Headers/GGLCore.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Crashlytics/iOS/Crashlytics.framework/Headers/CLSLogging.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTask.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Google/Frameworks/GGLSignIn.framework/Headers/GGLContext+SignIn.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDSignIn.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Google/Frameworks/GGLSignIn.framework/Headers/GGLSignIn.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GoogleSignIn.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDAuthentication.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Google/Frameworks/GGLCore.framework/Headers/GGLConfiguration.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Google/Frameworks/GGLCore.framework/Headers/GMRConfiguration.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDSignInButton.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDGoogleUser.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVRadialGradientLayer.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Crashlytics/iOS/Crashlytics.framework/Headers/Crashlytics.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Fabric/iOS/Fabric.framework/Headers/FABAttributes.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Crashlytics/iOS/Crashlytics.framework/Headers/CLSAttributes.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTask+Exceptions.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Crashlytics/iOS/Crashlytics.framework/Headers/Answers.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Moya/Moya.framework/Headers/Moya-Swift.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/PopupDialog/PopupDialog.framework/Headers/PopupDialog-Swift.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher-Swift.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Result/Result.framework/Headers/Result-Swift.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/AKSideMenu/AKSideMenu.framework/Headers/AKSideMenu-Swift.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/KVSpinnerView/KVSpinnerView.framework/Headers/KVSpinnerView-Swift.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/HDAugmentedReality/HDAugmentedReality.framework/Headers/HDAugmentedReality-Swift.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Crashlytics/iOS/Crashlytics.framework/Headers/CLSReport.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Google/Frameworks/GGLCore.framework/Headers/GGLContext.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVIndefiniteAnimatedView.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressAnimatedView.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/PopupDialog/PopupDialog.framework/Headers/FXBlurView.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Crashlytics/iOS/Crashlytics.framework/Headers/ANSCompatibility.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Modules/module.modulemap"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Moya/Moya.framework/Modules/module.modulemap"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Fabric/iOS/Fabric.framework/Modules/module.modulemap"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Google/Frameworks/GGLCore.framework/Modules/module.modulemap"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/PopupDialog/PopupDialog.framework/Modules/module.modulemap"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Google/Frameworks/GGLSignIn.framework/Modules/module.modulemap"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Modules/module.modulemap"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Modules/module.modulemap"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/module.modulemap"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Crashlytics/iOS/Crashlytics.framework/Modules/module.modulemap"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Modules/module.modulemap"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Modules/module.modulemap"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Result/Result.framework/Modules/module.modulemap"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/AKSideMenu/AKSideMenu.framework/Modules/module.modulemap"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/KVSpinnerView/KVSpinnerView.framework/Modules/module.modulemap"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/HDAugmentedReality/HDAugmentedReality.framework/Modules/module.modulemap"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Google/Headers/module.modulemap"
+interface-hash: "8c7bcb63b3a37c3f23162f0c984d5a7e"

@@ -1,0 +1,400 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TabmanBarConfigHandler"
+- "TabmanBarDelegate"
+provides-nominal:
+- "6Tabman0A16BarConfigHandlerP"
+- "6Tabman0A11BarDelegateP"
+- "6Tabman0A3BarC6ConfigC"
+- "6Tabman0A3BarC8LocationO"
+provides-member:
+- ["6Tabman0A16BarConfigHandlerP", ""]
+- ["6Tabman0A11BarDelegateP", ""]
+- ["6Tabman0A3BarC", ""]
+- ["6Tabman0A3BarC6ConfigC", ""]
+- ["6Tabman0A3BarC8LocationO", ""]
+- ["6Tabman0A3BarC5StyleO", ""]
+- ["6Tabman0A3BarC", "Config"]
+- ["6Tabman0A3BarC", "Location"]
+- ["6Tabman0A3BarC5StyleO", "preferredLocation"]
+- ["6Tabman0A3BarC5StyleO", "rawType"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- "=="
+- !private "??"
+- "AnyObject"
+- "Bool"
+- "Int"
+- "TabmanBar"
+- "TabmanBarConfigHandler"
+- "TabmanBarDelegate"
+- !private "TabmanBlockTabBar"
+- !private "TabmanFixedButtonBar"
+- !private "TabmanLineBar"
+- !private "TabmanScrollingButtonBar"
+- "UIEdgeInsets"
+depends-member:
+- !private ["6Tabman0A3BarC10AppearanceC", "defaultAppearance"]
+- !private ["s13BinaryIntegerP", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["So15CALayerDelegateP", "Appearance"]
+- ["So15CALayerDelegateP", "Config"]
+- ["So15CALayerDelegateP", "Insets"]
+- ["So15CALayerDelegateP", "Item"]
+- ["So15CALayerDelegateP", "Location"]
+- ["So15CALayerDelegateP", "Style"]
+- ["s7CVarArgP", "Appearance"]
+- ["s7CVarArgP", "Config"]
+- ["s7CVarArgP", "Insets"]
+- ["s7CVarArgP", "Item"]
+- ["s7CVarArgP", "Location"]
+- ["s7CVarArgP", "Style"]
+- !private ["s7CVarArgP", "hashValue"]
+- !private ["s10ComparableP", "hashValue"]
+- ["6Tabman0A3BarC6ConfigC", "Location"]
+- ["6Tabman0A3BarC6ConfigC", "TabmanBar"]
+- ["6Tabman0A3BarC6ConfigC", "TabmanBarConfigHandler"]
+- ["6Tabman0A3BarC6ConfigC", "TabmanBarDelegate"]
+- ["6Tabman0A3BarC6ConfigC", "UIEdgeInsets"]
+- ["6Tabman0A3BarC6ConfigC", "actualLocation"]
+- ["6Tabman0A3BarC6ConfigC", "appearance"]
+- ["6Tabman0A3BarC6ConfigC", "deinit"]
+- ["6Tabman0A3BarC6ConfigC", "delegate"]
+- ["6Tabman0A3BarC6ConfigC", "handler"]
+- ["6Tabman0A3BarC6ConfigC", "init"]
+- ["6Tabman0A3BarC6ConfigC", "items"]
+- ["6Tabman0A3BarC6ConfigC", "location"]
+- ["6Tabman0A3BarC6ConfigC", "requiredContentInset"]
+- ["6Tabman0A3BarC6ConfigC", "requiredInsets"]
+- ["6Tabman0A3BarC6ConfigC", "style"]
+- ["s28CustomDebugStringConvertibleP", "Appearance"]
+- ["s28CustomDebugStringConvertibleP", "Config"]
+- ["s28CustomDebugStringConvertibleP", "Insets"]
+- ["s28CustomDebugStringConvertibleP", "Item"]
+- ["s28CustomDebugStringConvertibleP", "Location"]
+- ["s28CustomDebugStringConvertibleP", "Style"]
+- !private ["s28CustomDebugStringConvertibleP", "preferred"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "hashValue"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "hashValue"]
+- !private ["s17CustomReflectableP", "preferred"]
+- ["s23CustomStringConvertibleP", "Appearance"]
+- ["s23CustomStringConvertibleP", "Config"]
+- ["s23CustomStringConvertibleP", "Insets"]
+- ["s23CustomStringConvertibleP", "Item"]
+- ["s23CustomStringConvertibleP", "Location"]
+- ["s23CustomStringConvertibleP", "Style"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "hashValue"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "hashValue"]
+- !private ["s9DecodableP", "preferred"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "hashValue"]
+- !private ["s9EncodableP", "preferred"]
+- ["s9EquatableP", "Appearance"]
+- ["s9EquatableP", "Config"]
+- ["s9EquatableP", "Insets"]
+- ["s9EquatableP", "Item"]
+- ["s9EquatableP", "Location"]
+- ["s9EquatableP", "Style"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "bottom"]
+- ["s9EquatableP", "hashValue"]
+- ["s9EquatableP", "preferred"]
+- !private ["s9EquatableP", "top"]
+- ["s9EquatableP", ""]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s27ExpressibleByIntegerLiteralP", "hashValue"]
+- !private ["s23ExpressibleByNilLiteralP", "preferred"]
+- !private ["s17FixedWidthIntegerP", "hashValue"]
+- ["s8HashableP", "Appearance"]
+- ["s8HashableP", "Config"]
+- ["s8HashableP", "Insets"]
+- ["s8HashableP", "Item"]
+- ["s8HashableP", "Location"]
+- ["s8HashableP", "Style"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "bottom"]
+- ["s8HashableP", "hashValue"]
+- ["s8HashableP", "preferred"]
+- !private ["s8HashableP", "top"]
+- ["s8HashableP", ""]
+- !private ["6Tabman0A3BarC6InsetsV", "barInsets"]
+- ["6Tabman0A3BarC6InsetsV", "zero"]
+- !private ["Si", "hashValue"]
+- ["6Tabman0A3BarC8LocationO", "__derived_enum_equals"]
+- ["6Tabman0A3BarC8LocationO", "bottom"]
+- ["6Tabman0A3BarC8LocationO", "deinit"]
+- ["6Tabman0A3BarC8LocationO", "hashValue"]
+- ["6Tabman0A3BarC8LocationO", "preferred"]
+- ["6Tabman0A3BarC8LocationO", "top"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "hashValue"]
+- !private ["s10MirrorPathP", "hashValue"]
+- ["So8NSCodingP", "Appearance"]
+- ["So8NSCodingP", "Config"]
+- ["So8NSCodingP", "Insets"]
+- ["So8NSCodingP", "Item"]
+- ["So8NSCodingP", "Location"]
+- ["So8NSCodingP", "Style"]
+- ["So8NSObjectC", "Appearance"]
+- ["So8NSObjectC", "Config"]
+- ["So8NSObjectC", "Insets"]
+- ["So8NSObjectC", "Item"]
+- ["So8NSObjectC", "Location"]
+- ["So8NSObjectC", "Style"]
+- ["So8NSObjectC", "TabmanBar"]
+- ["So8NSObjectC", "TabmanBarConfigHandler"]
+- ["So8NSObjectC", "TabmanBarDelegate"]
+- ["So8NSObjectC", "UIEdgeInsets"]
+- ["So16NSObjectProtocolP", "Appearance"]
+- ["So16NSObjectProtocolP", "Config"]
+- ["So16NSObjectProtocolP", "Insets"]
+- ["So16NSObjectProtocolP", "Item"]
+- ["So16NSObjectProtocolP", "Location"]
+- ["So16NSObjectProtocolP", "Style"]
+- !private ["s7NumericP", "hashValue"]
+- !private ["Sq", "preferred"]
+- !private ["s13SignedIntegerP", "hashValue"]
+- !private ["s13SignedNumericP", "hashValue"]
+- !private ["s10StrideableP", "hashValue"]
+- ["6Tabman0A3BarC5StyleO", "TabmanBar"]
+- !private ["6Tabman0A3BarC5StyleO", "TabmanBlockTabBar"]
+- !private ["6Tabman0A3BarC5StyleO", "TabmanFixedButtonBar"]
+- !private ["6Tabman0A3BarC5StyleO", "TabmanLineBar"]
+- !private ["6Tabman0A3BarC5StyleO", "TabmanScrollingButtonBar"]
+- ["6Tabman0A3BarC5StyleO", "bar"]
+- ["6Tabman0A3BarC5StyleO", "blockTabBar"]
+- ["6Tabman0A3BarC5StyleO", "buttonBar"]
+- ["6Tabman0A3BarC5StyleO", "custom"]
+- ["6Tabman0A3BarC5StyleO", "preferredLocation"]
+- ["6Tabman0A3BarC5StyleO", "rawType"]
+- ["6Tabman0A3BarC5StyleO", "scrollingButtonBar"]
+- ["6Tabman0A20AppearanceUpdateableP", "Appearance"]
+- ["6Tabman0A20AppearanceUpdateableP", "Config"]
+- ["6Tabman0A20AppearanceUpdateableP", "Insets"]
+- ["6Tabman0A20AppearanceUpdateableP", "Item"]
+- ["6Tabman0A20AppearanceUpdateableP", "Location"]
+- ["6Tabman0A20AppearanceUpdateableP", "Style"]
+- ["6Tabman0A3BarC", "Appearance"]
+- ["6Tabman0A3BarC", "Config"]
+- ["6Tabman0A3BarC", "Insets"]
+- ["6Tabman0A3BarC", "Item"]
+- ["6Tabman0A3BarC", "Location"]
+- ["6Tabman0A3BarC", "Style"]
+- ["6Tabman0A3BarC", "TabmanBar"]
+- ["6Tabman0A3BarC", "TabmanBarConfigHandler"]
+- ["6Tabman0A3BarC", "TabmanBarDelegate"]
+- ["6Tabman0A3BarC", "UIEdgeInsets"]
+- ["6Tabman0A16BarConfigHandlerP", "TabmanBar"]
+- ["6Tabman0A16BarConfigHandlerP", "config"]
+- ["6Tabman0A11BarDelegateP", "Bool"]
+- ["6Tabman0A11BarDelegateP", "Int"]
+- ["6Tabman0A11BarDelegateP", "bar"]
+- ["6Tabman0A12BarLifecycleP", "Appearance"]
+- ["6Tabman0A12BarLifecycleP", "Config"]
+- ["6Tabman0A12BarLifecycleP", "Insets"]
+- ["6Tabman0A12BarLifecycleP", "Item"]
+- ["6Tabman0A12BarLifecycleP", "Location"]
+- ["6Tabman0A12BarLifecycleP", "Style"]
+- ["6Tabman0A17IndicatorDelegateP", "Appearance"]
+- ["6Tabman0A17IndicatorDelegateP", "Config"]
+- ["6Tabman0A17IndicatorDelegateP", "Insets"]
+- ["6Tabman0A17IndicatorDelegateP", "Item"]
+- ["6Tabman0A17IndicatorDelegateP", "Location"]
+- ["6Tabman0A17IndicatorDelegateP", "Style"]
+- ["So29UIAccessibilityIdentificationP", "Appearance"]
+- ["So29UIAccessibilityIdentificationP", "Config"]
+- ["So29UIAccessibilityIdentificationP", "Insets"]
+- ["So29UIAccessibilityIdentificationP", "Item"]
+- ["So29UIAccessibilityIdentificationP", "Location"]
+- ["So29UIAccessibilityIdentificationP", "Style"]
+- ["So12UIAppearanceP", "Appearance"]
+- ["So12UIAppearanceP", "Config"]
+- ["So12UIAppearanceP", "Insets"]
+- ["So12UIAppearanceP", "Item"]
+- ["So12UIAppearanceP", "Location"]
+- ["So12UIAppearanceP", "Style"]
+- ["So21UIAppearanceContainerP", "Appearance"]
+- ["So21UIAppearanceContainerP", "Config"]
+- ["So21UIAppearanceContainerP", "Insets"]
+- ["So21UIAppearanceContainerP", "Item"]
+- ["So21UIAppearanceContainerP", "Location"]
+- ["So21UIAppearanceContainerP", "Style"]
+- ["So17UICoordinateSpaceP", "Appearance"]
+- ["So17UICoordinateSpaceP", "Config"]
+- ["So17UICoordinateSpaceP", "Insets"]
+- ["So17UICoordinateSpaceP", "Item"]
+- ["So17UICoordinateSpaceP", "Location"]
+- ["So17UICoordinateSpaceP", "Style"]
+- ["So13UIDynamicItemP", "Appearance"]
+- ["So13UIDynamicItemP", "Config"]
+- ["So13UIDynamicItemP", "Insets"]
+- ["So13UIDynamicItemP", "Item"]
+- ["So13UIDynamicItemP", "Location"]
+- ["So13UIDynamicItemP", "Style"]
+- ["So18UIFocusEnvironmentP", "Appearance"]
+- ["So18UIFocusEnvironmentP", "Config"]
+- ["So18UIFocusEnvironmentP", "Insets"]
+- ["So18UIFocusEnvironmentP", "Item"]
+- ["So18UIFocusEnvironmentP", "Location"]
+- ["So18UIFocusEnvironmentP", "Style"]
+- ["So11UIFocusItemP", "Appearance"]
+- ["So11UIFocusItemP", "Config"]
+- ["So11UIFocusItemP", "Insets"]
+- ["So11UIFocusItemP", "Item"]
+- ["So11UIFocusItemP", "Location"]
+- ["So11UIFocusItemP", "Style"]
+- ["So30UIPasteConfigurationSupportingP", "Appearance"]
+- ["So30UIPasteConfigurationSupportingP", "Config"]
+- ["So30UIPasteConfigurationSupportingP", "Insets"]
+- ["So30UIPasteConfigurationSupportingP", "Item"]
+- ["So30UIPasteConfigurationSupportingP", "Location"]
+- ["So30UIPasteConfigurationSupportingP", "Style"]
+- ["So11UIResponderC", "Appearance"]
+- ["So11UIResponderC", "Config"]
+- ["So11UIResponderC", "Insets"]
+- ["So11UIResponderC", "Item"]
+- ["So11UIResponderC", "Location"]
+- ["So11UIResponderC", "Style"]
+- ["So11UIResponderC", "TabmanBar"]
+- ["So11UIResponderC", "TabmanBarConfigHandler"]
+- ["So11UIResponderC", "TabmanBarDelegate"]
+- ["So11UIResponderC", "UIEdgeInsets"]
+- ["So30UIResponderStandardEditActionsP", "Appearance"]
+- ["So30UIResponderStandardEditActionsP", "Config"]
+- ["So30UIResponderStandardEditActionsP", "Insets"]
+- ["So30UIResponderStandardEditActionsP", "Item"]
+- ["So30UIResponderStandardEditActionsP", "Location"]
+- ["So30UIResponderStandardEditActionsP", "Style"]
+- ["So18UITraitEnvironmentP", "Appearance"]
+- ["So18UITraitEnvironmentP", "Config"]
+- ["So18UITraitEnvironmentP", "Insets"]
+- ["So18UITraitEnvironmentP", "Item"]
+- ["So18UITraitEnvironmentP", "Location"]
+- ["So18UITraitEnvironmentP", "Style"]
+- ["So6UIViewC", "Appearance"]
+- ["So6UIViewC", "Config"]
+- ["So6UIViewC", "Insets"]
+- ["So6UIViewC", "Item"]
+- ["So6UIViewC", "Location"]
+- ["So6UIViewC", "Style"]
+- ["So6UIViewC", "TabmanBar"]
+- ["So6UIViewC", "TabmanBarConfigHandler"]
+- ["So6UIViewC", "TabmanBarDelegate"]
+- ["So6UIViewC", "UIEdgeInsets"]
+- !private ["s18_BitwiseOperationsP", "hashValue"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", "Appearance"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", "Config"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", "Insets"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", "Item"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", "Location"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", "Style"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "hashValue"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Appearance"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Config"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Insets"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Item"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Location"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Style"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "hashValue"]
+- !private ["s21_ObjectiveCBridgeableP", "preferred"]
+- !private ["s26_OptionalNilComparisonTypeV", "preferred"]
+- !private ["s11_StrideableP", "hashValue"]
+depends-nominal:
+- !private "6Tabman0A3BarC10AppearanceC"
+- !private "s13BinaryIntegerP"
+- !private "Sb"
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "s10ComparableP"
+- "6Tabman0A3BarC6ConfigC"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "s8HashableP"
+- "6Tabman0A3BarC6InsetsV"
+- !private "Si"
+- "6Tabman0A3BarC8LocationO"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "s7NumericP"
+- !private "Sq"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "s10StrideableP"
+- "6Tabman0A3BarC5StyleO"
+- "6Tabman0A20AppearanceUpdateableP"
+- "6Tabman0A3BarC"
+- "6Tabman0A16BarConfigHandlerP"
+- "6Tabman0A11BarDelegateP"
+- "6Tabman0A12BarLifecycleP"
+- "6Tabman0A17IndicatorDelegateP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So18UITraitEnvironmentP"
+- "So6UIViewC"
+- !private "s18_BitwiseOperationsP"
+- "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_OptionalNilComparisonTypeV"
+- !private "s11_StrideableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphoneos/Pageboy/Pageboy.framework/Modules/Pageboy.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Target Support Files/Tabman/Tabman-umbrella.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Target Support Files/PureLayout/PureLayout-umbrella.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Target Support Files/Pageboy/Pageboy-umbrella.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/PureLayout/PureLayout/PureLayout/PureLayout+Internal.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Tabman/Sources/Tabman/Tabman.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/PureLayout/PureLayout/PureLayout/PureLayoutDefines.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphoneos/Pageboy/Pageboy.framework/Headers/Pageboy-Swift.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/PureLayout/PureLayout/PureLayout/NSLayoutConstraint+PureLayout.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/PureLayout/PureLayout/PureLayout/ALView+PureLayout.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/PureLayout/PureLayout/PureLayout/NSArray+PureLayout.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/PureLayout/PureLayout/PureLayout/PureLayout.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Pageboy/Sources/Pageboy/Pageboy.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Tabman.build/unextended-module.modulemap"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/PureLayout.build/module.modulemap"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Pageboy.build/module.modulemap"
+interface-hash: "9491f0ac079a7ecc927b97f599268219"

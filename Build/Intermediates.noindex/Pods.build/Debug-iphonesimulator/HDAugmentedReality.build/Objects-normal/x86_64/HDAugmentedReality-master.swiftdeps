@@ -1,0 +1,13 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "16b60ed92e9f7111dc293a94073e361a"
+build_time: [1517366406, 30026000]
+inputs:
+  "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/HDAugmentedReality/HDAugmentedReality/Classes/ARAnnotation.swift": [1516756693, 0]
+  "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/HDAugmentedReality/HDAugmentedReality/Classes/ARAnnotationView.swift": [1516756693, 0]
+  "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/HDAugmentedReality/HDAugmentedReality/Classes/ARConfiguration.swift": [1516756693, 0]
+  "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/HDAugmentedReality/HDAugmentedReality/Classes/ARPresenter.swift": [1516756693, 0]
+  "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/HDAugmentedReality/HDAugmentedReality/Classes/ARPresenterTransform.swift": [1516756693, 0]
+  "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/HDAugmentedReality/HDAugmentedReality/Classes/ARTrackingManager.swift": [1516756693, 0]
+  "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/HDAugmentedReality/HDAugmentedReality/Classes/ARViewController.swift": [1516757110, 0]
+  "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/HDAugmentedReality/HDAugmentedReality/Classes/External/CameraView.swift": [1516756693, 0]
+  "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/HDAugmentedReality/HDAugmentedReality/Classes/Debug/DebugMapViewController.swift": [1516756693, 0]

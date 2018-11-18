@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "8b143a82c78f5c72f4281a4b06a04ed6"
+build_time: [1517366404, 899506000]
+inputs:
+  "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/AKSideMenu/AKSideMenu/AKSideMenu.swift": [1515374136, 0]
+  "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/AKSideMenu/AKSideMenu/UIViewController+AKSideMenu.swift": [1515374136, 0]

@@ -1,0 +1,287 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "7Pageboy0A14ViewControllerC19NavigationDirectionO"
+- "7Pageboy0A14ViewControllerC"
+provides-member:
+- ["7Pageboy0A22ViewControllerDelegateP", ""]
+- ["7Pageboy0A14ViewControllerC19NavigationDirectionO", ""]
+- ["7Pageboy0A14ViewControllerC", ""]
+- ["7Pageboy0A22ViewControllerDelegateP", "pageboyViewController"]
+- ["7Pageboy0A22ViewControllerDelegateP", "pageboyViewController"]
+- ["7Pageboy0A22ViewControllerDelegateP", "pageboyViewController"]
+- ["7Pageboy0A22ViewControllerDelegateP", "pageboyViewController"]
+provides-dynamic-lookup:
+depends-top-level:
+- "Bool"
+- "CGPoint"
+- "CustomStringConvertible"
+- "Int"
+- "PageboyAutoScroller"
+- "PageboyAutoScrollerHandler"
+- "PageboyViewController"
+- "PageboyViewControllerDelegate"
+- "String"
+- !private "StringLiteralType"
+- "UIViewController"
+depends-member:
+- !private ["s23BidirectionalCollectionP", "init"]
+- ["s7CVarArgP", "NavigationDirection"]
+- ["s7CVarArgP", "PageIndex"]
+- ["s7CVarArgP", "autoScroller"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "scrollToPage"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- ["s28CustomDebugStringConvertibleP", "NavigationDirection"]
+- ["s28CustomDebugStringConvertibleP", "PageIndex"]
+- ["s28CustomDebugStringConvertibleP", "autoScroller"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "scrollToPage"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", "NavigationDirection"]
+- ["s23CustomStringConvertibleP", "PageIndex"]
+- ["s23CustomStringConvertibleP", "autoScroller"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "forward"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "reverse"]
+- !private ["s23CustomStringConvertibleP", "scrollToPage"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "init"]
+- ["s9EquatableP", "NavigationDirection"]
+- ["s9EquatableP", "PageIndex"]
+- ["s9EquatableP", "autoScroller"]
+- ["s9EquatableP", "description"]
+- ["s9EquatableP", "forward"]
+- !private ["s9EquatableP", "init"]
+- ["s9EquatableP", "reverse"]
+- !private ["s9EquatableP", "scrollToPage"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s8HashableP", "NavigationDirection"]
+- ["s8HashableP", "PageIndex"]
+- ["s8HashableP", "autoScroller"]
+- ["s8HashableP", "description"]
+- ["s8HashableP", "forward"]
+- !private ["s8HashableP", "init"]
+- ["s8HashableP", "reverse"]
+- !private ["s8HashableP", "scrollToPage"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- ["So8NSCodingP", "NavigationDirection"]
+- ["So8NSCodingP", "PageIndex"]
+- ["So8NSCodingP", "autoScroller"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "scrollToPage"]
+- !private ["So9NSCopyingP", "init"]
+- ["So26NSExtensionRequestHandlingP", "NavigationDirection"]
+- ["So26NSExtensionRequestHandlingP", "PageIndex"]
+- ["So26NSExtensionRequestHandlingP", "autoScroller"]
+- !private ["So26NSExtensionRequestHandlingP", "scrollToPage"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "NavigationDirection"]
+- ["So8NSObjectC", "PageIndex"]
+- ["So8NSObjectC", "PageboyAutoScroller"]
+- ["So8NSObjectC", "autoScroller"]
+- !private ["So8NSObjectC", "scrollToPage"]
+- ["So16NSObjectProtocolP", "NavigationDirection"]
+- ["So16NSObjectProtocolP", "PageIndex"]
+- ["So16NSObjectProtocolP", "autoScroller"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "scrollToPage"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "init"]
+- ["7Pageboy0A14ViewControllerC19NavigationDirectionO", "String"]
+- ["7Pageboy0A14ViewControllerC19NavigationDirectionO", "deinit"]
+- ["7Pageboy0A14ViewControllerC19NavigationDirectionO", "description"]
+- ["7Pageboy0A14ViewControllerC19NavigationDirectionO", "forward"]
+- ["7Pageboy0A14ViewControllerC19NavigationDirectionO", "reverse"]
+- !private ["7Pageboy0A14ViewControllerC4PageO", "next"]
+- ["7Pageboy0A19AutoScrollerHandlerP", "NavigationDirection"]
+- ["7Pageboy0A19AutoScrollerHandlerP", "PageIndex"]
+- ["7Pageboy0A19AutoScrollerHandlerP", "autoScroller"]
+- !private ["7Pageboy0A19AutoScrollerHandlerP", "scrollToPage"]
+- ["7Pageboy0A19AutoScrollerHandlerP", ""]
+- ["7Pageboy0A14ViewControllerC", "Bool"]
+- ["7Pageboy0A14ViewControllerC", "NavigationDirection"]
+- ["7Pageboy0A14ViewControllerC", "PageIndex"]
+- ["7Pageboy0A14ViewControllerC", "PageboyAutoScroller"]
+- ["7Pageboy0A14ViewControllerC", "autoScroller"]
+- ["7Pageboy0A14ViewControllerC", "deinit"]
+- !private ["7Pageboy0A14ViewControllerC", "scrollToPage"]
+- ["7Pageboy0A22ViewControllerDelegateP", "Bool"]
+- ["7Pageboy0A22ViewControllerDelegateP", "CGPoint"]
+- ["7Pageboy0A22ViewControllerDelegateP", "Int"]
+- ["7Pageboy0A22ViewControllerDelegateP", "PageboyViewController"]
+- ["7Pageboy0A22ViewControllerDelegateP", "UIViewController"]
+- ["7Pageboy0A22ViewControllerDelegateP", "pageboyViewController"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s8SequenceP", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- ["7Pageboy27TransitionOperationDelegateP", "NavigationDirection"]
+- ["7Pageboy27TransitionOperationDelegateP", "PageIndex"]
+- ["7Pageboy27TransitionOperationDelegateP", "autoScroller"]
+- !private ["7Pageboy27TransitionOperationDelegateP", "scrollToPage"]
+- ["So21UIAppearanceContainerP", "NavigationDirection"]
+- ["So21UIAppearanceContainerP", "PageIndex"]
+- ["So21UIAppearanceContainerP", "autoScroller"]
+- !private ["So21UIAppearanceContainerP", "scrollToPage"]
+- ["So18UIContentContainerP", "NavigationDirection"]
+- ["So18UIContentContainerP", "PageIndex"]
+- ["So18UIContentContainerP", "autoScroller"]
+- !private ["So18UIContentContainerP", "scrollToPage"]
+- ["So18UIFocusEnvironmentP", "NavigationDirection"]
+- ["So18UIFocusEnvironmentP", "PageIndex"]
+- ["So18UIFocusEnvironmentP", "autoScroller"]
+- !private ["So18UIFocusEnvironmentP", "scrollToPage"]
+- ["So30UIPageViewControllerDataSourceP", "NavigationDirection"]
+- ["So30UIPageViewControllerDataSourceP", "PageIndex"]
+- ["So30UIPageViewControllerDataSourceP", "autoScroller"]
+- !private ["So30UIPageViewControllerDataSourceP", "scrollToPage"]
+- ["So28UIPageViewControllerDelegateP", "NavigationDirection"]
+- ["So28UIPageViewControllerDelegateP", "PageIndex"]
+- ["So28UIPageViewControllerDelegateP", "autoScroller"]
+- !private ["So28UIPageViewControllerDelegateP", "scrollToPage"]
+- ["So30UIPasteConfigurationSupportingP", "NavigationDirection"]
+- ["So30UIPasteConfigurationSupportingP", "PageIndex"]
+- ["So30UIPasteConfigurationSupportingP", "autoScroller"]
+- !private ["So30UIPasteConfigurationSupportingP", "scrollToPage"]
+- ["So11UIResponderC", "Bool"]
+- ["So11UIResponderC", "NavigationDirection"]
+- ["So11UIResponderC", "PageIndex"]
+- ["So11UIResponderC", "PageboyAutoScroller"]
+- ["So11UIResponderC", "autoScroller"]
+- !private ["So11UIResponderC", "scrollToPage"]
+- ["So30UIResponderStandardEditActionsP", "NavigationDirection"]
+- ["So30UIResponderStandardEditActionsP", "PageIndex"]
+- ["So30UIResponderStandardEditActionsP", "autoScroller"]
+- !private ["So30UIResponderStandardEditActionsP", "scrollToPage"]
+- ["So20UIScrollViewDelegateP", "NavigationDirection"]
+- ["So20UIScrollViewDelegateP", "PageIndex"]
+- ["So20UIScrollViewDelegateP", "autoScroller"]
+- !private ["So20UIScrollViewDelegateP", "scrollToPage"]
+- ["So16UIStateRestoringP", "NavigationDirection"]
+- ["So16UIStateRestoringP", "PageIndex"]
+- ["So16UIStateRestoringP", "autoScroller"]
+- !private ["So16UIStateRestoringP", "scrollToPage"]
+- ["So18UITraitEnvironmentP", "NavigationDirection"]
+- ["So18UITraitEnvironmentP", "PageIndex"]
+- ["So18UITraitEnvironmentP", "autoScroller"]
+- !private ["So18UITraitEnvironmentP", "scrollToPage"]
+- ["So16UIViewControllerC", "Bool"]
+- ["So16UIViewControllerC", "NavigationDirection"]
+- ["So16UIViewControllerC", "PageIndex"]
+- ["So16UIViewControllerC", "PageboyAutoScroller"]
+- ["So16UIViewControllerC", "autoScroller"]
+- !private ["So16UIViewControllerC", "scrollToPage"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "NavigationDirection"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "PageIndex"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "autoScroller"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "scrollToPage"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "s23BidirectionalCollectionP"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- "7Pageboy0A14ViewControllerC19NavigationDirectionO"
+- !private "7Pageboy0A14ViewControllerC4PageO"
+- "7Pageboy0A19AutoScrollerHandlerP"
+- "7Pageboy0A14ViewControllerC"
+- "7Pageboy0A22ViewControllerDelegateP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "7Pageboy27TransitionOperationDelegateP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- "So18UIFocusEnvironmentP"
+- "So30UIPageViewControllerDataSourceP"
+- "So28UIPageViewControllerDelegateP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So20UIScrollViewDelegateP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- "So16UIViewControllerC"
+- !private "s23_BidirectionalIndexableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Target Support Files/Pageboy/Pageboy-umbrella.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Pageboy/Sources/Pageboy/Pageboy.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pageboy.build/unextended-module.modulemap"
+interface-hash: "bba214f9a2c887bdad9299c0f03fe9da"

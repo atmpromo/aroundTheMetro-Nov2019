@@ -1,0 +1,11 @@
+dependencies: \
+  /Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Bolts/Bolts/iOS/BFURL.m \
+  /Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Bolts.build/module.modulemap \
+  /Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Target\ Support\ Files/Bolts/Bolts-prefix.pch \
+  /Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Bolts/Bolts/iOS/Internal/BFURL_Internal.h \
+  /Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Bolts/Bolts/iOS/BFURL.h \
+  /Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Bolts/Bolts/iOS/Internal/BFAppLink_Internal.h \
+  /Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Bolts/Bolts/iOS/BFAppLink.h \
+  /Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Bolts/Bolts/iOS/BFAppLinkTarget.h \
+  /Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Bolts/Bolts/iOS/Internal/BFMeasurementEvent_Internal.h \
+  /Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Bolts/Bolts/iOS/BFMeasurementEvent.h

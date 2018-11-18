@@ -1,0 +1,408 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TabmanFixedButtonBar"
+provides-nominal:
+- "6Tabman0A14FixedButtonBarC"
+provides-member:
+- ["6Tabman0A14FixedButtonBarC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "TabmanBar"
+- "TabmanFixedButtonBar"
+- "TabmanStaticButtonBar"
+- "UIView"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- ["So15CALayerDelegateP", "Item"]
+- !private ["So15CALayerDelegateP", "addAndLayoutBarButtons"]
+- !private ["So15CALayerDelegateP", "addTarget"]
+- !private ["So15CALayerDelegateP", "buttons"]
+- !private ["So15CALayerDelegateP", "construct"]
+- !private ["So15CALayerDelegateP", "contentView"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "tabButtonPressed"]
+- ["So15CALayerDelegateP", ""]
+- ["s7CVarArgP", "Item"]
+- !private ["s7CVarArgP", "addAndLayoutBarButtons"]
+- !private ["s7CVarArgP", "addTarget"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "buttons"]
+- !private ["s7CVarArgP", "construct"]
+- !private ["s7CVarArgP", "contentView"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "tabButtonPressed"]
+- ["s7CVarArgP", ""]
+- !private ["s10CollectionP", "append"]
+- ["s28CustomDebugStringConvertibleP", "Item"]
+- !private ["s28CustomDebugStringConvertibleP", "addAndLayoutBarButtons"]
+- !private ["s28CustomDebugStringConvertibleP", "addTarget"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "buttons"]
+- !private ["s28CustomDebugStringConvertibleP", "construct"]
+- !private ["s28CustomDebugStringConvertibleP", "contentView"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "tabButtonPressed"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s17CustomReflectableP", "append"]
+- ["s23CustomStringConvertibleP", "Item"]
+- !private ["s23CustomStringConvertibleP", "addAndLayoutBarButtons"]
+- !private ["s23CustomStringConvertibleP", "addTarget"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "buttons"]
+- !private ["s23CustomStringConvertibleP", "construct"]
+- !private ["s23CustomStringConvertibleP", "contentView"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "tabButtonPressed"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "append"]
+- !private ["s9EncodableP", "append"]
+- ["s9EquatableP", "Item"]
+- !private ["s9EquatableP", "addAndLayoutBarButtons"]
+- !private ["s9EquatableP", "addTarget"]
+- !private ["s9EquatableP", "buttons"]
+- !private ["s9EquatableP", "construct"]
+- !private ["s9EquatableP", "contentView"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "tabButtonPressed"]
+- !private ["s9EquatableP", "touchUpInside"]
+- ["s9EquatableP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "touchUpInside"]
+- ["s8HashableP", "Item"]
+- !private ["s8HashableP", "addAndLayoutBarButtons"]
+- !private ["s8HashableP", "addTarget"]
+- !private ["s8HashableP", "buttons"]
+- !private ["s8HashableP", "construct"]
+- !private ["s8HashableP", "contentView"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "tabButtonPressed"]
+- ["s8HashableP", ""]
+- !private ["s17MutableCollectionP", "append"]
+- ["So8NSCodingP", "Item"]
+- !private ["So8NSCodingP", "addAndLayoutBarButtons"]
+- !private ["So8NSCodingP", "addTarget"]
+- !private ["So8NSCodingP", "buttons"]
+- !private ["So8NSCodingP", "construct"]
+- !private ["So8NSCodingP", "contentView"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "tabButtonPressed"]
+- ["So8NSCodingP", ""]
+- ["So8NSObjectC", "Item"]
+- ["So8NSObjectC", "TabmanBar"]
+- ["So8NSObjectC", "UIView"]
+- !private ["So8NSObjectC", "addAndLayoutBarButtons"]
+- !private ["So8NSObjectC", "addTarget"]
+- !private ["So8NSObjectC", "buttons"]
+- ["So8NSObjectC", "construct"]
+- !private ["So8NSObjectC", "contentView"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "tabButtonPressed"]
+- ["So16NSObjectProtocolP", "Item"]
+- !private ["So16NSObjectProtocolP", "addAndLayoutBarButtons"]
+- !private ["So16NSObjectProtocolP", "addTarget"]
+- !private ["So16NSObjectProtocolP", "buttons"]
+- !private ["So16NSObjectProtocolP", "construct"]
+- !private ["So16NSObjectProtocolP", "contentView"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "tabButtonPressed"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["s9OptionSetP", "touchUpInside"]
+- !private ["s22RandomAccessCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- !private ["s16RawRepresentableP", "touchUpInside"]
+- !private ["s8SequenceP", "append"]
+- !private ["s10SetAlgebraP", "touchUpInside"]
+- ["6Tabman0A20AppearanceUpdateableP", "Item"]
+- !private ["6Tabman0A20AppearanceUpdateableP", "addAndLayoutBarButtons"]
+- !private ["6Tabman0A20AppearanceUpdateableP", "buttons"]
+- !private ["6Tabman0A20AppearanceUpdateableP", "construct"]
+- !private ["6Tabman0A20AppearanceUpdateableP", "contentView"]
+- !private ["6Tabman0A20AppearanceUpdateableP", "init"]
+- !private ["6Tabman0A20AppearanceUpdateableP", "tabButtonPressed"]
+- ["6Tabman0A20AppearanceUpdateableP", ""]
+- ["6Tabman0A3BarC", "Item"]
+- ["6Tabman0A3BarC", "TabmanBar"]
+- ["6Tabman0A3BarC", "UIView"]
+- !private ["6Tabman0A3BarC", "addAndLayoutBarButtons"]
+- !private ["6Tabman0A3BarC", "buttons"]
+- ["6Tabman0A3BarC", "construct"]
+- !private ["6Tabman0A3BarC", "contentView"]
+- ["6Tabman0A3BarC", "init"]
+- !private ["6Tabman0A3BarC", "tabButtonPressed"]
+- ["6Tabman0A12BarLifecycleP", "Item"]
+- !private ["6Tabman0A12BarLifecycleP", "addAndLayoutBarButtons"]
+- !private ["6Tabman0A12BarLifecycleP", "buttons"]
+- !private ["6Tabman0A12BarLifecycleP", "construct"]
+- !private ["6Tabman0A12BarLifecycleP", "contentView"]
+- !private ["6Tabman0A12BarLifecycleP", "init"]
+- !private ["6Tabman0A12BarLifecycleP", "tabButtonPressed"]
+- ["6Tabman0A12BarLifecycleP", ""]
+- ["6Tabman0A9ButtonBarC", "TabmanBar"]
+- ["6Tabman0A9ButtonBarC", "UIView"]
+- !private ["6Tabman0A9ButtonBarC", "addAndLayoutBarButtons"]
+- !private ["6Tabman0A9ButtonBarC", "buttons"]
+- ["6Tabman0A9ButtonBarC", "construct"]
+- !private ["6Tabman0A9ButtonBarC", "contentView"]
+- ["6Tabman0A9ButtonBarC", "init"]
+- !private ["6Tabman0A9ButtonBarC", "tabButtonPressed"]
+- ["6Tabman0A14FixedButtonBarC", "TabmanBar"]
+- ["6Tabman0A14FixedButtonBarC", "UIView"]
+- !private ["6Tabman0A14FixedButtonBarC", "addAndLayoutBarButtons"]
+- !private ["6Tabman0A14FixedButtonBarC", "buttons"]
+- ["6Tabman0A14FixedButtonBarC", "construct"]
+- !private ["6Tabman0A14FixedButtonBarC", "contentView"]
+- ["6Tabman0A14FixedButtonBarC", "deinit"]
+- ["6Tabman0A14FixedButtonBarC", "init"]
+- !private ["6Tabman0A14FixedButtonBarC", "tabButtonPressed"]
+- ["6Tabman0A17IndicatorDelegateP", "Item"]
+- !private ["6Tabman0A17IndicatorDelegateP", "addAndLayoutBarButtons"]
+- !private ["6Tabman0A17IndicatorDelegateP", "buttons"]
+- !private ["6Tabman0A17IndicatorDelegateP", "construct"]
+- !private ["6Tabman0A17IndicatorDelegateP", "contentView"]
+- !private ["6Tabman0A17IndicatorDelegateP", "init"]
+- !private ["6Tabman0A17IndicatorDelegateP", "tabButtonPressed"]
+- ["6Tabman0A17IndicatorDelegateP", ""]
+- ["6Tabman0A15StaticButtonBarC", "TabmanBar"]
+- ["6Tabman0A15StaticButtonBarC", "UIView"]
+- !private ["6Tabman0A15StaticButtonBarC", "addAndLayoutBarButtons"]
+- !private ["6Tabman0A15StaticButtonBarC", "buttons"]
+- ["6Tabman0A15StaticButtonBarC", "construct"]
+- !private ["6Tabman0A15StaticButtonBarC", "contentView"]
+- !private ["6Tabman0A15StaticButtonBarC", "deinit"]
+- ["6Tabman0A15StaticButtonBarC", "init"]
+- !private ["6Tabman0A15StaticButtonBarC", "tabButtonPressed"]
+- ["6Tabman0A15StaticButtonBarC", ""]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "addTarget"]
+- ["So29UIAccessibilityIdentificationP", "Item"]
+- !private ["So29UIAccessibilityIdentificationP", "addAndLayoutBarButtons"]
+- !private ["So29UIAccessibilityIdentificationP", "addTarget"]
+- !private ["So29UIAccessibilityIdentificationP", "buttons"]
+- !private ["So29UIAccessibilityIdentificationP", "construct"]
+- !private ["So29UIAccessibilityIdentificationP", "contentView"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "tabButtonPressed"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- ["So12UIAppearanceP", "Item"]
+- !private ["So12UIAppearanceP", "addAndLayoutBarButtons"]
+- !private ["So12UIAppearanceP", "addTarget"]
+- !private ["So12UIAppearanceP", "buttons"]
+- !private ["So12UIAppearanceP", "construct"]
+- !private ["So12UIAppearanceP", "contentView"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "tabButtonPressed"]
+- ["So12UIAppearanceP", ""]
+- ["So21UIAppearanceContainerP", "Item"]
+- !private ["So21UIAppearanceContainerP", "addAndLayoutBarButtons"]
+- !private ["So21UIAppearanceContainerP", "addTarget"]
+- !private ["So21UIAppearanceContainerP", "buttons"]
+- !private ["So21UIAppearanceContainerP", "construct"]
+- !private ["So21UIAppearanceContainerP", "contentView"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "tabButtonPressed"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So8UIButtonC", "addTarget"]
+- !private ["So9UIControlC", "addTarget"]
+- !private ["SC15UIControlEventsV", "touchUpInside"]
+- ["So17UICoordinateSpaceP", "Item"]
+- !private ["So17UICoordinateSpaceP", "addAndLayoutBarButtons"]
+- !private ["So17UICoordinateSpaceP", "addTarget"]
+- !private ["So17UICoordinateSpaceP", "buttons"]
+- !private ["So17UICoordinateSpaceP", "construct"]
+- !private ["So17UICoordinateSpaceP", "contentView"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "tabButtonPressed"]
+- ["So17UICoordinateSpaceP", ""]
+- ["So13UIDynamicItemP", "Item"]
+- !private ["So13UIDynamicItemP", "addAndLayoutBarButtons"]
+- !private ["So13UIDynamicItemP", "addTarget"]
+- !private ["So13UIDynamicItemP", "buttons"]
+- !private ["So13UIDynamicItemP", "construct"]
+- !private ["So13UIDynamicItemP", "contentView"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "tabButtonPressed"]
+- ["So13UIDynamicItemP", ""]
+- ["So18UIFocusEnvironmentP", "Item"]
+- !private ["So18UIFocusEnvironmentP", "addAndLayoutBarButtons"]
+- !private ["So18UIFocusEnvironmentP", "addTarget"]
+- !private ["So18UIFocusEnvironmentP", "buttons"]
+- !private ["So18UIFocusEnvironmentP", "construct"]
+- !private ["So18UIFocusEnvironmentP", "contentView"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "tabButtonPressed"]
+- ["So18UIFocusEnvironmentP", ""]
+- ["So11UIFocusItemP", "Item"]
+- !private ["So11UIFocusItemP", "addAndLayoutBarButtons"]
+- !private ["So11UIFocusItemP", "addTarget"]
+- !private ["So11UIFocusItemP", "buttons"]
+- !private ["So11UIFocusItemP", "construct"]
+- !private ["So11UIFocusItemP", "contentView"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "tabButtonPressed"]
+- ["So11UIFocusItemP", ""]
+- ["So30UIPasteConfigurationSupportingP", "Item"]
+- !private ["So30UIPasteConfigurationSupportingP", "addAndLayoutBarButtons"]
+- !private ["So30UIPasteConfigurationSupportingP", "addTarget"]
+- !private ["So30UIPasteConfigurationSupportingP", "buttons"]
+- !private ["So30UIPasteConfigurationSupportingP", "construct"]
+- !private ["So30UIPasteConfigurationSupportingP", "contentView"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "tabButtonPressed"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So11UIResponderC", "Item"]
+- ["So11UIResponderC", "TabmanBar"]
+- ["So11UIResponderC", "UIView"]
+- !private ["So11UIResponderC", "addAndLayoutBarButtons"]
+- !private ["So11UIResponderC", "addTarget"]
+- !private ["So11UIResponderC", "buttons"]
+- ["So11UIResponderC", "construct"]
+- !private ["So11UIResponderC", "contentView"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "tabButtonPressed"]
+- ["So30UIResponderStandardEditActionsP", "Item"]
+- !private ["So30UIResponderStandardEditActionsP", "addAndLayoutBarButtons"]
+- !private ["So30UIResponderStandardEditActionsP", "addTarget"]
+- !private ["So30UIResponderStandardEditActionsP", "buttons"]
+- !private ["So30UIResponderStandardEditActionsP", "construct"]
+- !private ["So30UIResponderStandardEditActionsP", "contentView"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "tabButtonPressed"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So35UISpringLoadedInteractionSupportingP", "addTarget"]
+- ["So18UITraitEnvironmentP", "Item"]
+- !private ["So18UITraitEnvironmentP", "addAndLayoutBarButtons"]
+- !private ["So18UITraitEnvironmentP", "addTarget"]
+- !private ["So18UITraitEnvironmentP", "buttons"]
+- !private ["So18UITraitEnvironmentP", "construct"]
+- !private ["So18UITraitEnvironmentP", "contentView"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "tabButtonPressed"]
+- ["So18UITraitEnvironmentP", ""]
+- ["So6UIViewC", "Item"]
+- ["So6UIViewC", "TabmanBar"]
+- ["So6UIViewC", "UIView"]
+- !private ["So6UIViewC", "addAndLayoutBarButtons"]
+- !private ["So6UIViewC", "addTarget"]
+- !private ["So6UIViewC", "buttons"]
+- ["So6UIViewC", "construct"]
+- !private ["So6UIViewC", "contentView"]
+- ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "tabButtonPressed"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s23_BidirectionalIndexableP", "append"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", "Item"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addAndLayoutBarButtons"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addTarget"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "buttons"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "construct"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "contentView"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "tabButtonPressed"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s10_IndexableP", "append"]
+- !private ["s14_IndexableBaseP", "append"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Item"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addAndLayoutBarButtons"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addTarget"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "buttons"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "construct"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "contentView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tabButtonPressed"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s17_MutableIndexableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s22_RandomAccessIndexableP", "append"]
+- !private ["s26_RangeReplaceableIndexableP", "append"]
+depends-nominal:
+- !private "Sa"
+- !private "s23BidirectionalCollectionP"
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- "s8HashableP"
+- !private "s17MutableCollectionP"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "s9OptionSetP"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "s8SequenceP"
+- !private "s10SetAlgebraP"
+- "6Tabman0A20AppearanceUpdateableP"
+- "6Tabman0A3BarC"
+- "6Tabman0A12BarLifecycleP"
+- "6Tabman0A9ButtonBarC"
+- "6Tabman0A14FixedButtonBarC"
+- "6Tabman0A17IndicatorDelegateP"
+- "6Tabman0A15StaticButtonBarC"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So8UIButtonC"
+- !private "So9UIControlC"
+- !private "SC15UIControlEventsV"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- "So18UITraitEnvironmentP"
+- "So6UIViewC"
+- !private "s14_ArrayProtocolP"
+- !private "s23_BidirectionalIndexableP"
+- "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s17_MutableIndexableP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s22_RandomAccessIndexableP"
+- !private "s26_RangeReplaceableIndexableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Metal.swiftmodule"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphoneos/Pageboy/Pageboy.framework/Modules/Pageboy.swiftmodule/arm.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Target Support Files/Tabman/Tabman-umbrella.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Target Support Files/PureLayout/PureLayout-umbrella.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Target Support Files/Pageboy/Pageboy-umbrella.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/PureLayout/PureLayout/PureLayout/PureLayout+Internal.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Tabman/Sources/Tabman/Tabman.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/PureLayout/PureLayout/PureLayout/PureLayoutDefines.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphoneos/Pageboy/Pageboy.framework/Headers/Pageboy-Swift.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/PureLayout/PureLayout/PureLayout/NSLayoutConstraint+PureLayout.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/PureLayout/PureLayout/PureLayout/ALView+PureLayout.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/PureLayout/PureLayout/PureLayout/NSArray+PureLayout.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/PureLayout/PureLayout/PureLayout/PureLayout.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Pageboy/Sources/Pageboy/Pageboy.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Tabman.build/unextended-module.modulemap"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/PureLayout.build/module.modulemap"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Pageboy.build/module.modulemap"
+interface-hash: "b08b43c730a7d928aca11e1469bebc22"

@@ -1,0 +1,11 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "091695715e9ccae891dc38083389be80"
+build_time: [1517366188, 250281000]
+inputs:
+  "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/KVSpinnerView/KVSpinnerView/AnimationManager.swift": [1516759456, 0]
+  "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/KVSpinnerView/KVSpinnerView/Layers/CircleLayer.swift": [1516759456, 0]
+  "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/KVSpinnerView/KVSpinnerView/KVSpinnerView.swift": [1514741997, 0]
+  "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/KVSpinnerView/KVSpinnerView/KVSpinnerViewSettings.swift": [1514741997, 0]
+  "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/KVSpinnerView/KVSpinnerView/Layers/ProgressLayer.swift": [1514741997, 0]
+  "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/KVSpinnerView/KVSpinnerView/Layers/RectangleLayer.swift": [1514742187, 0]
+  "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/KVSpinnerView/KVSpinnerView/Layers/StatusTitleLayer.swift": [1514741997, 0]

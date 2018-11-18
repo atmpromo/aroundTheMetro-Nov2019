@@ -1,0 +1,153 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "KVSpinnerViewSettings"
+provides-nominal:
+- "13KVSpinnerView0aB8SettingsV"
+- "13KVSpinnerView0aB8SettingsV14AnimationStyleO"
+provides-member:
+- ["13KVSpinnerView0aB8SettingsV", ""]
+- ["13KVSpinnerView0aB8SettingsV14AnimationStyleO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "CGFloat"
+- "Float"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "KVSpinnerViewSettings"
+- "UIColor"
+depends-member:
+- ["13KVSpinnerView0aB8SettingsV14AnimationStyleO", "__derived_enum_equals"]
+- ["13KVSpinnerView0aB8SettingsV14AnimationStyleO", "deinit"]
+- ["13KVSpinnerView0aB8SettingsV14AnimationStyleO", "hashValue"]
+- ["13KVSpinnerView0aB8SettingsV14AnimationStyleO", "infinite"]
+- ["13KVSpinnerView0aB8SettingsV14AnimationStyleO", "standart"]
+- !private ["s13BinaryIntegerP", "hashValue"]
+- !private ["s7CVarArgP", "hashValue"]
+- ["s7CVarArgP", "purple"]
+- ["s7CVarArgP", "white"]
+- !private ["s10ComparableP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "purple"]
+- ["s28CustomDebugStringConvertibleP", "white"]
+- !private ["s29CustomPlaygroundQuickLookableP", "hashValue"]
+- !private ["s17CustomReflectableP", "hashValue"]
+- !private ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "purple"]
+- ["s23CustomStringConvertibleP", "white"]
+- !private ["s9DecodableP", "hashValue"]
+- !private ["s9EncodableP", "hashValue"]
+- ["s9EquatableP", "hashValue"]
+- ["s9EquatableP", "purple"]
+- ["s9EquatableP", "standart"]
+- ["s9EquatableP", "white"]
+- ["s9EquatableP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "hashValue"]
+- !private ["s17FixedWidthIntegerP", "hashValue"]
+- ["s8HashableP", "hashValue"]
+- ["s8HashableP", "purple"]
+- ["s8HashableP", "standart"]
+- ["s8HashableP", "white"]
+- ["s8HashableP", ""]
+- !private ["Si", "hashValue"]
+- ["13KVSpinnerView0aB8SettingsV", "AnimationStyle"]
+- ["13KVSpinnerView0aB8SettingsV", "CGFloat"]
+- ["13KVSpinnerView0aB8SettingsV", "Float"]
+- ["13KVSpinnerView0aB8SettingsV", "UIColor"]
+- ["13KVSpinnerView0aB8SettingsV", "animationDuration"]
+- ["13KVSpinnerView0aB8SettingsV", "animationStyle"]
+- ["13KVSpinnerView0aB8SettingsV", "backgroundOpacity"]
+- ["13KVSpinnerView0aB8SettingsV", "backgroundRectColor"]
+- ["13KVSpinnerView0aB8SettingsV", "fadeInDuration"]
+- ["13KVSpinnerView0aB8SettingsV", "fadeOutDuration"]
+- ["13KVSpinnerView0aB8SettingsV", "init"]
+- ["13KVSpinnerView0aB8SettingsV", "linesCount"]
+- ["13KVSpinnerView0aB8SettingsV", "linesWidth"]
+- ["13KVSpinnerView0aB8SettingsV", "minimumDismissDelay"]
+- ["13KVSpinnerView0aB8SettingsV", "spinnerRadius"]
+- ["13KVSpinnerView0aB8SettingsV", "statusTextColor"]
+- ["13KVSpinnerView0aB8SettingsV", "tintColor"]
+- !private ["s25LosslessStringConvertibleP", "hashValue"]
+- !private ["s10MirrorPathP", "hashValue"]
+- ["So8NSCodingP", "purple"]
+- ["So8NSCodingP", "white"]
+- ["So9NSCopyingP", "purple"]
+- ["So9NSCopyingP", "white"]
+- ["So21NSItemProviderReadingP", "purple"]
+- ["So21NSItemProviderReadingP", "white"]
+- ["So21NSItemProviderWritingP", "purple"]
+- ["So21NSItemProviderWritingP", "white"]
+- ["So8NSObjectC", "purple"]
+- ["So8NSObjectC", "white"]
+- ["So16NSObjectProtocolP", "purple"]
+- ["So16NSObjectProtocolP", "white"]
+- ["So14NSSecureCodingP", "purple"]
+- ["So14NSSecureCodingP", "white"]
+- !private ["s7NumericP", "hashValue"]
+- !private ["s13SignedIntegerP", "hashValue"]
+- !private ["s13SignedNumericP", "hashValue"]
+- !private ["s10StrideableP", "hashValue"]
+- ["So7UIColorC", "purple"]
+- ["So7UIColorC", "white"]
+- !private ["s18_BitwiseOperationsP", "hashValue"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "hashValue"]
+- ["s26_ExpressibleByColorLiteralP", "purple"]
+- ["s26_ExpressibleByColorLiteralP", "white"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "purple"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "white"]
+- !private ["s21_ObjectiveCBridgeableP", "hashValue"]
+- !private ["s11_StrideableP", "hashValue"]
+depends-nominal:
+- "13KVSpinnerView0aB8SettingsV14AnimationStyleO"
+- !private "s13BinaryIntegerP"
+- "s7CVarArgP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "s8HashableP"
+- !private "Si"
+- "13KVSpinnerView0aB8SettingsV"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So14NSSecureCodingP"
+- !private "s7NumericP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "s10StrideableP"
+- "So7UIColorC"
+- !private "s18_BitwiseOperationsP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s26_ExpressibleByColorLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s11_StrideableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Target Support Files/KVSpinnerView/KVSpinnerView-umbrella.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/KVSpinnerView.build/unextended-module.modulemap"
+interface-hash: "6ec2528f7bfcd576fa2165c192b51e6c"

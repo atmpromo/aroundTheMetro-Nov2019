@@ -1,0 +1,703 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "14AroundTheMetro20ARListViewControllerC"
+provides-member:
+- ["14AroundTheMetro20ARListViewControllerC", ""]
+provides-dynamic-lookup:
+- "ar"
+depends-top-level:
+- "ARAnnotation"
+- "ARAnnotationView"
+- "ARDataSource"
+- "ARListViewController"
+- "ARViewController"
+- !private "AnnotationView"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- !private "CGRect"
+depends-member:
+- !private ["18HDAugmentedReality16ARAnnotationViewC", "annotation"]
+- !private ["18HDAugmentedReality16ARAnnotationViewC", "delegate"]
+- !private ["18HDAugmentedReality16ARAnnotationViewC", "frame"]
+- !private ["18HDAugmentedReality12ARDataSourceP", "ARViewController"]
+- !private ["18HDAugmentedReality12ARDataSourceP", "AnnotationView"]
+- !private ["18HDAugmentedReality12ARDataSourceP", "CGRect"]
+- ["18HDAugmentedReality12ARDataSourceP", "ar"]
+- !private ["18HDAugmentedReality12ARDataSourceP", "arViewController"]
+- !private ["18HDAugmentedReality12ARDataSourceP", "present"]
+- !private ["18HDAugmentedReality12ARDataSourceP", "selectedPlaces"]
+- ["18HDAugmentedReality12ARDataSourceP", ""]
+- ["14AroundTheMetro20ARListViewControllerC", "ARAnnotation"]
+- ["14AroundTheMetro20ARListViewControllerC", "ARAnnotationView"]
+- ["14AroundTheMetro20ARListViewControllerC", "ARViewController"]
+- !private ["14AroundTheMetro20ARListViewControllerC", "AnnotationView"]
+- !private ["14AroundTheMetro20ARListViewControllerC", "CGRect"]
+- ["14AroundTheMetro20ARListViewControllerC", "ar"]
+- !private ["14AroundTheMetro20ARListViewControllerC", "arViewController"]
+- ["14AroundTheMetro20ARListViewControllerC", "deinit"]
+- ["14AroundTheMetro20ARListViewControllerC", "displayAR"]
+- !private ["14AroundTheMetro20ARListViewControllerC", "present"]
+- !private ["14AroundTheMetro20ARListViewControllerC", "selectedPlaces"]
+- !private ["18HDAugmentedReality11ARPresenterC", "distanceOffsetMode"]
+- !private ["18HDAugmentedReality11ARPresenterC", "distanceOffsetMultiplier"]
+- !private ["18HDAugmentedReality11ARPresenterC", "maxDistance"]
+- !private ["18HDAugmentedReality11ARPresenterC", "maxVisibleAnnotations"]
+- !private ["18HDAugmentedReality25ARTrackingManagerDelegateP", "dataSource"]
+- !private ["18HDAugmentedReality25ARTrackingManagerDelegateP", "init"]
+- !private ["18HDAugmentedReality25ARTrackingManagerDelegateP", "presenter"]
+- !private ["18HDAugmentedReality25ARTrackingManagerDelegateP", "setAnnotations"]
+- !private ["18HDAugmentedReality25ARTrackingManagerDelegateP", "uiOptions"]
+- !private ["18HDAugmentedReality16ARViewControllerC", "dataSource"]
+- !private ["18HDAugmentedReality16ARViewControllerC", "init"]
+- !private ["18HDAugmentedReality16ARViewControllerC", "presenter"]
+- !private ["18HDAugmentedReality16ARViewControllerC", "setAnnotations"]
+- !private ["18HDAugmentedReality16ARViewControllerC", "uiOptions"]
+- !private ["14AroundTheMetro14AnnotationViewC", "annotation"]
+- !private ["14AroundTheMetro14AnnotationViewC", "deinit"]
+- !private ["14AroundTheMetro14AnnotationViewC", "delegate"]
+- !private ["14AroundTheMetro14AnnotationViewC", "frame"]
+- !private ["14AroundTheMetro14AnnotationViewC", "init"]
+- !private ["14AroundTheMetro22AnnotationViewDelegateP", "ARViewController"]
+- !private ["14AroundTheMetro22AnnotationViewDelegateP", "AnnotationView"]
+- !private ["14AroundTheMetro22AnnotationViewDelegateP", "CGRect"]
+- ["14AroundTheMetro22AnnotationViewDelegateP", "ar"]
+- !private ["14AroundTheMetro22AnnotationViewDelegateP", "arViewController"]
+- !private ["14AroundTheMetro22AnnotationViewDelegateP", "present"]
+- !private ["14AroundTheMetro22AnnotationViewDelegateP", "selectedPlaces"]
+- !private ["So15CALayerDelegateP", "annotation"]
+- !private ["So15CALayerDelegateP", "delegate"]
+- !private ["So15CALayerDelegateP", "distanceOffsetMode"]
+- !private ["So15CALayerDelegateP", "distanceOffsetMultiplier"]
+- !private ["So15CALayerDelegateP", "frame"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "maxDistance"]
+- !private ["So15CALayerDelegateP", "maxVisibleAnnotations"]
+- !private ["SC6CGRectV", "init"]
+- !private ["s7CVarArgP", "ARViewController"]
+- !private ["s7CVarArgP", "AnnotationView"]
+- !private ["s7CVarArgP", "CGRect"]
+- !private ["s7CVarArgP", "annotation"]
+- ["s7CVarArgP", "ar"]
+- !private ["s7CVarArgP", "arViewController"]
+- !private ["s7CVarArgP", "dataSource"]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "distanceOffsetMode"]
+- !private ["s7CVarArgP", "distanceOffsetMultiplier"]
+- !private ["s7CVarArgP", "frame"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "maxDistance"]
+- !private ["s7CVarArgP", "maxVisibleAnnotations"]
+- !private ["s7CVarArgP", "present"]
+- !private ["s7CVarArgP", "presenter"]
+- !private ["s7CVarArgP", "selectedPlaces"]
+- !private ["s7CVarArgP", "setAnnotations"]
+- !private ["s7CVarArgP", "uiOptions"]
+- !private ["s28CustomDebugStringConvertibleP", "ARViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "AnnotationView"]
+- !private ["s28CustomDebugStringConvertibleP", "CGRect"]
+- !private ["s28CustomDebugStringConvertibleP", "annotation"]
+- ["s28CustomDebugStringConvertibleP", "ar"]
+- !private ["s28CustomDebugStringConvertibleP", "arViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "dataSource"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "distanceOffsetMode"]
+- !private ["s28CustomDebugStringConvertibleP", "distanceOffsetMultiplier"]
+- !private ["s28CustomDebugStringConvertibleP", "frame"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "maxDistance"]
+- !private ["s28CustomDebugStringConvertibleP", "maxVisibleAnnotations"]
+- !private ["s28CustomDebugStringConvertibleP", "present"]
+- !private ["s28CustomDebugStringConvertibleP", "presenter"]
+- !private ["s28CustomDebugStringConvertibleP", "selectedPlaces"]
+- !private ["s28CustomDebugStringConvertibleP", "setAnnotations"]
+- !private ["s28CustomDebugStringConvertibleP", "uiOptions"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "ARViewController"]
+- !private ["s23CustomStringConvertibleP", "AnnotationView"]
+- !private ["s23CustomStringConvertibleP", "CGRect"]
+- !private ["s23CustomStringConvertibleP", "annotation"]
+- ["s23CustomStringConvertibleP", "ar"]
+- !private ["s23CustomStringConvertibleP", "arViewController"]
+- !private ["s23CustomStringConvertibleP", "dataSource"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "distanceOffsetMode"]
+- !private ["s23CustomStringConvertibleP", "distanceOffsetMultiplier"]
+- !private ["s23CustomStringConvertibleP", "frame"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "maxDistance"]
+- !private ["s23CustomStringConvertibleP", "maxVisibleAnnotations"]
+- !private ["s23CustomStringConvertibleP", "present"]
+- !private ["s23CustomStringConvertibleP", "presenter"]
+- !private ["s23CustomStringConvertibleP", "selectedPlaces"]
+- !private ["s23CustomStringConvertibleP", "setAnnotations"]
+- !private ["s23CustomStringConvertibleP", "uiOptions"]
+- !private ["s9DecodableP", "init"]
+- !private ["18HDAugmentedReality11ARPresenterC18DistanceOffsetModeO", "manual"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "ARViewController"]
+- !private ["s9EquatableP", "AnnotationView"]
+- !private ["s9EquatableP", "CGRect"]
+- !private ["s9EquatableP", "annotation"]
+- ["s9EquatableP", "ar"]
+- !private ["s9EquatableP", "arViewController"]
+- !private ["s9EquatableP", "dataSource"]
+- !private ["s9EquatableP", "delegate"]
+- !private ["s9EquatableP", "distanceOffsetMode"]
+- !private ["s9EquatableP", "distanceOffsetMultiplier"]
+- !private ["s9EquatableP", "frame"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "manual"]
+- !private ["s9EquatableP", "maxDistance"]
+- !private ["s9EquatableP", "maxVisibleAnnotations"]
+- !private ["s9EquatableP", "present"]
+- !private ["s9EquatableP", "presenter"]
+- !private ["s9EquatableP", "selectedPlaces"]
+- !private ["s9EquatableP", "setAnnotations"]
+- !private ["s9EquatableP", "uiOptions"]
+- !private ["s8HashableP", "ARViewController"]
+- !private ["s8HashableP", "AnnotationView"]
+- !private ["s8HashableP", "CGRect"]
+- !private ["s8HashableP", "annotation"]
+- ["s8HashableP", "ar"]
+- !private ["s8HashableP", "arViewController"]
+- !private ["s8HashableP", "dataSource"]
+- !private ["s8HashableP", "delegate"]
+- !private ["s8HashableP", "distanceOffsetMode"]
+- !private ["s8HashableP", "distanceOffsetMultiplier"]
+- !private ["s8HashableP", "frame"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "manual"]
+- !private ["s8HashableP", "maxDistance"]
+- !private ["s8HashableP", "maxVisibleAnnotations"]
+- !private ["s8HashableP", "present"]
+- !private ["s8HashableP", "presenter"]
+- !private ["s8HashableP", "selectedPlaces"]
+- !private ["s8HashableP", "setAnnotations"]
+- !private ["s8HashableP", "uiOptions"]
+- !private ["So8NSCodingP", "ARViewController"]
+- !private ["So8NSCodingP", "AnnotationView"]
+- !private ["So8NSCodingP", "CGRect"]
+- !private ["So8NSCodingP", "annotation"]
+- ["So8NSCodingP", "ar"]
+- !private ["So8NSCodingP", "arViewController"]
+- !private ["So8NSCodingP", "dataSource"]
+- !private ["So8NSCodingP", "delegate"]
+- !private ["So8NSCodingP", "distanceOffsetMode"]
+- !private ["So8NSCodingP", "distanceOffsetMultiplier"]
+- !private ["So8NSCodingP", "frame"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "maxDistance"]
+- !private ["So8NSCodingP", "maxVisibleAnnotations"]
+- !private ["So8NSCodingP", "present"]
+- !private ["So8NSCodingP", "presenter"]
+- !private ["So8NSCodingP", "selectedPlaces"]
+- !private ["So8NSCodingP", "setAnnotations"]
+- !private ["So8NSCodingP", "uiOptions"]
+- !private ["So26NSExtensionRequestHandlingP", "ARViewController"]
+- !private ["So26NSExtensionRequestHandlingP", "AnnotationView"]
+- !private ["So26NSExtensionRequestHandlingP", "CGRect"]
+- ["So26NSExtensionRequestHandlingP", "ar"]
+- !private ["So26NSExtensionRequestHandlingP", "arViewController"]
+- !private ["So26NSExtensionRequestHandlingP", "dataSource"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "present"]
+- !private ["So26NSExtensionRequestHandlingP", "presenter"]
+- !private ["So26NSExtensionRequestHandlingP", "selectedPlaces"]
+- !private ["So26NSExtensionRequestHandlingP", "setAnnotations"]
+- !private ["So26NSExtensionRequestHandlingP", "uiOptions"]
+- ["So8NSObjectC", "ARAnnotation"]
+- ["So8NSObjectC", "ARAnnotationView"]
+- ["So8NSObjectC", "ARViewController"]
+- !private ["So8NSObjectC", "AnnotationView"]
+- !private ["So8NSObjectC", "CGRect"]
+- !private ["So8NSObjectC", "annotation"]
+- ["So8NSObjectC", "ar"]
+- !private ["So8NSObjectC", "arViewController"]
+- !private ["So8NSObjectC", "dataSource"]
+- !private ["So8NSObjectC", "delegate"]
+- ["So8NSObjectC", "displayAR"]
+- !private ["So8NSObjectC", "distanceOffsetMode"]
+- !private ["So8NSObjectC", "distanceOffsetMultiplier"]
+- !private ["So8NSObjectC", "frame"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "maxDistance"]
+- !private ["So8NSObjectC", "maxVisibleAnnotations"]
+- !private ["So8NSObjectC", "present"]
+- !private ["So8NSObjectC", "presenter"]
+- !private ["So8NSObjectC", "selectedPlaces"]
+- !private ["So8NSObjectC", "setAnnotations"]
+- !private ["So8NSObjectC", "uiOptions"]
+- !private ["So16NSObjectProtocolP", "ARViewController"]
+- !private ["So16NSObjectProtocolP", "AnnotationView"]
+- !private ["So16NSObjectProtocolP", "CGRect"]
+- !private ["So16NSObjectProtocolP", "annotation"]
+- ["So16NSObjectProtocolP", "ar"]
+- !private ["So16NSObjectProtocolP", "arViewController"]
+- !private ["So16NSObjectProtocolP", "dataSource"]
+- !private ["So16NSObjectProtocolP", "delegate"]
+- !private ["So16NSObjectProtocolP", "distanceOffsetMode"]
+- !private ["So16NSObjectProtocolP", "distanceOffsetMultiplier"]
+- !private ["So16NSObjectProtocolP", "frame"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "maxDistance"]
+- !private ["So16NSObjectProtocolP", "maxVisibleAnnotations"]
+- !private ["So16NSObjectProtocolP", "present"]
+- !private ["So16NSObjectProtocolP", "presenter"]
+- !private ["So16NSObjectProtocolP", "selectedPlaces"]
+- !private ["So16NSObjectProtocolP", "setAnnotations"]
+- !private ["So16NSObjectProtocolP", "uiOptions"]
+- !private ["So29UIAccessibilityIdentificationP", "annotation"]
+- !private ["So29UIAccessibilityIdentificationP", "delegate"]
+- !private ["So29UIAccessibilityIdentificationP", "distanceOffsetMode"]
+- !private ["So29UIAccessibilityIdentificationP", "distanceOffsetMultiplier"]
+- !private ["So29UIAccessibilityIdentificationP", "frame"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "maxDistance"]
+- !private ["So29UIAccessibilityIdentificationP", "maxVisibleAnnotations"]
+- !private ["So12UIAppearanceP", "annotation"]
+- !private ["So12UIAppearanceP", "delegate"]
+- !private ["So12UIAppearanceP", "distanceOffsetMode"]
+- !private ["So12UIAppearanceP", "distanceOffsetMultiplier"]
+- !private ["So12UIAppearanceP", "frame"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "maxDistance"]
+- !private ["So12UIAppearanceP", "maxVisibleAnnotations"]
+- !private ["So21UIAppearanceContainerP", "ARViewController"]
+- !private ["So21UIAppearanceContainerP", "AnnotationView"]
+- !private ["So21UIAppearanceContainerP", "CGRect"]
+- !private ["So21UIAppearanceContainerP", "annotation"]
+- ["So21UIAppearanceContainerP", "ar"]
+- !private ["So21UIAppearanceContainerP", "arViewController"]
+- !private ["So21UIAppearanceContainerP", "dataSource"]
+- !private ["So21UIAppearanceContainerP", "delegate"]
+- !private ["So21UIAppearanceContainerP", "distanceOffsetMode"]
+- !private ["So21UIAppearanceContainerP", "distanceOffsetMultiplier"]
+- !private ["So21UIAppearanceContainerP", "frame"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "maxDistance"]
+- !private ["So21UIAppearanceContainerP", "maxVisibleAnnotations"]
+- !private ["So21UIAppearanceContainerP", "present"]
+- !private ["So21UIAppearanceContainerP", "presenter"]
+- !private ["So21UIAppearanceContainerP", "selectedPlaces"]
+- !private ["So21UIAppearanceContainerP", "setAnnotations"]
+- !private ["So21UIAppearanceContainerP", "uiOptions"]
+- !private ["So18UIContentContainerP", "ARViewController"]
+- !private ["So18UIContentContainerP", "AnnotationView"]
+- !private ["So18UIContentContainerP", "CGRect"]
+- ["So18UIContentContainerP", "ar"]
+- !private ["So18UIContentContainerP", "arViewController"]
+- !private ["So18UIContentContainerP", "dataSource"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "present"]
+- !private ["So18UIContentContainerP", "presenter"]
+- !private ["So18UIContentContainerP", "selectedPlaces"]
+- !private ["So18UIContentContainerP", "setAnnotations"]
+- !private ["So18UIContentContainerP", "uiOptions"]
+- !private ["So17UICoordinateSpaceP", "annotation"]
+- !private ["So17UICoordinateSpaceP", "delegate"]
+- !private ["So17UICoordinateSpaceP", "distanceOffsetMode"]
+- !private ["So17UICoordinateSpaceP", "distanceOffsetMultiplier"]
+- !private ["So17UICoordinateSpaceP", "frame"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "maxDistance"]
+- !private ["So17UICoordinateSpaceP", "maxVisibleAnnotations"]
+- !private ["So13UIDynamicItemP", "annotation"]
+- !private ["So13UIDynamicItemP", "delegate"]
+- !private ["So13UIDynamicItemP", "distanceOffsetMode"]
+- !private ["So13UIDynamicItemP", "distanceOffsetMultiplier"]
+- !private ["So13UIDynamicItemP", "frame"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "maxDistance"]
+- !private ["So13UIDynamicItemP", "maxVisibleAnnotations"]
+- !private ["So18UIFocusEnvironmentP", "ARViewController"]
+- !private ["So18UIFocusEnvironmentP", "AnnotationView"]
+- !private ["So18UIFocusEnvironmentP", "CGRect"]
+- !private ["So18UIFocusEnvironmentP", "annotation"]
+- ["So18UIFocusEnvironmentP", "ar"]
+- !private ["So18UIFocusEnvironmentP", "arViewController"]
+- !private ["So18UIFocusEnvironmentP", "dataSource"]
+- !private ["So18UIFocusEnvironmentP", "delegate"]
+- !private ["So18UIFocusEnvironmentP", "distanceOffsetMode"]
+- !private ["So18UIFocusEnvironmentP", "distanceOffsetMultiplier"]
+- !private ["So18UIFocusEnvironmentP", "frame"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "maxDistance"]
+- !private ["So18UIFocusEnvironmentP", "maxVisibleAnnotations"]
+- !private ["So18UIFocusEnvironmentP", "present"]
+- !private ["So18UIFocusEnvironmentP", "presenter"]
+- !private ["So18UIFocusEnvironmentP", "selectedPlaces"]
+- !private ["So18UIFocusEnvironmentP", "setAnnotations"]
+- !private ["So18UIFocusEnvironmentP", "uiOptions"]
+- !private ["So11UIFocusItemP", "annotation"]
+- !private ["So11UIFocusItemP", "delegate"]
+- !private ["So11UIFocusItemP", "distanceOffsetMode"]
+- !private ["So11UIFocusItemP", "distanceOffsetMultiplier"]
+- !private ["So11UIFocusItemP", "frame"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "maxDistance"]
+- !private ["So11UIFocusItemP", "maxVisibleAnnotations"]
+- !private ["So30UIPasteConfigurationSupportingP", "ARViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "AnnotationView"]
+- !private ["So30UIPasteConfigurationSupportingP", "CGRect"]
+- !private ["So30UIPasteConfigurationSupportingP", "annotation"]
+- ["So30UIPasteConfigurationSupportingP", "ar"]
+- !private ["So30UIPasteConfigurationSupportingP", "arViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "dataSource"]
+- !private ["So30UIPasteConfigurationSupportingP", "delegate"]
+- !private ["So30UIPasteConfigurationSupportingP", "distanceOffsetMode"]
+- !private ["So30UIPasteConfigurationSupportingP", "distanceOffsetMultiplier"]
+- !private ["So30UIPasteConfigurationSupportingP", "frame"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "maxDistance"]
+- !private ["So30UIPasteConfigurationSupportingP", "maxVisibleAnnotations"]
+- !private ["So30UIPasteConfigurationSupportingP", "present"]
+- !private ["So30UIPasteConfigurationSupportingP", "presenter"]
+- !private ["So30UIPasteConfigurationSupportingP", "selectedPlaces"]
+- !private ["So30UIPasteConfigurationSupportingP", "setAnnotations"]
+- !private ["So30UIPasteConfigurationSupportingP", "uiOptions"]
+- ["So11UIResponderC", "ARAnnotation"]
+- ["So11UIResponderC", "ARAnnotationView"]
+- ["So11UIResponderC", "ARViewController"]
+- !private ["So11UIResponderC", "AnnotationView"]
+- !private ["So11UIResponderC", "CGRect"]
+- !private ["So11UIResponderC", "annotation"]
+- ["So11UIResponderC", "ar"]
+- !private ["So11UIResponderC", "arViewController"]
+- !private ["So11UIResponderC", "dataSource"]
+- !private ["So11UIResponderC", "delegate"]
+- ["So11UIResponderC", "displayAR"]
+- !private ["So11UIResponderC", "distanceOffsetMode"]
+- !private ["So11UIResponderC", "distanceOffsetMultiplier"]
+- !private ["So11UIResponderC", "frame"]
+- !private ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "maxDistance"]
+- !private ["So11UIResponderC", "maxVisibleAnnotations"]
+- !private ["So11UIResponderC", "present"]
+- !private ["So11UIResponderC", "presenter"]
+- !private ["So11UIResponderC", "selectedPlaces"]
+- !private ["So11UIResponderC", "setAnnotations"]
+- !private ["So11UIResponderC", "uiOptions"]
+- !private ["So30UIResponderStandardEditActionsP", "ARViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "AnnotationView"]
+- !private ["So30UIResponderStandardEditActionsP", "CGRect"]
+- !private ["So30UIResponderStandardEditActionsP", "annotation"]
+- ["So30UIResponderStandardEditActionsP", "ar"]
+- !private ["So30UIResponderStandardEditActionsP", "arViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "dataSource"]
+- !private ["So30UIResponderStandardEditActionsP", "delegate"]
+- !private ["So30UIResponderStandardEditActionsP", "distanceOffsetMode"]
+- !private ["So30UIResponderStandardEditActionsP", "distanceOffsetMultiplier"]
+- !private ["So30UIResponderStandardEditActionsP", "frame"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "maxDistance"]
+- !private ["So30UIResponderStandardEditActionsP", "maxVisibleAnnotations"]
+- !private ["So30UIResponderStandardEditActionsP", "present"]
+- !private ["So30UIResponderStandardEditActionsP", "presenter"]
+- !private ["So30UIResponderStandardEditActionsP", "selectedPlaces"]
+- !private ["So30UIResponderStandardEditActionsP", "setAnnotations"]
+- !private ["So30UIResponderStandardEditActionsP", "uiOptions"]
+- !private ["So20UIScrollViewDelegateP", "ARViewController"]
+- !private ["So20UIScrollViewDelegateP", "AnnotationView"]
+- !private ["So20UIScrollViewDelegateP", "CGRect"]
+- ["So20UIScrollViewDelegateP", "ar"]
+- !private ["So20UIScrollViewDelegateP", "arViewController"]
+- !private ["So20UIScrollViewDelegateP", "present"]
+- !private ["So20UIScrollViewDelegateP", "selectedPlaces"]
+- !private ["So16UIStateRestoringP", "ARViewController"]
+- !private ["So16UIStateRestoringP", "AnnotationView"]
+- !private ["So16UIStateRestoringP", "CGRect"]
+- ["So16UIStateRestoringP", "ar"]
+- !private ["So16UIStateRestoringP", "arViewController"]
+- !private ["So16UIStateRestoringP", "dataSource"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "present"]
+- !private ["So16UIStateRestoringP", "presenter"]
+- !private ["So16UIStateRestoringP", "selectedPlaces"]
+- !private ["So16UIStateRestoringP", "setAnnotations"]
+- !private ["So16UIStateRestoringP", "uiOptions"]
+- !private ["So21UITableViewDataSourceP", "ARViewController"]
+- !private ["So21UITableViewDataSourceP", "AnnotationView"]
+- !private ["So21UITableViewDataSourceP", "CGRect"]
+- ["So21UITableViewDataSourceP", "ar"]
+- !private ["So21UITableViewDataSourceP", "arViewController"]
+- !private ["So21UITableViewDataSourceP", "present"]
+- !private ["So21UITableViewDataSourceP", "selectedPlaces"]
+- !private ["So19UITableViewDelegateP", "ARViewController"]
+- !private ["So19UITableViewDelegateP", "AnnotationView"]
+- !private ["So19UITableViewDelegateP", "CGRect"]
+- ["So19UITableViewDelegateP", "ar"]
+- !private ["So19UITableViewDelegateP", "arViewController"]
+- !private ["So19UITableViewDelegateP", "present"]
+- !private ["So19UITableViewDelegateP", "selectedPlaces"]
+- !private ["So18UITraitEnvironmentP", "ARViewController"]
+- !private ["So18UITraitEnvironmentP", "AnnotationView"]
+- !private ["So18UITraitEnvironmentP", "CGRect"]
+- !private ["So18UITraitEnvironmentP", "annotation"]
+- ["So18UITraitEnvironmentP", "ar"]
+- !private ["So18UITraitEnvironmentP", "arViewController"]
+- !private ["So18UITraitEnvironmentP", "dataSource"]
+- !private ["So18UITraitEnvironmentP", "delegate"]
+- !private ["So18UITraitEnvironmentP", "distanceOffsetMode"]
+- !private ["So18UITraitEnvironmentP", "distanceOffsetMultiplier"]
+- !private ["So18UITraitEnvironmentP", "frame"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "maxDistance"]
+- !private ["So18UITraitEnvironmentP", "maxVisibleAnnotations"]
+- !private ["So18UITraitEnvironmentP", "present"]
+- !private ["So18UITraitEnvironmentP", "presenter"]
+- !private ["So18UITraitEnvironmentP", "selectedPlaces"]
+- !private ["So18UITraitEnvironmentP", "setAnnotations"]
+- !private ["So18UITraitEnvironmentP", "uiOptions"]
+- !private ["So6UIViewC", "annotation"]
+- !private ["So6UIViewC", "delegate"]
+- !private ["So6UIViewC", "distanceOffsetMode"]
+- !private ["So6UIViewC", "distanceOffsetMultiplier"]
+- !private ["So6UIViewC", "frame"]
+- !private ["So6UIViewC", "maxDistance"]
+- !private ["So6UIViewC", "maxVisibleAnnotations"]
+- ["So16UIViewControllerC", "ARAnnotation"]
+- ["So16UIViewControllerC", "ARAnnotationView"]
+- ["So16UIViewControllerC", "ARViewController"]
+- !private ["So16UIViewControllerC", "AnnotationView"]
+- !private ["So16UIViewControllerC", "CGRect"]
+- ["So16UIViewControllerC", "ar"]
+- !private ["So16UIViewControllerC", "arViewController"]
+- !private ["So16UIViewControllerC", "dataSource"]
+- ["So16UIViewControllerC", "displayAR"]
+- !private ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "present"]
+- !private ["So16UIViewControllerC", "presenter"]
+- !private ["So16UIViewControllerC", "selectedPlaces"]
+- !private ["So16UIViewControllerC", "setAnnotations"]
+- !private ["So16UIViewControllerC", "uiOptions"]
+- !private ["18HDAugmentedReality16ARViewControllerC9UiOptionsV", "debugMap"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "annotation"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "delegate"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "distanceOffsetMode"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "distanceOffsetMultiplier"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "frame"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "maxDistance"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "maxVisibleAnnotations"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ARViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AnnotationView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGRect"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "annotation"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "ar"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "arViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataSource"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "distanceOffsetMode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "distanceOffsetMultiplier"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "frame"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "maxDistance"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "maxVisibleAnnotations"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "present"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "presenter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "selectedPlaces"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setAnnotations"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "uiOptions"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+depends-nominal:
+- !private "18HDAugmentedReality16ARAnnotationViewC"
+- "18HDAugmentedReality12ARDataSourceP"
+- "14AroundTheMetro20ARListViewControllerC"
+- !private "18HDAugmentedReality11ARPresenterC"
+- !private "18HDAugmentedReality25ARTrackingManagerDelegateP"
+- !private "18HDAugmentedReality16ARViewControllerC"
+- !private "14AroundTheMetro14AnnotationViewC"
+- "14AroundTheMetro22AnnotationViewDelegateP"
+- !private "So15CALayerDelegateP"
+- !private "SC6CGRectV"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "18HDAugmentedReality11ARPresenterC18DistanceOffsetModeO"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- "s8HashableP"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So20UIScrollViewDelegateP"
+- "So16UIStateRestoringP"
+- "So21UITableViewDataSourceP"
+- "So19UITableViewDelegateP"
+- "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "18HDAugmentedReality16ARViewControllerC9UiOptionsV"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Accelerate.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/os.apinotesc"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Moya/Moya.framework/Modules/Moya.swiftmodule/x86_64.swiftmodule"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/PopupDialog/PopupDialog.framework/Modules/PopupDialog.swiftmodule/x86_64.swiftmodule"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Modules/Kingfisher.swiftmodule/x86_64.swiftmodule"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Result/Result.framework/Modules/Result.swiftmodule/x86_64.swiftmodule"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/AKSideMenu/AKSideMenu.framework/Modules/AKSideMenu.swiftmodule/x86_64.swiftmodule"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/KVSpinnerView/KVSpinnerView.framework/Modules/KVSpinnerView.swiftmodule/x86_64.swiftmodule"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/HDAugmentedReality/HDAugmentedReality.framework/Modules/HDAugmentedReality.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ModelIO.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Accelerate.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/os.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/GLKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFURL.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD-umbrella.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Moya/Moya.framework/Headers/Moya-umbrella.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/PopupDialog/PopupDialog.framework/Headers/PopupDialog-umbrella.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher-umbrella.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-umbrella.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts-umbrella.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit-umbrella.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-umbrella.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Result/Result.framework/Headers/Result-umbrella.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/AKSideMenu/AKSideMenu.framework/Headers/AKSideMenu-umbrella.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/KVSpinnerView/KVSpinnerView.framework/Headers/KVSpinnerView-umbrella.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/HDAugmentedReality/HDAugmentedReality.framework/Headers/HDAugmentedReality-umbrella.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDProfileData.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Fabric/iOS/Fabric.framework/Headers/Fabric.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Google/Frameworks/GGLCore.framework/Headers/GGLErrorCode.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Google/Headers/ModuleHeaders/Core-Module.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Google/Headers/ModuleHeaders/SignIn-Module.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Google/Headers/ModuleHeaders/Analytics-Module.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Crashlytics/iOS/Crashlytics.framework/Headers/CLSStackFrame.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Google/Frameworks/GGLCore.framework/Headers/GGLCore.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Crashlytics/iOS/Crashlytics.framework/Headers/CLSLogging.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTask.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Google/Frameworks/GGLSignIn.framework/Headers/GGLContext+SignIn.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDSignIn.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Google/Frameworks/GGLSignIn.framework/Headers/GGLSignIn.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GoogleSignIn.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDAuthentication.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Google/Frameworks/GGLCore.framework/Headers/GGLConfiguration.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Google/Frameworks/GGLCore.framework/Headers/GMRConfiguration.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDSignInButton.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDGoogleUser.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVRadialGradientLayer.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Crashlytics/iOS/Crashlytics.framework/Headers/Crashlytics.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Fabric/iOS/Fabric.framework/Headers/FABAttributes.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Crashlytics/iOS/Crashlytics.framework/Headers/CLSAttributes.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTask+Exceptions.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Crashlytics/iOS/Crashlytics.framework/Headers/Answers.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Moya/Moya.framework/Headers/Moya-Swift.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/PopupDialog/PopupDialog.framework/Headers/PopupDialog-Swift.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher-Swift.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Result/Result.framework/Headers/Result-Swift.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/AKSideMenu/AKSideMenu.framework/Headers/AKSideMenu-Swift.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/KVSpinnerView/KVSpinnerView.framework/Headers/KVSpinnerView-Swift.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/HDAugmentedReality/HDAugmentedReality.framework/Headers/HDAugmentedReality-Swift.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Crashlytics/iOS/Crashlytics.framework/Headers/CLSReport.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Google/Frameworks/GGLCore.framework/Headers/GGLContext.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVIndefiniteAnimatedView.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressAnimatedView.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/PopupDialog/PopupDialog.framework/Headers/FXBlurView.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Crashlytics/iOS/Crashlytics.framework/Headers/ANSCompatibility.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Modules/module.modulemap"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Moya/Moya.framework/Modules/module.modulemap"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Fabric/iOS/Fabric.framework/Modules/module.modulemap"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Google/Frameworks/GGLCore.framework/Modules/module.modulemap"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/PopupDialog/PopupDialog.framework/Modules/module.modulemap"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Google/Frameworks/GGLSignIn.framework/Modules/module.modulemap"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Modules/module.modulemap"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Modules/module.modulemap"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/module.modulemap"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Crashlytics/iOS/Crashlytics.framework/Modules/module.modulemap"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Modules/module.modulemap"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Modules/module.modulemap"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/Result/Result.framework/Modules/module.modulemap"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/AKSideMenu/AKSideMenu.framework/Modules/module.modulemap"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/KVSpinnerView/KVSpinnerView.framework/Modules/module.modulemap"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Products/Debug-iphonesimulator/HDAugmentedReality/HDAugmentedReality.framework/Modules/module.modulemap"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Google/Headers/module.modulemap"
+interface-hash: "310ce7a2d31b99312e58c8777dd65cd4"

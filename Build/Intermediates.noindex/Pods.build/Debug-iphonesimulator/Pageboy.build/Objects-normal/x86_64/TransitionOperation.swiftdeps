@@ -1,0 +1,536 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TransitionOperationDelegate"
+- "TransitionOperation"
+provides-nominal:
+- "7Pageboy27TransitionOperationDelegateP"
+- "7Pageboy19TransitionOperationC"
+provides-member:
+- ["7Pageboy27TransitionOperationDelegateP", ""]
+- ["7Pageboy19TransitionOperationC", ""]
+provides-dynamic-lookup:
+- "animationDidStart"
+- "animationDidStop"
+depends-top-level:
+- !private "-"
+- !private "/"
+- !private "??"
+- "AnyObject"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CAAnimation"
+- "CAAnimationDelegate"
+- !private "CACurrentMediaTime"
+- "CALayer"
+- "CATransition"
+- "CFTimeInterval"
+- "CGFloat"
+- "NSObject"
+- "PageboyViewController"
+- !private "StringLiteralType"
+- "TransitionOperation"
+- "TransitionOperationDelegate"
+- "Void"
+- !private "kCAFillModeBackwards"
+- !private "max"
+- !private "min"
+depends-member:
+- !private ["7Pageboy19TransitionOperationC6ActionV", "transitionSubType"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s19BinaryFloatingPointP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So8CAActionP", "delegate"]
+- !private ["So8CAActionP", "duration"]
+- !private ["So8CAActionP", "endProgress"]
+- !private ["So8CAActionP", "fillMode"]
+- !private ["So8CAActionP", "init"]
+- !private ["So8CAActionP", "startProgress"]
+- !private ["So8CAActionP", "subtype"]
+- !private ["So11CAAnimationC", "delegate"]
+- !private ["So11CAAnimationC", "duration"]
+- !private ["So11CAAnimationC", "endProgress"]
+- !private ["So11CAAnimationC", "fillMode"]
+- !private ["So11CAAnimationC", "init"]
+- !private ["So11CAAnimationC", "startProgress"]
+- !private ["So11CAAnimationC", "subtype"]
+- !private ["So19CAAnimationDelegateP", "CACurrentMediaTime"]
+- !private ["So19CAAnimationDelegateP", "CATransition"]
+- !private ["So19CAAnimationDelegateP", "CGFloat"]
+- !private ["So19CAAnimationDelegateP", "action"]
+- !private ["So19CAAnimationDelegateP", "animation"]
+- ["So19CAAnimationDelegateP", "animationDidStart"]
+- ["So19CAAnimationDelegateP", "animationDidStop"]
+- !private ["So19CAAnimationDelegateP", "completion"]
+- !private ["So19CAAnimationDelegateP", "delegate"]
+- !private ["So19CAAnimationDelegateP", "duration"]
+- !private ["So19CAAnimationDelegateP", "isAnimating"]
+- !private ["So19CAAnimationDelegateP", "kCAFillModeBackwards"]
+- !private ["So19CAAnimationDelegateP", "max"]
+- !private ["So19CAAnimationDelegateP", "min"]
+- !private ["So19CAAnimationDelegateP", "percentComplete"]
+- !private ["So19CAAnimationDelegateP", "startTime"]
+- !private ["So19CAAnimationDelegateP", "transition"]
+- ["So19CAAnimationDelegateP", ""]
+- !private ["So7CALayerC", "add"]
+- !private ["So13CAMediaTimingP", "add"]
+- !private ["So13CAMediaTimingP", "delegate"]
+- !private ["So13CAMediaTimingP", "duration"]
+- !private ["So13CAMediaTimingP", "endProgress"]
+- !private ["So13CAMediaTimingP", "fillMode"]
+- !private ["So13CAMediaTimingP", "init"]
+- !private ["So13CAMediaTimingP", "startProgress"]
+- !private ["So13CAMediaTimingP", "subtype"]
+- !private ["So12CATransitionC", "delegate"]
+- !private ["So12CATransitionC", "duration"]
+- !private ["So12CATransitionC", "endProgress"]
+- !private ["So12CATransitionC", "fillMode"]
+- !private ["So12CATransitionC", "init"]
+- !private ["So12CATransitionC", "startProgress"]
+- !private ["So12CATransitionC", "subtype"]
+- !private ["12CoreGraphics7CGFloatV", "init"]
+- !private ["s7CVarArgP", "CACurrentMediaTime"]
+- !private ["s7CVarArgP", "CATransition"]
+- !private ["s7CVarArgP", "CGFloat"]
+- ["s7CVarArgP", "Transition"]
+- !private ["s7CVarArgP", "action"]
+- !private ["s7CVarArgP", "add"]
+- !private ["s7CVarArgP", "animation"]
+- ["s7CVarArgP", "animationDidStart"]
+- ["s7CVarArgP", "animationDidStop"]
+- !private ["s7CVarArgP", "completion"]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "duration"]
+- !private ["s7CVarArgP", "endProgress"]
+- !private ["s7CVarArgP", "fillMode"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isAnimating"]
+- !private ["s7CVarArgP", "kCAFillModeBackwards"]
+- !private ["s7CVarArgP", "max"]
+- !private ["s7CVarArgP", "min"]
+- !private ["s7CVarArgP", "percentComplete"]
+- !private ["s7CVarArgP", "startProgress"]
+- !private ["s7CVarArgP", "startTime"]
+- !private ["s7CVarArgP", "subtype"]
+- !private ["s7CVarArgP", "transition"]
+- ["s7CVarArgP", ""]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "CACurrentMediaTime"]
+- !private ["s28CustomDebugStringConvertibleP", "CATransition"]
+- !private ["s28CustomDebugStringConvertibleP", "CGFloat"]
+- ["s28CustomDebugStringConvertibleP", "Transition"]
+- !private ["s28CustomDebugStringConvertibleP", "action"]
+- !private ["s28CustomDebugStringConvertibleP", "add"]
+- !private ["s28CustomDebugStringConvertibleP", "animation"]
+- ["s28CustomDebugStringConvertibleP", "animationDidStart"]
+- ["s28CustomDebugStringConvertibleP", "animationDidStop"]
+- !private ["s28CustomDebugStringConvertibleP", "completion"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "duration"]
+- !private ["s28CustomDebugStringConvertibleP", "endProgress"]
+- !private ["s28CustomDebugStringConvertibleP", "fillMode"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isAnimating"]
+- !private ["s28CustomDebugStringConvertibleP", "kCAFillModeBackwards"]
+- !private ["s28CustomDebugStringConvertibleP", "max"]
+- !private ["s28CustomDebugStringConvertibleP", "min"]
+- !private ["s28CustomDebugStringConvertibleP", "percentComplete"]
+- !private ["s28CustomDebugStringConvertibleP", "startProgress"]
+- !private ["s28CustomDebugStringConvertibleP", "startTime"]
+- !private ["s28CustomDebugStringConvertibleP", "subtype"]
+- !private ["s28CustomDebugStringConvertibleP", "transition"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "CACurrentMediaTime"]
+- !private ["s23CustomStringConvertibleP", "CATransition"]
+- !private ["s23CustomStringConvertibleP", "CGFloat"]
+- ["s23CustomStringConvertibleP", "Transition"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "action"]
+- !private ["s23CustomStringConvertibleP", "add"]
+- !private ["s23CustomStringConvertibleP", "animation"]
+- ["s23CustomStringConvertibleP", "animationDidStart"]
+- ["s23CustomStringConvertibleP", "animationDidStop"]
+- !private ["s23CustomStringConvertibleP", "completion"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "duration"]
+- !private ["s23CustomStringConvertibleP", "endProgress"]
+- !private ["s23CustomStringConvertibleP", "fillMode"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isAnimating"]
+- !private ["s23CustomStringConvertibleP", "kCAFillModeBackwards"]
+- !private ["s23CustomStringConvertibleP", "max"]
+- !private ["s23CustomStringConvertibleP", "min"]
+- !private ["s23CustomStringConvertibleP", "percentComplete"]
+- !private ["s23CustomStringConvertibleP", "startProgress"]
+- !private ["s23CustomStringConvertibleP", "startTime"]
+- !private ["s23CustomStringConvertibleP", "subtype"]
+- !private ["s23CustomStringConvertibleP", "transition"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "CACurrentMediaTime"]
+- !private ["s9EquatableP", "CATransition"]
+- !private ["s9EquatableP", "CGFloat"]
+- ["s9EquatableP", "Transition"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "action"]
+- !private ["s9EquatableP", "add"]
+- !private ["s9EquatableP", "animation"]
+- ["s9EquatableP", "animationDidStart"]
+- ["s9EquatableP", "animationDidStop"]
+- !private ["s9EquatableP", "completion"]
+- !private ["s9EquatableP", "delegate"]
+- !private ["s9EquatableP", "duration"]
+- !private ["s9EquatableP", "endProgress"]
+- !private ["s9EquatableP", "fillMode"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "isAnimating"]
+- !private ["s9EquatableP", "kCAFillModeBackwards"]
+- !private ["s9EquatableP", "max"]
+- !private ["s9EquatableP", "min"]
+- !private ["s9EquatableP", "percentComplete"]
+- !private ["s9EquatableP", "startProgress"]
+- !private ["s9EquatableP", "startTime"]
+- !private ["s9EquatableP", "subtype"]
+- !private ["s9EquatableP", "transition"]
+- ["s9EquatableP", ""]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s13FloatingPointP", "init"]
+- !private ["s8HashableP", "CACurrentMediaTime"]
+- !private ["s8HashableP", "CATransition"]
+- !private ["s8HashableP", "CGFloat"]
+- ["s8HashableP", "Transition"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "action"]
+- !private ["s8HashableP", "add"]
+- !private ["s8HashableP", "animation"]
+- ["s8HashableP", "animationDidStart"]
+- ["s8HashableP", "animationDidStop"]
+- !private ["s8HashableP", "completion"]
+- !private ["s8HashableP", "delegate"]
+- !private ["s8HashableP", "duration"]
+- !private ["s8HashableP", "endProgress"]
+- !private ["s8HashableP", "fillMode"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "isAnimating"]
+- !private ["s8HashableP", "kCAFillModeBackwards"]
+- !private ["s8HashableP", "max"]
+- !private ["s8HashableP", "min"]
+- !private ["s8HashableP", "percentComplete"]
+- !private ["s8HashableP", "startProgress"]
+- !private ["s8HashableP", "startTime"]
+- !private ["s8HashableP", "subtype"]
+- !private ["s8HashableP", "transition"]
+- ["s8HashableP", ""]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- ["So8NSCodingP", "Transition"]
+- !private ["So8NSCodingP", "add"]
+- !private ["So8NSCodingP", "delegate"]
+- !private ["So8NSCodingP", "duration"]
+- !private ["So8NSCodingP", "endProgress"]
+- !private ["So8NSCodingP", "fillMode"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "startProgress"]
+- !private ["So8NSCodingP", "subtype"]
+- !private ["So9NSCopyingP", "delegate"]
+- !private ["So9NSCopyingP", "duration"]
+- !private ["So9NSCopyingP", "endProgress"]
+- !private ["So9NSCopyingP", "fillMode"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "startProgress"]
+- !private ["So9NSCopyingP", "subtype"]
+- ["So26NSExtensionRequestHandlingP", "Transition"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- ["So8NSObjectC", "Action"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "CAAnimation"]
+- !private ["So8NSObjectC", "CACurrentMediaTime"]
+- ["So8NSObjectC", "CALayer"]
+- ["So8NSObjectC", "CATransition"]
+- ["So8NSObjectC", "CFTimeInterval"]
+- ["So8NSObjectC", "CGFloat"]
+- ["So8NSObjectC", "Completion"]
+- ["So8NSObjectC", "PageboyViewController"]
+- ["So8NSObjectC", "Transition"]
+- ["So8NSObjectC", "TransitionOperationDelegate"]
+- ["So8NSObjectC", "Void"]
+- ["So8NSObjectC", "action"]
+- !private ["So8NSObjectC", "add"]
+- ["So8NSObjectC", "animation"]
+- ["So8NSObjectC", "animationDidStart"]
+- ["So8NSObjectC", "animationDidStop"]
+- ["So8NSObjectC", "completion"]
+- ["So8NSObjectC", "delegate"]
+- ["So8NSObjectC", "duration"]
+- !private ["So8NSObjectC", "endProgress"]
+- !private ["So8NSObjectC", "fillMode"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "isAnimating"]
+- !private ["So8NSObjectC", "kCAFillModeBackwards"]
+- !private ["So8NSObjectC", "max"]
+- !private ["So8NSObjectC", "min"]
+- ["So8NSObjectC", "percentComplete"]
+- ["So8NSObjectC", "start"]
+- !private ["So8NSObjectC", "startProgress"]
+- ["So8NSObjectC", "startTime"]
+- !private ["So8NSObjectC", "subtype"]
+- ["So8NSObjectC", "tick"]
+- ["So8NSObjectC", "transition"]
+- ["So8NSObjectC", ""]
+- !private ["So16NSObjectProtocolP", "CACurrentMediaTime"]
+- !private ["So16NSObjectProtocolP", "CATransition"]
+- !private ["So16NSObjectProtocolP", "CGFloat"]
+- ["So16NSObjectProtocolP", "Transition"]
+- !private ["So16NSObjectProtocolP", "action"]
+- !private ["So16NSObjectProtocolP", "add"]
+- !private ["So16NSObjectProtocolP", "animation"]
+- ["So16NSObjectProtocolP", "animationDidStart"]
+- ["So16NSObjectProtocolP", "animationDidStop"]
+- !private ["So16NSObjectProtocolP", "completion"]
+- !private ["So16NSObjectProtocolP", "delegate"]
+- !private ["So16NSObjectProtocolP", "duration"]
+- !private ["So16NSObjectProtocolP", "endProgress"]
+- !private ["So16NSObjectProtocolP", "fillMode"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "isAnimating"]
+- !private ["So16NSObjectProtocolP", "kCAFillModeBackwards"]
+- !private ["So16NSObjectProtocolP", "max"]
+- !private ["So16NSObjectProtocolP", "min"]
+- !private ["So16NSObjectProtocolP", "percentComplete"]
+- !private ["So16NSObjectProtocolP", "startProgress"]
+- !private ["So16NSObjectProtocolP", "startTime"]
+- !private ["So16NSObjectProtocolP", "subtype"]
+- !private ["So16NSObjectProtocolP", "transition"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "add"]
+- !private ["So14NSSecureCodingP", "delegate"]
+- !private ["So14NSSecureCodingP", "duration"]
+- !private ["So14NSSecureCodingP", "endProgress"]
+- !private ["So14NSSecureCodingP", "fillMode"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "startProgress"]
+- !private ["So14NSSecureCodingP", "subtype"]
+- !private ["So8NSStringC", "init"]
+- !private ["s7NumericP", "init"]
+- ["7Pageboy0A19AutoScrollerHandlerP", "Transition"]
+- ["7Pageboy0A14ViewControllerC", "Transition"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s8SequenceP", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s10StrideableP", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["7Pageboy0A14ViewControllerC10TransitionV", "configure"]
+- ["7Pageboy19TransitionOperationC", "Action"]
+- ["7Pageboy19TransitionOperationC", "Bool"]
+- ["7Pageboy19TransitionOperationC", "CAAnimation"]
+- !private ["7Pageboy19TransitionOperationC", "CACurrentMediaTime"]
+- ["7Pageboy19TransitionOperationC", "CALayer"]
+- ["7Pageboy19TransitionOperationC", "CATransition"]
+- ["7Pageboy19TransitionOperationC", "CFTimeInterval"]
+- ["7Pageboy19TransitionOperationC", "CGFloat"]
+- ["7Pageboy19TransitionOperationC", "Completion"]
+- ["7Pageboy19TransitionOperationC", "PageboyViewController"]
+- ["7Pageboy19TransitionOperationC", "TransitionOperationDelegate"]
+- ["7Pageboy19TransitionOperationC", "Void"]
+- ["7Pageboy19TransitionOperationC", "action"]
+- !private ["7Pageboy19TransitionOperationC", "animation"]
+- ["7Pageboy19TransitionOperationC", "animationDidStart"]
+- ["7Pageboy19TransitionOperationC", "animationDidStop"]
+- !private ["7Pageboy19TransitionOperationC", "completion"]
+- ["7Pageboy19TransitionOperationC", "deinit"]
+- ["7Pageboy19TransitionOperationC", "delegate"]
+- ["7Pageboy19TransitionOperationC", "duration"]
+- ["7Pageboy19TransitionOperationC", "init"]
+- !private ["7Pageboy19TransitionOperationC", "isAnimating"]
+- !private ["7Pageboy19TransitionOperationC", "kCAFillModeBackwards"]
+- !private ["7Pageboy19TransitionOperationC", "max"]
+- !private ["7Pageboy19TransitionOperationC", "min"]
+- ["7Pageboy19TransitionOperationC", "percentComplete"]
+- ["7Pageboy19TransitionOperationC", "start"]
+- ["7Pageboy19TransitionOperationC", "startTime"]
+- ["7Pageboy19TransitionOperationC", "tick"]
+- ["7Pageboy19TransitionOperationC", "transition"]
+- ["7Pageboy27TransitionOperationDelegateP", "Bool"]
+- ["7Pageboy27TransitionOperationDelegateP", "CGFloat"]
+- ["7Pageboy27TransitionOperationDelegateP", "Transition"]
+- ["7Pageboy27TransitionOperationDelegateP", "TransitionOperation"]
+- ["7Pageboy27TransitionOperationDelegateP", "transitionOperation"]
+- ["So21UIAppearanceContainerP", "Transition"]
+- ["So18UIContentContainerP", "Transition"]
+- ["So18UIFocusEnvironmentP", "Transition"]
+- ["So30UIPageViewControllerDataSourceP", "Transition"]
+- ["So28UIPageViewControllerDelegateP", "Transition"]
+- ["So30UIPasteConfigurationSupportingP", "Transition"]
+- ["So11UIResponderC", "Transition"]
+- ["So30UIResponderStandardEditActionsP", "Transition"]
+- ["So20UIScrollViewDelegateP", "Transition"]
+- ["So16UIStateRestoringP", "Transition"]
+- ["So18UITraitEnvironmentP", "Transition"]
+- ["So16UIViewControllerC", "Transition"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CACurrentMediaTime"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CATransition"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGFloat"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Transition"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "action"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "add"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "animation"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "animationDidStart"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "animationDidStop"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "completion"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "duration"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "endProgress"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fillMode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isAnimating"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "kCAFillModeBackwards"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "max"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "min"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "percentComplete"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "startProgress"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "startTime"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "subtype"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "transition"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s11_StrideableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "7Pageboy19TransitionOperationC6ActionV"
+- !private "s23BidirectionalCollectionP"
+- !private "s19BinaryFloatingPointP"
+- !private "Sb"
+- !private "So8CAActionP"
+- !private "So11CAAnimationC"
+- "So19CAAnimationDelegateP"
+- !private "So7CALayerC"
+- !private "So13CAMediaTimingP"
+- !private "So12CATransitionC"
+- !private "12CoreGraphics7CGFloatV"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s13FloatingPointP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "s7NumericP"
+- "7Pageboy0A19AutoScrollerHandlerP"
+- "7Pageboy0A14ViewControllerC"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- !private "s13SignedNumericP"
+- !private "s12StaticStringV"
+- !private "s10StrideableP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "7Pageboy0A14ViewControllerC10TransitionV"
+- "7Pageboy19TransitionOperationC"
+- "7Pageboy27TransitionOperationDelegateP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- "So18UIFocusEnvironmentP"
+- "So30UIPageViewControllerDataSourceP"
+- "So28UIPageViewControllerDelegateP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So20UIScrollViewDelegateP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- "So16UIViewControllerC"
+- !private "s23_BidirectionalIndexableP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s11_StrideableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Target Support Files/Pageboy/Pageboy-umbrella.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Pods/Pageboy/Sources/Pageboy/Pageboy.h"
+- "/Users/siamakeshghi/Desktop/ATM-iOS/AroundTheMetro/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pageboy.build/unextended-module.modulemap"
+interface-hash: "2070ae7e82e048e7ee30fe7fa6ef0b7c"
