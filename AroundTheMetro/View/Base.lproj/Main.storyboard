@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="HkD-nC-SMN">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="HkD-nC-SMN">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -1116,10 +1114,10 @@ Find everything you need in a short walking distance from any metro system in th
         </scene>
     </scenes>
     <resources>
-        <image name="IconMenu" width="32" height="32"/>
+        <image name="IconMenu" width="64" height="64"/>
         <image name="avatar" width="128" height="128"/>
         <image name="avatar-1" width="239" height="238"/>
-        <image name="boutique-listicon" width="128" height="128"/>
+        <image name="boutique-listicon" width="384" height="384"/>
         <image name="cities" width="640" height="960"/>
         <image name="email" width="114" height="114"/>
         <image name="email-button" width="64" height="64"/>
@@ -2274,13 +2272,13 @@ AAEKDgABChYAAQojAAEKKAABCioAAQosAAEKMQABCjkAAQo8AAEKQQABCkkAAQpMAAEKXgABCmEAAQpm
 AAAAAAAABAEAAAAAAAAAQQAAAAAAAAAAAAAAAAABCmg
 </mutableData>
         </image>
-        <image name="left-side-menu" width="1242" height="2208"/>
-        <image name="linkedin-button" width="64" height="64"/>
+        <image name="left-side-menu" width="298.07998657226562" height="529.91998291015625"/>
+        <image name="linkedin-button" width="12.800000190734863" height="12.800000190734863"/>
         <image name="logo_fr" width="672" height="353"/>
-        <image name="right-side-menu" width="1242" height="2208"/>
-        <image name="round_btn" width="350" height="90"/>
-        <image name="share-2" width="32" height="32"/>
+        <image name="right-side-menu" width="298.07998657226562" height="529.91998291015625"/>
+        <image name="round_btn" width="84" height="21.600000381469727"/>
+        <image name="share-2" width="64" height="64"/>
         <image name="twitter" width="114" height="114"/>
-        <image name="twitter-button" width="64" height="64"/>
+        <image name="twitter-button" width="39.724136352539062" height="39.724136352539062"/>
     </resources>
 </document>

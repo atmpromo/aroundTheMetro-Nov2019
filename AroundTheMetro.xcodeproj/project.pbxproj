@@ -41,17 +41,17 @@
 		4F8B5F802039E6B800438C6A /* PlaceDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8B5F7C2039E6B800438C6A /* PlaceDetailViewController.swift */; };
 		4F8B5F812039E6B800438C6A /* PlaceListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8B5F7D2039E6B800438C6A /* PlaceListViewController.swift */; };
 		4F8B5F822039E6B800438C6A /* PlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8B5F7E2039E6B800438C6A /* PlacesViewController.swift */; };
+		4F8B5F8E2039F91400438C6A /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8B5F852039F91400438C6A /* ContactViewController.swift */; };
+		4F8B5F8F2039F91400438C6A /* LeftMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8B5F862039F91400438C6A /* LeftMenuViewController.swift */; };
+		4F8B5F902039F91400438C6A /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8B5F872039F91400438C6A /* ProfileViewController.swift */; };
+		4F8B5F912039F91400438C6A /* ShareVC-Extenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8B5F892039F91400438C6A /* ShareVC-Extenstion.swift */; };
+		4F8B5F922039F91400438C6A /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8B5F8A2039F91400438C6A /* ShareViewController.swift */; };
+		4F8B5F932039F91400438C6A /* ContentNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8B5F8C2039F91400438C6A /* ContentNavController.swift */; };
+		4F8B5F942039F91400438C6A /* SideMenuRootController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8B5F8D2039F91400438C6A /* SideMenuRootController.swift */; };
 		4F8B5F96204386FB00438C6A /* AdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8B5F95204386FB00438C6A /* AdViewController.swift */; };
 		4FAC916D204F7CAE000BF246 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FAC916C204F7CAE000BF246 /* AdSupport.framework */; };
 		4FB8977A20E06E9200D86D70 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FB8977920E06E9200D86D70 /* iAd.framework */; };
 		4FC2F9C02119288A007B04D5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4FC2F9BF2119288A007B04D5 /* GoogleService-Info.plist */; };
-		5124E4D9217E7DF7007AB0E6 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5124E4D8217E7DF7007AB0E6 /* ContactViewController.swift */; };
-		5124E4DC217E7E0A007AB0E6 /* LeftMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5124E4DA217E7E0A007AB0E6 /* LeftMenuViewController.swift */; };
-		5124E4DD217E7E0A007AB0E6 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5124E4DB217E7E0A007AB0E6 /* ProfileViewController.swift */; };
-		5124E4E0217E7E2E007AB0E6 /* ShareVC-Extenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5124E4DE217E7E2E007AB0E6 /* ShareVC-Extenstion.swift */; };
-		5124E4E1217E7E2E007AB0E6 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5124E4DF217E7E2E007AB0E6 /* ShareViewController.swift */; };
-		5124E4E4217E7E3A007AB0E6 /* ContentNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5124E4E2217E7E39007AB0E6 /* ContentNavController.swift */; };
-		5124E4E5217E7E3A007AB0E6 /* SideMenuRootController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5124E4E3217E7E39007AB0E6 /* SideMenuRootController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -92,17 +92,17 @@
 		4F8B5F7C2039E6B800438C6A /* PlaceDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceDetailViewController.swift; sourceTree = "<group>"; };
 		4F8B5F7D2039E6B800438C6A /* PlaceListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceListViewController.swift; sourceTree = "<group>"; };
 		4F8B5F7E2039E6B800438C6A /* PlacesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlacesViewController.swift; sourceTree = "<group>"; };
+		4F8B5F852039F91400438C6A /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		4F8B5F862039F91400438C6A /* LeftMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftMenuViewController.swift; sourceTree = "<group>"; };
+		4F8B5F872039F91400438C6A /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		4F8B5F892039F91400438C6A /* ShareVC-Extenstion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ShareVC-Extenstion.swift"; sourceTree = "<group>"; };
+		4F8B5F8A2039F91400438C6A /* ShareViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		4F8B5F8C2039F91400438C6A /* ContentNavController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentNavController.swift; sourceTree = "<group>"; };
+		4F8B5F8D2039F91400438C6A /* SideMenuRootController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuRootController.swift; sourceTree = "<group>"; };
 		4F8B5F95204386FB00438C6A /* AdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdViewController.swift; sourceTree = "<group>"; };
 		4FAC916C204F7CAE000BF246 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		4FB8977920E06E9200D86D70 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		4FC2F9BF2119288A007B04D5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		5124E4D8217E7DF7007AB0E6 /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactViewController.swift; path = AroundTheMetro/Controllers/SideMenu/LeftMenu/ContactViewController.swift; sourceTree = SOURCE_ROOT; };
-		5124E4DA217E7E0A007AB0E6 /* LeftMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LeftMenuViewController.swift; path = AroundTheMetro/Controllers/SideMenu/LeftMenu/LeftMenuViewController.swift; sourceTree = SOURCE_ROOT; };
-		5124E4DB217E7E0A007AB0E6 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileViewController.swift; path = AroundTheMetro/Controllers/SideMenu/LeftMenu/ProfileViewController.swift; sourceTree = SOURCE_ROOT; };
-		5124E4DE217E7E2E007AB0E6 /* ShareVC-Extenstion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ShareVC-Extenstion.swift"; path = "AroundTheMetro/Controllers/SideMenu/RightMenu/ShareVC-Extenstion.swift"; sourceTree = SOURCE_ROOT; };
-		5124E4DF217E7E2E007AB0E6 /* ShareViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShareViewController.swift; path = AroundTheMetro/Controllers/SideMenu/RightMenu/ShareViewController.swift; sourceTree = SOURCE_ROOT; };
-		5124E4E2217E7E39007AB0E6 /* ContentNavController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentNavController.swift; path = AroundTheMetro/Controllers/SideMenu/SideMenuRoot/ContentNavController.swift; sourceTree = SOURCE_ROOT; };
-		5124E4E3217E7E39007AB0E6 /* SideMenuRootController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SideMenuRootController.swift; path = AroundTheMetro/Controllers/SideMenu/SideMenuRoot/SideMenuRootController.swift; sourceTree = SOURCE_ROOT; };
 		ADA1764C04B38D058CA79BFB /* Pods-AroundTheMetro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AroundTheMetro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AroundTheMetro/Pods-AroundTheMetro.debug.xcconfig"; sourceTree = "<group>"; };
 		E72125C097C99A225838A5BC /* Pods_AroundTheMetro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AroundTheMetro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -335,9 +335,9 @@
 		4F8B5F842039F91400438C6A /* LeftMenu */ = {
 			isa = PBXGroup;
 			children = (
-				5124E4D8217E7DF7007AB0E6 /* ContactViewController.swift */,
-				5124E4DA217E7E0A007AB0E6 /* LeftMenuViewController.swift */,
-				5124E4DB217E7E0A007AB0E6 /* ProfileViewController.swift */,
+				4F8B5F852039F91400438C6A /* ContactViewController.swift */,
+				4F8B5F862039F91400438C6A /* LeftMenuViewController.swift */,
+				4F8B5F872039F91400438C6A /* ProfileViewController.swift */,
 			);
 			path = LeftMenu;
 			sourceTree = "<group>";
@@ -345,8 +345,8 @@
 		4F8B5F882039F91400438C6A /* RightMenu */ = {
 			isa = PBXGroup;
 			children = (
-				5124E4DE217E7E2E007AB0E6 /* ShareVC-Extenstion.swift */,
-				5124E4DF217E7E2E007AB0E6 /* ShareViewController.swift */,
+				4F8B5F892039F91400438C6A /* ShareVC-Extenstion.swift */,
+				4F8B5F8A2039F91400438C6A /* ShareViewController.swift */,
 			);
 			path = RightMenu;
 			sourceTree = "<group>";
@@ -354,8 +354,8 @@
 		4F8B5F8B2039F91400438C6A /* SideMenuRoot */ = {
 			isa = PBXGroup;
 			children = (
-				5124E4E2217E7E39007AB0E6 /* ContentNavController.swift */,
-				5124E4E3217E7E39007AB0E6 /* SideMenuRootController.swift */,
+				4F8B5F8C2039F91400438C6A /* ContentNavController.swift */,
+				4F8B5F8D2039F91400438C6A /* SideMenuRootController.swift */,
 			);
 			path = SideMenuRoot;
 			sourceTree = "<group>";
@@ -586,22 +586,25 @@
 			files = (
 				4F3EE0B11FF959EC00D500BC /* Public.swift in Sources */,
 				4F3EE0A51FF958C500D500BC /* User.swift in Sources */,
+				4F8B5F942039F91400438C6A /* SideMenuRootController.swift in Sources */,
 				4F40F71A2002FE8600050CBB /* Infinite2TableViewCell.swift in Sources */,
+				4F8B5F932039F91400438C6A /* ContentNavController.swift in Sources */,
 				4F8B5F822039E6B800438C6A /* PlacesViewController.swift in Sources */,
 				4F40F7192002FE8600050CBB /* HomeViewController.swift in Sources */,
 				4F40F7152002FE8600050CBB /* ImageCollectionViewCell.swift in Sources */,
+				4F8B5F902039F91400438C6A /* ProfileViewController.swift in Sources */,
 				4F3EE0AA1FF959B700D500BC /* Login.swift in Sources */,
+				4F8B5F8F2039F91400438C6A /* LeftMenuViewController.swift in Sources */,
 				4F40F71C200301D500050CBB /* InfiniteCollectionView.swift in Sources */,
-				5124E4E5217E7E3A007AB0E6 /* SideMenuRootController.swift in Sources */,
 				4F4586B42015B64900845630 /* ARPlace.swift in Sources */,
 				4F3EE0B81FF95B3300D500BC /* ATLApiTarget.swift in Sources */,
 				4F87E17D20293FF700867F74 /* ARListViewController.swift in Sources */,
 				4F3EE08B1FF957FB00D500BC /* AppDelegate.swift in Sources */,
 				4F3EE0AB1FF959B700D500BC /* LoginExtension.swift in Sources */,
 				4F3EE0A41FF958C500D500BC /* Country.swift in Sources */,
+				4F8B5F922039F91400438C6A /* ShareViewController.swift in Sources */,
 				4F4586B72016D25F00845630 /* RentFormViewController.swift in Sources */,
 				4F3EE09F1FF958A200D500BC /* AppDelegateExtensions.swift in Sources */,
-				5124E4D9217E7DF7007AB0E6 /* ContactViewController.swift in Sources */,
 				4F87E17F20293FF700867F74 /* ARTouchedStores.swift in Sources */,
 				4F8B5F7F2039E6B800438C6A /* MetroViewController.swift in Sources */,
 				4F3EE0B91FF95B3300D500BC /* NetworkAdapter.swift in Sources */,
@@ -611,16 +614,13 @@
 				4F8B5F812039E6B800438C6A /* PlaceListViewController.swift in Sources */,
 				4F40F71F200302FB00050CBB /* MetroPlan.swift in Sources */,
 				4F40F7172002FE8600050CBB /* InfiniteTableViewCell.swift in Sources */,
-				5124E4E0217E7E2E007AB0E6 /* ShareVC-Extenstion.swift in Sources */,
-				5124E4E1217E7E2E007AB0E6 /* ShareViewController.swift in Sources */,
 				4F87E17E20293FF700867F74 /* ARSetup.swift in Sources */,
 				4F3EE0AE1FF959D300D500BC /* WorldScreenViewcontroller.swift in Sources */,
-				5124E4E4217E7E3A007AB0E6 /* ContentNavController.swift in Sources */,
 				4F3EE0B31FF959FE00D500BC /* Constants.swift in Sources */,
+				4F8B5F912039F91400438C6A /* ShareVC-Extenstion.swift in Sources */,
 				4F8B5F96204386FB00438C6A /* AdViewController.swift in Sources */,
-				5124E4DD217E7E0A007AB0E6 /* ProfileViewController.swift in Sources */,
-				5124E4DC217E7E0A007AB0E6 /* LeftMenuViewController.swift in Sources */,
 				4F40F7182002FE8600050CBB /* HomeExtention.swift in Sources */,
+				4F8B5F8E2039F91400438C6A /* ContactViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
