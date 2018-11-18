@@ -2,4 +2,4 @@
 working version of AroundtheMetro iOS App V1
 
 
-- Need to locate the folder "Controllers-SideMenu" and "Controllers-AR" (Shown in red)
+- Need to locate with Xcode 2 folders "Controllers-SideMenu" and "Controllers-AR" (Shown in red)
