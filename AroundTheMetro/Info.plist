@@ -90,5 +90,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Allow the usage of your position for this app to work!</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Around the metro needs your location for most features</string>
 </dict>
 </plist>

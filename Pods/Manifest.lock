@@ -73,6 +73,7 @@ PODS:
   - Pageboy (2.5.1)
   - PopupDialog (0.7.1):
     - DynamicBlurView (~> 2.0)
+  - Proximiio (1.1.55)
   - Result (3.2.4)
   - SVProgressHUD (2.2.5)
   - Tabman (1.9.1):
@@ -99,6 +100,7 @@ DEPENDENCIES:
   - Moya
   - ObjectMapper
   - PopupDialog
+  - Proximiio
   - SVProgressHUD
   - Tabman
   - TwitterKit
@@ -133,6 +135,7 @@ SPEC REPOS:
     - ObjectMapper
     - Pageboy
     - PopupDialog
+    - Proximiio
     - Result
     - SVProgressHUD
     - Tabman
@@ -168,12 +171,13 @@ SPEC CHECKSUMS:
   ObjectMapper: b612bf8c8e99c4dc0bb6013a51f7c27966ed5da9
   Pageboy: f0295ea949f0b0123a1b486fd347ea892d0078e0
   PopupDialog: 39598b7d41719f5c025b4b70e62728bae7734fef
+  Proximiio: 2fb797c98392b608b430c3aa4dc54b5ed43c73a4
   Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   Tabman: e867a8e3fc72a30cc694aca51a2b331070f5e3ba
   TwitterCore: 644d59e75abccb26cf0a9050d2c4dea0e5412241
   TwitterKit: a2e60ddcedbf54091eac6f27685ca7a87681e1d7
 
-PODFILE CHECKSUM: f0a7bb774ad2b382357b60147396346c6f9f5cc5
+PODFILE CHECKSUM: d613ee06ba92458b8265b39560190555eeaf8e8c
 
 COCOAPODS: 1.5.3

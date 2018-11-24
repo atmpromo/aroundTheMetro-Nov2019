@@ -32,6 +32,8 @@ class WorldScreenViewcontroller: AdViewController, UIPickerViewDataSource,UIPick
     
     @IBOutlet weak var pickerView: UIPickerView!
     
+    
+    
     @IBOutlet weak var cityLable: UILabel!
     
     override func viewDidLoad() {
@@ -136,6 +138,7 @@ class WorldScreenViewcontroller: AdViewController, UIPickerViewDataSource,UIPick
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 2
     }
+    
     
     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
         if component == 0 {

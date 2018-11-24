@@ -9,10 +9,10 @@ target 'AroundTheMetro' do
     pod 'KVSpinnerView'
     pod 'GoogleSignIn'
     pod 'FBSDKLoginKit'
-    pod ‘FBSDKShareKit’
+    pod 'FBSDKShareKit'
     pod 'FBSDKCoreKit'
     pod 'FacebookCore'
-    pod ‘Moya’
+    pod 'Moya'
     pod 'ObjectMapper'
     pod 'AKSideMenu'
     pod 'Tabman'
@@ -25,6 +25,7 @@ target 'AroundTheMetro' do
     pod 'Fabric'
     pod 'Firebase/Core'
     pod 'Crashlytics'
+    pod 'Proximiio'
     
 
 end

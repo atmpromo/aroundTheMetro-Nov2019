@@ -28,10 +28,12 @@ extension ARViewController{
         self.sliderAR!.addTarget(self, action: #selector(self.sliderValueDidChange(_:)), for: .valueChanged)
         self.view.addSubview(self.sliderAR!)
         
+        self.sliderAR!.value = 0;
+        
         //Setup Slider Lable
         self.sliderlabel = UILabel(frame: CGRect(x: 0 , y: 0, width:80, height: 100))
         self.sliderlabel?.textColor = UIColor.red
-        self.sliderlabel?.text = "0 m"
+        self.sliderlabel?.text = "0 m - Increase AR Radius"
         self.sliderlabel?.translatesAutoresizingMaskIntoConstraints = false
         self.view.addSubview(self.sliderlabel!)
         

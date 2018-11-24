@@ -15,9 +15,14 @@ import Crashlytics
 import TwitterKit
 import FacebookCore
 import Firebase
+import Proximiio
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
+class AppDelegate:  UIResponder,
+                    UIApplicationDelegate,
+                    GIDSignInDelegate,
+                    ProximiioDelegate
+{
     
     var window: UIWindow?
     let defaults = UserDefaults.standard
@@ -46,6 +51,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
         
         //MARK: - Fabric SDK Configuration
         Fabric.with([Crashlytics.self])
+        
+        //MARK: - Proiximiio
+        initProximiio()
+       
         
         return true
     }
@@ -93,8 +102,44 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
+    
+    // GIDSignInDelegate
     func sign(_ signIn: GIDSignIn!, didSignInFor user: GIDGoogleUser!, withError error: Error!) {
         
+    }
+    
+    // ProximiioDelegate
+    
+    func proximiioPositionUpdated(_ location: ProximiioLocation) {
+        NSLog("proximiioPositionUpdated: %@", location)
+    }
+
+    func proximiioEnteredGeofence(_ geofence: ProximiioGeofence!) {
+        NSLog("proximiioEnteredGeofence: %@", geofence);
+    }
+
+    func proximiioExitedGeofence(_ geofence: ProximiioGeofence!) {
+        NSLog("proximiioExitedGeofence: %@", geofence);
+    }
+
+    func proximiioHandleOutput(_ payload: NSObject!) {
+        NSLog("proximiioHandleOutput: %@", payload);
+    }
+    
+    func initProximiio() {
+        let token: String = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImlzcyI6IjZhODFkMGM5LTA2YTYtNDc3OC04YTBkLTY5ZjBiODNlMDk2MiIsInR5cGUiOiJhcHBsaWNhdGlvbiIsImFwcGxpY2F0aW9uX2lkIjoiMGVhNjQyNGUtZTlhYy00ZDFkLWIzOTUtZGE3ZDQ4MzM2MzJkIn0.fNjwTaaNAg3O1Ue2cT8MxsDO_6TcqKD_PwsnKtO8X6k"
+        
+        let proximiio = Proximiio.sharedInstance()
+        proximiio!.delegate = self
+        
+        proximiio!.auth(withToken: token) { (state : ProximiioState) in
+            if (state == kProximiioReady) {
+                proximiio!.requestPermissions()
+                NSLog("Proximi.io ready")
+            } else {
+                NSLog("Proximi.io auth failure")
+            }
+        }
     }
 
 

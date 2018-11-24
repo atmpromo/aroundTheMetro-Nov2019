@@ -1031,6 +1031,12 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 
+## Proximiio
+
+Copyright (c) 2016 Proximi.io <support@proximi.io>
+
+Terms and Conditions: https://proximi.io/terms/
+
 ## Result
 
 The MIT License (MIT)

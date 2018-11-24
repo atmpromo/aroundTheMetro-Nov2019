@@ -14,7 +14,6 @@ struct Constants{
     //API Level
     
     static let BANNER_ADS_UNIT_ID = "ca-app-pub-5420876778958572/4194336391"
-
     
     static let ATM_WEB_ADDRESS = "http://aroundthemetro.com"
     

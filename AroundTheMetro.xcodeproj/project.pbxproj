@@ -306,8 +306,7 @@
 				4F87E17920293FF700867F74 /* ARSetup.swift */,
 				4F87E17A20293FF700867F74 /* ARTouchedStores.swift */,
 			);
-			name = AR;
-			path = "../../../../../Documents/ATM/Login-ATM/Login-ATM/Controllers/AR";
+			path = AR;
 			sourceTree = "<group>";
 		};
 		4F8B5F7A2039E6B800438C6A /* Stores */ = {
@@ -328,8 +327,7 @@
 				4F8B5F882039F91400438C6A /* RightMenu */,
 				4F8B5F8B2039F91400438C6A /* SideMenuRoot */,
 			);
-			name = SideMenu;
-			path = "../../../../../Documents/ATM/Login-ATM/Login-ATM/Controllers/SideMenu";
+			path = SideMenu;
 			sourceTree = "<group>";
 		};
 		4F8B5F842039F91400438C6A /* LeftMenu */ = {
@@ -519,6 +517,7 @@
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/Pageboy/Pageboy.framework",
 				"${BUILT_PRODUCTS_DIR}/PopupDialog/PopupDialog.framework",
+				"${PODS_ROOT}/Proximiio/Pod/Proximiio.framework",
 				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
 				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/Tabman/Tabman.framework",
@@ -547,6 +546,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Pageboy.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PopupDialog.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Proximiio.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Tabman.framework",
@@ -680,6 +680,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -739,6 +740,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;

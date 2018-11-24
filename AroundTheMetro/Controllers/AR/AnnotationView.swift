@@ -69,6 +69,11 @@ class AnnotationView: ARAnnotationView {
             case "Restaurant":
                 iconImageView?.image = #imageLiteral(resourceName: "resto-listicon")
                 break;
+                
+            case "Boutique":
+                iconImageView?.image = #imageLiteral(resourceName: "boutique-listicon")
+                break;
+                
             case "Beauty & Health":
                 iconImageView?.image = #imageLiteral(resourceName: "salon-iconlist")
                 break;
@@ -76,9 +81,7 @@ class AnnotationView: ARAnnotationView {
                 iconImageView?.image = #imageLiteral(resourceName: "attraction-iconlist")
                 break;
                 
-            case "Boutique":
-                iconImageView?.image = #imageLiteral(resourceName: "boutique-listicon")
-                break;
+
             default:
                 break
             }
