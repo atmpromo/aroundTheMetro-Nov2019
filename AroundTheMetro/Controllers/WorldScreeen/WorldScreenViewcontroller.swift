@@ -155,6 +155,7 @@ class WorldScreenViewcontroller: AdViewController, UIPickerViewDataSource,UIPick
         }
     }
     
+   
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
         if component == 0 {
             return countries[row].country
@@ -177,13 +178,23 @@ class WorldScreenViewcontroller: AdViewController, UIPickerViewDataSource,UIPick
         
         if component == 0 {
             titleData = countries[row].country
-            attributedString = NSAttributedString(string: titleData, attributes: [NSAttributedStringKey.font:UIFont(name: "Georgia", size: 15.0)!,NSAttributedStringKey.foregroundColor:UIColor (red: 192.0/255.0, green: 192.0/255.0, blue: 197/255.0, alpha: 1.0)])
+//            attributedString = NSAttributedString(string: titleData, attributes: [NSAttributedStringKey.font:UIFont(name: "Georgia", size: 15.0)!,NSAttributedStringKey.foregroundColor:UIColor (red: 192.0/255.0, green: 192.0/255.0, blue: 197/255.0, alpha: 1.0)])
+            
+            attributedString = NSAttributedString(string: titleData, attributes: [NSAttributedStringKey.font:UIFont(name: "Georgia", size: 15.0)!,NSAttributedStringKey.foregroundColor:UIColor (red: 0/255.0, green: 0/255.0, blue: 0/255.0, alpha: 1.0)])
+            
+            
         }else {
             let selectedCountry = pickerView.selectedRow(inComponent: 0)
             if let tData = countries[selectedCountry].cities[optional: row]{
                  titleData = tData
             }
-            attributedString = NSAttributedString(string: titleData, attributes: [NSAttributedStringKey.font:UIFont(name: "Futura", size: 5.0)!,NSAttributedStringKey.foregroundColor:UIColor (red: 200/255.0, green: 192.0/255.0, blue: 200/255.0, alpha: 1.0)])
+//            attributedString = NSAttributedString(string: titleData, attributes: [NSAttributedStringKey.font:UIFont(name: "Futura", size: 5.0)!,NSAttributedStringKey.foregroundColor:UIColor (red: 200/255.0, green: 192.0/255.0, blue: 200/255.0, alpha: 1.0)])
+            
+            
+            attributedString = NSAttributedString(string: titleData, attributes: [NSAttributedStringKey.font:UIFont(name: "Futura", size: 5.0)!,NSAttributedStringKey.foregroundColor:UIColor (red: 0/255.0, green: 0.0/255.0, blue: 0/255.0, alpha: 1.0)])
+            
+            
+            
         }
         return attributedString
     }
