@@ -10,7 +10,6 @@
 		15C44D08274FE844BFD44660 /* Pods_AroundTheMetro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E72125C097C99A225838A5BC /* Pods_AroundTheMetro.framework */; };
 		4F3EE08B1FF957FB00D500BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3EE08A1FF957FB00D500BC /* AppDelegate.swift */; };
 		4F3EE0901FF957FB00D500BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F3EE08E1FF957FB00D500BC /* Main.storyboard */; };
-		4F3EE0921FF957FB00D500BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F3EE0911FF957FB00D500BC /* Assets.xcassets */; };
 		4F3EE0951FF957FB00D500BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F3EE0931FF957FB00D500BC /* LaunchScreen.storyboard */; };
 		4F3EE09F1FF958A200D500BC /* AppDelegateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3EE09E1FF958A200D500BC /* AppDelegateExtensions.swift */; };
 		4F3EE0A41FF958C500D500BC /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3EE0A21FF958C500D500BC /* Country.swift */; };
@@ -52,6 +51,7 @@
 		4FAC916D204F7CAE000BF246 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FAC916C204F7CAE000BF246 /* AdSupport.framework */; };
 		4FB8977A20E06E9200D86D70 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FB8977920E06E9200D86D70 /* iAd.framework */; };
 		4FC2F9C02119288A007B04D5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4FC2F9BF2119288A007B04D5 /* GoogleService-Info.plist */; };
+		51AC8A0E21AB5A3B0077B935 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51AC8A0D21AB5A3A0077B935 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,7 +59,6 @@
 		4F3EE0871FF957FB00D500BC /* AroundTheMetro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AroundTheMetro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F3EE08A1FF957FB00D500BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F3EE08F1FF957FB00D500BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4F3EE0911FF957FB00D500BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F3EE0941FF957FB00D500BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F3EE0961FF957FB00D500BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F3EE09E1FF958A200D500BC /* AppDelegateExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegateExtensions.swift; sourceTree = "<group>"; };
@@ -103,6 +102,7 @@
 		4FAC916C204F7CAE000BF246 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		4FB8977920E06E9200D86D70 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		4FC2F9BF2119288A007B04D5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		51AC8A0D21AB5A3A0077B935 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADA1764C04B38D058CA79BFB /* Pods-AroundTheMetro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AroundTheMetro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AroundTheMetro/Pods-AroundTheMetro.debug.xcconfig"; sourceTree = "<group>"; };
 		E72125C097C99A225838A5BC /* Pods_AroundTheMetro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AroundTheMetro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -159,7 +159,7 @@
 		4F3EE09C1FF9580B00D500BC /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
-				4F3EE0911FF957FB00D500BC /* Assets.xcassets */,
+				51AC8A0D21AB5A3A0077B935 /* Assets.xcassets */,
 			);
 			path = SupportingFiles;
 			sourceTree = "<group>";
@@ -446,9 +446,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F3EE0951FF957FB00D500BC /* LaunchScreen.storyboard in Resources */,
-				4F3EE0921FF957FB00D500BC /* Assets.xcassets in Resources */,
 				4FC2F9C02119288A007B04D5 /* GoogleService-Info.plist in Resources */,
 				4F3EE0901FF957FB00D500BC /* Main.storyboard in Resources */,
+				51AC8A0E21AB5A3B0077B935 /* Assets.xcassets in Resources */,
 				4F40F7162002FE8600050CBB /* ImageCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

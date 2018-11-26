@@ -15,7 +15,7 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.1</string>
+	<string>1.2</string>
 	<key>CFBundleURLTypes</key>
 	<array>
 		<dict>
@@ -67,7 +67,11 @@
 		<true/>
 	</dict>
 	<key>NSCameraUsageDescription</key>
-	<string>Needed for AR</string>
+	<string>Needed for Augmented Reality feature</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Around the metro needs your location for most features</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Allow the usage of your position for this app to work!</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>Your current location will be used  to find and display stores around you in the augmented reality.</string>
 	<key>UILaunchStoryboardName</key>
@@ -90,9 +94,5 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-	<key>NSLocationAlwaysUsageDescription</key>
-	<string>Allow the usage of your position for this app to work!</string>
-	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>Around the metro needs your location for most features</string>
 </dict>
 </plist>
