@@ -18,7 +18,7 @@ struct NetworkAdapter {
         if let request = try? MoyaProvider.defaultEndpointMapping(for: target).urlRequest(),
             let url = request.url {
             _ = url.absoluteString
-          print(url)
+          //print(url)
         }
    
         

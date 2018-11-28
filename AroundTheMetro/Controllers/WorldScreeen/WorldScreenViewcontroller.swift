@@ -170,7 +170,10 @@ class WorldScreenViewcontroller: AdViewController, UIPickerViewDataSource,UIPick
         let selectedCityIndex = pickerView.selectedRow(inComponent: 1)
         selectedCountry = countries[selectedCountryIndex].country
         selectedCity = countries[selectedCountryIndex].cities[selectedCityIndex]
-        cityLable.text = "Country: \(selectedCountry)\nCity: \(selectedCity)"
+//        cityLable.text = "Country: \(selectedCountry)\nCity: \(selectedCity)"
+    
+        cityLable.text = "City: \(selectedCity)"
+        
     }
     func pickerView(_ pickerView: UIPickerView, attributedTitleForRow row: Int, forComponent component: Int) -> NSAttributedString? {
         var titleData = String()

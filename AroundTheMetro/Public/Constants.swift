@@ -23,6 +23,8 @@ struct Constants{
     static let API_URL_BASE = NSLocalizedString("http://aroundthemetro.com/api", comment: "myurl")
     static let BANNER_IMAGE_URL = NSLocalizedString("http://aroundthemetro.com//assets/images/BannerImages/", comment: "bannerUrl")
     
+    static let ICONS_URL = NSLocalizedString("http://aroundthemetro.com/assets/images/places/logo/", comment: "iconUrl")
+    
 //    static let API_URL_DEVELOPMENT = NSLocalizedString("\(API_URL_BASE)\(Public.CountryName)/\(Public.CityName)", comment: "myurl")
     
     

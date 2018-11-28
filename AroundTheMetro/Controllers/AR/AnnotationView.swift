@@ -8,6 +8,7 @@
 
 import UIKit
 import HDAugmentedReality
+import Kingfisher
 
 protocol AnnotationViewDelegate {
     func didTouch(annotationView: AnnotationView)
@@ -57,6 +58,8 @@ class AnnotationView: ARAnnotationView {
         
         if let annotation = annotation as? ARPlace{
             titleLabel?.text = annotation.placeName
+            iconImageView?.kf.setImage(with: URL(string: (Constants.ICONS_URL + annotation.imagename!) as String!)!)
+
 //
 //            if annotation.distanceFromUser > 1000 {
 //                distanceLabel?.text = String(format: "%.2f km", annotation.distanceFromUser / 1000)
@@ -65,26 +68,26 @@ class AnnotationView: ARAnnotationView {
                 distanceLabel?.text = "\(Int(annotation.distanceFromUser)) m"
 //            }
             
-            switch annotation.type {
-            case "Restaurant":
-                iconImageView?.image = #imageLiteral(resourceName: "resto-listicon")
-                break;
-                
-            case "Boutique":
-                iconImageView?.image = #imageLiteral(resourceName: "boutique-listicon")
-                break;
-                
-            case "Beauty & Health":
-                iconImageView?.image = #imageLiteral(resourceName: "salon-iconlist")
-                break;
-            case "Attraction":
-                iconImageView?.image = #imageLiteral(resourceName: "attraction-iconlist")
-                break;
-                
-
-            default:
-                break
-            }
+//            switch annotation.type {
+//            case "Restaurant":
+//                iconImageView?.image = #imageLiteral(resourceName: "resto-listicon")
+//                break;
+//
+//            case "Boutique":
+//                iconImageView?.image = #imageLiteral(resourceName: "boutique-listicon")
+//                break;
+//
+//            case "Beauty & Health":
+//                iconImageView?.image = #imageLiteral(resourceName: "salon-iconlist")
+//                break;
+//            case "Attraction":
+//                iconImageView?.image = #imageLiteral(resourceName: "attraction-iconlist")
+//                break;
+//
+//
+//            default:
+//                break
+//            }
         }
     }
     

@@ -48,6 +48,7 @@ class ARListViewController: AdViewController,UITableViewDelegate,UITableViewData
                     self.promotions = json["places"] as! [NSDictionary]
 //                    self.baseImageUrl = json["download_prefix_promotion"] as! String
                     SVProgressHUD.dismiss()
+            //print(self.promotions)
         }, error: nil, failure: nil)
     }
     
