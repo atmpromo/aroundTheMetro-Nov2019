@@ -11,9 +11,9 @@ import MessageUI
 
 class ContactViewController: AdViewController,MFMailComposeViewControllerDelegate {
 
-    let facebookeAddress:String = "https://www.facebook.com/MontrealSouterrain/"
-    let twitterAddress:String = "https://twitter.com/MTL_Souterrain"
-    let linkedinAddress:String = "https://www.linkedin.com/company/montreal-souterrain"
+    let facebookeAddress:String = "https://www.facebook.com/AroundtheMetro/"
+    let twitterAddress:String = "https://twitter.com/"
+    let linkedinAddress:String = "https://www.linkedin.com/company/aroundthemetro/"
     
     public override func awakeFromNib() {
         super.awakeFromNib()
@@ -27,7 +27,7 @@ class ContactViewController: AdViewController,MFMailComposeViewControllerDelegat
         if MFMailComposeViewController.canSendMail(){
             let MailCVC = MFMailComposeViewController()
             MailCVC.mailComposeDelegate = self
-            Public.shareByEmail(destination: "augmenteddiscovery@gmail.com", subject: "", body: "", mailComposeVC: MailCVC, vc: self)
+            Public.shareByEmail(destination: "info@aroundthemetro.com", subject: "General message from iOS app", body: "", mailComposeVC: MailCVC, vc: self)
         }
     }
    
