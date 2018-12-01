@@ -8,6 +8,7 @@
 
 import UIKit
 import Kingfisher
+import FirebaseAnalytics
 
 class PlaceDetailViewController: AdViewController {
 
@@ -32,15 +33,25 @@ class PlaceDetailViewController: AdViewController {
     
     
     @IBAction func callUsBtnTapped(_ sender: UIButton) {
+        let p = (place["name"] as? String)!
+        Analytics.logEvent("call_placed", parameters: [
+            "place": p as NSObject,
+            "phoneNumber": phoneNumber ?? "not a number" as NSObject
+            ])
         guard let number = URL(string: "telprompt://" + phoneNumber!) else {return}
         UIApplication.shared.open(number, options: [:], completionHandler: nil)
     }
     
     
     @IBAction func websiteBtnTapped(_ sender: UIButton) {
+        let p = (place["name"] as? String)!
+        Analytics.logEvent("website_clicked", parameters: [
+            "place": p as NSObject,
+            "url": websiteAddress ?? "no url" as NSObject
+            ])
         let rentFormVC = self.storyboard?.instantiateViewController(withIdentifier: "rentFormViewController") as! RentFormViewController
         rentFormVC.titlename = (place["name"] as? String)!
-        rentFormVC.url = websiteAddress!
+        rentFormVC.url = websiteAddress! as String
         Public.configureBackButton(vc: self)
         self.navigationController?.pushViewController(rentFormVC, animated: true)
     }
