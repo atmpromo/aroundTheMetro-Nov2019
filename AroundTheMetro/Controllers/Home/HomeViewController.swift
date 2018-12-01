@@ -27,6 +27,8 @@ public class HomeViewController: AdViewController, UIGestureRecognizerDelegate, 
     public override func viewDidLoad() {
         super.viewDidLoad()
         getBannerImages()
+        
+        self.navigationItem.title = Public.CityName
         }
     public override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)

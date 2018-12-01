@@ -60,7 +60,14 @@ class PlaceDetailViewController: AdViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        print(place)
+        
+        //Sending info to Firebase (place name of page viewed)
+        let p = (place["name"] as? String)!
+        Analytics.logEvent("place_page_view", parameters: [
+            "place": p as NSObject,
+            ])
+        
+//        print(place)
         setupView()
     }
 

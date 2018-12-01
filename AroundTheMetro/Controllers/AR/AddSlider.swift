@@ -28,7 +28,7 @@ extension ARViewController{
         self.sliderAR!.addTarget(self, action: #selector(self.sliderValueDidChange(_:)), for: .valueChanged)
         self.view.addSubview(self.sliderAR!)
         
-        self.sliderAR!.value = 800;
+        self.sliderAR!.value = 0;
         
         //Setup Slider Lable
         self.sliderlabel = UILabel(frame: CGRect(x: 0 , y: 0, width:80, height: 100))
