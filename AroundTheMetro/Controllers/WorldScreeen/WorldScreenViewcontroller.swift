@@ -34,7 +34,6 @@ let demoCountries = [
     
     Country(country: "India", cities: ["Delhi", "Kolkata", "Mumbai"]),
     
-    
     Country(country: "Italy", cities: ["Rome", "Milan"]),
     
     Country(country: "Japan", cities: ["Tokyo", "Osaka", "Yokohama", "Nagoya"]),

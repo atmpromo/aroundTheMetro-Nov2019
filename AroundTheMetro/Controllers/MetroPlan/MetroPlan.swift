@@ -39,9 +39,17 @@ class MetroPlanViewController: AdViewController,UIScrollViewDelegate {
         //Add API to download Metro Map for each city from backend
         var map = UIImage()
         
+        // map = #imageLiteral(resourceName: "Atlanta_Map")
+        // map = #imageLiteral(resourceName: "Atlanta_Map")
+        
+        
         switch Public.CityName {
+            
+        case "Vienna":
+          map = #imageLiteral(resourceName: "Vienna_Map")
+            
         case "Montreal":
-            map = #imageLiteral(resourceName: "Montreal_Map")
+            map = #imageLiteral(resourceName: "Atlanta_Map")
         case "Paris":
             map = #imageLiteral(resourceName: "Paris_Map")
         case "New_York_City":
@@ -50,7 +58,6 @@ class MetroPlanViewController: AdViewController,UIScrollViewDelegate {
             map = #imageLiteral(resourceName: "London_Map")
         case "Barcelona":
             map = #imageLiteral(resourceName: "Barcelona_Map")
-
         case "Toronto":
             map = #imageLiteral(resourceName: "Toronto_Map")
         case "Vancouver":
