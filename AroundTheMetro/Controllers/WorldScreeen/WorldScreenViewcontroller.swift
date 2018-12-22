@@ -14,11 +14,48 @@ import SVProgressHUD
 //It will be used for demo in real word we use fetchCountriesAndCities function
 let demoCountries = [
     Country(country: "Country", cities: ["City"]),
-    Country(country: "Canada", cities: ["Montreal"]),
-    Country(country: "France", cities: ["Paris"]),
-    Country(country: "Spain", cities: ["Barcelona"]),
-    Country(country: "UK", cities: ["London"]),
-    Country(country: "USA", cities: ["New_York_City"])
+
+    Country(country: "Austria", cities: ["Vienna"]),
+    
+    // Not Enough Restaurant in Database
+    //    Country(country: "Belgium", cities: ["Brussels"]),
+    
+    
+    //    Need Metro ID association in Database
+    //    Country(country: "Brazil", cities: ["Rio_de_Janeiro","Sao_Paulo"]),
+
+//  Error in the name of the Country = should be "
+//    Country(country: "Bulgaria", cities: ["Sofia"]),
+
+    Country(country: "Canada", cities: ["Montreal", "Toronto", "Vancouver"]),
+//    Country(country: "Denmark", cities: ["Copenhagen"]),
+    Country(country: "Emirates", cities: ["Dubai"]),
+    Country(country: "France", cities: ["Paris", "Marseille", "Lyon", "Toulouse"]),
+    
+    Country(country: "India", cities: ["Delhi", "Kolkata", "Mumbai"]),
+    
+    
+    Country(country: "Italy", cities: ["Rome", "Milan"]),
+    
+    Country(country: "Japan", cities: ["Tokyo", "Osaka", "Yokohama", "Nagoya"]),
+    
+    Country(country: "South Korea", cities: ["Seoul", "Busan"]),
+    Country(country: "Spain", cities: ["Barcelona", "Madrid", "Bilbao"]),
+    Country(country: "Sweden", cities: ["Stockholm"]),
+    Country(country: "Switzerland", cities: ["Lausanne"]),
+    Country(country: "Taiwan", cities: ["Taipei"]),
+    Country(country: "Turkey", cities: ["Istanbul"]),
+    Country(country: "UK", cities: ["London", "Glasgow"]),
+    
+    Country(country: "USA", cities: ["New_York_City", "Miami", "Chicago","Atlanta"])
+    
+    
+
+//  Missing Data. Need to get populated in database
+//  Country(country: "Mexico", cities: ["Mexico city"]),
+//  Country(country: "Germany", cities: []),
+
+    
 ]
 class WorldScreenViewcontroller: AdViewController, UIPickerViewDataSource,UIPickerViewDelegate {
 

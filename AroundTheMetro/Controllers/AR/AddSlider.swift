@@ -22,7 +22,7 @@ extension ARViewController{
     func setupSlider()  {
          self.sliderAR = UISlider(frame: CGRect(x: 20, y: self.view.bounds.size.height - 40,width: self.view.bounds.size.width - 40 ,height: 40))
         self.sliderAR!.minimumValue = 1;
-        self.sliderAR!.maximumValue = 1500;
+        self.sliderAR!.maximumValue = 2000;
         self.sliderAR!.isContinuous = true
         self.sliderAR!.tintColor = UIColor.red
         self.sliderAR!.addTarget(self, action: #selector(self.sliderValueDidChange(_:)), for: .valueChanged)

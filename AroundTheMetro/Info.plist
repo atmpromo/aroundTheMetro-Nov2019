@@ -67,7 +67,7 @@
 		<true/>
 	</dict>
 	<key>NSCameraUsageDescription</key>
-	<string>Needed for Augmented Reality feature</string>
+	<string>Needed for the augmented reality feature</string>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
 	<string>Around the metro needs your location for most features</string>
 	<key>NSLocationAlwaysUsageDescription</key>

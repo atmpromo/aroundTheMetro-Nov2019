@@ -1,4 +1,3 @@
-//
 //  ARSelecteStores.swift
 //  Login-ATM
 //
