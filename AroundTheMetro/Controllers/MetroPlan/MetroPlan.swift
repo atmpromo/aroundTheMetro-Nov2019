@@ -46,10 +46,9 @@ class MetroPlanViewController: AdViewController,UIScrollViewDelegate {
         switch Public.CityName {
             
         case "Vienna":
-          map = #imageLiteral(resourceName: "Vienna_Map")
-            
+            map = #imageLiteral(resourceName: "Vienna_Map")
         case "Montreal":
-            map = #imageLiteral(resourceName: "Atlanta_Map")
+            map = #imageLiteral(resourceName: "Montreal_Map")
         case "Paris":
             map = #imageLiteral(resourceName: "Paris_Map")
         case "New_York_City":

@@ -45,6 +45,6 @@
     </scenes>
     <resources>
         <image name="LaunchImage" width="320" height="480"/>
-        <image name="metro-green" width="512" height="512"/>
+        <image name="metro-green" width="1024" height="1024"/>
     </resources>
 </document>
