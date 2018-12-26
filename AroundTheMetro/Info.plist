@@ -31,7 +31,7 @@
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>2</string>
+	<string>4</string>
 	<key>Fabric</key>
 	<dict>
 		<key>APIKey</key>
@@ -66,6 +66,8 @@
 		<key>NSAllowsArbitraryLoads</key>
 		<true/>
 	</dict>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>Around the metro needs your location for most features</string>
 	<key>NSCameraUsageDescription</key>
 	<string>Needed for the augmented reality feature</string>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>

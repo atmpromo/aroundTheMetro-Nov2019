@@ -38,7 +38,7 @@ let demoCountries = [
     
     Country(country: "Japan", cities: ["Tokyo", "Osaka", "Yokohama", "Nagoya"]),
     
-    Country(country: "South Korea", cities: ["Seoul", "Busan"]),
+    Country(country: "S_Korea", cities: ["Seoul", "Busan"]),
     Country(country: "Spain", cities: ["Barcelona", "Madrid", "Bilbao"]),
     Country(country: "Sweden", cities: ["Stockholm"]),
     Country(country: "Switzerland", cities: ["Lausanne"]),
