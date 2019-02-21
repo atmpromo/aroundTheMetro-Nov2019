@@ -45,15 +45,19 @@ extension ShareViewController{
         
         if isURL{
             composer.setURL(URL(string: content))
-        }else{
+        }
+        else {
             composer.setText(content)
         }
         
         // Called from a UIViewController
         composer.show(from: self) { result in
             if (result == TWTRComposerResult.done){
+                
                 print("Tweet composition success")
-            }else if (result == TWTRComposerResult.cancelled){
+            }
+            else if (result == TWTRComposerResult.cancelled){
+                
                 print("Tweet composition cancelled")
                 }
         }
@@ -65,15 +69,22 @@ extension ShareViewController{
         let contentObj: FBSDKShareLinkContent = FBSDKShareLinkContent()
         
         if isUrl{
+            
             contentObj.contentURL = URL(string:content)!
-        }else{
+        }
+        else {
+            
             contentObj.quote = content
         }
         
         let fShareDialog: FBSDKShareDialog = FBSDKShareDialog()
+        
         fShareDialog.shareContent = contentObj
+        
         fShareDialog.mode = .native
+        
         fShareDialog.delegate = self
+        
         fShareDialog.show()
     }
     
@@ -86,11 +97,15 @@ extension ShareViewController{
      Sent to the delegate when the sharer encounters an error.
      - Parameter sharer: The FBSDKSharing that completed.
      - Parameter error: The error.
-     */
+     **/
     public func sharer(_ sharer: FBSDKSharing!, didFailWithError error: Error!) {
+        
         print(error)
-        let alert = UIAlertController(title: "Facebook Post failed", message: "You do have to Sign in Facebook to post.", preferredStyle: .alert)
-        let settingAction = UIAlertAction(title: "Setting", style: .default) { (_) in
+        
+        let alert = UIAlertController(title: "Facebook Post failed".localizedToLanguage(languageSymbol: UserDefaults.standard.fetchSelectedLanguage()), message: "You do have to Sign in Facebook to post.".localizedToLanguage(languageSymbol: UserDefaults.standard.fetchSelectedLanguage()), preferredStyle: .alert)
+        
+        let settingAction = UIAlertAction(title: "Setting".localizedToLanguage(languageSymbol: UserDefaults.standard.fetchSelectedLanguage()), style: .default) { (_) in
+        
             guard let settingUrl = URL(string: /*"prefs:root=FACEBOOK"*/UIApplicationOpenSettingsURLString)
                 else{
                     return
@@ -101,8 +116,11 @@ extension ShareViewController{
                 })
             }
         }
+        
         alert.addAction(settingAction)
-        alert.addAction(UIAlertAction(title: "Cancel", style: .default, handler: nil))
+        
+        alert.addAction(UIAlertAction(title: "Cancel".localizedToLanguage(languageSymbol:UserDefaults.standard.fetchSelectedLanguage()), style: .default, handler: nil))
+        
         self.present(alert, animated: true, completion: nil)
     }
     

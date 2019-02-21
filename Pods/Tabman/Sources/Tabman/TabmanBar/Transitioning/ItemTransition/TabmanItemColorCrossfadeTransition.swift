@@ -30,12 +30,15 @@ class TabmanItemColorCrossfadeTransition: TabmanItemTransition {
             return
         }
         let lowerButton = bar.buttons[lowerIndex]
+        
         let upperButton = bar.buttons[upperIndex]
         
         let targetButton = direction == .forward ? upperButton : lowerButton
+        
         let oldTargetButton = direction == .forward ? lowerButton : upperButton
         
         var integral: Float = 0.0
+        
         let transitionProgress = CGFloat(modff(Float(position), &integral))
         
         let relativeProgress = direction == .forward ? transitionProgress : 1.0 - transitionProgress
@@ -45,6 +48,7 @@ class TabmanItemColorCrossfadeTransition: TabmanItemTransition {
                            oldTargetButton: oldTargetButton,
                            progress: relativeProgress)
     }
+    
     
     private func updateButtons(inBar bar: TabmanButtonBar,
                                withTargetButton targetButton: UIButton,

@@ -23,7 +23,7 @@ extension LoginViewController: GIDSignInDelegate, GIDSignInUIDelegate{
         //Check is user  signed in by Facebook
         let currentToken = FBSDKAccessToken.current()
         if (currentToken != nil && (Public.currentUser != nil)) {
-            self.showProgress(title: "SIGNING IN FACEBOOK", comment: "facebook", visibility: true)
+            self.showProgress(title: "SIGNING IN FACEBOOK".localizedToLanguage(languageSymbol: defaults.fetchSelectedLanguage()), comment: "facebook", visibility: true)
             navigateToNextView()
         }else{
             GIDSignIn.sharedInstance().delegate = self
@@ -32,7 +32,7 @@ extension LoginViewController: GIDSignInDelegate, GIDSignInUIDelegate{
             
             //Check is user signedIn by Google
             if (GIDSignIn.sharedInstance().hasAuthInKeychain() && (Public.currentUser != nil)){
-                self.showProgress(title: "SIGNING IN GOOGLE", comment: "google", visibility: true)
+                self.showProgress(title: "SIGNING IN GOOGLE".localizedToLanguage(languageSymbol: defaults.fetchSelectedLanguage()), comment: "google", visibility: true)
             navigateToNextView()
             }
         }
@@ -42,13 +42,20 @@ extension LoginViewController: GIDSignInDelegate, GIDSignInUIDelegate{
     
     //Mark: Facebook Sign In
     func facebookSignIn()  {
+        
         let login : FBSDKLoginManager = FBSDKLoginManager()
-        self.showProgress(title: "SIGNING IN FACEBOOK", comment: "facebook", visibility: true)
+        
+        self.showProgress(title: "SIGNING IN FACEBOOK".localizedToLanguage(languageSymbol: defaults.fetchSelectedLanguage()), comment: "facebook", visibility: true)
+        
         login.logIn(withReadPermissions: ["public_profile", "email"], from: self) { (result, error) in
+            
             if ((error) != nil) {
-               self.showProgress(title: "SIGNING IN FACEBOOK", comment: "facebook", visibility: false)
-            } else if (result?.isCancelled)! {
-                self.showProgress(title: "SIGNING IN FACEBOOK", comment: "facebook", visibility: false)
+                
+                self.showProgress(title: "SIGNING IN FACEBOOK".localizedToLanguage(languageSymbol: self.defaults.fetchSelectedLanguage()), comment: "facebook", visibility: false)
+                
+            }
+            else if (result?.isCancelled)! {
+                self.showProgress(title: "SIGNING IN FACEBOOK".localizedToLanguage(languageSymbol: self.defaults.fetchSelectedLanguage()), comment: "facebook", visibility: false)
             } else {
                 self.facebookGraphRequest()
             }
@@ -66,7 +73,7 @@ extension LoginViewController: GIDSignInDelegate, GIDSignInUIDelegate{
                 self.registerUserInOurDatabase(name: fbDetails["name"] as! String, userid: fbDetails["id"] as! String, accessToken: FBSDKAccessToken.current().tokenString, photourl: photourl, isfb:true)
                 
             } else {
-                self.showProgress(title: "SIGNING IN FACEBOOK", comment: "facebook", visibility: false)
+                self.showProgress(title: "SIGNING IN FACEBOOK".localizedToLanguage(languageSymbol: self.defaults.fetchSelectedLanguage()), comment: "facebook", visibility: false)
             }
         })
     }
@@ -77,7 +84,7 @@ extension LoginViewController: GIDSignInDelegate, GIDSignInUIDelegate{
     func sign(_ signIn: GIDSignIn!, didSignInFor user: GIDGoogleUser!, withError error: Error!) {
         
         if error != nil {
-            self.showProgress(title: "SIGNING IN GOOGLE", comment: "google", visibility: false)
+            self.showProgress(title: "SIGNING IN GOOGLE".localizedToLanguage(languageSymbol: defaults.fetchSelectedLanguage()), comment: "google", visibility: false)
             return
         }
         
@@ -85,7 +92,8 @@ extension LoginViewController: GIDSignInDelegate, GIDSignInUIDelegate{
         
         if(signIn.currentUser.profile.hasImage){
             imageurl = signIn.currentUser.profile.imageURL(withDimension: 160).absoluteString
-        }else {
+        }
+        else {
             imageurl = "http://vortexapp.ca/montrealadmin/assets/img/avatar.png"
         }
         registerUserInOurDatabase(name: signIn.currentUser.profile.name, userid: signIn.currentUser.userID, accessToken: signIn.currentUser.authentication.accessToken, photourl: imageurl, isfb: false)
@@ -167,12 +175,17 @@ extension LoginViewController: GIDSignInDelegate, GIDSignInUIDelegate{
     //Mark: - Manage Snipper and login buttons interaction
     func showProgress(title: String, comment: String, visibility: Bool)  {
         DispatchQueue.main.async {
-            let alert = UIAlertController(title: NSLocalizedString("Error", comment:"null link title"), message: NSLocalizedString("Ther is a problem in login!", comment:"null link message"), preferredStyle: .alert)
-            alert.addAction(UIAlertAction(title: NSLocalizedString("OK", comment:"ok"), style: .default, handler: nil))
+            let alert = UIAlertController(title: "Error".localizedToLanguage(languageSymbol: self.defaults.fetchSelectedLanguage()), message: "There is a problem in login!".localizedToLanguage(languageSymbol: self.defaults.fetchSelectedLanguage()), preferredStyle: .alert)
+            
+            alert.addAction(UIAlertAction(title: "OK".localizedToLanguage(languageSymbol: self.defaults.fetchSelectedLanguage()), style: .default, handler: nil))
+            
             if (visibility == true) {
                 KVSpinnerView.show(on: self.view, saying:title)
-            } else {
+            }
+            else {
+            
                 KVSpinnerView.dismiss()
+                
                 self.present(alert, animated: true, completion: nil)
             }
         }

@@ -16,6 +16,7 @@ class ARListViewController: AdViewController,UITableViewDelegate,UITableViewData
     var promotions : [NSDictionary] = []
 //    var baseImageUrl: String = ""
     let types = ["All", "Restaurant", "Beauty & Health", "Attraction", "Boutique"]
+    
     let typeimgs = ["jobs", "resto-listicon", "salon-iconlist", "attraction-iconlist", "boutique-listicon"]
     var selectedPlaces:[ARPlace]?
     var arViewController: ARViewController!
@@ -25,13 +26,14 @@ class ARListViewController: AdViewController,UITableViewDelegate,UITableViewData
     
     @IBOutlet weak var tableView: UITableView!
  
+    let defaults = UserDefaults.standard
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         tableView.delegate = self
         tableView.dataSource = self
-        self.title = "AR View"
+        self.title = "AR View".localizedToLanguage(languageSymbol: defaults.fetchSelectedLanguage())
         getPromotions()
     
     }
@@ -64,11 +66,27 @@ extension ARListViewController{
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "ARCategoryListCell") as! ARCategoryListCell
-        cell.titleLabel.text = self.types[indexPath.row]
+        
+        let strTxt = setLanguageLocalization(index: indexPath.row)
+            
+            cell.titleLabel.text = strTxt
+//        cell.titleLabel.text = self.types[indexPath.row]
         cell.iconView.image = UIImage(named: typeimgs[indexPath.row])
         return cell
     }
     
+    
+    func setLanguageLocalization(index: Int) -> String {
+        
+        let strSelectedLanguage = defaults.fetchSelectedLanguage()
+    
+        let strKey = types[index]
+        
+        let strLocalized = strKey.localizedToLanguage(languageSymbol: strSelectedLanguage)
+        
+        return strLocalized
+        
+        }
     
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
@@ -84,7 +102,9 @@ extension ARListViewController{
         if indexPath.row >= 1 {
             selectedPlaces = extractARPlace(promotions: promotions, selectedType: selectedType)
             
-        }else{
+        }
+        else {
+            
             selectedPlaces = extractARPlace(promotions: promotions, selectedType: nil)
             
         }
@@ -112,8 +132,6 @@ extension ARListViewController{
             place.desc = desc
             place.googleLink = googleLink
             place.imagename = imageName
-            
-            
             
             if selectedType != nil {
                 if place.type == selectedType{

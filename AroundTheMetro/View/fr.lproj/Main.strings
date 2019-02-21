@@ -1,0 +1,96 @@
+
+/* Class = "UIButton"; normalTitle = "LOG IN WITH GOOGLE"; ObjectID = "25D-WO-GMB"; */
+"25D-WO-GMB.normalTitle" = "LOG IN WITH GOOGLE";
+
+/* Class = "UINavigationItem"; title = "Contact"; ObjectID = "2C1-St-xX2"; */
+"2C1-St-xX2.title" = "Contact";
+
+/* Class = "UIButton"; normalTitle = "G+"; ObjectID = "397-fJ-ABc"; */
+"397-fJ-ABc.normalTitle" = "G+";
+
+/* Class = "UINavigationItem"; title = "City"; ObjectID = "57R-O4-7iF"; */
+"57R-O4-7iF.title" = "City";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "5AN-OI-zNW"; */
+"5AN-OI-zNW.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "68T-ky-XZA"; */
+"68T-ky-XZA.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "TW"; ObjectID = "6Uk-ub-aJ0"; */
+"6Uk-ub-aJ0.normalTitle" = "TW";
+
+/* Class = "UILabel"; text = "Type: "; ObjectID = "C28-Wn-ar1"; */
+"C28-Wn-ar1.text" = "Type: ";
+
+/* Class = "UILabel"; text = "Metro:"; ObjectID = "Dbr-DN-cU9"; */
+"Dbr-DN-cU9.text" = "Metro:";
+
+/* Class = "UITextView"; text = "A World to Discover Around the Metro.\nFind everything you need in a short walking distance from any metro system in the world on our hyperlocal and global platform.\n\n\n"; ObjectID = "FIa-TD-gby"; */
+"FIa-TD-gby.text" = "A World to Discover Around the Metro.\nFind everything you need in a short walking distance from any metro system in the world on our hyperlocal and global platform.\n\n\n";
+
+/* Class = "UIButton"; normalTitle = "Log out"; ObjectID = "G9c-1O-VBU"; */
+"G9c-1O-VBU.normalTitle" = "Log out";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "I5S-yD-ScH"; */
+"I5S-yD-ScH.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UIButton"; normalTitle = "Confirm"; ObjectID = "IPe-yV-E2s"; */
+"IPe-yV-E2s.normalTitle" = "Confirm";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "JfU-iV-r3a"; */
+"JfU-iV-r3a.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Call Us"; ObjectID = "LLy-nk-kDM"; */
+"LLy-nk-kDM.normalTitle" = "Call Us";
+
+/* Class = "UILabel"; text = "Around "; ObjectID = "McU-hc-qcb"; */
+"McU-hc-qcb.text" = "Around ";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "PdN-uB-2AU"; */
+"PdN-uB-2AU.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Website"; ObjectID = "QAF-iP-dX9"; */
+"QAF-iP-dX9.normalTitle" = "Website";
+
+/* Class = "UINavigationItem"; title = "Profile"; ObjectID = "Ved-Wx-T1e"; */
+"Ved-Wx-T1e.title" = "Profile";
+
+/* Class = "UILabel"; text = "Mall: "; ObjectID = "Xiu-1f-eax"; */
+"Xiu-1f-eax.text" = "Mall: ";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "eyn-Gn-U46"; */
+"eyn-Gn-U46.text" = "Label";
+
+/* Class = "UILabel"; text = "ShopName"; ObjectID = "fMk-mu-7y2"; */
+"fMk-mu-7y2.text" = "ShopName";
+
+/* Class = "UIButton"; normalTitle = "FB"; ObjectID = "gnh-if-iu9"; */
+"gnh-if-iu9.normalTitle" = "FB";
+
+/* Class = "UIButton"; normalTitle = "CANCEL"; ObjectID = "hEy-oo-Alp"; */
+"hEy-oo-Alp.normalTitle" = "CANCEL";
+
+/* Class = "UINavigationItem"; title = "Home"; ObjectID = "nia-2u-6B7"; */
+"nia-2u-6B7.title" = "Home";
+
+/* Class = "UILabel"; text = "Select Country And City"; ObjectID = "oxz-uh-VhA"; */
+"oxz-uh-VhA.text" = "Select Country And City";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "pRD-Qe-XaB"; */
+"pRD-Qe-XaB.text" = "Label";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "pie-Hl-ctb"; */
+"pie-Hl-ctb.title" = "Item";
+
+/* Class = "UILabel"; text = "The Metro"; ObjectID = "rIw-at-Igd"; */
+"rIw-at-Igd.text" = "The Metro";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "rSf-DB-CYH"; */
+"rSf-DB-CYH.title" = "Item";
+
+/* Class = "UIButton"; normalTitle = "LOG IN WITH FACEBOOK"; ObjectID = "uTI-1z-67a"; */
+"uTI-1z-67a.normalTitle" = "LOG IN WITH FACEBOOK";
+
+/* Class = "UIButton"; normalTitle = "Email"; ObjectID = "vyM-bG-lp8"; */
+"vyM-bG-lp8.normalTitle" = "Email";

@@ -13,17 +13,23 @@ import FBSDKShareKit
 
 public class ShareViewController: UIViewController,MFMailComposeViewControllerDelegate,SFSafariViewControllerDelegate,FBSDKSharingDelegate{
     
+
     override public func viewDidLoad() {
         super.viewDidLoad()
+        
+        
         
     }
     
     @IBAction func emailAction(_ sender: Any) {
         
         if MFMailComposeViewController.canSendMail(){
+            
             let mail = MFMailComposeViewController()
+            
             mail.mailComposeDelegate = self
-            Public.shareByEmail(destination: "", subject: "ATM", body: Constants.ATM_WEB_ADDRESS, mailComposeVC: mail, vc: self)
+            
+            Public.shareByEmail(destination: "", subject: "ATM".localizedToLanguage(languageSymbol: UserDefaults.standard.fetchSelectedLanguage()), body: Constants.ATM_WEB_ADDRESS, mailComposeVC: mail, vc: self)
             }
     }
     

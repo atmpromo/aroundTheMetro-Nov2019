@@ -32,6 +32,8 @@ class PlaceDetailViewController: AdViewController {
     @IBOutlet weak var websiteBtn: UIButton!
     
     
+    let defaults = UserDefaults.standard
+    
     @IBAction func callUsBtnTapped(_ sender: UIButton) {
         let p = (place["name"] as? String)!
         Analytics.logEvent("call_placed", parameters: [
@@ -44,15 +46,22 @@ class PlaceDetailViewController: AdViewController {
     
     
     @IBAction func websiteBtnTapped(_ sender: UIButton) {
+        
         let p = (place["name"] as? String)!
+        
         Analytics.logEvent("website_clicked", parameters: [
             "place": p as NSObject,
             "url": websiteAddress ?? "no url" as NSObject
             ])
+        
         let rentFormVC = self.storyboard?.instantiateViewController(withIdentifier: "rentFormViewController") as! RentFormViewController
+        
         rentFormVC.titlename = (place["name"] as? String)!
+        
         rentFormVC.url = websiteAddress! as String
+        
         Public.configureBackButton(vc: self)
+        
         self.navigationController?.pushViewController(rentFormVC, animated: true)
     }
     
@@ -63,22 +72,25 @@ class PlaceDetailViewController: AdViewController {
         
         //Sending info to Firebase (place name of page viewed)
         let p = (place["name"] as? String)!
+        
         Analytics.logEvent("place_page_view", parameters: [
             "place": p as NSObject,
             ])
+        
+        let strSelectedLanguage = defaults.fetchSelectedLanguage()
+        
+        callusBtn.setTitle("Call Us".localizedToLanguage(languageSymbol: strSelectedLanguage), for: .normal)
+        
+        websiteBtn.setTitle("Website".localizedToLanguage(languageSymbol: strSelectedLanguage), for: .normal)
         
 //        print(place)
         setupView()
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
 
     
-    func setupView()  {
+    func setupView() {
+
         self.title = place["name"] as? String
         
         let imagename = place["imagename"] as? String
@@ -94,35 +106,51 @@ class PlaceDetailViewController: AdViewController {
             }else if type == NSLocalizedString("Restaurant", comment:"Restaurant") {
                 self.imageView.image = UIImage(named: "resto-listicon")
             }
-        } else {
+        }
+        else {
+            
             self.imageView.kf.setImage(with: URL(string: (self.baseimageurl! + imagename!) as String)!)
         }
         
         titleLabel.text = place["name"] as? String
         
-        if let type = place["type"] as? String{
-            typeLabel.text = "Type : \(type)" }else{ typeLabel.text = ""}
+        if let type = place["type"] as? String {
         
-        if let metroName = place["metroname"] as? String{
-            metroLabel.text = "Metro : \(metroName)" }else{ metroLabel.text = ""}
-        
-        if let mallname = place["mallname"] as? String{
-            mallLabel.text = "Mall : \(mallname)" }else{ mallLabel.text = ""}
-        
-        websiteAddress = place["website"] as? String
-        if ( websiteAddress == nil || websiteAddress?.count == 0 ) {
-        websiteBtn.isHidden = true
+            typeLabel.text = "Type : \(type)".localizedToLanguage(languageSymbol: defaults.fetchSelectedLanguage()) }else {
+            typeLabel.text = ""
         }
         
+        if let metroName = place["metroname"] as? String {
+            
+            let strMetro = "Metro".localizedToLanguage(languageSymbol: defaults.fetchSelectedLanguage())
+            
+            metroLabel.text = "\(strMetro) : \(metroName)"
+        }
+        else {
+
+            metroLabel.text = ""
+        }
+        
+        if let mallname = place["mallname"] as? String{
+            
+            let strMall = "Mall".localizedToLanguage(languageSymbol: defaults.fetchSelectedLanguage())
+            
+            mallLabel.text = "\(strMall) : \(mallname)" }else{ mallLabel.text = ""}
+        
+        websiteAddress = place["website"] as? String
+        
+        if ( websiteAddress == nil || websiteAddress?.count == 0 ) {
+            
+            websiteBtn.isHidden = true
+        }
         
         
         //In new API Maybe it is phone instead of contact
         phoneNumber = place["contact"] as? String
-        if ( phoneNumber == nil || phoneNumber?.count == 0 ) {
+
+        if (phoneNumber == nil || phoneNumber?.count == 0) {
+            
             callusBtn.isHidden = true
         }
-
     }
-    
-
 }

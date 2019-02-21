@@ -99,15 +99,24 @@ private extension InfiniteCollectionView {
             } else {
                 contentOffset = CGPoint(x: centerX + offsetCorrection, y: currentOffset.y)
             }
+            
             let offset = correctedIndex(shiftCells)
+            
             indexOffset += offset
+            
             reloadData()
         }
+        
         let centerPoint = CGPoint(x: scrollView.frame.size.width / 2 + scrollView.contentOffset.x, y: scrollView.frame.size.height / 2 + scrollView.contentOffset.y)
+        
         guard let indexPath = indexPathForItem(at: centerPoint) else { return }
+        
         pageIndex = correctedIndex(indexPath.item - indexOffset)
+        
         infiniteDelegate?.scrollView?(scrollView, pageIndex: pageIndex)
     }
+    
+    
     func correctedIndex(_ indexToCorrect: Int) -> Int {
         guard let numberOfItems = infiniteDataSource?.number(ofItems: self) else { return 0 }
         if numberOfItems > indexToCorrect && indexToCorrect >= 0 {

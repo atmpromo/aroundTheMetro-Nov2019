@@ -17,6 +17,8 @@ import Kingfisher
 var bannerimages : [NSDictionary] = []
 
 public class HomeViewController: AdViewController, UIGestureRecognizerDelegate, MenusProtocol, BannerImagesProtocol {
+    
+    
     @IBOutlet weak var tableView: UITableView! {
         didSet {
             tableView.delegate = self
@@ -24,12 +26,16 @@ public class HomeViewController: AdViewController, UIGestureRecognizerDelegate, 
             tableView.separatorStyle = .none
         }
     }
+    
+    
     public override func viewDidLoad() {
         super.viewDidLoad()
+        
         getBannerImages()
         
         self.navigationItem.title = Public.CityName
-        }
+    }
+    
     public override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
     }

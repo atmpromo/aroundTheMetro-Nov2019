@@ -87,7 +87,7 @@ public class LeftMenuViewController: UIViewController, UITableViewDelegate, UITa
     }
     
     
-    func pushToMenuItem(vc : UIViewController){
+    func pushToMenuItem(vc : UIViewController) {
         self.sideMenuViewController!.setContentViewController(UINavigationController.init(rootViewController: vc), animated: true)
         self.sideMenuViewController!.hideMenuViewController()
     }
@@ -126,34 +126,61 @@ public class LeftMenuViewController: UIViewController, UITableViewDelegate, UITa
         
         //row zero for profile image and name / others for icons
             if (indexPath.row == 0) {
+                
                 cell!.textLabel?.font = UIFont.init(name: "HelveticaNeue", size: 19)
-            } else {
+            }
+            else {
+            
                 cell!.textLabel?.font = UIFont.init(name: "HelveticaNeue", size: 16)
             }
         
-            cell!.textLabel?.textColor = UIColor.white
-            cell!.textLabel?.highlightedTextColor = UIColor.white
-            cell!.selectedBackgroundView = UIView.init()
-
         
+        cell!.textLabel?.textColor = UIColor.white
+        
+        cell!.textLabel?.highlightedTextColor = UIColor.white
+
+        cell!.selectedBackgroundView = UIView.init()
         
         if (indexPath.row != 0) {
-            cell!.textLabel?.text = NSLocalizedString(Constants.titles[indexPath.row - 1], comment: Constants.titles[indexPath.row - 1])
+            
+            let strTxt = fetchLanguageLocalization(index: indexPath.row - 1)
+            
+            cell!.textLabel?.text =  strTxt
+//            cell!.textLabel?.text = NSLocalizedString(Constants.titles[indexPath.row - 1], comment: Constants.titles[indexPath.row - 1])
             cell!.imageView?.image = UIImage.init(named:Constants.titlesImages[indexPath.row - 1])
-        } else {
+        }
+        else {
+        
             let text:String! = (Public.currentUser?.profileName) ?? ""
+            
             cell!.textLabel?.text = text
+            
             cell?.imageView?.layer.cornerRadius = 20
+            
             cell?.imageView?.layer.masksToBounds = true
             
-            if Public.currentUser?.profileImgUrl != nil && Public.currentUser?.profileImgUrl != ""{
-                cell!.imageView?.kf.setImage(with: URL(string: (Public.currentUser?.profileImgUrl)!)!)
-            }else{
-            cell!.imageView?.image = #imageLiteral(resourceName: "avatar-1")
-            }
+            if Public.currentUser?.profileImgUrl != nil && Public.currentUser?.profileImgUrl != "" {
             
+                cell!.imageView?.kf.setImage(with: URL(string: (Public.currentUser?.profileImgUrl)!)!)
+            }
+            else {
+            
+                cell!.imageView?.image = #imageLiteral(resourceName: "avatar-1")
+            }
         }
-
         return cell!
+    }
+    
+    
+    
+    func fetchLanguageLocalization(index: Int) -> String {
+        
+        let key = Constants.titles[index]
+        
+        let strLanguageSelected = UserDefaults.standard.fetchSelectedLanguage()
+        
+        let strLocalized = key.localizedToLanguage(languageSymbol: strLanguageSelected)
+        
+        return strLocalized
     }
 }

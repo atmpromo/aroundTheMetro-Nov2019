@@ -69,7 +69,7 @@
                                     <constraint firstAttribute="height" constant="47" id="jZR-yz-Vh9"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_fr" translatesAutoresizingMaskIntoConstraints="NO" id="vaY-Fc-hn9">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_fr_en" translatesAutoresizingMaskIntoConstraints="NO" id="vaY-Fc-hn9">
                                 <rect key="frame" x="16.5" y="192" width="287" height="147"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="147" id="F6g-0X-oCL"/>
@@ -100,6 +100,7 @@
                     <connections>
                         <outlet property="facebookLoginBtn" destination="uTI-1z-67a" id="m0k-oI-I94"/>
                         <outlet property="googleLoginBtn" destination="25D-WO-GMB" id="FYv-BU-zKy"/>
+                        <outlet property="imgViewLogo" destination="vaY-Fc-hn9" id="sJl-UZ-npa"/>
                         <segue destination="0Ge-s6-ihM" kind="show" identifier="sideMenuRoot" id="bOq-xF-oIh"/>
                     </connections>
                 </viewController>
@@ -176,7 +177,9 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="btnConfirmOutlet" destination="IPe-yV-E2s" id="FP6-3r-gp7"/>
                         <outlet property="cityLable" destination="oxz-uh-VhA" id="FCF-uz-9c8"/>
+                        <outlet property="navigationItemTitle" destination="57R-O4-7iF" id="lgl-qI-J9N"/>
                         <outlet property="pickerView" destination="XaI-BH-YQh" id="J8v-sL-yOu"/>
                     </connections>
                 </viewController>
@@ -903,7 +906,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalCentering" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="zN4-8p-FAk">
-                                <rect key="frame" x="60" y="147.5" width="200" height="273"/>
+                                <rect key="frame" x="60" y="117" width="200" height="273"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="avatar-1" translatesAutoresizingMaskIntoConstraints="NO" id="ynZ-oH-khE">
                                         <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
@@ -942,13 +945,70 @@
                                     <action selector="logOutTapped:" destination="ulF-BA-WKn" eventType="touchUpInside" id="QNh-48-x6S"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="faU-Nh-SVa">
+                                <rect key="frame" x="94" y="416" width="132" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="K0K-9y-Pbb"/>
+                                </constraints>
+                                <state key="normal" title="Change Language"/>
+                                <connections>
+                                    <action selector="btnChangeLanguageAction:" destination="ulF-BA-WKn" eventType="touchUpInside" id="OXf-9T-B5N"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jmf-fv-Mcf">
+                                <rect key="frame" x="0.0" y="322" width="320" height="196"/>
+                                <subviews>
+                                    <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TPH-yj-f4J">
+                                        <rect key="frame" x="0.0" y="44" width="320" height="152"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="152" id="7bS-Q2-6gG"/>
+                                        </constraints>
+                                    </pickerView>
+                                    <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="53l-Jc-Ymy">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="44" id="cJp-Po-mrP"/>
+                                        </constraints>
+                                        <items>
+                                            <barButtonItem title="Cancel" id="cSy-7u-uKs">
+                                                <connections>
+                                                    <action selector="btnCanelAction:" destination="ulF-BA-WKn" id="T4V-HU-z2Z"/>
+                                                </connections>
+                                            </barButtonItem>
+                                            <barButtonItem style="plain" systemItem="flexibleSpace" id="WkV-q0-eUe"/>
+                                            <barButtonItem title="Done" id="gsE-kf-wkc">
+                                                <connections>
+                                                    <action selector="btnDoneBarAction:" destination="ulF-BA-WKn" id="w4G-ye-ARk"/>
+                                                </connections>
+                                            </barButtonItem>
+                                        </items>
+                                    </toolbar>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="TPH-yj-f4J" secondAttribute="trailing" id="IQS-zD-MnQ"/>
+                                    <constraint firstAttribute="height" constant="196" id="Mdm-FB-Y61"/>
+                                    <constraint firstItem="TPH-yj-f4J" firstAttribute="leading" secondItem="jmf-fv-Mcf" secondAttribute="leading" id="S2S-Vu-oGS"/>
+                                    <constraint firstAttribute="trailing" secondItem="53l-Jc-Ymy" secondAttribute="trailing" id="gWQ-RI-Yfm"/>
+                                    <constraint firstItem="TPH-yj-f4J" firstAttribute="top" secondItem="53l-Jc-Ymy" secondAttribute="bottom" id="pQW-58-ICq"/>
+                                    <constraint firstItem="53l-Jc-Ymy" firstAttribute="leading" secondItem="jmf-fv-Mcf" secondAttribute="leading" id="pp5-Ev-c1w"/>
+                                    <constraint firstItem="53l-Jc-Ymy" firstAttribute="top" secondItem="jmf-fv-Mcf" secondAttribute="top" id="w3w-Tw-oWv"/>
+                                    <constraint firstAttribute="bottom" secondItem="TPH-yj-f4J" secondAttribute="bottom" id="z3B-HI-XLs"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="G9c-1O-VBU" firstAttribute="top" secondItem="zN4-8p-FAk" secondAttribute="bottom" constant="33.5" id="Aqf-w5-tXK"/>
+                            <constraint firstItem="faU-Nh-SVa" firstAttribute="top" secondItem="zN4-8p-FAk" secondAttribute="bottom" constant="26" id="0iS-bQ-3Jw"/>
+                            <constraint firstItem="faU-Nh-SVa" firstAttribute="leading" secondItem="fyb-ST-nrt" secondAttribute="leading" constant="94" id="6JD-QQ-SKJ"/>
+                            <constraint firstItem="G9c-1O-VBU" firstAttribute="top" secondItem="zN4-8p-FAk" secondAttribute="bottom" constant="64" id="Aqf-w5-tXK"/>
+                            <constraint firstItem="jmf-fv-Mcf" firstAttribute="trailing" secondItem="fyb-ST-nrt" secondAttribute="trailing" id="Cb6-ym-W3B"/>
                             <constraint firstItem="zN4-8p-FAk" firstAttribute="centerX" secondItem="fyb-ST-nrt" secondAttribute="centerX" id="LiY-Z8-0cE"/>
                             <constraint firstItem="G9c-1O-VBU" firstAttribute="centerX" secondItem="8aj-dr-POE" secondAttribute="centerX" id="YWe-Nt-Xqf"/>
-                            <constraint firstItem="zN4-8p-FAk" firstAttribute="centerY" secondItem="8aj-dr-POE" secondAttribute="centerY" id="dcd-lN-LRe"/>
+                            <constraint firstItem="fyb-ST-nrt" firstAttribute="trailing" secondItem="faU-Nh-SVa" secondAttribute="trailing" constant="94" id="ZbZ-z9-L7d"/>
+                            <constraint firstItem="zN4-8p-FAk" firstAttribute="centerY" secondItem="8aj-dr-POE" secondAttribute="centerY" constant="-30.5" id="dcd-lN-LRe"/>
+                            <constraint firstItem="fyb-ST-nrt" firstAttribute="bottom" secondItem="jmf-fv-Mcf" secondAttribute="bottom" constant="50" id="n7s-pM-8qk"/>
+                            <constraint firstItem="jmf-fv-Mcf" firstAttribute="leading" secondItem="fyb-ST-nrt" secondAttribute="leading" id="rp0-b5-hd3"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="fyb-ST-nrt"/>
                     </view>
@@ -962,14 +1022,21 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="btnCancelOutlet" destination="cSy-7u-uKs" id="qcQ-yn-l7u"/>
+                        <outlet property="btnChangeLanguage" destination="faU-Nh-SVa" id="wmR-76-bQW"/>
+                        <outlet property="btnDoneBarButton" destination="gsE-kf-wkc" id="p6o-7y-L5C"/>
+                        <outlet property="btnLogout" destination="G9c-1O-VBU" id="Ee4-MD-E9c"/>
+                        <outlet property="navigationItemForTitle" destination="Ved-Wx-T1e" id="GJ9-vn-ijk"/>
+                        <outlet property="pickerViewLanguage" destination="TPH-yj-f4J" id="kff-1H-bi2"/>
                         <outlet property="profileImgView" destination="ynZ-oH-khE" id="J1B-i2-lm2"/>
                         <outlet property="profileNameTextView" destination="PdN-uB-2AU" id="AK9-dQ-XKO"/>
                         <outlet property="profilePlace" destination="JfU-iV-r3a" id="Jew-FH-M6j"/>
+                        <outlet property="viewContainedPicker" destination="jmf-fv-Mcf" id="L37-aa-pYh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1gP-bK-0ct" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2057" y="-1888"/>
+            <point key="canvasLocation" x="2056.875" y="-1888.7323943661972"/>
         </scene>
         <!--Contact-->
         <scene sceneID="NRK-Ia-QB7">
@@ -1099,6 +1166,12 @@ Find everything you need in a short walking distance from any metro system in th
                         </barButtonItem>
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="lblAround" destination="McU-hc-qcb" id="EPV-j1-JjN"/>
+                        <outlet property="lblTheMetro" destination="rIw-at-Igd" id="wjK-ke-Ddu"/>
+                        <outlet property="titleForNavigation" destination="2C1-St-xX2" id="gGT-AR-s3c"/>
+                        <outlet property="txtViewDescription" destination="FIa-TD-gby" id="9ih-Mg-WeM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ewk-Am-pAG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -2265,7 +2338,7 @@ AAAAAAAABAEAAAAAAAAAQQAAAAAAAAAAAAAAAAABCmg
         </image>
         <image name="left-side-menu" width="298.07998657226562" height="529.91998291015625"/>
         <image name="linkedin-button" width="12.800000190734863" height="12.800000190734863"/>
-        <image name="logo_fr" width="672" height="353"/>
+        <image name="logo_fr_en" width="672" height="353"/>
         <image name="right-side-menu" width="298.07998657226562" height="529.91998291015625"/>
         <image name="round_btn" width="84" height="21.600000381469727"/>
         <image name="share-2" width="64" height="64"/>

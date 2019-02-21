@@ -8,7 +8,7 @@
 import UIKit
 import MessageUI
 
-struct Public{
+struct Public {
     
     static func configureBackButton(vc: UIViewController) {
         let backItem = UIBarButtonItem()
@@ -20,11 +20,13 @@ struct Public{
     //MARK: - share something by email
     static func shareByEmail(destination:String,subject:String,body:String,mailComposeVC:
         MFMailComposeViewController,vc:UIViewController)  {
-        mailComposeVC.setToRecipients([destination])
-        mailComposeVC.setSubject(NSLocalizedString(subject, comment: "Subject"))
-        mailComposeVC.setMessageBody(NSLocalizedString(body, comment: "Some Text"), isHTML: false)
-        vc.present(mailComposeVC, animated: true, completion: nil)
         
+        mailComposeVC.setToRecipients([destination])
+    
+    mailComposeVC.setSubject(NSLocalizedString(subject, comment: "Subject"))
+        mailComposeVC.setMessageBody(NSLocalizedString(body, comment: "Some Text"), isHTML: false)
+        
+        vc.present(mailComposeVC, animated: true, completion: nil)
     }
     
     static var currentUser: User?

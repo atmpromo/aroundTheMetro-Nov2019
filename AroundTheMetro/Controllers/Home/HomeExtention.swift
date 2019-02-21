@@ -17,16 +17,27 @@ extension HomeViewController{
         let bannerImage = bannerimages[index]
         
         let link = (bannerImage["link"] as? String)!
+        
         if (link.count > 0 ) {
+            
             let rentFormVC = self.storyboard?.instantiateViewController(withIdentifier: "rentFormViewController") as! RentFormViewController
+            
             rentFormVC.titlename = (bannerImage["title"] as? String)!
+            
             rentFormVC.url = (bannerImage["link"] as? String)!
+            
             Public.configureBackButton(vc:self)
+            
             self.navigationController?.pushViewController(rentFormVC, animated: true)
-        } else {
+        }
+        else {
             SVProgressHUD.dismiss()
-            let alert = UIAlertController(title: NSLocalizedString("Cannot open the website", comment:"null link title"), message: NSLocalizedString("URL not specified", comment:"null link message"), preferredStyle: .alert)
-            alert.addAction(UIAlertAction(title: NSLocalizedString("OK", comment:"ok"), style: .default, handler: nil))
+//            let alert = UIAlertController(title: NSLocalizedString("Cannot open the website", comment:"null link title"), message: NSLocalizedString("URL not specified", comment:"null link message"), preferredStyle: .alert)
+            let strSelectedLanguage = UserDefaults.standard.fetchSelectedLanguage()
+            
+            let alert = UIAlertController(title: "Cannot open the website".localizedToLanguage(languageSymbol: strSelectedLanguage), message: "URL not specified".localizedToLanguage(languageSymbol: strSelectedLanguage), preferredStyle: .alert)
+            
+            alert.addAction(UIAlertAction(title: "OK".localizedToLanguage(languageSymbol: strSelectedLanguage), style: .default, handler: nil))
             self.present(alert, animated: true, completion: nil)
         }
     }

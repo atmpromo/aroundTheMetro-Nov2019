@@ -67,12 +67,31 @@ extension Infinite2TableViewCell: InfiniteCollectionViewDataSource, InfiniteColl
     }
     
     func collectionView(_ collectionView: UICollectionView, dequeueForItemAt dequeueIndexPath: IndexPath, cellForItemAt usableIndexPath: IndexPath) -> UICollectionViewCell {
+        
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: ImageCollectionViewCell.identifier, for: dequeueIndexPath) as! ImageCollectionViewCell
+        
         cell.imageView.image = menu_images[usableIndexPath.row]
-        cell.titleLabel.text = NSLocalizedString(Constants.menu_titles[usableIndexPath.row], comment:Constants.menu_titles[usableIndexPath.row])
+        
+        let strTextFromLocalization = fetchLanguageLoalization(index: usableIndexPath.row)
+        
+        cell.titleLabel.text = strTextFromLocalization
+//        cell.titleLabel.text = NSLocalizedString(Constants.menu_titles[usableIndexPath.row], comment:Constants.menu_titles[usableIndexPath.row])
         cell.iconView.image = menu_icons[usableIndexPath.row]
+        
         cell.configure(indexPath: usableIndexPath)
+        
         return cell
+    }
+    
+    
+    
+    func fetchLanguageLoalization(index: Int) -> String {
+        
+//        UserDefaults.standard.setSelectedLanguage(languageSelected: "zh-Hant")
+        
+        let key = Constants.menu_titles[index]
+        
+        return key.localizedToLanguage(languageSymbol: UserDefaults.standard.fetchSelectedLanguage())
     }
     
     func infiniteCollectionView(_ collectionView: UICollectionView, didSelectItemAt usableIndexPath: IndexPath) {

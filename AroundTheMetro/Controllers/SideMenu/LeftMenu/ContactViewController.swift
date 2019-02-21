@@ -10,10 +10,19 @@ import UIKit
 import MessageUI
 
 class ContactViewController: AdViewController,MFMailComposeViewControllerDelegate {
-
+    
+    
+    @IBOutlet weak var lblTheMetro: UILabel!
+    @IBOutlet weak var lblAround: UILabel!
+    @IBOutlet weak var titleForNavigation: UINavigationItem!
+    
+    @IBOutlet weak var txtViewDescription: UITextView!
+    
     let facebookeAddress:String = "https://www.facebook.com/AroundtheMetro/"
     let twitterAddress:String = "https://twitter.com/"
     let linkedinAddress:String = "https://www.linkedin.com/company/aroundthemetro/"
+    
+    let defaults = UserDefaults.standard
     
     public override func awakeFromNib() {
         super.awakeFromNib()
@@ -21,6 +30,14 @@ class ContactViewController: AdViewController,MFMailComposeViewControllerDelegat
     }
     override public func viewDidLoad() {
         super.viewDidLoad()
+        
+        lblAround.text = "Around".localizedToLanguage(languageSymbol: defaults.fetchSelectedLanguage())
+        
+        lblTheMetro.text = "The Metro".localizedToLanguage(languageSymbol: defaults.fetchSelectedLanguage())
+        
+        titleForNavigation.title = "Contact".localizedToLanguage(languageSymbol: defaults.fetchSelectedLanguage())
+        
+        txtViewDescription.text = "Description".localizedToLanguage(languageSymbol: defaults.fetchSelectedLanguage())
         
     }
     @IBAction func emailAction(_ sender: Any) {
@@ -31,6 +48,8 @@ class ContactViewController: AdViewController,MFMailComposeViewControllerDelegat
         }
     }
    
+    
+    
     @IBAction func facebookAction(_ sender: Any) {
        openUrlWithUIApplication(urlString: facebookeAddress)
     }
