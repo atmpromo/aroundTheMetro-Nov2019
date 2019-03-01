@@ -35,12 +35,17 @@ class PlaceDetailViewController: AdViewController {
     let defaults = UserDefaults.standard
     
     @IBAction func callUsBtnTapped(_ sender: UIButton) {
+        
         let p = (place["name"] as? String)!
+        
         Analytics.logEvent("call_placed", parameters: [
             "place": p as NSObject,
             "phoneNumber": phoneNumber ?? "not a number" as NSObject
             ])
-        guard let number = URL(string: "telprompt://" + phoneNumber!) else {return}
+        
+        guard let number = URL(string: "telprompt://" + phoneNumber!) else {
+            return}
+        
         UIApplication.shared.open(number, options: [:], completionHandler: nil)
     }
     
@@ -69,7 +74,6 @@ class PlaceDetailViewController: AdViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        
         //Sending info to Firebase (place name of page viewed)
         let p = (place["name"] as? String)!
         

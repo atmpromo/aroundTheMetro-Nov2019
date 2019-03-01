@@ -69,9 +69,11 @@ class LoginViewController: UIViewController {
         case "en":
             
             imgViewLogo.image = UIImage.init(named: "logo_fr_en")
+            
         case "fr":
             
             imgViewLogo.image = UIImage.init(named: "logo_fr_fr")
+        
         case "es":
             
             imgViewLogo.image = UIImage.init(named: "logo_fr_es")
@@ -79,6 +81,7 @@ class LoginViewController: UIViewController {
         case "zh-Hant":
             
             imgViewLogo.image = UIImage.init(named: "logo_fr_zh")
+        
         default:
             
             imgViewLogo.image = UIImage.init(named: "logo_fr_en")

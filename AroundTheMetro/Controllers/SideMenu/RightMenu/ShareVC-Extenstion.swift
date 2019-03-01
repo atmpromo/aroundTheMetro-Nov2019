@@ -34,6 +34,7 @@ extension ShareViewController{
     //SFSafariViewControllerDelegate function
     //dissmiss safari
     public func safariViewControllerDidFinish(_ controller: SFSafariViewController) {
+        
         print("safariViewControllerDidFinish")
     }
     
@@ -41,31 +42,37 @@ extension ShareViewController{
     
     //MARK: - Share in Twitter
     func shareInTwT(content: String,isURL: Bool) {
+        
         let composer = TWTRComposer()
         
-        if isURL{
+        if isURL {
+            
             composer.setURL(URL(string: content))
         }
         else {
+            
             composer.setText(content)
         }
         
         // Called from a UIViewController
         composer.show(from: self) { result in
-            if (result == TWTRComposerResult.done){
+            
+            if (result == TWTRComposerResult.done) {
                 
                 print("Tweet composition success")
             }
-            else if (result == TWTRComposerResult.cancelled){
+            else if (result == TWTRComposerResult.cancelled) {
                 
                 print("Tweet composition cancelled")
-                }
+            }
         }
     }
+    
   //**************************************
   
     //Mark: - Share in Facebook
     func shareInFacebook(content: String,isUrl: Bool)  {
+        
         let contentObj: FBSDKShareLinkContent = FBSDKShareLinkContent()
         
         if isUrl{
@@ -88,8 +95,10 @@ extension ShareViewController{
         fShareDialog.show()
     }
     
+    
     //FBSDKSharingDelegate functions
     public func sharer(_ sharer: FBSDKSharing!, didCompleteWithResults results: [AnyHashable : Any]!) {
+    
         print("didCompleteWithResults")
     }
     

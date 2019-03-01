@@ -12,7 +12,9 @@ import GoogleMobileAds
 import AudioToolbox
 
 public class AdViewController : UIViewController,GADBannerViewDelegate {
+    
     var adMobBannerView = GADBannerView()
+    
     public override func viewDidLoad() {
         super.viewDidLoad()
         // Init AdMob banner

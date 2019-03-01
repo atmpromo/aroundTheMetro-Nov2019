@@ -21,14 +21,19 @@ extension AppDelegate{
     
     //set Default value
     func setDefaults() {
-        if let city = defaults.string(forKey: "city"){
+        
+        if let city = defaults.string(forKey: "city") {
+            
             Public.CityName = city
         }
-        if let country = defaults.string(forKey: "country"){
+        if let country = defaults.string(forKey: "country") {
+            
             Public.CountryName = country
         }
+        
         if  let userData = defaults.data(forKey: "currentUser"),
             let currenUser = try? JSONDecoder().decode(User.self, from: userData){
+            
             Public.currentUser = currenUser
         }
     }

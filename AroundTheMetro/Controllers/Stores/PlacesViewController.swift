@@ -88,6 +88,7 @@ class PlacesViewController: TabmanViewController, PageboyViewControllerDataSourc
     
     public override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        
         self.allPlaceViewController.mode = self.mode
         
         NSLog("PlacesViewController : viewWillAppear")
@@ -99,8 +100,10 @@ class PlacesViewController: TabmanViewController, PageboyViewControllerDataSourc
         case .Attractions:
             
             self.navigationItem.title = "Attractions".localizedToLanguage(languageSymbol: strSelectedLanguage)
+            
             //self.titleLabel.text = NSLocalizedString("Attractions", comment:"Attractions")
             getAttractions()
+            
             break
         case .BeautyHealth:
             

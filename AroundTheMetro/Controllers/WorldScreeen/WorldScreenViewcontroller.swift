@@ -94,9 +94,13 @@ class WorldScreenViewcontroller: AdViewController, UIPickerViewDataSource,UIPick
     }
     
     override func viewWillAppear(_ animated: Bool) {
+        
         SVProgressHUD.show()
+        
         self.countries = demoCountries
+        
         SVProgressHUD.dismiss()
+        
         //        fetchCountriesAndCities {
         //            SVProgressHUD.dismiss(completion: {
         //                self.pickerView.reloadAllComponents()
