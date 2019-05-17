@@ -21,7 +21,11 @@ class FeedbackViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        
+        self.designLayout()
+    }
+    
+    
+    func designLayout() {
         //Send button
         sendButton.layer.borderWidth = 1
         sendButton.layer.borderColor = UIColor.black.cgColor
@@ -30,8 +34,6 @@ class FeedbackViewController: UIViewController {
         //Feedback comment text view
         feedbackCommenyTV.layer.borderWidth = 1
         feedbackCommenyTV.layer.borderColor = UIColor.black.cgColor
-        
-        
     }
     
     @IBAction func smileyClick(_ sender: Any) {
@@ -61,6 +63,10 @@ class FeedbackViewController: UIViewController {
     }
     */
     @IBAction func sendButtonClick(_ sender: Any) {
+        let ratingCount = self.selectedSmiley
+        let commentText = feedbackCommenyTV.text
+        
+        NSLog("Rating: %d, Comment: %s", [ratingCount, commentText ?? ""])
     }
     
 }
