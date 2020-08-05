@@ -28,11 +28,27 @@ struct Constants{
 //    static let API_URL_DEVELOPMENT = NSLocalizedString("\(API_URL_BASE)\(Public.CountryName)/\(Public.CityName)", comment: "myurl")
     
     
- 
-  
-    static let titles = ["Home","My Profile","Change City","Contact us"]
-    static let titlesImages: [String] = ["home-icon", "profile-icon","city-icon","contactus-icon"]
-    
+    struct MenuItem {
+        let title: String
+        let titleImageName: String
+    }
+
+    enum MenuItems: Int, CaseIterable {
+        case home
+        case profile
+        case changeCity
+        case contactUs
+
+        var item: MenuItem {
+            switch self {
+            case .home: return MenuItem(title: "Home", titleImageName: "home-icon")
+            case .profile: return MenuItem(title: "My Profile", titleImageName: "profile-icon")
+            case .changeCity: return MenuItem(title: "Change City", titleImageName: "city-icon")
+            case .contactUs: return MenuItem(title: "Contact us", titleImageName: "contactus-icon")
+            }
+        }
+    }
+
     static let menu_titles = [
         "Metro Plan",
         "AR View",

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		15C44D08274FE844BFD44660 /* Pods_AroundTheMetro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E72125C097C99A225838A5BC /* Pods_AroundTheMetro.framework */; };
+		1F8CFF8024DB50300079FAA7 /* Features.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8CFF7F24DB50300079FAA7 /* Features.swift */; };
 		3C39E991221D774B004E0461 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51AC8A0D21AB5A3A0077B935 /* Assets.xcassets */; };
 		3C4C0804221C13CA0030A545 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C4C0806221C13CA0030A545 /* InfoPlist.strings */; };
 		3CF56001221BC31200C68100 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3CF56003221BC31200C68100 /* Localizable.strings */; };
@@ -59,6 +60,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F8CFF7F24DB50300079FAA7 /* Features.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features.swift; sourceTree = "<group>"; };
 		3C4C0805221C13CA0030A545 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3C4C0807221C13DA0030A545 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3C4C0808221C13F10030A545 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -280,6 +282,7 @@
 				4F3EE0B21FF959FD00D500BC /* Constants.swift */,
 				4F8B5F95204386FB00438C6A /* AdViewController.swift */,
 				4F3EE0B01FF959EC00D500BC /* Public.swift */,
+				1F8CFF7F24DB50300079FAA7 /* Features.swift */,
 			);
 			path = Public;
 			sourceTree = "<group>";
@@ -663,6 +666,7 @@
 				4F4586B72016D25F00845630 /* RentFormViewController.swift in Sources */,
 				4F3EE09F1FF958A200D500BC /* AppDelegateExtensions.swift in Sources */,
 				4F87E17F20293FF700867F74 /* ARTouchedStores.swift in Sources */,
+				1F8CFF8024DB50300079FAA7 /* Features.swift in Sources */,
 				4F8B5F7F2039E6B800438C6A /* MetroViewController.swift in Sources */,
 				4F3EE0B91FF95B3300D500BC /* NetworkAdapter.swift in Sources */,
 				4F87E18020293FF700867F74 /* AnnotationView.swift in Sources */,

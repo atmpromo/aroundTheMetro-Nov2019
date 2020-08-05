@@ -39,9 +39,7 @@ public class LeftMenuViewController: UIViewController, UITableViewDelegate, UITa
         
        
     }
-    
-    
-    
+
     //Mark: - SetupView
     func setupView()  {
         let tableView: UITableView = UITableView.init(frame: CGRect(x: 0, y: (self.view.frame.size.height - (70 + 54 * 8)) / 2.0, width: self.view.frame.size.width, height:(70 + 54 * 8)), style: .plain)
@@ -61,16 +59,16 @@ public class LeftMenuViewController: UIViewController, UITableViewDelegate, UITa
         
     }
 
-    
     // MARK: - <UITableViewDelegate>
 
     public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
 
-        switch indexPath.row {
-        case 1:
+        switch menuIndex(from: indexPath) {
+        case Constants.MenuItems.home.rawValue:
            let HomeVc = storyboard?.instantiateViewController(withIdentifier: "homeViewController") as! HomeViewController
             pushToMenuItem(vc: HomeVc)
-        case 2:
+        case Constants.MenuItems.profile.rawValue:
+            guard Features.isLoginEnabled else { fallthrough }
             if Public.currentUser == nil {
                 let storyboard = UIStoryboard(name: "Main", bundle: nil)
                 let loginVc = storyboard.instantiateViewController(withIdentifier: "loginViewController") as! LoginViewController
@@ -82,11 +80,11 @@ public class LeftMenuViewController: UIViewController, UITableViewDelegate, UITa
                 let ProfileVc = storyboard?.instantiateViewController(withIdentifier: "profileViewController") as! ProfileViewController
                 pushToMenuItem(vc: ProfileVc)
             }
-        case 3:
+        case Constants.MenuItems.changeCity.rawValue:
             let WorldVC = storyboard?.instantiateViewController(withIdentifier: "WorldScreenViewcontroller") as! WorldScreenViewcontroller
              WorldVC.isFromLeftMenu = true
             pushToMenuItem(vc: WorldVC)
-        case 4:
+        case Constants.MenuItems.contactUs.rawValue:
             let ContactVC = storyboard?.instantiateViewController(withIdentifier: "contactViewController") as! ContactViewController
             pushToMenuItem(vc: ContactVC)
         default:
@@ -105,7 +103,7 @@ public class LeftMenuViewController: UIViewController, UITableViewDelegate, UITa
 
     public func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         //row zero for profile image and name / others for icons
-        if (indexPath.row == 0) {
+        if indexPath.row == 0, Features.isLoginEnabled {
             return 70
         } else {
             return 54
@@ -117,7 +115,7 @@ public class LeftMenuViewController: UIViewController, UITableViewDelegate, UITa
     }
 
     public func tableView(_ tableView: UITableView, numberOfRowsInSection sectionIndex: Int) -> Int {
-        return Constants.titles.count + 1
+        return Constants.MenuItems.allCases.count + (Features.isLoginEnabled ? 1 : -1)
     }
 
     public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -128,7 +126,7 @@ public class LeftMenuViewController: UIViewController, UITableViewDelegate, UITa
         cell.backgroundColor = UIColor.clear
         
         // row zero for profile image and name / others for icons
-        if (indexPath.row == 0) {
+        if indexPath.row == 0, Features.isLoginEnabled {
             cell.textLabel?.font = UIFont.init(name: "HelveticaNeue", size: 19)
         }
         else {
@@ -139,11 +137,12 @@ public class LeftMenuViewController: UIViewController, UITableViewDelegate, UITa
         cell.textLabel?.highlightedTextColor = UIColor.white
         cell.selectedBackgroundView = UIView()
         
-        if (indexPath.row != 0) {
-            let strTxt = fetchLanguageLocalization(index: indexPath.row - 1)
+        if indexPath.row != 0 || !Features.isLoginEnabled {
+            let text = fetchLanguageLocalization(index: menuIndex(from: indexPath))
+            let imageName = Constants.MenuItems(rawValue: menuIndex(from: indexPath))?.item.titleImageName ?? ""
             
-            cell.textLabel?.text =  strTxt
-            cell.imageView?.image = UIImage.init(named:Constants.titlesImages[indexPath.row - 1])
+            cell.textLabel?.text =  text
+            cell.imageView?.image = UIImage(named: imageName)
         }
         else {
             let text:String! = (Public.currentUser?.profileName) ?? ""
@@ -165,11 +164,20 @@ public class LeftMenuViewController: UIViewController, UITableViewDelegate, UITa
     }
 
     func fetchLanguageLocalization(index: Int) -> String {
-        
-        let key = Constants.titles[index]
+        let key = Constants.MenuItems(rawValue: index)?.item.title ?? ""
+
         let strLanguageSelected = UserDefaults.standard.fetchSelectedLanguage()
         let strLocalized = key.localizedToLanguage(languageSymbol: strLanguageSelected)
         
         return strLocalized
+    }
+
+    private func menuIndex(from indexPath: IndexPath) -> Int {
+        var index = indexPath.row - (Features.isLoginEnabled ? 1 : 0)
+        if !Features.isLoginEnabled, index > 0 {
+            index += 1
+        }
+
+        return index
     }
 }
