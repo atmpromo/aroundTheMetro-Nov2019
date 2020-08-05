@@ -145,21 +145,12 @@ extension LoginViewController: GIDSignInDelegate, GIDSignInUIDelegate{
     
     //Mark: - navigate to WorldWide View Controller
     func navigateToNextView() {
-       if(Public.CountryName != "" && Public.CityName != ""){
-                DispatchQueue.main.async {
-                    let SideRootVC = self.storyboard?.instantiateViewController(withIdentifier: "sideMenuRoot") as! SideMenuRootController
-                    self.present(SideRootVC, animated: true, completion: nil)
-                }
-        
-            }else {
-        
-                DispatchQueue.main.async {
-                    let WVC = self.storyboard?.instantiateViewController(withIdentifier: "WorldScreenViewcontroller") as! WorldScreenViewcontroller
-                    self.present(WVC, animated: true, completion: nil)
-                }
-            }
+        DispatchQueue.main.async {
+            self.dismiss(animated: true, completion: {
+                self.didDismiss?()
+            })
+        }
     }
-    
     
     func setLocation() {
         if let city = defaults.string(forKey: "city"){

@@ -13,6 +13,8 @@ public class LeftMenuViewController: UIViewController, UITableViewDelegate, UITa
     var tableView: UITableView?
     
     var balanceLabel: UILabel?
+
+    let cellIdentifier: String = "Cell"
     
     public override func awakeFromNib() {
         super.awakeFromNib()
@@ -42,15 +44,17 @@ public class LeftMenuViewController: UIViewController, UITableViewDelegate, UITa
     
     //Mark: - SetupView
     func setupView()  {
-        let tableView: UITableView = UITableView.init(frame: CGRect(x: 0, y: (self.view.frame.size.height - (70 + 54 * 8)) / 2.0, width: self.view.frame.size.width, height:(70 + 54 * 8)), style: UITableViewStyle.plain)
-        tableView.autoresizingMask = [UIViewAutoresizing.flexibleTopMargin, UIViewAutoresizing.flexibleBottomMargin, UIViewAutoresizing.flexibleWidth]
+        let tableView: UITableView = UITableView.init(frame: CGRect(x: 0, y: (self.view.frame.size.height - (70 + 54 * 8)) / 2.0, width: self.view.frame.size.width, height:(70 + 54 * 8)), style: .plain)
+        tableView.autoresizingMask = [.flexibleTopMargin, .flexibleBottomMargin, .flexibleWidth]
         tableView.delegate = self
         tableView.dataSource = self
         tableView.isOpaque = false
-        tableView.backgroundColor = UIColor.clear
+        tableView.backgroundColor = .clear
         tableView.backgroundView = nil
-        tableView.separatorStyle = UITableViewCellSeparatorStyle.none
+        tableView.separatorStyle = .none
         tableView.bounces = false
+
+        tableView.register(UITableViewCell.self, forCellReuseIdentifier: cellIdentifier)
         
         self.tableView = tableView
         self.view.addSubview(self.tableView!)
@@ -67,19 +71,24 @@ public class LeftMenuViewController: UIViewController, UITableViewDelegate, UITa
            let HomeVc = storyboard?.instantiateViewController(withIdentifier: "homeViewController") as! HomeViewController
             pushToMenuItem(vc: HomeVc)
         case 2:
-            let ProfileVc = storyboard?.instantiateViewController(withIdentifier: "profileViewController") as! ProfileViewController
-            pushToMenuItem(vc: ProfileVc)
+            if Public.currentUser == nil {
+                let storyboard = UIStoryboard(name: "Main", bundle: nil)
+                let loginVc = storyboard.instantiateViewController(withIdentifier: "loginViewController") as! LoginViewController
+                loginVc.didDismiss = { [weak self] in
+                    self?.tableView?.reloadData()
+                }
+                self.present(loginVc, animated: true, completion: nil)
+            } else {
+                let ProfileVc = storyboard?.instantiateViewController(withIdentifier: "profileViewController") as! ProfileViewController
+                pushToMenuItem(vc: ProfileVc)
+            }
         case 3:
-            
-            
             let WorldVC = storyboard?.instantiateViewController(withIdentifier: "WorldScreenViewcontroller") as! WorldScreenViewcontroller
              WorldVC.isFromLeftMenu = true
             pushToMenuItem(vc: WorldVC)
-            
         case 4:
             let ContactVC = storyboard?.instantiateViewController(withIdentifier: "contactViewController") as! ContactViewController
             pushToMenuItem(vc: ContactVC)
-         
         default:
            return
         }
@@ -112,73 +121,53 @@ public class LeftMenuViewController: UIViewController, UITableViewDelegate, UITa
     }
 
     public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier) else {
+            fatalError("Unable to dequeue cell")
+        }
 
-        //Constants.profileName
-        //Constants.profileImgUrl
-        let cellIdentifier: String = "Cell"
-
-        var cell: UITableViewCell? = tableView.dequeueReusableCell(withIdentifier: cellIdentifier)
-
-
-            cell = UITableViewCell.init(style: UITableViewCellStyle.default, reuseIdentifier: cellIdentifier)
+        cell.backgroundColor = UIColor.clear
         
-            cell!.backgroundColor = UIColor.clear
-        
-        //row zero for profile image and name / others for icons
-            if (indexPath.row == 0) {
-                
-                cell!.textLabel?.font = UIFont.init(name: "HelveticaNeue", size: 19)
-            }
-            else {
-            
-                cell!.textLabel?.font = UIFont.init(name: "HelveticaNeue", size: 16)
-            }
-        
-        
-        cell!.textLabel?.textColor = UIColor.white
-        
-        cell!.textLabel?.highlightedTextColor = UIColor.white
-
-        cell!.selectedBackgroundView = UIView.init()
-        
-        if (indexPath.row != 0) {
-            
-            let strTxt = fetchLanguageLocalization(index: indexPath.row - 1)
-            
-            cell!.textLabel?.text =  strTxt
-//            cell!.textLabel?.text = NSLocalizedString(Constants.titles[indexPath.row - 1], comment: Constants.titles[indexPath.row - 1])
-            cell!.imageView?.image = UIImage.init(named:Constants.titlesImages[indexPath.row - 1])
+        // row zero for profile image and name / others for icons
+        if (indexPath.row == 0) {
+            cell.textLabel?.font = UIFont.init(name: "HelveticaNeue", size: 19)
         }
         else {
+            cell.textLabel?.font = UIFont.init(name: "HelveticaNeue", size: 16)
+        }
         
+        cell.textLabel?.textColor = UIColor.white
+        cell.textLabel?.highlightedTextColor = UIColor.white
+        cell.selectedBackgroundView = UIView()
+        
+        if (indexPath.row != 0) {
+            let strTxt = fetchLanguageLocalization(index: indexPath.row - 1)
+            
+            cell.textLabel?.text =  strTxt
+            cell.imageView?.image = UIImage.init(named:Constants.titlesImages[indexPath.row - 1])
+        }
+        else {
             let text:String! = (Public.currentUser?.profileName) ?? ""
             
-            cell!.textLabel?.text = text
+            cell.textLabel?.text = text
             
-            cell?.imageView?.layer.cornerRadius = 20
-            
-            cell?.imageView?.layer.masksToBounds = true
+            cell.imageView?.layer.cornerRadius = 20
+            cell.imageView?.layer.masksToBounds = true
             
             if Public.currentUser?.profileImgUrl != nil && Public.currentUser?.profileImgUrl != "" {
-            
-                cell!.imageView?.kf.setImage(with: URL(string: (Public.currentUser?.profileImgUrl)!)!)
+                cell.imageView?.kf.setImage(with: URL(string: (Public.currentUser?.profileImgUrl)!)!)
             }
             else {
-            
-                cell!.imageView?.image = #imageLiteral(resourceName: "avatar-1")
+                cell.imageView?.image = #imageLiteral(resourceName: "avatar-1")
             }
         }
-        return cell!
+
+        return cell
     }
-    
-    
-    
+
     func fetchLanguageLocalization(index: Int) -> String {
         
         let key = Constants.titles[index]
-        
         let strLanguageSelected = UserDefaults.standard.fetchSelectedLanguage()
-        
         let strLocalized = key.localizedToLanguage(languageSymbol: strLanguageSelected)
         
         return strLocalized
