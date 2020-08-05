@@ -139,8 +139,8 @@ class WorldScreenViewcontroller: AdViewController, UIPickerViewDataSource,UIPick
         Public.CountryName = selectedCountry
         
         let RootVC = self.storyboard?.instantiateViewController(withIdentifier: "sideMenuRoot") as! SideMenuRootController
-        
-        self.present(RootVC, animated: true, completion: nil)
+        sideMenuViewController?.setContentViewController(RootVC, animated: true)
+        sideMenuViewController?.hideMenuViewController()
     }
     
     
