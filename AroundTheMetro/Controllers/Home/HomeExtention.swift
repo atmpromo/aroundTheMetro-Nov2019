@@ -55,6 +55,12 @@ extension HomeViewController{
         //    showInterstitialAds(name: "ARListViewController")
         
     }
+    func didLocateMetroClicked() {
+        Public.configureBackButton(vc:self)
+        let locateMetroVC = storyboard?.instantiateViewController(withIdentifier: "locateMetroViewController") as! LocateMetroViewController
+
+        navigationController?.pushViewController(locateMetroVC, animated: true)
+    }
     func didMetroPlanClicked() {
         Public.configureBackButton(vc:self)
         print("didMetroPlanClicked")

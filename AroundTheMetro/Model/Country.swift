@@ -12,7 +12,7 @@ public class Country {
     var country: String
     var cities: [String]
     
-    init(country:String,cities:[String]) {
+    init(country: String, cities: [String]) {
         self.cities = cities
         self.country = country
     }

@@ -13,14 +13,14 @@ import UIKit
 
 var menu_images: [UIImage] = [
     UIImage(named: "metro-back")!,
-    UIImage(named: "ar-back")!,
+    Features.showLocateMetro ? UIImage(named: "ar-back")! : UIImage(named: "ar-back")!,
     UIImage(named: "resto-back")!,
     UIImage(named: "boutiques")!,
     UIImage(named: "bh")!,
     UIImage(named: "attractions-back")!]
 var menu_icons: [UIImage] = [
     UIImage(named: "metro_icon")!,
-    UIImage(named: "ar_icon")!,
+    Features.showLocateMetro ? UIImage(named: "ar_icon")! : UIImage(named: "ar_icon")!,
     UIImage(named: "resto-icon")!,
     UIImage(named: "boutique-icon")!,
     UIImage(named: "beauty-icon")!,
@@ -101,7 +101,11 @@ extension Infinite2TableViewCell: InfiniteCollectionViewDataSource, InfiniteColl
         delegate?.didMetroPlanClicked()
             break
         case 1:
-       delegate?.didARListClicked()
+            if Features.showLocateMetro {
+                delegate?.didLocateMetroClicked()
+            } else {
+                delegate?.didARListClicked()
+            }
             break
         case 2:
        delegate?.didRestaurantsClicked()
@@ -125,6 +129,7 @@ extension Infinite2TableViewCell: InfiniteCollectionViewDataSource, InfiniteColl
 protocol MenusProtocol {
     func didMetroPlanClicked()
     func didARListClicked()
+    func didLocateMetroClicked()
     func didRestaurantsClicked()
     func didBoutiqueClicked()
     func didBeautyHealthClicked()

@@ -8,4 +8,5 @@
 
 struct Features {
     static let isLoginEnabled: Bool = true
+    static let showLocateMetro: Bool = true
 }

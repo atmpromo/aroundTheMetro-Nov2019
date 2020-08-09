@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		15C44D08274FE844BFD44660 /* Pods_AroundTheMetro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E72125C097C99A225838A5BC /* Pods_AroundTheMetro.framework */; };
 		1F8CFF8024DB50300079FAA7 /* Features.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8CFF7F24DB50300079FAA7 /* Features.swift */; };
+		1FA4C28A24DFD6A4009ECCAA /* LocateMetroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4C28924DFD6A4009ECCAA /* LocateMetroViewController.swift */; };
+		1FA4C28D24DFDB34009ECCAA /* London.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1FA4C28C24DFDB34009ECCAA /* London.plist */; };
 		3C39E991221D774B004E0461 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51AC8A0D21AB5A3A0077B935 /* Assets.xcassets */; };
 		3C4C0804221C13CA0030A545 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C4C0806221C13CA0030A545 /* InfoPlist.strings */; };
 		3CF56001221BC31200C68100 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3CF56003221BC31200C68100 /* Localizable.strings */; };
@@ -61,6 +63,8 @@
 
 /* Begin PBXFileReference section */
 		1F8CFF7F24DB50300079FAA7 /* Features.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features.swift; sourceTree = "<group>"; };
+		1FA4C28924DFD6A4009ECCAA /* LocateMetroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocateMetroViewController.swift; sourceTree = "<group>"; };
+		1FA4C28C24DFDB34009ECCAA /* London.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = London.plist; sourceTree = "<group>"; };
 		3C4C0805221C13CA0030A545 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3C4C0807221C13DA0030A545 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3C4C0808221C13F10030A545 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -144,6 +148,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F8CFF8124DFD45D0079FAA7 /* LocateMetro */ = {
+			isa = PBXGroup;
+			children = (
+				1FA4C28B24DFDB0D009ECCAA /* Cities */,
+				1FA4C28924DFD6A4009ECCAA /* LocateMetroViewController.swift */,
+			);
+			path = LocateMetro;
+			sourceTree = "<group>";
+		};
+		1FA4C28B24DFDB0D009ECCAA /* Cities */ = {
+			isa = PBXGroup;
+			children = (
+				1FA4C28C24DFDB34009ECCAA /* London.plist */,
+			);
+			path = Cities;
+			sourceTree = "<group>";
+		};
 		3CF55FFE221BC2E600C68100 /* Localization */ = {
 			isa = PBXGroup;
 			children = (
@@ -247,6 +268,7 @@
 		4F3EE0A61FF959AC00D500BC /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				1F8CFF8124DFD45D0079FAA7 /* LocateMetro */,
 				4F8B5F832039F91400438C6A /* SideMenu */,
 				4F8B5F7A2039E6B800438C6A /* Stores */,
 				4F4586BC201816CD00845630 /* AR */,
@@ -501,6 +523,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FA4C28D24DFDB34009ECCAA /* London.plist in Resources */,
 				4F3EE0951FF957FB00D500BC /* LaunchScreen.storyboard in Resources */,
 				3C4C0804221C13CA0030A545 /* InfoPlist.strings in Resources */,
 				3CF56001221BC31200C68100 /* Localizable.strings in Resources */,
@@ -663,6 +686,7 @@
 				4F3EE0A41FF958C500D500BC /* Country.swift in Sources */,
 				3CF5600A221BC4C900C68100 /* StringExtensions.swift in Sources */,
 				4F8B5F922039F91400438C6A /* ShareViewController.swift in Sources */,
+				1FA4C28A24DFD6A4009ECCAA /* LocateMetroViewController.swift in Sources */,
 				4F4586B72016D25F00845630 /* RentFormViewController.swift in Sources */,
 				4F3EE09F1FF958A200D500BC /* AppDelegateExtensions.swift in Sources */,
 				4F87E17F20293FF700867F74 /* ARTouchedStores.swift in Sources */,
