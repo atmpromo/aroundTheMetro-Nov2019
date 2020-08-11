@@ -37,7 +37,10 @@ public class LeftMenuViewController: UIViewController, UITableViewDelegate, UITa
         super.viewWillAppear(animated)
         NSLog("LeftMenuViewController will appear")
         
-       
+        if Public.CityName == "" && Public.CountryName == "" {
+            let WorldVC = storyboard?.instantiateViewController(withIdentifier: "WorldScreenViewcontroller") as! WorldScreenViewcontroller
+            pushToMenuItem(vc: WorldVC)
+        }
     }
 
     //Mark: - SetupView

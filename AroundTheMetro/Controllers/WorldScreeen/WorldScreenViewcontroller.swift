@@ -91,15 +91,25 @@ class WorldScreenViewcontroller: AdViewController, UIPickerViewDataSource,UIPick
         btnConfirmOutlet.setTitle("Confirm".localizedToLanguage(languageSymbol: strSelectedLanguage), for: .normal)
         
         cityLable.text = "Select Country And City".localizedToLanguage(languageSymbol: strSelectedLanguage)
+
+        SVProgressHUD.show()
+
+        self.countries = demoCountries
+
+        SVProgressHUD.dismiss()
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        
-        SVProgressHUD.show()
-        
-        self.countries = demoCountries
-        
-        SVProgressHUD.dismiss()
+        guard let countryIndex = countries.firstIndex(where: { $0.country == Public.CountryName }),
+            let cityIndex = countries[countryIndex].cities.firstIndex(where: { $0 == Public.CityName }) else {
+                return
+        }
+
+        selectedCountry = Public.CountryName
+        selectedCity = Public.CityName
+
+        pickerView.selectRow(countryIndex, inComponent: 0, animated: false)
+        pickerView.selectRow(cityIndex, inComponent: 1, animated: false)
         
         //        fetchCountriesAndCities {
         //            SVProgressHUD.dismiss(completion: {
@@ -135,7 +145,6 @@ class WorldScreenViewcontroller: AdViewController, UIPickerViewDataSource,UIPick
         
         //Mark: -Initialize CityName
         Public.CityName = selectedCity
-        
         Public.CountryName = selectedCountry
         
         let RootVC = self.storyboard?.instantiateViewController(withIdentifier: "sideMenuRoot") as! SideMenuRootController
