@@ -51,7 +51,7 @@ struct Constants{
 
     static let menu_titles = [
         "Metro Plan",
-        "AR View",
+        Features.showLocateMetro ? "Locate Metro" : "AR View",
         "Restaurants",
         "Boutiques",
         "Beauty & Health",

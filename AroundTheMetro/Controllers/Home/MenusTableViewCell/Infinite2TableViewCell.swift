@@ -20,7 +20,7 @@ var menu_images: [UIImage] = [
     UIImage(named: "attractions-back")!]
 var menu_icons: [UIImage] = [
     UIImage(named: "metro_icon")!,
-    Features.showLocateMetro ? UIImage(named: "ar_icon")! : UIImage(named: "ar_icon")!,
+    Features.showLocateMetro ? UIImage(named: "lm_icon")! : UIImage(named: "ar_icon")!,
     UIImage(named: "resto-icon")!,
     UIImage(named: "boutique-icon")!,
     UIImage(named: "beauty-icon")!,
@@ -75,7 +75,6 @@ extension Infinite2TableViewCell: InfiniteCollectionViewDataSource, InfiniteColl
         let strTextFromLocalization = fetchLanguageLoalization(index: usableIndexPath.row)
         
         cell.titleLabel.text = strTextFromLocalization
-//        cell.titleLabel.text = NSLocalizedString(Constants.menu_titles[usableIndexPath.row], comment:Constants.menu_titles[usableIndexPath.row])
         cell.iconView.image = menu_icons[usableIndexPath.row]
         
         cell.configure(indexPath: usableIndexPath)
@@ -86,9 +85,7 @@ extension Infinite2TableViewCell: InfiniteCollectionViewDataSource, InfiniteColl
     
     
     func fetchLanguageLoalization(index: Int) -> String {
-        
-//        UserDefaults.standard.setSelectedLanguage(languageSelected: "zh-Hant")
-        
+
         let key = Constants.menu_titles[index]
         
         return key.localizedToLanguage(languageSymbol: UserDefaults.standard.fetchSelectedLanguage())
