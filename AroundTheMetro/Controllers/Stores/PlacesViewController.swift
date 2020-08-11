@@ -60,9 +60,8 @@ class PlacesViewController: TabmanViewController, PageboyViewControllerDataSourc
 
     func setupViewControllers()  {
         allPlaceViewController = self.storyboard?.instantiateViewController(withIdentifier: "placeListViewController") as! PlaceListViewController
-        allPlaceViewController.setSpacing = true
         metroPlaceViewController = self.storyboard?.instantiateViewController(withIdentifier: "metroListViewController") as! MetroViewController
-        }
+    }
 
     func setupView() {
         self.title = NSLocalizedString("Shopping Malls", comment:"Shopping Malls")

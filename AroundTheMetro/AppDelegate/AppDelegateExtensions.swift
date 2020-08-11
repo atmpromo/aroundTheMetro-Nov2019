@@ -16,7 +16,7 @@ extension AppDelegate{
         UINavigationBar.appearance().backIndicatorTransitionMaskImage = backButtonImage
         
         UINavigationBar.appearance().tintColor = UIColor.darkGray
-        UIBarButtonItem.appearance().setBackButtonTitlePositionAdjustment(UIOffsetMake(0, -5), for: .default )
+        UIBarButtonItem.appearance().setBackButtonTitlePositionAdjustment(UIOffsetMake(-100, -5), for: .default )
     }
     
     //set Default value

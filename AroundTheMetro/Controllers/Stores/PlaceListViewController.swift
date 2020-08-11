@@ -15,12 +15,6 @@ class PlaceListViewController: AdViewController,UITableViewDelegate,UITableViewD
     var baseURL: String!
     var coverphotoURL: String!
     var mode : PlacesMode = .Restaurants
-    var setSpacing : Bool! = false
-    public override func awakeFromNib() {
-        super.awakeFromNib()
-        print("PlaceListViewController awake from nib")
-    }
-
     
     @IBOutlet weak var tableView: UITableView!
     
@@ -28,10 +22,7 @@ class PlaceListViewController: AdViewController,UITableViewDelegate,UITableViewD
         super.viewDidLoad()
         
         tableView.delegate = self
-        
         tableView.dataSource = self
-        
-        setupView()
     }
     
     
@@ -40,35 +31,6 @@ class PlaceListViewController: AdViewController,UITableViewDelegate,UITableViewD
         self.tableView.reloadData()
         print("Places List appear")
     }
-    
-    //Mark: - Setup View
-    func setupView()  {
-        
-        var newWidth:CGFloat, newHeight:CGFloat, spacing:CGFloat
-        
-        let adsHeight:CGFloat = 50.0
-        
-        if (self.parent == nil) {
-        
-            newWidth = UIScreen.main.bounds.width
-            
-            newHeight = UIScreen.main.bounds.height
-        }
-        else {
-        
-            newWidth = (self.parent?.view.frame.width)!
-            
-            newHeight = (self.parent?.view.frame.height)!
-        }
-        
-        if (setSpacing == true) {
-            spacing = 110.0
-        } else {
-            spacing = 0.0
-        }
-        tableView.frame = CGRect(x: 0, y: spacing, width: newWidth, height: newHeight - spacing - adsHeight)
-    }
-    
     
     //Mark: - Tableview Datasource functions
     public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
