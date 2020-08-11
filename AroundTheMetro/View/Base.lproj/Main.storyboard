@@ -564,27 +564,72 @@
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PSg-OX-wMh">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </mapView>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No data for this city" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="To7-B0-KnW">
-                                <rect key="frame" x="85" y="273.5" width="150" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8LY-7z-Uho">
+                                <rect key="frame" x="82" y="270.5" width="156" height="27"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No data for this city" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="To7-B0-KnW">
+                                        <rect key="frame" x="3" y="3" width="150" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstItem="To7-B0-KnW" firstAttribute="top" secondItem="8LY-7z-Uho" secondAttribute="top" constant="3" id="2mM-1g-3Ha"/>
+                                    <constraint firstAttribute="bottom" secondItem="To7-B0-KnW" secondAttribute="bottom" constant="3" id="CCh-Df-6e2"/>
+                                    <constraint firstItem="To7-B0-KnW" firstAttribute="leading" secondItem="8LY-7z-Uho" secondAttribute="leading" constant="3" id="UqK-Q8-uKK"/>
+                                    <constraint firstAttribute="trailing" secondItem="To7-B0-KnW" secondAttribute="trailing" constant="3" id="o18-Hg-FZl"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0lM-YR-WEg">
+                                <rect key="frame" x="244" y="443" width="60" height="60"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FPR-s1-3RJ">
+                                        <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
+                                        <state key="normal" image="arrow"/>
+                                        <connections>
+                                            <action selector="locateMe" destination="yBD-qF-xvr" eventType="touchUpInside" id="soL-bt-D8R"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstItem="FPR-s1-3RJ" firstAttribute="top" secondItem="0lM-YR-WEg" secondAttribute="top" id="5T8-2t-3Fo"/>
+                                    <constraint firstAttribute="trailing" secondItem="FPR-s1-3RJ" secondAttribute="trailing" id="Ii0-ro-5Xy"/>
+                                    <constraint firstAttribute="height" constant="60" id="hbd-qs-gro"/>
+                                    <constraint firstAttribute="bottom" secondItem="FPR-s1-3RJ" secondAttribute="bottom" id="huh-Gf-50h"/>
+                                    <constraint firstItem="FPR-s1-3RJ" firstAttribute="leading" secondItem="0lM-YR-WEg" secondAttribute="leading" id="saD-gu-f1S"/>
+                                    <constraint firstAttribute="width" constant="60" id="tzP-7r-f6a"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="30"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="PSg-OX-wMh" firstAttribute="leading" secondItem="yLx-Jf-C45" secondAttribute="leading" id="B31-qt-Y2J"/>
+                            <constraint firstItem="yLx-Jf-C45" firstAttribute="bottom" secondItem="0lM-YR-WEg" secondAttribute="bottom" constant="65" id="CVa-Bq-IpS"/>
+                            <constraint firstItem="yLx-Jf-C45" firstAttribute="trailing" secondItem="0lM-YR-WEg" secondAttribute="trailing" constant="16" id="Ie2-oN-1jN"/>
                             <constraint firstItem="PSg-OX-wMh" firstAttribute="bottom" secondItem="yLx-Jf-C45" secondAttribute="bottom" id="Kix-4I-5Pa"/>
                             <constraint firstItem="PSg-OX-wMh" firstAttribute="trailing" secondItem="yLx-Jf-C45" secondAttribute="trailing" id="MiE-Sm-8h0"/>
-                            <constraint firstItem="To7-B0-KnW" firstAttribute="centerX" secondItem="1b3-Wu-doZ" secondAttribute="centerX" id="VjM-oq-uoW"/>
                             <constraint firstItem="PSg-OX-wMh" firstAttribute="top" secondItem="yLx-Jf-C45" secondAttribute="top" id="h3E-Zq-kzI"/>
-                            <constraint firstItem="To7-B0-KnW" firstAttribute="centerY" secondItem="1b3-Wu-doZ" secondAttribute="centerY" id="xBV-mW-rRs"/>
+                            <constraint firstItem="8LY-7z-Uho" firstAttribute="centerY" secondItem="1b3-Wu-doZ" secondAttribute="centerY" id="mVU-8y-of3"/>
+                            <constraint firstItem="8LY-7z-Uho" firstAttribute="centerX" secondItem="1b3-Wu-doZ" secondAttribute="centerX" id="mbO-AU-u01"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="yLx-Jf-C45"/>
                     </view>
                     <connections>
                         <outlet property="mapView" destination="PSg-OX-wMh" id="L1R-za-1ua"/>
-                        <outlet property="noDataLabel" destination="To7-B0-KnW" id="bmC-6v-pxy"/>
+                        <outlet property="noDataView" destination="8LY-7z-Uho" id="ig7-48-Mxd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7f5-Y1-Yyv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1216,6 +1261,7 @@ Find everything you need in a short walking distance from any metro system in th
     </scenes>
     <resources>
         <image name="IconMenu" width="32" height="32"/>
+        <image name="arrow" width="20" height="20"/>
         <image name="avatar" width="128" height="128"/>
         <image name="avatar-1" width="239" height="238"/>
         <image name="boutique-listicon" width="128" height="128"/>

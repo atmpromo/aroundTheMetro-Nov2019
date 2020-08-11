@@ -30,10 +30,12 @@ class StationAnnotation: NSObject, MKAnnotation {
 }
 
 class LocateMetroViewController: AdViewController {
-    @IBOutlet var noDataLabel: UILabel!
+    @IBOutlet var noDataView: UIView!
     @IBOutlet var mapView: MKMapView!
 
     var city: City?
+
+    private var locationManager = CLLocationManager()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -43,13 +45,26 @@ class LocateMetroViewController: AdViewController {
 
     override func viewWillAppear(_ animated: Bool) {
         guard let city = city else {
-            noDataLabel.isHidden = false
+            noDataView.isHidden = false
             return
         }
 
         title = Public.CityName
 
         loadPins(for: city)
+    }
+
+    @IBAction func locateMe() {
+        if CLLocationManager.locationServicesEnabled() {
+            if CLLocationManager.authorizationStatus() == .notDetermined || CLLocationManager.authorizationStatus() == .denied {
+                locationManager.requestWhenInUseAuthorization()
+            }
+        } else if let location = mapView.userLocation.location {
+            mapView.setRegion(MKCoordinateRegionMakeWithDistance(location.coordinate, 200, 200),
+                              animated: true)
+        } else {
+            print("Unable to show user location")
+        }
     }
 
     private func parseMetroStations() {
