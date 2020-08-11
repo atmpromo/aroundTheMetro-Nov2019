@@ -109,8 +109,10 @@ class WorldScreenViewcontroller: AdViewController, UIPickerViewDataSource,UIPick
         selectedCity = Public.CityName
 
         pickerView.selectRow(countryIndex, inComponent: 0, animated: false)
+        pickerView.reloadComponent(1)
         pickerView.selectRow(cityIndex, inComponent: 1, animated: false)
-        
+
+        cityLable.text = "City: \(selectedCity)"
         //        fetchCountriesAndCities {
         //            SVProgressHUD.dismiss(completion: {
         //                self.pickerView.reloadAllComponents()
@@ -226,10 +228,10 @@ class WorldScreenViewcontroller: AdViewController, UIPickerViewDataSource,UIPick
         }
         else {
             
-            let selectedCountry = pickerView.selectedRow(inComponent: 0)
+            let selectedCountryIndex = countries.firstIndex(where: { $0.country == selectedCountry }) ?? 0
             
             if countries.count != 0{
-                return countries[selectedCountry].cities.count
+                return countries[selectedCountryIndex].cities.count
             }else{
                 return 0
             }
@@ -253,13 +255,20 @@ class WorldScreenViewcontroller: AdViewController, UIPickerViewDataSource,UIPick
     
     
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-        pickerView.reloadComponent(1)
         let selectedCountryIndex = pickerView.selectedRow(inComponent: 0)
         let selectedCityIndex = pickerView.selectedRow(inComponent: 1)
-        selectedCountry = countries[selectedCountryIndex].country
-        selectedCity = countries[selectedCountryIndex].cities[selectedCityIndex]
-        //        cityLable.text = "Country: \(selectedCountry)\nCity: \(selectedCity)"
-        
+
+        switch component {
+        case 0:
+            pickerView.reloadComponent(1)
+            pickerView.selectRow(0, inComponent: 1, animated: false)
+            selectedCountry = countries[selectedCountryIndex].country
+            selectedCity = countries[selectedCountryIndex].cities[0]
+        case 1:
+            selectedCity = countries[selectedCountryIndex].cities[selectedCityIndex]
+        default: break
+        }
+
         cityLable.text = "City: \(selectedCity)"
         
     }

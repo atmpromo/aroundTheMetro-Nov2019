@@ -44,8 +44,9 @@ class LocateMetroViewController: AdViewController {
     }
 
     override func viewWillAppear(_ animated: Bool) {
+        noDataView.isHidden = city != nil
+
         guard let city = city else {
-            noDataView.isHidden = false
             return
         }
 
