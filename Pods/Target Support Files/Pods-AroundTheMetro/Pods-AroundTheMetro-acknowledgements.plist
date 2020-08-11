@@ -1206,18 +1206,6 @@ THE SOFTWARE.
 		</dict>
 		<dict>
 			<key>FooterText</key>
-			<string>Copyright (c) 2016 Proximi.io &lt;support@proximi.io&gt;
-
-Terms and Conditions: https://proximi.io/terms/</string>
-			<key>License</key>
-			<string>Commercial</string>
-			<key>Title</key>
-			<string>Proximiio</string>
-			<key>Type</key>
-			<string>PSGroupSpecifier</string>
-		</dict>
-		<dict>
-			<key>FooterText</key>
 			<string>The MIT License (MIT)
 
 Copyright (c) 2014 Rob Rix

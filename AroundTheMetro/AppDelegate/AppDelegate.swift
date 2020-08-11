@@ -15,13 +15,11 @@ import Crashlytics
 import TwitterKit
 import FacebookCore
 import Firebase
-import Proximiio
 
 @UIApplicationMain
 class AppDelegate:  UIResponder,
     UIApplicationDelegate,
-    GIDSignInDelegate,
-    ProximiioDelegate
+    GIDSignInDelegate
 {
     
     var window: UIWindow?
@@ -41,7 +39,7 @@ class AppDelegate:  UIResponder,
         FirebaseApp.configure()
         
         //Mark:- Twitter Configuration
-TWTRTwitter.sharedInstance().start(withConsumerKey:"hjNxRNRcsyrcOfHIuCOOCPHuN", consumerSecret:"oBb7ZeDDBxS9hSw8GLlL2SBZXBsU1jAvrY5He2AkWI9iGyO8EW")
+        TWTRTwitter.sharedInstance().start(withConsumerKey:"hjNxRNRcsyrcOfHIuCOOCPHuN", consumerSecret:"oBb7ZeDDBxS9hSw8GLlL2SBZXBsU1jAvrY5He2AkWI9iGyO8EW")
         
         //MARK: - FACEBOOK SDK CONFIGURATION 1
         FBSDKApplicationDelegate.sharedInstance().application(application, didFinishLaunchingWithOptions: launchOptions)
@@ -55,7 +53,7 @@ TWTRTwitter.sharedInstance().start(withConsumerKey:"hjNxRNRcsyrcOfHIuCOOCPHuN", 
         Fabric.with([Crashlytics.self])
         
         //MARK: - Proiximiio
-        initProximiio()
+        //initProximiio()
         
         //MARK: - Get Locale Of Device
         let locale = NSLocale.current.languageCode!
@@ -143,37 +141,37 @@ TWTRTwitter.sharedInstance().start(withConsumerKey:"hjNxRNRcsyrcOfHIuCOOCPHuN", 
     }
     
     // ProximiioDelegate
-    
-    func proximiioPositionUpdated(_ location: ProximiioLocation) {
-        NSLog("proximiioPositionUpdated: %@", location)
-    }
-    
-    func proximiioEnteredGeofence(_ geofence: ProximiioGeofence!) {
-        NSLog("proximiioEnteredGeofence: %@", geofence);
-    }
-    
-    func proximiioExitedGeofence(_ geofence: ProximiioGeofence!) {
-        NSLog("proximiioExitedGeofence: %@", geofence);
-    }
-    
-    func proximiioHandleOutput(_ payload: NSObject!) {
-        NSLog("proximiioHandleOutput: %@", payload);
-    }
-    
-    func initProximiio() {
-        let token: String = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImlzcyI6IjZhODFkMGM5LTA2YTYtNDc3OC04YTBkLTY5ZjBiODNlMDk2MiIsInR5cGUiOiJhcHBsaWNhdGlvbiIsImFwcGxpY2F0aW9uX2lkIjoiMGVhNjQyNGUtZTlhYy00ZDFkLWIzOTUtZGE3ZDQ4MzM2MzJkIn0.fNjwTaaNAg3O1Ue2cT8MxsDO_6TcqKD_PwsnKtO8X6k"
-        
-        let proximiio = Proximiio.sharedInstance()
-        proximiio!.delegate = self
-        
-        proximiio!.auth(withToken: token) { (state : ProximiioState) in
-            if (state == kProximiioReady) {
-                proximiio!.requestPermissions()
-                NSLog("Proximi.io ready")
-            } else {
-                NSLog("Proximi.io auth failure")
-            }
-        }
-    }
+//
+//    func proximiioPositionUpdated(_ location: ProximiioLocation) {
+//        NSLog("proximiioPositionUpdated: %@", location)
+//    }
+//
+//    func proximiioEnteredGeofence(_ geofence: ProximiioGeofence!) {
+//        NSLog("proximiioEnteredGeofence: %@", geofence);
+//    }
+//
+//    func proximiioExitedGeofence(_ geofence: ProximiioGeofence!) {
+//        NSLog("proximiioExitedGeofence: %@", geofence);
+//    }
+//
+//    func proximiioHandleOutput(_ payload: NSObject!) {
+//        NSLog("proximiioHandleOutput: %@", payload);
+//    }
+//
+//    func initProximiio() {
+//        let token: String = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImlzcyI6IjZhODFkMGM5LTA2YTYtNDc3OC04YTBkLTY5ZjBiODNlMDk2MiIsInR5cGUiOiJhcHBsaWNhdGlvbiIsImFwcGxpY2F0aW9uX2lkIjoiMGVhNjQyNGUtZTlhYy00ZDFkLWIzOTUtZGE3ZDQ4MzM2MzJkIn0.fNjwTaaNAg3O1Ue2cT8MxsDO_6TcqKD_PwsnKtO8X6k"
+//
+//        let proximiio = Proximiio.sharedInstance()
+//        proximiio!.delegate = self
+//
+//        proximiio!.auth(withToken: token) { (state : ProximiioState) in
+//            if (state == kProximiioReady) {
+//                proximiio!.requestPermissions()
+//                NSLog("Proximi.io ready")
+//            } else {
+//                NSLog("Proximi.io auth failure")
+//            }
+//        }
+//    }
 }
 

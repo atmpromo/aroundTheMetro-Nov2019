@@ -17,7 +17,7 @@
 "NSLocationAlwaysUsageDescription" = "Allow the usage of your position for this app to work!";
 
 
-"NSLocationWhenInUseUsageDescription" = "Your current location will be used  to find and display stores around you in the augmented reality.";
+"NSLocationWhenInUseUsageDescription" = "Your current location will be used to find and display stores around you in the augmented reality.";
 
 
 

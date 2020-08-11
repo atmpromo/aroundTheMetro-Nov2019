@@ -25,7 +25,7 @@ target 'AroundTheMetro' do
     pod 'Fabric'
     pod 'Firebase/Core'
     pod 'Crashlytics'
-    pod 'Proximiio'
+    # pod 'Proximiio'
     
 
 end

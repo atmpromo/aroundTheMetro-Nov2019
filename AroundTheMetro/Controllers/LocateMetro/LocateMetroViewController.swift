@@ -8,6 +8,7 @@
 
 import MapKit
 import UIKit
+import SVProgressHUD
 
 struct City: Codable {
     let stations: [MetroStation]
@@ -37,8 +38,12 @@ class LocateMetroViewController: AdViewController {
 
     private var locationManager = CLLocationManager()
 
+    private var locatingMe: Bool = false
+
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        locationManager.delegate = self
 
         parseMetroStations()
     }
@@ -58,11 +63,15 @@ class LocateMetroViewController: AdViewController {
     @IBAction func locateMe() {
         if CLLocationManager.locationServicesEnabled() {
             if CLLocationManager.authorizationStatus() == .notDetermined || CLLocationManager.authorizationStatus() == .denied {
+                locatingMe = true
                 locationManager.requestWhenInUseAuthorization()
+                SVProgressHUD.show()
+            } else if let location = mapView.userLocation.location {
+                mapView.setRegion(MKCoordinateRegionMakeWithDistance(location.coordinate, 200, 200),
+                                  animated: true)
+            } else {
+                print("Unable to show user location")
             }
-        } else if let location = mapView.userLocation.location {
-            mapView.setRegion(MKCoordinateRegionMakeWithDistance(location.coordinate, 200, 200),
-                              animated: true)
         } else {
             print("Unable to show user location")
         }
@@ -116,5 +125,28 @@ class LocateMetroViewController: AdViewController {
         mapView.setRegion(MKCoordinateRegion(center: center,
                                              span: MKCoordinateSpan(latitudeDelta: latDelta, longitudeDelta: longDelta)),
                           animated: false)
+    }
+}
+
+extension LocateMetroViewController: CLLocationManagerDelegate {
+    func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
+        if locatingMe {
+            manager.requestLocation()
+        }
+    }
+
+    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        if locatingMe {
+            locateMe()
+            locatingMe = false
+            SVProgressHUD.dismiss()
+        }
+    }
+
+    func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
+        locatingMe = false
+        SVProgressHUD.showError(withStatus: "Unable to determine location")
+        SVProgressHUD.dismiss(withDelay: 3.0)
+        print("Location error - \(error)")
     }
 }
