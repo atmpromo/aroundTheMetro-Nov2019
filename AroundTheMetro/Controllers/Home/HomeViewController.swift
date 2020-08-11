@@ -37,7 +37,7 @@ public class HomeViewController: AdViewController, UIGestureRecognizerDelegate, 
         
         getBannerImages()
         
-        self.navigationItem.title = Public.CityName
+        title = Public.CityName
     }
     
     public override func viewWillAppear(_ animated: Bool) {

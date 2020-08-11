@@ -47,6 +47,8 @@ class LocateMetroViewController: AdViewController {
             return
         }
 
+        title = Public.CityName
+
         loadPins(for: city)
     }
 
