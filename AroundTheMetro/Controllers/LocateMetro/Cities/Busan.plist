@@ -22,14 +22,6 @@
 		</dict>
 		<dict>
 			<key>latitude</key>
-			<real>39.302391399999998</real>
-			<key>longitude</key>
-			<real>126.3739836</real>
-			<key>name</key>
-			<string>"Jangrim"</string>
-		</dict>
-		<dict>
-			<key>latitude</key>
 			<real>35.171539600000003</real>
 			<key>longitude</key>
 			<real>129.1359387</real>
@@ -539,14 +531,6 @@
 			<real>128.98868100000001</real>
 			<key>name</key>
 			<string>"Mora"</string>
-		</dict>
-		<dict>
-			<key>latitude</key>
-			<real>37.497942000000002</real>
-			<key>longitude</key>
-			<real>127.027621</real>
-			<key>name</key>
-			<string>"Gunam"</string>
 		</dict>
 		<dict>
 			<key>latitude</key>
