@@ -22,14 +22,6 @@
 		</dict>
 		<dict>
 			<key>latitude</key>
-			<real>39.770558600000001</real>
-			<key>longitude</key>
-			<real>-104.8914845</real>
-			<key>name</key>
-			<string>"Stapleton"</string>
-		</dict>
-		<dict>
-			<key>latitude</key>
 			<real>40.621319</real>
 			<key>longitude</key>
 			<real>-74.071402000000006</real>
@@ -116,14 +108,7 @@
 			<key>name</key>
 			<string>"Eltingville"</string>
 		</dict>
-		<dict>
-			<key>latitude</key>
-			<real>38.796925299999998</real>
-			<key>longitude</key>
-			<real>-77.183968300000004</real>
-			<key>name</key>
-			<string>"Annadale"</string>
-		</dict>
+
 		<dict>
 			<key>latitude</key>
 			<real>40.533189</real>
@@ -851,14 +836,6 @@
 			<real>-73.931834699999996</real>
 			<key>name</key>
 			<string>"Utica Avenue"</string>
-		</dict>
-		<dict>
-			<key>latitude</key>
-			<real>44.918970299999998</real>
-			<key>longitude</key>
-			<real>-74.890216899999999</real>
-			<key>name</key>
-			<string>"Wilson Avenue"</string>
 		</dict>
 		<dict>
 			<key>latitude</key>
