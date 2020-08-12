@@ -1254,14 +1254,6 @@
 		</dict>
 		<dict>
 			<key>latitude</key>
-			<real>35.770476000000002</real>
-			<key>longitude</key>
-			<real>139.64488399999999</real>
-			<key>name</key>
-			<string>"Akatsuka 1"</string>
-		</dict>
-		<dict>
-			<key>latitude</key>
 			<real>35.174140000000001</real>
 			<key>longitude</key>
 			<real>136.916113</real>
@@ -1275,14 +1267,6 @@
 			<real>136.919974</real>
 			<key>name</key>
 			<string>"Shinsakae-machi"</string>
-		</dict>
-		<dict>
-			<key>latitude</key>
-			<real>35.016945300000003</real>
-			<key>longitude</key>
-			<real>135.7595173</real>
-			<key>name</key>
-			<string>"Maruta-machi"</string>
 		</dict>
 	</array>
 </dict>
