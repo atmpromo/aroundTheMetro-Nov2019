@@ -2190,14 +2190,6 @@
 		</dict>
 		<dict>
 			<key>latitude</key>
-			<real>42.529591099999998</real>
-			<key>longitude</key>
-			<real>-7.5034855</real>
-			<key>name</key>
-			<string>"Monforte de Lemos"</string>
-		</dict>
-		<dict>
-			<key>latitude</key>
 			<real>40.488094699999998</real>
 			<key>longitude</key>
 			<real>-3.6948196000000002</real>
@@ -2254,14 +2246,6 @@
 		</dict>
 		<dict>
 			<key>latitude</key>
-			<real>37.589835999999998</real>
-			<key>longitude</key>
-			<real>-5.7262690000000003</real>
-			<key>name</key>
-			<string>"Los Rosales"</string>
-		</dict>
-		<dict>
-			<key>latitude</key>
 			<real>40.336652600000001</real>
 			<key>longitude</key>
 			<real>-3.8748922000000001</real>
@@ -2315,14 +2299,6 @@
 			<real>-3.6913499999999999</real>
 			<key>name</key>
 			<string>"Loranca"</string>
-		</dict>
-		<dict>
-			<key>latitude</key>
-			<real>43.6569018</real>
-			<key>longitude</key>
-			<real>-7.6003277000000002</real>
-			<key>name</key>
-			<string>"El Vivero"</string>
 		</dict>
 		<dict>
 			<key>latitude</key>
