@@ -766,14 +766,6 @@
 		</dict>
 		<dict>
 			<key>latitude</key>
-			<real>57.109376300000001</real>
-			<key>longitude</key>
-			<real>12.2480832</real>
-			<key>name</key>
-			<string>"Vårberg"</string>
-		</dict>
-		<dict>
-			<key>latitude</key>
 			<real>59.263518900000001</real>
 			<key>longitude</key>
 			<real>17.886523</real>
